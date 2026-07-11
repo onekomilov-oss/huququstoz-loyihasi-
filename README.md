@@ -1,0 +1,2 @@
+# huququstoz-loyihasi-
+web sayt
