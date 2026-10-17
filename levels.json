@@ -1,0 +1,18 @@
+[
+  {
+    "threshold": 0,
+    "title": "1-kurs talabasi"
+  },
+  {
+    "threshold": 300,
+    "title": "Tergovchi yordamchisi"
+  },
+  {
+    "threshold": 1000,
+    "title": "Katta Advokat"
+  },
+  {
+    "threshold": 5000,
+    "title": "Oliy Sud Sudyasi"
+  }
+]
