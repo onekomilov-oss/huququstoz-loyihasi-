@@ -2,18 +2,23 @@
 <html lang="uz">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' https://telegram.org; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://raw.githubusercontent.com;">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#0a0a12">
+
+  <!-- Xavfsizlik: faqat ishlatiladigan manbalar ruxsat etiladi -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' https://telegram.org; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob: https://t.me https://*.telesco.pe https://raw.githubusercontent.com; connect-src 'self' https://raw.githubusercontent.com;">
+
   <title>Huququstoz — Premium Akademiya</title>
-  
+
   <!-- Premium Shriftlar -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
-  
-  <link rel="stylesheet" href="style.css">
+
+  <!-- Kesh buzish: yangilashda ?v= versiyasini oshiring -->
+  <link rel="stylesheet" href="style.css?v=1.1">
   <script src="https://telegram.org/js/telegram-web-app.js"></script>
-  <script src="config.js"></script>
+  <script src="config.js?v=1.1"></script>
 </head>
 <body>
   <!-- Dinamik Harakatlanuvchi Fon Nurlari -->
@@ -22,11 +27,11 @@
   <div class="glow-sphere sphere-3"></div>
 
   <!-- Telegram Tashqarisida Ochilganda -->
-  <div id="external-warning" class="glass-card hidden" style="margin:24px; text-align:center;">
-    <div style="font-size: 40px; margin-bottom: 12px;">⚖️</div>
+  <div id="external-warning" class="glass-card external-warning hidden">
+    <div class="external-warning-icon">⚖️</div>
     <h2 class="title-serif">Kirish Cheklangan</h2>
-    <p style="margin-top:10px; color: var(--text-sub);">Ushbu Mini App faqat rasmiy Telegram bot ichida ishlaydi.</p>
-    <p style="margin-top:16px;"><small>Test rejimi: <code>?preview=1</code></small></p>
+    <p class="external-warning-text">Ushbu Mini App faqat rasmiy Telegram bot ichida ishlaydi.</p>
+    <p class="external-warning-hint"><small>Test rejimi: <code>?preview=1</code></small></p>
   </div>
 
   <div id="app" class="app-container hidden">
@@ -47,6 +52,7 @@
 
     <!-- Asosiy Kontent -->
     <main class="main-content">
+
       <!-- 1. BOSH SAHIFA -->
       <section id="tab-home" class="tab-page active">
         <div class="glass-card hero-card">
@@ -66,7 +72,7 @@
           </div>
         </div>
 
-        <button id="btn-start-quick" class="btn btn-primary btn-xl">
+        <button id="btn-start-quick" class="btn btn-primary btn-xl" type="button">
           <span>🚀 Testlarni Boshlash</span>
         </button>
       </section>
@@ -80,7 +86,7 @@
 
         <div id="quiz-view" class="hidden">
           <div class="quiz-top-nav">
-            <button id="btn-back-topics" class="btn-back">← Ortga</button>
+            <button id="btn-back-topics" class="btn-back" type="button">← Ortga</button>
             <div id="quiz-progress" class="quiz-badge">1 / 30</div>
           </div>
 
@@ -99,8 +105,8 @@
               <h3>Huquqiy Tahlil</h3>
             </div>
             <p id="analysis-text" class="analysis-body"></p>
-            <button id="btn-lex-link" class="btn btn-secondary btn-lg">📖 Lex.uz da Ochish</button>
-            <button id="btn-next-question" class="btn btn-primary btn-lg" style="margin-top:12px;">Keyingi Savol →</button>
+            <button id="btn-lex-link" class="btn btn-secondary btn-lg" type="button">📖 Lex.uz da Ochish</button>
+            <button id="btn-next-question" class="btn btn-primary btn-lg btn-next" type="button">Keyingi Savol →</button>
           </div>
         </div>
       </section>
@@ -109,7 +115,7 @@
       <section id="tab-leaderboard" class="tab-page">
         <h2 class="title-serif section-title">🏆 Oliy Sud Sudyalari</h2>
         <p class="section-desc">Haftalik eng yuqori natija ko'rsatgan TOP-10 ishtirokchilar ro'yxati.</p>
-        <div class="glass-card" style="padding:12px;">
+        <div class="glass-card leaderboard-card">
           <ul id="leaderboard-list" class="leaderboard-list">
             <li>Yuklanmoqda...</li>
           </ul>
@@ -118,10 +124,10 @@
 
       <!-- 4. KUTUBXONA BO'LIMI -->
       <section id="tab-library" class="tab-page">
-        <h2 class="title-serif section-title">📚 Darsliklar & Qonunlar</h2>
+        <h2 class="title-serif section-title">📚 Darsliklar &amp; Qonunlar</h2>
         <div class="sub-tab-bar">
-          <button id="btn-sub-docs" class="sub-tab-btn active">Darsliklar</button>
-          <button id="btn-sub-laws" class="sub-tab-btn">52 ta Hujjat</button>
+          <button id="btn-sub-docs" class="sub-tab-btn active" type="button">Darsliklar</button>
+          <button id="btn-sub-laws" class="sub-tab-btn" type="button">52 ta Hujjat</button>
         </div>
         <div id="library-docs-list" class="library-grid"></div>
         <div id="library-laws-list" class="library-grid hidden"></div>
@@ -154,29 +160,5 @@
 
     <!-- Pastki Katta Ergonomik Navigatsiya -->
     <nav class="bottom-nav">
-      <button class="nav-item active" data-tab="tab-home">
+      <button class="nav-item active" data-tab="tab-home" type="button">
         <span class="nav-icon">🏠</span>
-        <span class="nav-label">Bosh Sahifa</span>
-      </button>
-      <button class="nav-item" data-tab="tab-tests">
-        <span class="nav-icon">📝</span>
-        <span class="nav-label">Testlar</span>
-      </button>
-      <button class="nav-item" data-tab="tab-leaderboard">
-        <span class="nav-icon">🏆</span>
-        <span class="nav-label">Reyting</span>
-      </button>
-      <button class="nav-item" data-tab="tab-library">
-        <span class="nav-icon">📚</span>
-        <span class="nav-label">Kutubxona</span>
-      </button>
-      <button class="nav-item" data-tab="tab-cert">
-        <span class="nav-icon">📜</span>
-        <span class="nav-label">Guvohnoma</span>
-      </button>
-    </nav>
-  </div>
-
-  <script src="app.js"></script>
-</body>
-</html>
