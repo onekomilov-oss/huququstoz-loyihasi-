@@ -86,7 +86,8 @@ async function isSubscribed(userId) {
 async function sendSubGate(chatId) {
   await api('sendMessage', {
     chat_id: chatId,
-    text: "Avval kanalga a'zo bo'ling:",
+    text: "<b>Avval kanalga a'zo bo'ling:</b>",
+    parse_mode: "HTML",
     reply_markup: {
       inline_keyboard: [
         [{ text: "📢 Kanalga a'zo bo'lish", url: "https://t.me/huququstoz" }],
@@ -107,18 +108,6 @@ function getMainMenu() {
   };
 }
 
-function getTashkentISOWeek() {
-  const now = new Date();
-  const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
-  const tashkentTime = new Date(utc + (3600000 * 5));
-  const d = new Date(Date.UTC(tashkentTime.getFullYear(), tashkentTime.getMonth(), tashkentTime.getDate()));
-  const dayNum = d.getUTCDay() || 7;
-  d.setUTCDate(d.getUTCDate() + 4 - dayNum);
-  const yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
-  const weekNo = Math.ceil((((d - yearStart) / 86400000) + 1) / 7);
-  return `${d.getUTCFullYear()}-W${weekNo}`;
-}
-
 async function handleUpdate(update) {
   if (update.message) {
     const msg = update.message;
@@ -130,78 +119,72 @@ async function handleUpdate(update) {
     if (text.startsWith('/start ask_')) {
       const targetUserId = text.replace('/start ask_', '').trim();
       
-      // O'z-o'ziga yozishining oldini olish
       if (parseInt(targetUserId, 10) === userId) {
         await api('sendMessage', {
           chat_id: chatId,
-          text: "Bu sizning shaxsiy havolangiz. Uni do'stlaringizga ulashing!",
+          text: "<b>Bu sizning shaxsiy havolangiz. Uni do'stlaringizga ulashing!</b>",
+          parse_mode: "HTML",
           reply_markup: getMainMenu()
         });
         return;
       }
 
-      // Target ID'ni sessiyada saqlaymiz
       let sessionData = readJSONState('sessions.json', {});
       sessionData[userId] = targetUserId;
       writeJSONState('sessions.json', sessionData);
 
       await api('sendMessage', {
         chat_id: chatId,
-        text: `💬 **Anonim Xabar Yuborish**\n\nUshbu foydalanuvchiga yubormoqchi bo'lgan xabaringizni yozib yuboring. Xabaringiz unga anonim tarzda yetkaziladi.`,
+        text: "<b>💬 Anonim Xabar Yuborish</b>\n\nUshbu foydalanuvchiga yubormoqchi bo'lgan xabaringizni yozib yuboring. Xabaringiz unga <b>mutlaqo anonim</b> tarzda yetkaziladi.",
+        parse_mode: "HTML",
         reply_markup: { force_reply: true }
       });
       return;
     }
 
-    // 2. Foydalanuvchi anonim xabar yozib yuborganda (Sessiya tekshiriladi)
+    // 2. Foydalanuvchi anonim xabar yozib yuborganda
     let sessionData = readJSONState('sessions.json', {});
     if (sessionData[userId] && !text.startsWith('/')) {
       const targetUserId = sessionData[userId];
-      delete sessionData[userId]; // Sessiyani tozalaymiz
+      delete sessionData[userId];
       writeJSONState('sessions.json', sessionData);
 
       const senderName = sanitizeText(msg.from.first_name);
       const senderUsername = msg.from.username ? `@${msg.from.username}` : "Mavjud emas";
       const token = encryptUserToken(userId);
 
-      // Xabarni QABUL QILUVCHIGA yuborish (Anonim tarzda)
+      // A) EGASIGA (Qabul qiluvchiga) - Mutlaqo anonim boradi
       await api('sendMessage', {
         chat_id: targetUserId,
-        text: `📩 **Sizga yangi anonim xabar keldi:**\n\n"${text}"\n\n🔒 ${token}`
+        text: `<b>📩 Sizga yangi anonim xabar keldi:</b>\n\n<i>"${text}"</i>`,
+        parse_mode: "HTML"
       });
 
-      // Xabarni ADMINGA yuborish (Kim yuborgani aniq ko'rinadi)
-      if (ADMIN_ID && ADMIN_ID !== targetUserId) {
+      // B) ADMINGA - Kim yuborgani ko'rinadi va maxsus "Javob yozish" tugmasi qo'shiladi
+      if (ADMIN_ID) {
         await api('sendMessage', {
           chat_id: ADMIN_ID,
-          text: `🕵️ **[ANONIM MONITORING]**\n\n👤 **Kimdan:** ${senderName} (${senderUsername})\n🆔 **ID:** \`${userId}\`\n🎯 **Kimga (Target):** \`${targetUserId}\`\n\n💬 **Xabar:**\n"${text}"\n\n🔒 ${token}`
+          text: `<b>🕵️ [ANONIM MONITORING]</b>\n\n👤 <b>Kimdan:</b> ${senderName} (${senderUsername})\n🆔 <b>ID:</b> <code>${userId}</code>\n🎯 <b>Kimga:</b> <code>${targetUserId}</code>\n\n💬 <b>Xabar:</b>\n<i>"${text}"</i>\n\n🔒 <code>${token}</code>`,
+          parse_mode: "HTML",
+          reply_markup: {
+            inline_keyboard: [
+              [{ text: "✍️ Javob yozish", callback_data: `reply_${userId}` }]
+            ]
+          }
         });
       }
 
       await api('sendMessage', {
         chat_id: chatId,
-        text: "✅ Xabaringiz egasiga muvaffaqiyatli yetkazildi!",
+        text: "<b>✅ Xabaringiz egasiga muvaffaqiyatli yetkazildi!</b>",
+        parse_mode: "HTML",
         reply_markup: getMainMenu()
       });
       return;
     }
 
-    // 3. Admin anonim xabarga javob yozganda
-    if (userId === ADMIN_ID && msg.reply_to_message && msg.reply_to_message.text) {
-      const origText = msg.reply_to_message.text;
-      const match = origText.match(/🔒\s+([A-Za-z0-9_-]+\.[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+)/);
-      if (match) {
-        const replyTargetUserId = decryptUserToken(match[1]);
-        if (replyTargetUserId) {
-          await api('sendMessage', {
-            chat_id: replyTargetUserId,
-            text: `👨‍⚖️ **Anonim xabaringizga javob keldi:**\n\n${text}`
-          });
-          await api('sendMessage', { chat_id: ADMIN_ID, text: "Javob foydalanuvchiga yetkazildi!" });
-          return;
-        }
-      }
-    }
+    // 3. Admin callback orqali javob yozishni boshlaganda (Sessiyaga yozamiz)
+    // (Pastdagi callback_query qismida ishlaydi)
 
     // Kanal a'zoligini tekshirish
     const subbed = await isSubscribed(userId);
@@ -218,7 +201,7 @@ async function handleUpdate(update) {
       if (item && item.file_id) {
         await api('sendDocument', { chat_id: chatId, document: item.file_id, caption: item.t });
       } else {
-        await api('sendMessage', { chat_id: chatId, text: "Darslik topilmadi." });
+        await api('sendMessage', { chat_id: chatId, text: "<b>Darslik topilmadi.</b>", parse_mode: "HTML" });
       }
       return;
     }
@@ -231,7 +214,8 @@ async function handleUpdate(update) {
 
       await api('sendMessage', {
         chat_id: chatId,
-        text: `Xush kelibsiz! Akademiyani ochish uchun quyidagi tugmani bosing.\n\n🔗 **Sizning shaxsiy anonim havolangiz:**\n\`${personalLink}\``,
+        text: `<b>Xush kelibsiz!</b> Akademiyani ochish uchun pastdagi tugmani bosing.\n\n🔗 <b>Sizning shaxsiy anonim havolangiz:</b>\n<code>${personalLink}</code>`,
+        parse_mode: "HTML",
         reply_markup: {
           inline_keyboard: [
             [{ text: "📤 Do'stlarga ulashish", url: shareUrl }]
@@ -240,10 +224,29 @@ async function handleUpdate(update) {
       });
       await api('sendMessage', {
         chat_id: chatId,
-        text: "Asosiy menyu:",
+        text: "<b>Asosiy menyu:</b>",
+        parse_mode: "HTML",
         reply_markup: getMainMenu()
       });
       return;
+    }
+
+    // Admin javob yozayotganini tekshirish (Force reply orqali)
+    if (userId === ADMIN_ID && msg.reply_to_message && msg.reply_to_message.text) {
+      const replySessions = readJSONState('reply_sessions.json', {});
+      if (replySessions[ADMIN_ID]) {
+        const targetUserId = replySessions[ADMIN_ID];
+        delete replySessions[ADMIN_ID];
+        writeJSONState('reply_sessions.json', replySessions);
+
+        await api('sendMessage', {
+          chat_id: targetUserId,
+          text: `<b>💬 Anonim xabaringizga javob keldi:</b>\n\n<i>"${text}"</i>`,
+          parse_mode: "HTML"
+        });
+        await api('sendMessage', { chat_id: ADMIN_ID, text: "<b>✅ Javob foydalanuvchiga yetkazildi!</b>", parse_mode: "HTML" });
+        return;
+      }
     }
 
     // Admin buyruqlari
@@ -254,7 +257,7 @@ async function handleUpdate(update) {
         const newId = "lib_" + Date.now();
         library.push({ id: newId, t: docName, s: "PDF Darslik", d: new Date().toISOString(), file_id: msg.document.file_id });
         writeJSONState('library.json', library);
-        await api('sendMessage', { chat_id: ADMIN_ID, text: `Darslik saqlandi! ID: ${newId}` });
+        await api('sendMessage', { chat_id: ADMIN_ID, text: `<b>Darslik saqlandi! ID:</b> ${newId}`, parse_mode: "HTML" });
         return;
       }
       if (text.startsWith('/del ')) {
@@ -262,12 +265,12 @@ async function handleUpdate(update) {
         let library = readJSONState('library.json', []);
         library = library.filter(l => l.id !== delId);
         writeJSONState('library.json', library);
-        await api('sendMessage', { chat_id: ADMIN_ID, text: "Darslik o'chirildi." });
+        await api('sendMessage', { chat_id: ADMIN_ID, text: "<b>Darslik o'chirildi.</b>", parse_mode: "HTML" });
         return;
       }
       if (text === '/stats') {
         const subs = readJSONState('subs.json', []);
-        await api('sendMessage', { chat_id: ADMIN_ID, text: `Eslatmalarga obunachilar soni: ${subs.length}` });
+        await api('sendMessage', { chat_id: ADMIN_ID, text: `<b>Eslatmalarga obunachilar soni:</b> ${subs.length}`, parse_mode: "HTML" });
         return;
       }
     }
@@ -280,7 +283,8 @@ async function handleUpdate(update) {
 
       await api('sendMessage', {
         chat_id: chatId,
-        text: `💬 **Sizning Shaxsiy Anonim Havolangiz:**\n\n\`${personalLink}\``,
+        text: `<b>💬 Sizning Shaxsiy Anonim Havolangiz:</b>\n\n<code>${personalLink}</code>`,
+        parse_mode: "HTML",
         reply_markup: {
           inline_keyboard: [
             [{ text: "📤 Do'stlarga ulashish", url: shareUrl }]
@@ -296,81 +300,53 @@ async function handleUpdate(update) {
       if (subs.includes(chatId)) {
         subs = subs.filter(id => id !== chatId);
         writeJSONState('subs.json', subs);
-        await api('sendMessage', { chat_id: chatId, text: "Kunlik eslatmalar o'chirildi." });
+        await api('sendMessage', { chat_id: chatId, text: "<b>Kunlik eslatmalar o'chirildi.</b>", parse_mode: "HTML" });
       } else {
         subs.push(chatId);
         writeJSONState('subs.json', subs);
-        await api('sendMessage', { chat_id: chatId, text: "Kunlik eslatmalar yoqildi!" });
+        await api('sendMessage', { chat_id: chatId, text: "<b>Kunlik eslatmalar yoqildi!</b>", parse_mode: "HTML" });
       }
-      return;
-    }
-
-    // WebApp natijalari
-    if (msg.web_app_data && msg.web_app_data.data) {
-      try {
-        const payload = JSON.parse(msg.web_app_data.data);
-        if (payload.v === 1 && payload.t === "score") {
-          const c = parseInt(payload.c, 10);
-          const n = parseInt(payload.n, 10);
-          if (n >= 1 && n <= 30 && c >= 0 && c <= n) {
-            const currentWeek = getTashkentISOWeek();
-            let leaderboardMeta = readJSONState('meta.json', { week: currentWeek });
-            let leaderboard = readJSONState('leaderboard.json', []);
-            let scores = readJSONState('scores.json', {});
-
-            if (leaderboardMeta.week !== currentWeek) {
-              leaderboardMeta.week = currentWeek;
-              leaderboard = [];
-              scores = {};
-            }
-
-            const cleanName = sanitizeText(msg.from.first_name);
-            const userHash = crypto.createHash('sha256').update(userId.toString()).digest('hex').substring(0, 10);
-
-            const userScoreData = scores[userHash] || { count: 0, totalScore: 0 };
-            if (userScoreData.count < 40) {
-              userScoreData.count++;
-              userScoreData.totalScore += c;
-              scores[userHash] = userScoreData;
-
-              const existingIdx = leaderboard.findIndex(item => item.id === userHash);
-              if (existingIdx >= 0) {
-                leaderboard[existingIdx].score = userScoreData.totalScore;
-                leaderboard[existingIdx].name = cleanName;
-              } else {
-                leaderboard.push({ id: userHash, name: cleanName, score: userScoreData.totalScore });
-              }
-
-              leaderboard.sort((a, b) => b.score - a.score);
-              leaderboard = leaderboard.slice(0, 10);
-
-              writeJSONState('meta.json', leaderboardMeta);
-              writeJSONState('scores.json', scores);
-              writeJSONState('leaderboard.json', leaderboard);
-
-              await api('sendMessage', { chat_id: chatId, text: `Natijangiz qabul qilindi! Umumiy ball: ${userScoreData.totalScore}` });
-            }
-          }
-        }
-      } catch (e) {}
       return;
     }
   }
 
+  // Callback Queries (Tugmalar bosilganda)
   if (update.callback_query) {
     const cb = update.callback_query;
+    const userId = cb.from.id;
+
     if (cb.data === "check_sub") {
-      const subbed = await isSubscribed(cb.from.id);
+      const subbed = await isSubscribed(userId);
       if (subbed) {
         await api('answerCallbackQuery', { callback_query_id: cb.id, text: "Rahmat! A'zolik tasdiqlandi." });
         await api('sendMessage', {
           chat_id: cb.message.chat.id,
-          text: "Xush kelibsiz! Akademiyani ochish uchun quyidagi tugmani bosing.",
+          text: "<b>Xush kelibsiz!</b> Akademiyani ochish uchun quyidagi tugmani bosing.",
+          parse_mode: "HTML",
           reply_markup: getMainMenu()
         });
       } else {
         await api('answerCallbackQuery', { callback_query_id: cb.id, text: "Hali kanalga a'zo bo'lmadingiz!", show_alert: true });
       }
+      return;
+    }
+
+    // Admin "✍️ Javob yozish" tugmasini bosganda
+    if (cb.data.startsWith('reply_') && userId === ADMIN_ID) {
+      const targetUserId = cb.data.replace('reply_', '').trim();
+      
+      let replySessions = readJSONState('reply_sessions.json', {});
+      replySessions[ADMIN_ID] = targetUserId;
+      writeJSONState('reply_sessions.json', replySessions);
+
+      await api('answerCallbackQuery', { callback_query_id: cb.id, text: "Javobingizni yozib yuboring:" });
+      await api('sendMessage', {
+        chat_id: ADMIN_ID,
+        text: `<b>✍️ Ushbu foydalanuvchiga yozmoqchi bo'lgan javobingizni yuboring (shu xabarga reply qiling):</b>`,
+        parse_mode: "HTML",
+        reply_markup: { force_reply: true }
+      });
+      return;
     }
   }
 }
