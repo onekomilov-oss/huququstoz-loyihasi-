@@ -23,17 +23,25 @@ let botUsername = "huquqmindBot";
 function readJSONState(file, defaultData) {
   const p = path.join(STATE_DIR, file);
   if (fs.existsSync(p)) {
-    try { return JSON.parse(fs.readFileSync(p, 'utf8')); } catch (e) { return defaultData; }
+    try { 
+      return JSON.parse(fs.readFileSync(p, 'utf8')); 
+    } catch (e) { 
+      return defaultData; 
+    }
   }
   return defaultData;
 }
 
 function writeJSONState(file, data) {
   const p = path.join(STATE_DIR, file);
-  fs.writeFileSync(p, JSON.stringify(data, null, 2), 'utf8');
+  try {
+    fs.writeFileSync(p, JSON.stringify(data, null, 2), 'utf8');
+  } catch (e) {
+    console.error(`Faylga yozishda xatolik (${file}):`, e.message);
+  }
 }
 
-// 3. HTML Escape funksiyasi (XSS va Parse Mode xatolarini oldini olish uchun)
+// HTML Escape funksiyasi
 function escapeHtml(str) {
   if (!str) return '';
   return String(str)
@@ -42,7 +50,7 @@ function escapeHtml(str) {
     .replace(/>/g, '&gt;');
 }
 
-// 5. Kuchaytirilgan api() funksiyasi
+// Telegram API chaqiruvi (Xatosiz variant)
 async function api(method, params = {}) {
   try {
     const res = await fetch(`${API_BASE}/${method}`, {
@@ -56,7 +64,7 @@ async function api(method, params = {}) {
     }
     return data;
   } catch (err) {
-    console.error(`Network / API Xatosi [${method}]:`, err.message);
+    console.error(`Network API Xatosi [${method}]:`, err.message);
     return { ok: false, error: err.message };
   }
 }
@@ -108,8 +116,9 @@ async function handleUpdate(update) {
     const userId = msg.from.id;
     const text = msg.text || '';
 
-    // Sessiya ochiq foydalanuvchi matn o'rniga media yuborishi holatini ushlash
     let sessionData = readJSONState('sessions.json', {});
+
+    // Media yuborilganda matn so'rash
     if (sessionData[userId] && !msg.text && (msg.photo || msg.voice || msg.video || msg.document || msg.sticker)) {
       await api('sendMessage', {
         chat_id: chatId,
@@ -119,7 +128,7 @@ async function handleUpdate(update) {
       return;
     }
 
-    // 1. Shaxsiy link orqali kirganda (/start ask_ID)
+    // 1. Anonim link orqali kirganda (/start ask_ID)
     if (text.startsWith('/start ask_')) {
       const targetUserId = text.replace('/start ask_', '').trim();
 
@@ -145,7 +154,7 @@ async function handleUpdate(update) {
       return;
     }
 
-    // 2. Anonim xabar yuborilganda (Sessiya mavjud bo'lsa va matn kelgan bo'lsa)
+    // 2. Anonim xabar yuborilganda
     if (sessionData[userId] && text && !text.startsWith('/')) {
       const targetUserId = sessionData[userId];
       delete sessionData[userId];
@@ -155,14 +164,14 @@ async function handleUpdate(update) {
       const senderName = escapeHtml(sanitizeText(msg.from.first_name));
       const rawUsername = msg.from.username ? msg.from.username.trim() : "";
 
-      // A) EGASIGA BORADIGAN XABAR (To'liq anonim)
+      // Target foydalanuvchiga boradigan anonim xabar
       await api('sendMessage', {
         chat_id: targetUserId,
         text: `<b>📩 Sizga yangi anonim xabar keldi:</b>\n\n<i>"${safeText}"</i>`,
         parse_mode: "HTML"
       });
 
-      // B) ADMINGA BORADIGAN XABAR (Monitoring, username / profil havolasi bilan)
+      // Adminga boradigan monitoring xabari
       if (ADMIN_ID) {
         let userLink = "";
         if (rawUsername) {
@@ -182,7 +191,6 @@ async function handleUpdate(update) {
           }
         });
 
-        // Dynamic Message ID tracking (Monitoring xabariga javob berish uchun)
         if (adminMsgRes.ok && adminMsgRes.result) {
           const replySessions = readJSONState('reply_sessions.json', {});
           replySessions[adminMsgRes.result.message_id] = {
@@ -193,7 +201,7 @@ async function handleUpdate(update) {
         }
       }
 
-      // C) YUBORGAN ODAMGA TASDIQ
+      // Yuboruvchiga tasdiq
       await api('sendMessage', {
         chat_id: chatId,
         text: "<b>✅ Xabaringiz egasiga muvaffaqiyatli yetkazildi!</b>",
@@ -203,15 +211,14 @@ async function handleUpdate(update) {
       return;
     }
 
-    // 4. Admin Reply Oqimi (Monitoring message_id orqali tekshirish)
+    // 3. Admin Reply Orqali Javob Berishi
     if (userId === ADMIN_ID && msg.reply_to_message) {
       const repliedMsgId = msg.reply_to_message.message_id;
       let replySessions = readJSONState('reply_sessions.json', {});
       const session = replySessions[repliedMsgId];
 
       if (session) {
-        // 10 daqiqa (600,000 ms) timeout tekshiruvi
-        if (Date.now() - session.createdAt < 600000) {
+        if (Date.now() - session.createdAt < 600000) { // 10 daqiqa
           const safeReplyText = escapeHtml(text);
           await api('sendMessage', {
             chat_id: session.targetUserId,
@@ -241,14 +248,14 @@ async function handleUpdate(update) {
       }
     }
 
-    // Kanal obunasini tekshirish
+    // Kanal obunasi
     const subbed = await isSubscribed(userId);
     if (!subbed) {
       await sendSubGate(chatId);
       return;
     }
 
-    // Darsliklarni ochish (Deep-link)
+    // Darsliklar
     if (text.startsWith('/start lib_')) {
       const libId = text.replace('/start lib_', '').trim();
       const library = readJSONState('library.json', []);
@@ -261,7 +268,7 @@ async function handleUpdate(update) {
       return;
     }
 
-    // 1. Command: /start (Faqat ADMIN_ID uchun havola beriladi)
+    // /start buyrug'i
     if (text === '/start') {
       if (userId === ADMIN_ID) {
         const personalLink = `https://t.me/${botUsername}?start=ask_${userId}`;
@@ -295,7 +302,7 @@ async function handleUpdate(update) {
       return;
     }
 
-    // Admin buyruqlari
+    // Admin boshqaruvi
     if (userId === ADMIN_ID) {
       if (msg.document) {
         const docName = msg.caption || msg.document.file_name || "Darslik";
@@ -321,7 +328,7 @@ async function handleUpdate(update) {
       }
     }
 
-    // 1. Menyu: "💬 Anonim savol" (Faqat ADMIN_ID uchun ruxsat etilgan)
+    // "💬 Anonim savol" tugmasi
     if (text === "💬 Anonim savol") {
       if (userId === ADMIN_ID) {
         const personalLink = `https://t.me/${botUsername}?start=ask_${userId}`;
@@ -388,7 +395,7 @@ async function handleUpdate(update) {
     if (cb.data.startsWith('reply_') && userId === ADMIN_ID) {
       await api('answerCallbackQuery', { 
         callback_query_id: cb.id, 
-        text: "Javob berish uchun mazkur monitoring xabariga 'Reply' (Javob) qilib matn yozing.",
+        text: "Javob berish uchun tepadagi monitoring xabariga 'Reply' (Javob) qilib yozing.",
         show_alert: true 
       });
       return;
@@ -402,49 +409,22 @@ async function startBot() {
 
   try {
     const me = await api('getMe');
-    if (me.ok && me.result.username) {
+    if (me.ok && me.result && me.result.username) {
       botUsername = me.result.username;
     }
   } catch (e) {}
 
   let offset = 0;
 
-  // 5. Eskirgan (Pending) updatelarni tozalab tashlash
+  // Eski kutilayotgan updatelarni tozalash
   try {
     const pendingRes = await api('getUpdates', { offset: -1, timeout: 0 });
-    if (pendingRes.ok && pendingRes.result.length > 0) {
+    if (pendingRes.ok && pendingRes.result && pendingRes.result.length > 0) {
       offset = pendingRes.result[pendingRes.result.length - 1].update_id + 1;
     }
-  } catch (e) {
-    console.error("Eski updatelarni o'chirishda xatolik:", e.message);
-  }
+  } catch (e) {}
 
   const startTime = Date.now();
 
-  // Polling sikli (~285 soniya)
-  while (Date.now() - startTime < 285000) {
-    try {
-      const res = await api('getUpdates', { 
-        offset, 
-        timeout: 50 
-      }, {
-        signal: AbortSignal.timeout(60000) // 5. 60 soniyali timeout nazorati
-      });
-
-      if (res.ok && res.result && res.result.length > 0) {
-        for (const update of res.result) {
-          await handleUpdate(update);
-          offset = update.update_id + 1;
-        }
-      }
-    } catch (e) {
-      if (e.name !== 'AbortError') {
-        console.error("Polling xatosi:", e.message);
-      }
-      await new Promise(r => setTimeout(r, 2000));
-    }
-  }
-  console.log("Polling yakunlandi.");
-}
-
-startBot();
+  // Polling loop
+  while (Date.now() - startTime < 285
