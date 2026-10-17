@@ -1,20 +1,158 @@
 <!DOCTYPE html>
 <html lang="uz">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mening Saytim</title>
-    <style>
-        body { font-family: sans-serif; text-align: center; background: #f0f2f5; padding: 50px; }
-        .card { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: inline-block; }
-        h1 { color: #333; }
-        p { color: #666; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' https://telegram.org; style-src 'self'; img-src 'self' data:; connect-src 'self' https://raw.githubusercontent.com;">
+  <title>Huququstoz — Gamifikatsiyalangan Raqamli Akademiya</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script src="config.js"></script>
 </head>
 <body>
-    <div class="card">
-        <h1>Mening loyiham tez kunda ishga tushadi!</h1>
-        <p>Bu erga g'oyangiz haqida matn yozasiz.</p>
-    </div>
+  <!-- Telegram tashqarisida ochilganda ko'rinadigan blok -->
+  <div id="external-warning" class="app-card hidden" style="margin:20px; text-align:center;">
+    <h2>⚠️ Kirish cheklangan</h2>
+    <p>Ilovani Telegram ichidagi rasmiy botdan oching.</p>
+    <p><small>Brauzerda sinash uchun test rejimida <code>?preview=1</code> ishlatishingiz mumkin.</small></p>
+  </div>
+
+  <div id="app" class="app-container hidden">
+    <!-- Yuqori panel: Profil va Streak -->
+    <header class="top-bar">
+      <div class="user-info">
+        <span class="avatar-icon">⚖️</span>
+        <div>
+          <div id="user-name" class="user-name">Foydalanuvchi</div>
+          <div id="user-rank" class="user-rank">1-kurs talabasi</div>
+        </div>
+      </div>
+      <div class="streak-badge" id="streak-badge">
+        <span id="streak-icon" class="streak-icon">🔥</span>
+        <span id="streak-count" class="streak-count">0</span>
+      </div>
+    </header>
+
+    <!-- Asosiy ekranlar containeri -->
+    <main class="main-content">
+      <!-- 1. BOSH SAHIFA -->
+      <section id="tab-home" class="tab-page active">
+        <div class="app-card hero-card">
+          <h1>Huququstoz Akademiyasi</h1>
+          <p>Barcha davlat va huquq asoslarini chuqurlashtirilgan interaktiv testlar va tahlillar orqali o'rganing.</p>
+        </div>
+        <div class="app-card stats-overview">
+          <div class="stat-box">
+            <div id="stat-correct" class="stat-num">0</div>
+            <div class="stat-lbl">To'g'ri javoblar</div>
+          </div>
+          <div class="stat-box">
+            <div id="stat-streak" class="stat-num">0</div>
+            <div class="stat-lbl">Kunlik Streak</div>
+          </div>
+        </div>
+        <button id="btn-start-quick" class="btn btn-primary btn-block">🚀 Testni Boshlash</button>
+      </section>
+
+      <!-- 2. TESTLAR BO'LIMI -->
+      <section id="tab-tests" class="tab-page">
+        <div id="topic-select-view">
+          <h2>Mavzular ro'yxati</h2>
+          <div id="topics-list" class="topics-list"></div>
+        </div>
+        
+        <div id="quiz-view" class="hidden">
+          <div class="quiz-header">
+            <button id="btn-back-topics" class="btn-subtle">← Ortga</button>
+            <div id="quiz-progress" class="quiz-progress-text">1 / 30</div>
+          </div>
+          <div class="progress-bar-container">
+            <div id="quiz-progress-bar" class="progress-bar-fill"></div>
+          </div>
+          <div id="question-card" class="app-card quiz-card">
+            <div id="question-text" class="question-text">Savol yuklanmoqda...</div>
+            <div id="options-container" class="options-container"></div>
+          </div>
+          <div id="analysis-panel" class="app-card analysis-panel hidden">
+            <h3>📖 Huquqiy tahlil</h3>
+            <p id="analysis-text"></p>
+            <button id="btn-lex-link" class="btn btn-secondary">📖 Lex.uz da ko'rish</button>
+            <button id="btn-next-question" class="btn btn-primary" style="margin-top:10px;">Keyingi savol →</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. REYTING BO'LIMI -->
+      <section id="tab-leaderboard" class="tab-page">
+        <h2>🏆 Oliy Sud Sudyalari (Top-10)</h2>
+        <p class="disclaimer-text">Reytingga yuborilgan natijalar va ismingiz haftalik umumiy ro'yxatda ommaga ko'rsatiladi.</p>
+        <div class="app-card">
+          <ul id="leaderboard-list" class="leaderboard-list">
+            <li>Yuklanmoqda...</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 4. KUTUBXONA BO'LIMI -->
+      <section id="tab-library" class="tab-page">
+        <h2>📚 Darsliklar va Qonunlar</h2>
+        <div class="tab-sub-nav">
+          <button id="btn-sub-docs" class="btn-tab-sub active">Darsliklar</button>
+          <button id="btn-sub-laws" class="btn-tab-sub">52 ta Hujjat</button>
+        </div>
+        <div id="library-docs-list" class="library-list"></div>
+        <div id="library-laws-list" class="library-list hidden"></div>
+      </section>
+
+      <!-- 5. GUVOHNOMA BO'LIMI -->
+      <section id="tab-cert" class="tab-page">
+        <h2>📜 Virtual Guvohnoma</h2>
+        <div id="cert-card" class="cert-card">
+          <div class="cert-header">
+            <span class="cert-emblem">⚖️</span>
+            <div>HUQUQUSTOZ AKADEMIYASI</div>
+          </div>
+          <div class="cert-body">
+            <div id="cert-user-name" class="cert-name">Foydalanuvchi</div>
+            <div id="cert-user-rank" class="cert-rank">1-kurs talabasi</div>
+            <div class="cert-details">
+              <div>To'g'ri javoblar: <strong id="cert-correct">0</strong></div>
+              <div>Streak: <strong id="cert-streak">0 kun</strong></div>
+              <div>Berilgan sana: <span id="cert-date">-</span></div>
+            </div>
+          </div>
+          <div class="cert-footer">
+            Skrinshot qilib @huquqmind da ulashing!
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Pastki Navigatsiya Menyusi -->
+    <nav class="bottom-nav">
+      <button class="nav-item active" data-tab="tab-home">
+        <span class="nav-icon">🏠</span>
+        <span class="nav-label">Bosh sahifa</span>
+      </button>
+      <button class="nav-item" data-tab="tab-tests">
+        <span class="nav-icon">📝</span>
+        <span class="nav-label">Testlar</span>
+      </button>
+      <button class="nav-item" data-tab="tab-leaderboard">
+        <span class="nav-icon">🏆</span>
+        <span class="nav-label">Reyting</span>
+      </button>
+      <button class="nav-item" data-tab="tab-library">
+        <span class="nav-icon">📚</span>
+        <span class="nav-label">Kutubxona</span>
+      </button>
+      <button class="nav-item" data-tab="tab-cert">
+        <span class="nav-icon">📜</span>
+        <span class="nav-label">Guvohnoma</span>
+      </button>
+    </nav>
+  </div>
+
+  <script src="app.js"></script>
 </body>
 </html>
