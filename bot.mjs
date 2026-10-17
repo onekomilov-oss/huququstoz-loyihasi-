@@ -22,30 +22,6 @@ if (!fs.existsSync(STATE_DIR)) {
 const ENC_KEY = crypto.createHash('sha256').update(TOKEN).digest();
 let botUsername = "huquqmindBot";
 
-function encryptUserToken(userId) {
-  const iv = crypto.randomBytes(12);
-  const cipher = crypto.createCipheriv('aes-256-gcm', ENC_KEY, iv);
-  let encrypted = cipher.update(userId.toString(), 'utf8', 'base64url');
-  encrypted += cipher.final('base64url');
-  const tag = cipher.getAuthTag().toString('base64url');
-  return `${iv.toString('base64url')}.${encrypted}.${tag}`;
-}
-
-function decryptUserToken(tokenStr) {
-  try {
-    const [ivB64, encData, tagB64] = tokenStr.split('.');
-    const iv = Buffer.from(ivB64, 'base64url');
-    const tag = Buffer.from(tagB64, 'base64url');
-    const decipher = crypto.createDecipheriv('aes-256-gcm', ENC_KEY, iv);
-    decipher.setAuthTag(tag);
-    let decrypted = decipher.update(encData, 'base64url', 'utf8');
-    decrypted += decipher.final('utf8');
-    return parseInt(decrypted, 10);
-  } catch (e) {
-    return null;
-  }
-}
-
 function readJSONState(file, defaultData) {
   const p = path.join(STATE_DIR, file);
   if (fs.existsSync(p)) {
@@ -69,8 +45,8 @@ async function api(method, params = {}) {
 }
 
 function sanitizeText(str) {
-  if (!str) return '';
-  return str.replace(/[\r\n\t]/g, ' ').replace(/[<>]/g, '').trim().substring(0, 24);
+  if (!str) return 'Noma\'lum';
+  return str.replace(/[\r\n\t]/g, ' ').replace(/[<>]/g, '').trim().substring(0, 30);
 }
 
 async function isSubscribed(userId) {
@@ -115,7 +91,7 @@ async function handleUpdate(update) {
     const userId = msg.from.id;
     const text = msg.text || '';
 
-    // 1. Shaxsiy link orqali kimdir kirganda (/start ask_ID)
+    // 1. Shaxsiy link orqali kirganda (/start ask_ID)
     if (text.startsWith('/start ask_')) {
       const targetUserId = text.replace('/start ask_', '').trim();
       
@@ -135,14 +111,14 @@ async function handleUpdate(update) {
 
       await api('sendMessage', {
         chat_id: chatId,
-        text: "<b>💬 Anonim Xabar Yuborish</b>\n\nUshbu foydalanuvchiga yubormoqchi bo'lgan xabaringizni yozib yuboring. Xabaringiz unga <b>mutlaqo anonim</b> tarzda yetkaziladi.",
+        text: "<b>💬 Anonim Xabar Yuborish</b>\n\nSavolingiz yoki xabaringizni yozib yuboring. Xabaringiz mazkur foydalanuvchiga <b>mutlaqo anonim</b> tarzda yetkaziladi.",
         parse_mode: "HTML",
         reply_markup: { force_reply: true }
       });
       return;
     }
 
-    // 2. Foydalanuvchi anonim xabar yozib yuborganda
+    // 2. Anonim xabar yuborilganda (Sessiya mavjud bo'lsa)
     let sessionData = readJSONState('sessions.json', {});
     if (sessionData[userId] && !text.startsWith('/')) {
       const targetUserId = sessionData[userId];
@@ -150,21 +126,20 @@ async function handleUpdate(update) {
       writeJSONState('sessions.json', sessionData);
 
       const senderName = sanitizeText(msg.from.first_name);
-      const senderUsername = msg.from.username ? `@${msg.from.username}` : "Mavjud emas";
-      const token = encryptUserToken(userId);
+      const senderUsername = msg.from.username ? `@${msg.from.username}` : "Username yo'q";
 
-      // A) EGASIGA (Qabul qiluvchiga) - Mutlaqo anonim boradi
+      // A) EGASIGA BORADIGAN XABAR (Faqat anonim tekst boradi)
       await api('sendMessage', {
         chat_id: targetUserId,
         text: `<b>📩 Sizga yangi anonim xabar keldi:</b>\n\n<i>"${text}"</i>`,
         parse_mode: "HTML"
       });
 
-      // B) ADMINGA - Kim yuborgani ko'rinadi va maxsus "Javob yozish" tugmasi qo'shiladi
+      // B) ADMINGA BORADIGAN XABAR (Kim yuborgani, Username va ID bilan)
       if (ADMIN_ID) {
         await api('sendMessage', {
           chat_id: ADMIN_ID,
-          text: `<b>🕵️ [ANONIM MONITORING]</b>\n\n👤 <b>Kimdan:</b> ${senderName} (${senderUsername})\n🆔 <b>ID:</b> <code>${userId}</code>\n🎯 <b>Kimga:</b> <code>${targetUserId}</code>\n\n💬 <b>Xabar:</b>\n<i>"${text}"</i>\n\n🔒 <code>${token}</code>`,
+          text: `<b>🕵️ [ANONIM XABAR MONITORINGI]</b>\n\n👤 <b>Kimdan:</b> ${senderName} (${senderUsername})\n🆔 <b>ID:</b> <code>${userId}</code>\n🎯 <b>Kimga (Target ID):</b> <code>${targetUserId}</code>\n\n💬 <b>Xabar:</b>\n<i>"${text}"</i>`,
           parse_mode: "HTML",
           reply_markup: {
             inline_keyboard: [
@@ -174,6 +149,7 @@ async function handleUpdate(update) {
         });
       }
 
+      // C) YUBORGAN ODAMGA TASDIQ BILDIRISHNOMASI
       await api('sendMessage', {
         chat_id: chatId,
         text: "<b>✅ Xabaringiz egasiga muvaffaqiyatli yetkazildi!</b>",
@@ -183,10 +159,7 @@ async function handleUpdate(update) {
       return;
     }
 
-    // 3. Admin callback orqali javob yozishni boshlaganda (Sessiyaga yozamiz)
-    // (Pastdagi callback_query qismida ishlaydi)
-
-    // Kanal a'zoligini tekshirish
+    // Kanal obunasini tekshirish
     const subbed = await isSubscribed(userId);
     if (!subbed) {
       await sendSubGate(chatId);
@@ -231,7 +204,7 @@ async function handleUpdate(update) {
       return;
     }
 
-    // Admin javob yozayotganini tekshirish (Force reply orqali)
+    // Admin javobini yuborish
     if (userId === ADMIN_ID && msg.reply_to_message && msg.reply_to_message.text) {
       const replySessions = readJSONState('reply_sessions.json', {});
       if (replySessions[ADMIN_ID]) {
@@ -275,7 +248,7 @@ async function handleUpdate(update) {
       }
     }
 
-    // Menyu tugmalari
+    // Menyu tugmasi
     if (text === "💬 Anonim savol") {
       const personalLink = `https://t.me/${botUsername}?start=ask_${userId}`;
       const shareText = encodeURIComponent("Menga anonim savol yoki fikringizni yuboring! 👇");
@@ -310,7 +283,7 @@ async function handleUpdate(update) {
     }
   }
 
-  // Callback Queries (Tugmalar bosilganda)
+  // Callback tugmalar bosilganda
   if (update.callback_query) {
     const cb = update.callback_query;
     const userId = cb.from.id;
@@ -331,7 +304,6 @@ async function handleUpdate(update) {
       return;
     }
 
-    // Admin "✍️ Javob yozish" tugmasini bosganda
     if (cb.data.startsWith('reply_') && userId === ADMIN_ID) {
       const targetUserId = cb.data.replace('reply_', '').trim();
       
@@ -342,7 +314,7 @@ async function handleUpdate(update) {
       await api('answerCallbackQuery', { callback_query_id: cb.id, text: "Javobingizni yozib yuboring:" });
       await api('sendMessage', {
         chat_id: ADMIN_ID,
-        text: `<b>✍️ Ushbu foydalanuvchiga yozmoqchi bo'lgan javobingizni yuboring (shu xabarga reply qiling):</b>`,
+        text: `<b>✍️ Ushbu foydalanuvchiga yubormoqchi bo'lgan javobingizni yozing va shu xabarga Reply (javob) qilib yuboring:</b>`,
         parse_mode: "HTML",
         reply_markup: { force_reply: true }
       });
