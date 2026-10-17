@@ -1,11 +1,6 @@
-// Cloudflare Pages / Workers uchun to'liq moslashtirilgan va to'g'rilangan bot kodi
+// HuquqUstoz Telegram Bot - Enterprise Edition
 
-function sanitizeText(str) {
-  if (!str) return 'Noma\'lum';
-  return str.replace(/[\r\n\t]/g, ' ').trim().substring(0, 30);
-}
-
-// HTML teglari buzilib ketmasligi uchun escape funksiyasi
+// Maxfiy belgilarni escape qilish (Telegram HTML Parse Mode uchun)
 function escapeHtml(str) {
   if (!str) return '';
   return String(str)
@@ -14,7 +9,12 @@ function escapeHtml(str) {
     .replace(/>/g, '&gt;');
 }
 
-// Telegram API chaqiruvi
+function sanitizeText(str) {
+  if (!str) return 'Noma\'lum';
+  return str.replace(/[\r\n\t]/g, ' ').trim().substring(0, 30);
+}
+
+// Telegram API so'rov yuborish
 async function api(method, params, token) {
   try {
     const res = await fetch(`https://api.telegram.org/bot${token}/${method}`, {
@@ -24,9 +24,18 @@ async function api(method, params, token) {
     });
     return await res.json();
   } catch (err) {
-    console.error(`API Xatosi [${method}]:`, err.message);
+    console.error(`Telegram API Xatosi [${method}]:`, err.message);
     return { ok: false, error: err.message };
   }
+}
+
+// Bot o'z username'ini dinamik olish
+async function getBotUsername(token) {
+  const me = await api('getMe', {}, token);
+  if (me.ok && me.result && me.result.username) {
+    return me.result.username;
+  }
+  return "huquqmindBot";
 }
 
 // Kanal obunasini tekshirish
@@ -40,16 +49,16 @@ async function isSubscribed(userId, channelId, token) {
   return false;
 }
 
-// Kanalga a'zo bo'lish tugmasi
+// Kanalga a'zo bo'lish darvozasi (SubGate)
 async function sendSubGate(chatId, token) {
   await api('sendMessage', {
     chat_id: chatId,
-    text: "<b>Avval kanalga a'zo bo'ling:</b>",
+    text: "⚠️ <b>Botdan foydalanish uchun rasmiy kanalimizga a'zo bo'ling:</b>",
     parse_mode: "HTML",
     reply_markup: {
       inline_keyboard: [
         [{ text: "📢 Kanalga a'zo bo'lish", url: "https://t.me/huququstoz" }],
-        [{ text: "✅ Tekshirish", callback_data: "check_sub" }]
+        [{ text: "✅ A'zolikni tekshirish", callback_data: "check_sub" }]
       ]
     }
   }, token);
@@ -68,11 +77,48 @@ function getMainMenu(githubRepo) {
   };
 }
 
-// Cloudflare Webhook Handler
+// Xabarni turiga qarab uzatish (Matn, Rasm, Voice va h.k.)
+async function forwardMediaOrText(targetChatId, msg, captionText, token) {
+  if (msg.text) {
+    return await api('sendMessage', {
+      chat_id: targetChatId,
+      text: captionText,
+      parse_mode: "HTML"
+    }, token);
+  } else if (msg.photo) {
+    const fileId = msg.photo[msg.photo.length - 1].file_id;
+    return await api('sendPhoto', {
+      chat_id: targetChatId,
+      photo: fileId,
+      caption: captionText,
+      parse_mode: "HTML"
+    }, token);
+  } else if (msg.voice) {
+    return await api('sendVoice', {
+      chat_id: targetChatId,
+      voice: msg.voice.file_id,
+      caption: captionText,
+      parse_mode: "HTML"
+    }, token);
+  } else if (msg.document) {
+    return await api('sendDocument', {
+      chat_id: targetChatId,
+      document: msg.document.file_id,
+      caption: captionText,
+      parse_mode: "HTML"
+    }, token);
+  } else if (msg.sticker) {
+    await api('sendMessage', { chat_id: targetChatId, text: captionText, parse_mode: "HTML" }, token);
+    return await api('sendSticker', { chat_id: targetChatId, sticker: msg.sticker.file_id }, token);
+  }
+  return { ok: false };
+}
+
+// Cloudflare / Serverless Webhook Handler
 export default {
   async fetch(request, env, ctx) {
     if (request.method !== 'POST') {
-      return new Response('HuquqUstoz Bot Active', { status: 200 });
+      return new Response('HuquqUstoz Bot Server Active', { status: 200 });
     }
 
     const TOKEN = env.BOT_TOKEN;
@@ -81,7 +127,7 @@ export default {
     const GITHUB_REPO = env.GITHUB_REPOSITORY || "onekomilov-oss/huququstoz-loyihasi-";
 
     if (!TOKEN) {
-      return new Response('BOT_TOKEN missing', { status: 500 });
+      return new Response('BOT_TOKEN missing in environment variables', { status: 500 });
     }
 
     try {
@@ -92,106 +138,111 @@ export default {
         const chatId = msg.chat.id;
         const userId = msg.from.id;
         const text = msg.text || '';
-        const botUsername = "huquqmindBot";
 
-        // 1. Anonim link orqali kirganda (/start ask_ID)
-        if (text.startsWith('/start ask_')) {
-          const targetUserId = text.replace('/start ask_', '').trim();
-
-          if (parseInt(targetUserId, 10) === userId) {
-            await api('sendMessage', {
-              chat_id: chatId,
-              text: "<b>Bu sizning shaxsiy havolangiz. Uni do'stlaringizga ulashing!</b>",
-              parse_mode: "HTML",
-              reply_markup: getMainMenu(GITHUB_REPO)
-            }, TOKEN);
-            return new Response('OK');
-          }
-
-          // Force Reply orqali anonim xabar kiritishni so'rash (Target ID xabar matniga yashiriladi)
-          await api('sendMessage', {
-            chat_id: chatId,
-            text: `<b>💬 Anonim Xabar Yuborish</b>\n\nSavolingizni yozib yuboring. Xabaringiz mazkur foydalanuvchiga <b>mutlaqo anonim</b> tarzda yetkaziladi.\n\n<i>(Target ID: <code>${targetUserId}</code> — Ushbu xabarga 'Reply' qilib yozing)</i>`,
-            parse_mode: "HTML",
-            reply_markup: { force_reply: true }
-          }, TOKEN);
-          return new Response('OK');
-        }
-
-        // 2. Foydalanuvchi anonim xabarni yozib yuborganda
-        if (msg.reply_to_message && msg.reply_to_message.text && msg.reply_to_message.text.includes("Anonim Xabar Yuborish")) {
-          const matchTarget = msg.reply_to_message.text.match(/Target ID:\s*(\d+)/);
-          const targetUserId = matchTarget ? matchTarget[1] : ADMIN_ID;
-
-          const safeText = escapeHtml(text);
-          const senderName = escapeHtml(sanitizeText(msg.from.first_name));
-          const senderUsername = msg.from.username ? `@${msg.from.username}` : "Username yo'q";
-
-          // A) HAVOLA EGASIGA BORADIGAN XABAR (To'liq anonim)
-          await api('sendMessage', {
-            chat_id: targetUserId,
-            text: `<b>📩 Sizga yangi anonim xabar keldi:</b>\n\n<i>"${safeText}"</i>`,
-            parse_mode: "HTML"
-          }, TOKEN);
-
-          // B) ADMINGA BORADIGAN MONITORING XABARI
-          if (ADMIN_ID) {
-            await api('sendMessage', {
-              chat_id: ADMIN_ID,
-              text: `<b>🕵️ [ANONIM XABAR MONITORINGI]</b>\n\n👤 <b>Kimdan:</b> ${senderName} (${senderUsername})\n🆔 <b>User ID:</b> <code>${userId}</code>\n🎯 <b>Target ID:</b> <code>${targetUserId}</code>\n\n💬 <b>Xabar:</b>\n<i>"${safeText}"</i>`,
-              parse_mode: "HTML",
-              reply_markup: {
-                inline_keyboard: [
-                  [{ text: "✍️ Javob yozish", callback_data: `reply_${userId}` }]
-                ]
-              }
-            }, TOKEN);
-          }
-
-          // C) YUBORGAN ODAMGA TASDIQ
-          await api('sendMessage', {
-            chat_id: chatId,
-            text: "<b>✅ Xabaringiz egasiga muvaffaqiyatli yetkazildi!</b>",
-            parse_mode: "HTML",
-            reply_markup: getMainMenu(GITHUB_REPO)
-          }, TOKEN);
-          return new Response('OK');
-        }
-
-        // 3. Admin javob berishi (Reply orqali)
-        if (userId === ADMIN_ID && msg.reply_to_message) {
-          const origText = msg.reply_to_message.text || '';
-          
-          // Monitoring xabari yoki Target ID xabaridan user_id ajratib olish
-          const matchUser = origText.match(/User ID:\s*(\d+)/) || origText.match(/Target ID:\s*(\d+)/);
-
-          if (matchUser) {
-            const targetUserId = matchUser[1];
-            const safeReplyText = escapeHtml(text);
-
-            await api('sendMessage', {
-              chat_id: targetUserId,
-              text: `<b>💬 Anonim xabaringizga javob keldi:</b>\n\n<i>"${safeReplyText}"</i>`,
-              parse_mode: "HTML"
-            }, TOKEN);
-
-            await api('sendMessage', {
-              chat_id: ADMIN_ID,
-              text: "<b>✅ Javob foydalanuvchiga yetkazildi!</b>",
-              parse_mode: "HTML"
-            }, TOKEN);
-            return new Response('OK');
-          }
-        }
-
-        // Kanal obunasini tekshirish
+        // 1. Kanal Obunasini Tekshirish (Majburiy)
         const subbed = await isSubscribed(userId, CHANNEL_ID, TOKEN);
         if (!subbed) {
           await sendSubGate(chatId, TOKEN);
           return new Response('OK');
         }
 
-        // /start buyrug'i (Faqat admin uchun shaxsiy link)
+        const botUsername = await getBotUsername(TOKEN);
+
+        // 2. Shaxsiy anonim link orqali kirganda (/start ask_ID)
+        if (text.startsWith('/start ask_')) {
+          const targetUserId = text.replace('/start ask_', '').trim();
+
+          if (parseInt(targetUserId, 10) === userId) {
+            await api('sendMessage', {
+              chat_id: chatId,
+              text: "<b>Bu sizning shaxsiy havolangiz. Uni do'stlaringiz va obunachilaringizga ulashing!</b>",
+              parse_mode: "HTML",
+              reply_markup: getMainMenu(GITHUB_REPO)
+            }, TOKEN);
+            return new Response('OK');
+          }
+
+          await api('sendMessage', {
+            chat_id: chatId,
+            text: `<b>💬 Anonim Xabar Yuborish</b>\n\nSavol, fikr yoki taklifingizni yuboring (Matn, rasm yoki ovozli xabar).\n\n<i>[ Target_ID: <code>${targetUserId}</code> ] — Ushbu xabarga 'Reply' qilib yozing!</i>`,
+            parse_mode: "HTML",
+            reply_markup: { force_reply: true }
+          }, TOKEN);
+          return new Response('OK');
+        }
+
+        // 3. Anonim xabarga reply qilib javob yuborilganda
+        if (msg.reply_to_message) {
+          const replyText = msg.reply_to_message.text || msg.reply_to_message.caption || '';
+
+          // A) Foydalanuvchi anonim savol yubormoqda
+          if (replyText.includes("Anonim Xabar Yuborish") && replyText.includes("Target_ID:")) {
+            const matchTarget = replyText.match(/Target_ID:\s*(\d+)/);
+            const targetUserId = matchTarget ? matchTarget[1] : ADMIN_ID;
+
+            const safeContent = escapeHtml(text || msg.caption || "[Media Xabar]");
+            const senderName = escapeHtml(sanitizeText(msg.from.first_name));
+            const senderUsername = msg.from.username ? `@${msg.from.username}` : "Username yo'q";
+
+            // HAVOLA EGASIGA BORADIGAN ANONIM XABAR
+            const anonCaption = `<b>📩 Sizga yangi anonim xabar keldi:</b>\n\n<i>"${safeContent}"</i>`;
+            const sendResult = await forwardMediaOrText(targetUserId, msg, anonCaption, TOKEN);
+
+            if (!sendResult.ok) {
+              await api('sendMessage', {
+                chat_id: chatId,
+                text: "<b>❌ Xabar yetkazilmadi. Qabul qiluvchi botni bloklagan bo'lishi mumkin.</b>",
+                parse_mode: "HTML"
+              }, TOKEN);
+              return new Response('OK');
+            }
+
+            // ADMINGA BORADIGAN MONITORING
+            if (ADMIN_ID) {
+              const adminCaption = `<b>🕵️ [ANONIM XABAR MONITORINGI]</b>\n\n👤 <b>Kimdan:</b> ${senderName} (${senderUsername})\n🆔 <b>Sender_ID:</b> <code>${userId}</code>\n🎯 <b>Target_ID:</b> <code>${targetUserId}</code>\n\n💬 <b>Xabar:</b>\n<i>"${safeContent}"</i>`;
+              await forwardMediaOrText(ADMIN_ID, msg, adminCaption, TOKEN);
+            }
+
+            // YUBORGAN SHAXSGA TASDIQ
+            await api('sendMessage', {
+              chat_id: chatId,
+              text: "<b>✅ Xabaringiz muvaffaqiyatli yetkazildi!</b>",
+              parse_mode: "HTML",
+              reply_markup: getMainMenu(GITHUB_REPO)
+            }, TOKEN);
+            return new Response('OK');
+          }
+
+          // B) Admin javob yozayotganda
+          if (userId === ADMIN_ID && (replyText.includes("Sender_ID:") || replyText.includes("Target_ID:"))) {
+            const matchUser = replyText.match(/Sender_ID:\s*(\d+)/) || replyText.match(/Target_ID:\s*(\d+)/);
+
+            if (matchUser) {
+              const targetUserId = matchUser[1];
+              const safeReplyText = escapeHtml(text || msg.caption || "[Media Javob]");
+              const replyCaption = `<b>💬 Anonim xabaringizga javob keldi:</b>\n\n<i>"${safeReplyText}"</i>`;
+
+              const replyRes = await forwardMediaOrText(targetUserId, msg, replyCaption, TOKEN);
+
+              if (replyRes.ok) {
+                await api('sendMessage', {
+                  chat_id: ADMIN_ID,
+                  text: "<b>✅ Javobingiz foydalanuvchiga yetkazildi!</b>",
+                  parse_mode: "HTML"
+                }, TOKEN);
+              } else {
+                await api('sendMessage', {
+                  chat_id: ADMIN_ID,
+                  text: "<b>❌ Javob yetkazilmadi. Foydalanuvchi botni bloklagan bo'lishi mumkin.</b>",
+                  parse_mode: "HTML"
+                }, TOKEN);
+              }
+              return new Response('OK');
+            }
+          }
+        }
+
+        // 4. Standard Buyruqlar (/start)
         if (text === '/start') {
           if (userId === ADMIN_ID) {
             const personalLink = `https://t.me/${botUsername}?start=ask_${userId}`;
@@ -211,7 +262,7 @@ export default {
           } else {
             await api('sendMessage', {
               chat_id: chatId,
-              text: "<b>Xush kelibsiz!</b> Akademiyani ochish uchun pastdagi tugmani bosing.",
+              text: "<b>Xush kelibsiz!</b> Huququstoz akademiyasidan foydalanish uchun pastdagi tugmani bosing.",
               parse_mode: "HTML"
             }, TOKEN);
           }
@@ -225,7 +276,7 @@ export default {
           return new Response('OK');
         }
 
-        // "💬 Anonim savol" tugmasi
+        // 5. "💬 Anonim savol" tugmasi
         if (text === "💬 Anonim savol") {
           if (userId === ADMIN_ID) {
             const personalLink = `https://t.me/${botUsername}?start=ask_${userId}`;
@@ -246,15 +297,25 @@ export default {
           } else {
             await api('sendMessage', {
               chat_id: chatId,
-              text: "<b>Bu funksiya faqat admin uchun.</b>",
+              text: "<b>Bu xizmat faqat adminlar uchun faol.</b>",
               parse_mode: "HTML"
             }, TOKEN);
           }
           return new Response('OK');
         }
+
+        // 6. "🔔 Eslatma" tugmasi
+        if (text === "🔔 Eslatma") {
+          await api('sendMessage', {
+            chat_id: chatId,
+            text: "<b>🔔 Kunlik test eslatmalari faollashtirildi!</b>",
+            parse_mode: "HTML"
+          }, TOKEN);
+          return new Response('OK');
+        }
       }
 
-      // Inline tugmalar bosilganda
+      // Inline Callback Tugmalar
       if (update.callback_query) {
         const cb = update.callback_query;
         const userId = cb.from.id;
@@ -274,24 +335,12 @@ export default {
           }
           return new Response('OK');
         }
-
-        if (cb.data.startsWith('reply_') && userId === ADMIN_ID) {
-          const targetUserId = cb.data.replace('reply_', '').trim();
-          await api('answerCallbackQuery', { callback_query_id: cb.id, text: "Javobingizni yozing:" }, TOKEN);
-          await api('sendMessage', {
-            chat_id: ADMIN_ID,
-            text: `<b>✍️ Javobingizni shu xabarga Reply (javob) qilib yuboring:</b>\n\n🆔 <b>Target ID:</b> <code>${targetUserId}</code>`,
-            parse_mode: "HTML",
-            reply_markup: { force_reply: true }
-          }, TOKEN);
-          return new Response('OK');
-        }
       }
 
       return new Response('OK', { status: 200 });
     } catch (err) {
-      console.error('Webhook error:', err);
-      return new Response('Error handling update', { status: 500 });
+      console.error('Webhook ishlov berishda xato:', err);
+      return new Response('OK', { status: 200 }); // Telegram qayta-qayta takrorlamasligi uchun 200 qaytariladi
     }
   }
 };
