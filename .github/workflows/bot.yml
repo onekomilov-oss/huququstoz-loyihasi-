@@ -1,0 +1,62 @@
+name: Huququstoz Telegram Bot Runner
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: bot
+  cancel-in-progress: false
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+
+    steps:
+      - name: Asosiy kodni (main) yuklab olish
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Ma'lumotlar saqlanadigan (data) tarmoqni holat papkasiga yuklash
+        run: |
+          git config --global user.name "Huququstoz Bot"
+          git config --global user.email "bot@huququstoz.local"
+          git clone --single-branch --branch data https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git state || {
+            mkdir state
+            cd state
+            git init
+            git checkout -b data
+            git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          }
+
+      - name: Node.js muhitini sozlash
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Bot scriptini ishga tushirish
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          ADMIN_ID: "6345301727"
+          CHANNEL_ID: "-1002606641183"
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node bot.mjs
+
+      - name: O'zgarishlarni data tarmog'iga saqlash
+        if: always()
+        run: |
+          cd state
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "State update: $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+            git push origin data || {
+              git pull --rebase origin data
+              git push origin data
+            }
+          fi
