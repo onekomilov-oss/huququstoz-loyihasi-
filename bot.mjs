@@ -22,6 +22,8 @@ if (!fs.existsSync(STATE_DIR)) {
 // AES-256-GCM kalitini yaratish
 const ENC_KEY = crypto.createHash('sha256').update(TOKEN).digest();
 
+let botUsername = "huquqmindBot"; // Standart username fallback
+
 function encryptUserToken(userId) {
   const iv = crypto.randomBytes(12);
   const cipher = crypto.createCipheriv('aes-256-gcm', ENC_KEY, iv);
@@ -128,38 +130,74 @@ async function handleUpdate(update) {
     const userId = msg.from.id;
     const text = msg.text || '';
 
-    // Reply - Anonim savolga javob (Admin tomonidan)
-    if (userId === ADMIN_ID && msg.reply_to_message && msg.reply_to_message.text) {
+    // 1. SHAXSIY LINK ORQALI KIRGANDA (/start ask_USERID)
+    if (text.startsWith('/start ask_')) {
+      const targetUserId = text.replace('/start ask_', '').trim();
+      const token = encryptUserToken(userId);
+
+      await api('sendMessage', {
+        chat_id: chatId,
+        text: `💬 **Anonim Xabar Yuborish**\n\nSavol yoki xabaringizni pastda yozib yuboring. Xabaringiz manzil egasiga mutlaqo anonim tarzda yetkaziladi.`,
+        reply_markup: { force_reply: true }
+      });
+
+      // Target ID'ni vaqtinchalik saqlash/o'tkazish uchun session parametri
+      const sessionData = readJSONState('sessions.json', {});
+      sessionData[userId] = targetUserId;
+      writeJSONState('sessions.json', sessionData);
+      return;
+    }
+
+    // 2. REPLY ORQALI ANONIM SAVOL YUBORILGANDA
+    if (msg.reply_to_message && msg.reply_to_message.text && msg.reply_to_message.text.includes("Anonim Xabar Yuborish")) {
+      const sessionData = readJSONState('sessions.json', {});
+      const targetUserId = sessionData[userId];
+      const senderName = sanitizeText(msg.from.first_name);
+      const senderUsername = msg.from.username ? `@${msg.from.username}` : "Mavjud emas";
+      const senderId = userId;
+      const token = encryptUserToken(senderId);
+
+      // A) FOYDALANUVCHIGA (Mavzu egasiga) - Mutlaqo anonim tarzda boradi
+      if (targetUserId) {
+        await api('sendMessage', {
+          chat_id: targetUserId,
+          text: `📩 **Sizga yangi anonim xabar keldi:**\n\n"${text}"\n\n🔒 ${token}`
+        });
+      }
+
+      // B) ADMINGA (Sizga) - Kim yuborgani aniq ko'rinib boradi
+      if (ADMIN_ID) {
+        await api('sendMessage', {
+          chat_id: ADMIN_ID,
+          text: `🕵️ **[ADMIN MONITORING] Yangi Anonim Xabar**\n\n👤 **Kimdan:** ${senderName} (${senderUsername})\n🆔 **ID:** \`${senderId}\`\n🎯 **Kimga (Target ID):** \`${targetUserId || "Admin"}\`\n\n💬 **Xabar:**\n"${text}"\n\n🔒 ${token}`
+        });
+      }
+
+      await api('sendMessage', {
+        chat_id: chatId,
+        text: "✅ Xabaringiz anonim tarzda yetkazildi!"
+      });
+      return;
+    }
+
+    // 3. Admin Reply orqali anonim xabarlarga javob qaytarishi
+    if (msg.reply_to_message && msg.reply_to_message.text) {
       const origText = msg.reply_to_message.text;
       const match = origText.match(/🔒\s+([A-Za-z0-9_-]+\.[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+)/);
       if (match) {
-        const targetUserId = decryptUserToken(match[1]);
-        if (targetUserId) {
+        const replyTargetUserId = decryptUserToken(match[1]);
+        if (replyTargetUserId) {
           await api('sendMessage', {
-            chat_id: targetUserId,
-            text: `👨‍⚖️ Huquqshunos javobi:\n\n${text}`
+            chat_id: replyTargetUserId,
+            text: `💬 **Anonim xabaringizga javob keldi:**\n\n${text}`
           });
-          await api('sendMessage', { chat_id: ADMIN_ID, text: "Javob foydalanuvchiga yetkazildi!" });
+          await api('sendMessage', { chat_id: chatId, text: "Javob foydalanuvchiga yetkazildi!" });
           return;
         }
       }
     }
 
-    // Anonim savol yo'llash (Foydalanuvchi)
-    if (msg.reply_to_message && msg.reply_to_message.text && msg.reply_to_message.text.startsWith("💬 Anonim savol:")) {
-      const token = encryptUserToken(userId);
-      await api('sendMessage', {
-        chat_id: ADMIN_ID,
-        text: `📩 Anonim savol\n\n${text}\n\n🔒 ${token}`
-      });
-      await api('sendMessage', {
-        chat_id: chatId,
-        text: "Savolingiz mutaxassisga anonim ravishda yuborildi."
-      });
-      return;
-    }
-
-    // Kanal a'zoligini tekshirish
+    // 4. Kanal a'zoligini tekshirish
     const subbed = await isSubscribed(userId);
     if (!subbed) {
       await sendSubGate(chatId);
@@ -179,17 +217,19 @@ async function handleUpdate(update) {
       return;
     }
 
-    // Command: /start
+    // 5. Command: /start (Shaxsiy link va menyu taqdim etiladi)
     if (text === '/start') {
+      const personalLink = `https://t.me/${botUsername}?start=ask_${userId}`;
+
       await api('sendMessage', {
         chat_id: chatId,
-        text: `Xush kelibsiz! Akademiyani ochish uchun quyidagi tugmani bosing.\n\nMuhokama guruhi: @huquqmind`,
+        text: `Xush kelibsiz! Akademiyani ochish uchun quyidagi tugmani bosing.\n\n🔗 **Sizning shaxsiy anonim havolangiz:**\n\`${personalLink}\`\n\n_Ushbu havolani kanalingizga yoki profilingizga joylang. Do'stlaringiz sizga anonim xabarlar yuborishlari mumkin!_\n\nMuhokama guruhi: @huquqmind`,
         reply_markup: getMainMenu()
       });
       return;
     }
 
-    // Admin commands
+    // 6. Admin buyruqlari
     if (userId === ADMIN_ID) {
       if (msg.document) {
         const docName = msg.caption || msg.document.file_name || "Darslik";
@@ -217,12 +257,14 @@ async function handleUpdate(update) {
       }
     }
 
-    // Menyu tugmalari
+    // 7. Menyu tugmalari
     if (text === "💬 Anonim savol") {
+      const personalLink = `https://t.me/${botUsername}?start=ask_${userId}`;
+
       await api('sendMessage', {
         chat_id: chatId,
-        text: "💬 Anonim savol:\nSavlolingizni mazkur xabarga reply (javob) qilib yozib yuboring.",
-        reply_markup: { force_reply: true }
+        text: `💬 **Sizning Shaxsiy Anonim Havolangiz:**\n\n\`${personalLink}\`\n\nUshbu havolani nusxalab, profilingizga yoki kanalingizga qo'ying. Odamlar ushbu havola orqali sizga anonim xabar yuborishlari mumkin!`,
+        disable_web_page_preview: true
       });
       return;
     }
@@ -241,7 +283,7 @@ async function handleUpdate(update) {
       return;
     }
 
-    // WebApp orqali kelgan natijalar (tg.sendData)
+    // 8. WebApp orqali kelgan natijalar (tg.sendData)
     if (msg.web_app_data && msg.web_app_data.data) {
       try {
         const payload = JSON.parse(msg.web_app_data.data);
@@ -255,7 +297,6 @@ async function handleUpdate(update) {
             let leaderboard = readJSONState('leaderboard.json', []);
             let scores = readJSONState('scores.json', {});
 
-            // Yangi hafta kelsa reytingni nolga tushirish
             if (leaderboardMeta.week !== currentWeek) {
               leaderboardMeta.week = currentWeek;
               leaderboard = [];
@@ -265,14 +306,12 @@ async function handleUpdate(update) {
             const cleanName = sanitizeText(msg.from.first_name);
             const userHash = crypto.createHash('sha256').update(userId.toString()).digest('hex').substring(0, 10);
 
-            // Kunlik yuborish chegarasini tekshirish (≤40)
             const userScoreData = scores[userHash] || { count: 0, totalScore: 0 };
             if (userScoreData.count < 40) {
               userScoreData.count++;
               userScoreData.totalScore += c;
               scores[userHash] = userScoreData;
 
-              // Top-10 reytingni yangilash
               const existingIdx = leaderboard.findIndex(item => item.id === userHash);
               if (existingIdx >= 0) {
                 leaderboard[existingIdx].score = userScoreData.totalScore;
@@ -324,7 +363,6 @@ async function checkAndSendReminders() {
   const tashkentTime = new Date(utc + (3600000 * 5));
   const hour = tashkentTime.getHours();
 
-  // Toshkent vaqti bilan 07:00 va 21:00 oralig'ida
   if (hour >= 7 && hour < 21) {
     const today = tashkentTime.toISOString().split('T')[0];
     const hb = readJSONState('heartbeat.json', { lastReminderDate: "" });
@@ -340,7 +378,7 @@ async function checkAndSendReminders() {
       for (const subId of subs) {
         const res = await api('sendMessage', {
           chat_id: subId,
-          text: "Zokirjon, bugungi huquqiy streakni yangilash esdan chiqmadimi? 🔥 Kun testini yechish uchun bosing!",
+          text: "Bugungi huquqiy streakni yangilash esdan chiqmadimi? 🔥 Kun testini yechish uchun bosing!",
           reply_markup: {
             inline_keyboard: [
               [{ text: "🔥 Testni Boshlash", web_app: { url: webAppUrl } }]
@@ -358,10 +396,17 @@ async function checkAndSendReminders() {
   }
 }
 
-// Botni ishga tushirish (Long Polling ~285 soniya)
+// Bot ma'lumotlarini olish va ishga tushirish
 async function startBot() {
   console.log("Bot ishga tushdi...");
   await api('deleteWebhook');
+
+  try {
+    const me = await api('getMe');
+    if (me.ok && me.result.username) {
+      botUsername = me.result.username;
+    }
+  } catch (e) {}
 
   await checkAndSendReminders();
 
