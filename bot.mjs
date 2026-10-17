@@ -1,8 +1,17 @@
-// Cloudflare Pages / Workers uchun to'liq moslashtirilgan bot kodi
+// Cloudflare Pages / Workers uchun to'liq moslashtirilgan va to'g'rilangan bot kodi
 
 function sanitizeText(str) {
   if (!str) return 'Noma\'lum';
   return str.replace(/[\r\n\t]/g, ' ').trim().substring(0, 30);
+}
+
+// HTML teglari buzilib ketmasligi uchun escape funksiyasi
+function escapeHtml(str) {
+  if (!str) return '';
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
 }
 
 // Telegram API chaqiruvi
@@ -48,7 +57,7 @@ async function sendSubGate(chatId, token) {
 
 // Asosiy menyu
 function getMainMenu(githubRepo) {
-  const repoParts = githubRepo.split('/');
+  const repoParts = (githubRepo || "onekomilov-oss/huququstoz-loyihasi-").split('/');
   const webAppUrl = `https://${repoParts[0]}.github.io/${repoParts[1]}/`;
   return {
     keyboard: [
@@ -59,10 +68,9 @@ function getMainMenu(githubRepo) {
   };
 }
 
-// Main Webhook Handler (Cloudflare har bir kelgan xabarni shu yerda qabul qiladi)
+// Cloudflare Webhook Handler
 export default {
   async fetch(request, env, ctx) {
-    // Faqat POST so'rovlarini qabul qilamiz
     if (request.method !== 'POST') {
       return new Response('HuquqUstoz Bot Active', { status: 200 });
     }
@@ -79,14 +87,11 @@ export default {
     try {
       const update = await request.json();
 
-      // Telegram Update'lariga ishlov berish
       if (update.message) {
         const msg = update.message;
         const chatId = msg.chat.id;
         const userId = msg.from.id;
         const text = msg.text || '';
-
-        // Bot username belgilash
         const botUsername = "huquqmindBot";
 
         // 1. Anonim link orqali kirganda (/start ask_ID)
@@ -103,26 +108,37 @@ export default {
             return new Response('OK');
           }
 
-          // Force Reply orqali xabar kiritishni so'rash
+          // Force Reply orqali anonim xabar kiritishni so'rash (Target ID xabar matniga yashiriladi)
           await api('sendMessage', {
             chat_id: chatId,
-            text: `<b>💬 Anonim Xabar Yuborish</b>\n\nSavolingizni yozib yuboring. Xabaringiz mazkur foydalanuvchiga <b>mutlaqo anonim</b> tarzda yetkaziladi.\n\n<i>(Ushbu xabarga 'Reply' qilib yozing)</i>`,
+            text: `<b>💬 Anonim Xabar Yuborish</b>\n\nSavolingizni yozib yuboring. Xabaringiz mazkur foydalanuvchiga <b>mutlaqo anonim</b> tarzda yetkaziladi.\n\n<i>(Target ID: <code>${targetUserId}</code> — Ushbu xabarga 'Reply' qilib yozing)</i>`,
             parse_mode: "HTML",
             reply_markup: { force_reply: true }
           }, TOKEN);
           return new Response('OK');
         }
 
-        // 2. Foydalanuvchi anonim xabarga reply qilib javob yozganda
+        // 2. Foydalanuvchi anonim xabarni yozib yuborganda
         if (msg.reply_to_message && msg.reply_to_message.text && msg.reply_to_message.text.includes("Anonim Xabar Yuborish")) {
-          const senderName = sanitizeText(msg.from.first_name);
+          const matchTarget = msg.reply_to_message.text.match(/Target ID:\s*(\d+)/);
+          const targetUserId = matchTarget ? matchTarget[1] : ADMIN_ID;
+
+          const safeText = escapeHtml(text);
+          const senderName = escapeHtml(sanitizeText(msg.from.first_name));
           const senderUsername = msg.from.username ? `@${msg.from.username}` : "Username yo'q";
 
-          // ADMINGA - Kim yuborgani (Ism, Username va ID bilan)
+          // A) HAVOLA EGASIGA BORADIGAN XABAR (To'liq anonim)
+          await api('sendMessage', {
+            chat_id: targetUserId,
+            text: `<b>📩 Sizga yangi anonim xabar keldi:</b>\n\n<i>"${safeText}"</i>`,
+            parse_mode: "HTML"
+          }, TOKEN);
+
+          // B) ADMINGA BORADIGAN MONITORING XABARI
           if (ADMIN_ID) {
             await api('sendMessage', {
               chat_id: ADMIN_ID,
-              text: `<b>🕵️ [ANONIM XABAR MONITORINGI]</b>\n\n👤 <b>Kimdan:</b> ${senderName} (${senderUsername})\n🆔 <b>ID:</b> <code>${userId}</code>\n\n💬 <b>Xabar:</b>\n<i>"${text}"</i>`,
+              text: `<b>🕵️ [ANONIM XABAR MONITORINGI]</b>\n\n👤 <b>Kimdan:</b> ${senderName} (${senderUsername})\n🆔 <b>User ID:</b> <code>${userId}</code>\n🎯 <b>Target ID:</b> <code>${targetUserId}</code>\n\n💬 <b>Xabar:</b>\n<i>"${safeText}"</i>`,
               parse_mode: "HTML",
               reply_markup: {
                 inline_keyboard: [
@@ -132,7 +148,7 @@ export default {
             }, TOKEN);
           }
 
-          // YUBORGAN ODAMGA TASDIQ
+          // C) YUBORGAN ODAMGA TASDIQ
           await api('sendMessage', {
             chat_id: chatId,
             text: "<b>✅ Xabaringiz egasiga muvaffaqiyatli yetkazildi!</b>",
@@ -145,13 +161,17 @@ export default {
         // 3. Admin javob berishi (Reply orqali)
         if (userId === ADMIN_ID && msg.reply_to_message) {
           const origText = msg.reply_to_message.text || '';
-          const match = origText.match(/ID:\s*(\d+)/) || msg.reply_to_message.caption?.match(/ID:\s*(\d+)/);
           
-          if (match) {
-            const targetUserId = match[1];
+          // Monitoring xabari yoki Target ID xabaridan user_id ajratib olish
+          const matchUser = origText.match(/User ID:\s*(\d+)/) || origText.match(/Target ID:\s*(\d+)/);
+
+          if (matchUser) {
+            const targetUserId = matchUser[1];
+            const safeReplyText = escapeHtml(text);
+
             await api('sendMessage', {
               chat_id: targetUserId,
-              text: `<b>💬 Anonim xabaringizga javob keldi:</b>\n\n<i>"${text}"</i>`,
+              text: `<b>💬 Anonim xabaringizga javob keldi:</b>\n\n<i>"${safeReplyText}"</i>`,
               parse_mode: "HTML"
             }, TOKEN);
 
