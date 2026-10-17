@@ -41,16 +41,7 @@ function writeJSONState(file, data) {
   }
 }
 
-// HTML Escape funksiyasi
-function escapeHtml(str) {
-  if (!str) return '';
-  return String(str)
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;');
-}
-
-// Telegram API chaqiruvi (Xatosiz variant)
+// Telegram API so'rovi
 async function api(method, params = {}) {
   try {
     const res = await fetch(`${API_BASE}/${method}`, {
@@ -118,24 +109,14 @@ async function handleUpdate(update) {
 
     let sessionData = readJSONState('sessions.json', {});
 
-    // Media yuborilganda matn so'rash
-    if (sessionData[userId] && !msg.text && (msg.photo || msg.voice || msg.video || msg.document || msg.sticker)) {
-      await api('sendMessage', {
-        chat_id: chatId,
-        text: "<b>Iltimos, matn ko'rinishida yuboring.</b>",
-        parse_mode: "HTML"
-      });
-      return;
-    }
-
-    // 1. Anonim link orqali kirganda (/start ask_ID)
+    // 1. Shaxsiy link orqali kirganda (/start ask_ID)
     if (text.startsWith('/start ask_')) {
       const targetUserId = text.replace('/start ask_', '').trim();
 
       if (parseInt(targetUserId, 10) === userId) {
         await api('sendMessage', {
           chat_id: chatId,
-          text: "<b>Bu sizning shaxsiy havolangiz.</b>",
+          text: "<b>Bu sizning shaxsiy havolangiz. Uni do'stlaringizga ulashing!</b>",
           parse_mode: "HTML",
           reply_markup: getMainMenu()
         });
@@ -154,35 +135,27 @@ async function handleUpdate(update) {
       return;
     }
 
-    // 2. Anonim xabar yuborilganda
+    // 2. Foydalanuvchi anonim xabar yuborganda
     if (sessionData[userId] && text && !text.startsWith('/')) {
       const targetUserId = sessionData[userId];
       delete sessionData[userId];
       writeJSONState('sessions.json', sessionData);
 
-      const safeText = escapeHtml(text);
-      const senderName = escapeHtml(sanitizeText(msg.from.first_name));
-      const rawUsername = msg.from.username ? msg.from.username.trim() : "";
+      const senderName = sanitizeText(msg.from.first_name);
+      const senderUsername = msg.from.username ? `@${msg.from.username}` : "Username yo'q";
 
-      // Target foydalanuvchiga boradigan anonim xabar
+      // A) EGASIGA (Qabul qiluvchiga) - Faqat anonim matn boradi
       await api('sendMessage', {
         chat_id: targetUserId,
-        text: `<b>📩 Sizga yangi anonim xabar keldi:</b>\n\n<i>"${safeText}"</i>`,
+        text: `<b>📩 Sizga yangi anonim xabar keldi:</b>\n\n<i>"${text}"</i>`,
         parse_mode: "HTML"
       });
 
-      // Adminga boradigan monitoring xabari
+      // B) ADMINGA - Kim yuborgani (Ism, Username va ID) bilan ko'rinadi
       if (ADMIN_ID) {
-        let userLink = "";
-        if (rawUsername) {
-          userLink = `<a href="https://t.me/${rawUsername}">@${escapeHtml(rawUsername)}</a>`;
-        } else {
-          userLink = `<a href="tg://user?id=${userId}">${senderName}</a> (Username yo'q)`;
-        }
-
-        const adminMsgRes = await api('sendMessage', {
+        await api('sendMessage', {
           chat_id: ADMIN_ID,
-          text: `<b>🕵️ [ANONIM XABAR MONITORINGI]</b>\n\n👤 <b>Kimdan:</b> ${userLink}\n🆔 <b>ID:</b> <code>${userId}</code>\n🎯 <b>Kimga (Target ID):</b> <code>${targetUserId}</code>\n\n💬 <b>Xabar:</b>\n<i>"${safeText}"</i>`,
+          text: `<b>🕵️ [ANONIM XABAR MONITORINGI]</b>\n\n👤 <b>Kimdan:</b> ${senderName} (${senderUsername})\n🆔 <b>ID:</b> <code>${userId}</code>\n🎯 <b>Kimga (Target ID):</b> <code>${targetUserId}</code>\n\n💬 <b>Xabar:</b>\n<i>"${text}"</i>`,
           parse_mode: "HTML",
           reply_markup: {
             inline_keyboard: [
@@ -190,18 +163,9 @@ async function handleUpdate(update) {
             ]
           }
         });
-
-        if (adminMsgRes.ok && adminMsgRes.result) {
-          const replySessions = readJSONState('reply_sessions.json', {});
-          replySessions[adminMsgRes.result.message_id] = {
-            targetUserId: userId,
-            createdAt: Date.now()
-          };
-          writeJSONState('reply_sessions.json', replySessions);
-        }
       }
 
-      // Yuboruvchiga tasdiq
+      // C) YUBORGAN ODAMGA TASDIQ
       await api('sendMessage', {
         chat_id: chatId,
         text: "<b>✅ Xabaringiz egasiga muvaffaqiyatli yetkazildi!</b>",
@@ -211,44 +175,29 @@ async function handleUpdate(update) {
       return;
     }
 
-    // 3. Admin Reply Orqali Javob Berishi
-    if (userId === ADMIN_ID && msg.reply_to_message) {
-      const repliedMsgId = msg.reply_to_message.message_id;
+    // 3. Admin javob yuborayotgani (Reply orqali)
+    if (userId === ADMIN_ID && msg.reply_to_message && msg.reply_to_message.text) {
       let replySessions = readJSONState('reply_sessions.json', {});
-      const session = replySessions[repliedMsgId];
+      if (replySessions[ADMIN_ID]) {
+        const targetUserId = replySessions[ADMIN_ID];
+        delete replySessions[ADMIN_ID];
+        writeJSONState('reply_sessions.json', replySessions);
 
-      if (session) {
-        if (Date.now() - session.createdAt < 600000) { // 10 daqiqa
-          const safeReplyText = escapeHtml(text);
-          await api('sendMessage', {
-            chat_id: session.targetUserId,
-            text: `<b>💬 Anonim xabaringizga javob keldi:</b>\n\n<i>"${safeReplyText}"</i>`,
-            parse_mode: "HTML"
-          });
-          
-          await api('sendMessage', {
-            chat_id: ADMIN_ID,
-            text: "<b>✅ Javob foydalanuvchiga yetkazildi!</b>",
-            parse_mode: "HTML"
-          });
-
-          delete replySessions[repliedMsgId];
-          writeJSONState('reply_sessions.json', replySessions);
-          return;
-        } else {
-          delete replySessions[repliedMsgId];
-          writeJSONState('reply_sessions.json', replySessions);
-          await api('sendMessage', {
-            chat_id: ADMIN_ID,
-            text: "<b>⚠️ Javob berish vaqti tugagan (10 daqiqa o'tib ketgan).</b>",
-            parse_mode: "HTML"
-          });
-          return;
-        }
+        await api('sendMessage', {
+          chat_id: targetUserId,
+          text: `<b>💬 Anonim xabaringizga javob keldi:</b>\n\n<i>"${text}"</i>`,
+          parse_mode: "HTML"
+        });
+        await api('sendMessage', { 
+          chat_id: ADMIN_ID, 
+          text: "<b>✅ Javob foydalanuvchiga yetkazildi!</b>", 
+          parse_mode: "HTML" 
+        });
+        return;
       }
     }
 
-    // Kanal obunasi
+    // Kanal obunasini tekshirish
     const subbed = await isSubscribed(userId);
     if (!subbed) {
       await sendSubGate(chatId);
@@ -268,7 +217,7 @@ async function handleUpdate(update) {
       return;
     }
 
-    // /start buyrug'i
+    // /start buyrug'i (Faqat admin uchun havola)
     if (text === '/start') {
       if (userId === ADMIN_ID) {
         const personalLink = `https://t.me/${botUsername}?start=ask_${userId}`;
@@ -302,7 +251,7 @@ async function handleUpdate(update) {
       return;
     }
 
-    // Admin boshqaruvi
+    // Admin buyruqlari
     if (userId === ADMIN_ID) {
       if (msg.document) {
         const docName = msg.caption || msg.document.file_name || "Darslik";
@@ -392,11 +341,20 @@ async function handleUpdate(update) {
       return;
     }
 
+    // Admin javob yozish tugmasi
     if (cb.data.startsWith('reply_') && userId === ADMIN_ID) {
-      await api('answerCallbackQuery', { 
-        callback_query_id: cb.id, 
-        text: "Javob berish uchun tepadagi monitoring xabariga 'Reply' (Javob) qilib yozing.",
-        show_alert: true 
+      const targetUserId = cb.data.replace('reply_', '').trim();
+      
+      let replySessions = readJSONState('reply_sessions.json', {});
+      replySessions[ADMIN_ID] = targetUserId;
+      writeJSONState('reply_sessions.json', replySessions);
+
+      await api('answerCallbackQuery', { callback_query_id: cb.id, text: "Javobingizni yozib yuboring:" });
+      await api('sendMessage', {
+        chat_id: ADMIN_ID,
+        text: `<b>✍️ Ushbu foydalanuvchiga yubormoqchi bo'lgan javobingizni yozing va shu xabarga Reply (javob) qilib yuboring:</b>`,
+        parse_mode: "HTML",
+        reply_markup: { force_reply: true }
       });
       return;
     }
@@ -415,16 +373,23 @@ async function startBot() {
   } catch (e) {}
 
   let offset = 0;
-
-  // Eski kutilayotgan updatelarni tozalash
-  try {
-    const pendingRes = await api('getUpdates', { offset: -1, timeout: 0 });
-    if (pendingRes.ok && pendingRes.result && pendingRes.result.length > 0) {
-      offset = pendingRes.result[pendingRes.result.length - 1].update_id + 1;
-    }
-  } catch (e) {}
-
   const startTime = Date.now();
 
-  // Polling loop
-  while (Date.now() - startTime < 285
+  while (Date.now() - startTime < 285000) {
+    try {
+      const res = await api('getUpdates', { offset, timeout: 50 });
+      if (res.ok && res.result && res.result.length > 0) {
+        for (const update of res.result) {
+          await handleUpdate(update);
+          offset = update.update_id + 1;
+        }
+      }
+    } catch (e) {
+      console.error("Polling xatosi:", e.message);
+      await new Promise(r => setTimeout(r, 2000));
+    }
+  }
+  console.log("Polling yakunlandi.");
+}
+
+startBot();
