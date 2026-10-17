@@ -1,6 +1,10 @@
 (function () {
   const tg = window.Telegram ? window.Telegram.WebApp : null;
-  const cfg = window.HUQUQUSTOZ_CONFIG || { owner: "onekomilov-oss", repo: "huququstoz-loyihasi-" };
+  const cfg = window.HUQUQUSTOZ_CONFIG || { 
+    owner: "onekomilov-oss", 
+    repo: "huququstoz-loyihasi-",
+    botUsername: "huquqmindBot" // Fix 1: Bot username qo'shildi
+  };
   const RAW_BASE = `https://raw.githubusercontent.com/${cfg.owner}/${cfg.repo}/data/`;
 
   let appState = {
@@ -339,7 +343,6 @@
       btnEl.classList.add("wrong");
       if (letterBadge) letterBadge.textContent = "✕";
 
-      // To'g'ri javobni ko'rsatish
       allBtns.forEach(b => {
         const spanText = b.querySelector("span:not(.option-letter)");
         if (spanText && spanText.textContent === question.o[question.a]) {
@@ -350,7 +353,6 @@
       });
     }
 
-    // Tahlil paneli
     const analysisPanel = document.getElementById("analysis-panel");
     const analysisText = document.getElementById("analysis-text");
     analysisText.textContent = question.why || "Tahlil mavjud emas.";
@@ -439,13 +441,12 @@
     }
   };
 
-  // Reytingni yuklash (Medallar va progress progress-barda)
   async function fetchLeaderboard() {
     const listEl = document.getElementById("leaderboard-list");
     if (!listEl) return;
     listEl.innerHTML = "<li>Yuklanmoqda...</li>";
     try {
-      const res = await fetch(RAW_BASE + "leaderboard.json");
+      const res = await fetch(RAW_BASE + "leaderboard.json?v=" + Date.now());
       if (!res.ok) throw new Error();
       const data = await res.json();
       listEl.innerHTML = "";
@@ -484,12 +485,11 @@
     }
   }
 
-  // Kutubxona va 52 Hujjat
   async function fetchLibrary() {
     const docsListEl = document.getElementById("library-docs-list");
     if (docsListEl) docsListEl.innerHTML = "Yuklanmoqda...";
     try {
-      const res = await fetch(RAW_BASE + "library.json");
+      const res = await fetch(RAW_BASE + "library.json?v=" + Date.now());
       if (!res.ok) throw new Error();
       const docs = await res.json();
       if (docsListEl) {
@@ -505,7 +505,7 @@
             <button class="btn btn-secondary" style="padding:6px 12px; font-size:12px; width:auto;">Ochish</button>
           `;
           item.querySelector("button").onclick = () => {
-            const url = `https://t.me/${cfg.botUsername}?start=lib_${d.id}`;
+            const url = `https://t.me/${cfg.botUsername || "huquqmindBot"}?start=lib_${d.id}`;
             if (tg && tg.openTelegramLink) {
               tg.openTelegramLink(url);
             } else {
@@ -519,7 +519,6 @@
       if (docsListEl) docsListEl.innerHTML = "Darsliklar mavjud emas.";
     }
 
-    // 52 Hujjat
     try {
       const resLaws = await fetch("laws.json");
       const laws = await resLaws.json();
@@ -558,13 +557,14 @@
     };
   }
 
+  // Fix 2: 52 Hujjat tugmasi bosilganda to'g'ri ro'yxatni ko'rsatish
   const subLawsBtn = document.getElementById("btn-sub-laws");
   if (subLawsBtn) {
     subLawsBtn.onclick = function () {
       this.classList.add("active");
       document.getElementById("btn-sub-docs").classList.remove("active");
-      document.getElementById("library-docs-list").classList.remove("hidden");
-      document.getElementById("library-laws-list").classList.add("hidden");
+      document.getElementById("library-docs-list").classList.add("hidden");
+      document.getElementById("library-laws-list").classList.remove("hidden");
     };
   }
 
