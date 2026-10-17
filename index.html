@@ -3,22 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' https://telegram.org; style-src 'self'; img-src 'self' data:; connect-src 'self' https://raw.githubusercontent.com;">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' https://telegram.org; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' https://raw.githubusercontent.com;">
   <title>Huququstoz — Gamifikatsiyalangan Raqamli Akademiya</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://telegram.org/js/telegram-web-app.js"></script>
   <script src="config.js"></script>
 </head>
 <body>
-  <!-- Telegram tashqarisida ochilganda ko'rinadigan blok -->
+  <!-- Neon Orb Fon Effektlari -->
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+
+  <!-- Telegram tashqarisida ochilganda -->
   <div id="external-warning" class="app-card hidden" style="margin:20px; text-align:center;">
     <h2>⚠️ Kirish cheklangan</h2>
-    <p>Ilovani Telegram ichidagi rasmiy botdan oching.</p>
-    <p><small>Brauzerda sinash uchun test rejimida <code>?preview=1</code> ishlatishingiz mumkin.</small></p>
+    <p style="margin-top:8px;">Ilovani Telegram ichidagi rasmiy botdan oching.</p>
+    <p style="margin-top:12px;"><small>Brauzerda sinash uchun test rejimida <code>?preview=1</code> ishlatishingiz mumkin.</small></p>
   </div>
 
   <div id="app" class="app-container hidden">
-    <!-- Yuqori panel: Profil va Streak -->
+    <!-- Yuqori panel -->
     <header class="top-bar">
       <div class="user-info">
         <span class="avatar-icon">⚖️</span>
@@ -33,13 +37,13 @@
       </div>
     </header>
 
-    <!-- Asosiy ekranlar containeri -->
+    <!-- Asosiy ekranlar -->
     <main class="main-content">
       <!-- 1. BOSH SAHIFA -->
       <section id="tab-home" class="tab-page active">
         <div class="app-card hero-card">
           <h1>Huququstoz Akademiyasi</h1>
-          <p>Barcha davlat va huquq asoslarini chuqurlashtirilgan interaktiv testlar va tahlillar orqali o'rganing.</p>
+          <p>Barcha davlat va huquq asoslarini interaktiv testlar hamda chuqurlashtirilgan tahlillar orqali o'rganing.</p>
         </div>
         <div class="app-card stats-overview">
           <div class="stat-box">
@@ -57,7 +61,7 @@
       <!-- 2. TESTLAR BO'LIMI -->
       <section id="tab-tests" class="tab-page">
         <div id="topic-select-view">
-          <h2>Mavzular ro'yxati</h2>
+          <h2 style="margin-bottom:14px; font-family:Georgia, serif;">Mavzular ro'yxati</h2>
           <div id="topics-list" class="topics-list"></div>
         </div>
         
@@ -76,17 +80,17 @@
           <div id="analysis-panel" class="app-card analysis-panel hidden">
             <h3>📖 Huquqiy tahlil</h3>
             <p id="analysis-text"></p>
-            <button id="btn-lex-link" class="btn btn-secondary">📖 Lex.uz da ko'rish</button>
-            <button id="btn-next-question" class="btn btn-primary" style="margin-top:10px;">Keyingi savol →</button>
+            <button id="btn-lex-link" class="btn btn-secondary btn-block">📖 Lex.uz da ko'rish</button>
+            <button id="btn-next-question" class="btn btn-primary btn-block" style="margin-top:10px;">Keyingi savol →</button>
           </div>
         </div>
       </section>
 
       <!-- 3. REYTING BO'LIMI -->
       <section id="tab-leaderboard" class="tab-page">
-        <h2>🏆 Oliy Sud Sudyalari (Top-10)</h2>
-        <p class="disclaimer-text">Reytingga yuborilgan natijalar va ismingiz haftalik umumiy ro'yxatda ommaga ko'rsatiladi.</p>
-        <div class="app-card">
+        <h2 style="margin-bottom:6px; font-family:Georgia, serif;">🏆 Oliy Sud Sudyalari</h2>
+        <p class="disclaimer-text">Reytingga yuborilgan natijalar va ismingiz haftalik umumiy TOP-10 ro'yxatida ko'rsatiladi.</p>
+        <div class="app-card" style="padding:10px;">
           <ul id="leaderboard-list" class="leaderboard-list">
             <li>Yuklanmoqda...</li>
           </ul>
@@ -95,7 +99,7 @@
 
       <!-- 4. KUTUBXONA BO'LIMI -->
       <section id="tab-library" class="tab-page">
-        <h2>📚 Darsliklar va Qonunlar</h2>
+        <h2 style="margin-bottom:12px; font-family:Georgia, serif;">📚 Darsliklar va Qonunlar</h2>
         <div class="tab-sub-nav">
           <button id="btn-sub-docs" class="btn-tab-sub active">Darsliklar</button>
           <button id="btn-sub-laws" class="btn-tab-sub">52 ta Hujjat</button>
@@ -106,7 +110,7 @@
 
       <!-- 5. GUVOHNOMA BO'LIMI -->
       <section id="tab-cert" class="tab-page">
-        <h2>📜 Virtual Guvohnoma</h2>
+        <h2 style="margin-bottom:14px; font-family:Georgia, serif;">📜 Virtual Guvohnoma</h2>
         <div id="cert-card" class="cert-card">
           <div class="cert-header">
             <span class="cert-emblem">⚖️</span>
@@ -122,7 +126,7 @@
             </div>
           </div>
           <div class="cert-footer">
-            Skrinshot qilib @huquqmind da ulashing!
+            Skrinshot qilib @huquqmind guruhida ulashing!
           </div>
         </div>
       </section>
