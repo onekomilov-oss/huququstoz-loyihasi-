@@ -1,1 +1,367 @@
 
+[
+  {
+    "topic": "Konstitutsiya: 1-bosqich",
+    "q": "O‘zbekiston Respublikasi Konstitutsiyasining 1-moddasiga muvofiq, davlat qanday davlat hisoblanadi?",
+    "o": [
+      "Suveren, demokratik, huquqiy, ijtimoiy va dunyoviy davlat",
+      "Suveren, unitar, demokratik va diniy davlat",
+      "Federativ, huquqiy, ijtimoiy va dunyoviy davlat",
+      "Demokratik, monarxiya boshqaruvidagi davlat"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Konstitutsiya: 1-bosqich",
+    "q": "Konstitutsiyaning 3-moddasiga ko‘ra, O‘zbekiston Respublikasining hududi va davlat chegarasi qanday?",
+    "o": [
+      "Viloyatlar roziligi bilan istalgan vaqtda o‘zgartiriladi",
+      "Daxlsiz va bo‘linmasdir",
+      "Faqat xalqaro tashkilot qarori bilan o‘zgartiriladi",
+      "Hududiy birliklar mustaqil ravishda o‘zgartirishi mumkin"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Konstitutsiya: 1-bosqich",
+    "q": "Konstitutsiyaning 7-moddasiga muvofiq, xalq davlat hokimiyatining qanday manbaidir?",
+    "o": [
+      "Asosiy manbai",
+      "Boshqaruvchi manbai",
+      "Birdan-bir manbai",
+      "Oliy va qonuniy manbai"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Konstitutsiya: 1-bosqich",
+    "q": "Konstitutsiyaning 15-moddasiga muvofiq, Konstitutsiyaning huquqiy maqomi qanday?",
+    "o": [
+      "Oddiy qonunlar bilan teng yuridik kuchga ega",
+      "Faqat davlat organlari uchun majburiy",
+      "Sud qarorlari bilan o‘zgartirilishi mumkin",
+      "Oliy yuridik kuchga ega, to‘g‘ridan-to‘g‘ri amal qiladi va yagona huquqiy makonning asosini tashkil etadi"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Konstitutsiya: 1-bosqich",
+    "q": "Konstitutsiyaning 10-moddasiga ko‘ra, O‘zbekiston xalqi nomidan kim ish olib borishi mumkin?",
+    "o": [
+      "Faqat O‘zbekiston Respublikasi Oliy Majlisi va Prezidenti",
+      "Har qanday siyosiy partiya",
+      "Barcha jamoat birlashmalari",
+      "Alohida shaxslar va siyosiy harakatlar"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Konstitutsiya: 1-bosqich",
+    "q": "Konstitutsiyaning 19-moddasiga ko‘ra, inson huquq va erkinliklari qachondan boshlab tegishli bo‘ladi?",
+    "o": [
+      "18 yoshga to‘lgandan boshlab",
+      "Tug‘ilganidan boshlab",
+      "Fuqarolik pasporti olgandan boshlab",
+      "Saylov huquqiga ega bo‘lgandan boshlab"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Konstitutsiya: 1-bosqich",
+    "q": "Konstitutsiyaning 20-moddasiga ko‘ra, inson va davlat organlari o‘rtasidagi ziddiyat hamda noaniqliklar kimning foydasiga talqin etiladi?",
+    "o": [
+      "Davlat organining",
+      "Prokuraturaning",
+      "Insonning",
+      "Davlat rahbarining"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Konstitutsiya: 1-bosqich",
+    "q": "Konstitutsiyaning 27-moddasiga ko‘ra, shaxs sud qarorisiz ko‘pi bilan qancha muddat ushlab turilishi mumkin?",
+    "o": [
+      "24 soat",
+      "36 soat",
+      "72 soat",
+      "48 soat"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Konstitutsiya: 1-bosqich",
+    "q": "Konstitutsiyaning 28-moddasiga ko‘ra, shaxsning o‘z aybini tan olishi qanday holatda uni aybdor deb topish uchun yetarli emas?",
+    "o": [
+      "Aybni tan olish unga qarshi yagona dalil bo‘lsa",
+      "Shaxs voyaga yetgan bo‘lsa",
+      "Ish sudda ko‘rilayotgan bo‘lsa",
+      "Shaxs advokat yollagan bo‘lsa"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Konstitutsiya: 1-bosqich",
+    "q": "Konstitutsiyaning 29-moddasiga muvofiq, yuridik yordam qaysi holatda davlat hisobidan ko‘rsatiladi?",
+    "o": [
+      "Barcha holatlarda",
+      "Qonunda nazarda tutilgan hollarda",
+      "Faqat fuqarolik nizolarida",
+      "Faqat sud hukmi chiqarilgandan keyin"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Konstitutsiya: 1-bosqich",
+    "q": "Yashash huquqi va o‘lim jazosining taqiqlanishi Konstitutsiyaning qaysi moddasida belgilangan?",
+    "o": [
+      "31-modda",
+      "42-modda",
+      "25-modda",
+      "128-modda"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Konstitutsiya: 1-bosqich",
+    "q": "Shaxsiy hayot daxlsizligi va uy-joy daxlsizligiga oid huquqlar qaysi moddada mustahkamlangan?",
+    "o": [
+      "25-modda",
+      "42-modda",
+      "128-modda",
+      "31-modda"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Konstitutsiya: 1-bosqich",
+    "q": "Konstitutsiyaning 31-moddasiga ko‘ra, uy-joyda tintuv o‘tkazishga qaysi asosda yo‘l qo‘yiladi?",
+    "o": [
+      "Qonunga muvofiq va sud qarori asosida",
+      "Har qanday mansabdor shaxsning og‘zaki talabi bilan",
+      "Faqat mahalla roziligi bilan",
+      "Uy egasiga xabar bermasdan har qanday holatda"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Konstitutsiya: 1-bosqich",
+    "q": "Konstitutsiyaning 82-moddasiga ko‘ra, O‘zbekistonda senzura borasida qanday qoida belgilangan?",
+    "o": [
+      "Senzuraga faqat saylov vaqtida ruxsat etiladi",
+      "Senzura taqiqlanadi",
+      "Senzura faqat xususiy nashrlarga qo‘llanadi",
+      "Senzura faqat mahalliy organlar tomonidan belgilanadi"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Konstitutsiya: 1-bosqich",
+    "q": "Konstitutsiyaning 30-moddasiga ko‘ra, qanday harakat taqiqlanadi?",
+    "o": [
+      "Qonun asosida soliq undirish",
+      "Sud qarori bilan jazo tayinlash",
+      "Rasmiy e’lon qilinmagan qonun asosida hukm qilish yoki jazoga tortish",
+      "Qonuniy tartibda dalillarni tekshirish"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Konstitutsiya: 1-bosqich",
+    "q": "Konstitutsiyaning 4-moddasiga muvofiq, O‘zbekiston Respublikasining davlat tili qaysi til?",
+    "o": [
+      "Qoraqalpoq tili",
+      "Rus tili",
+      "O‘zbek va rus tillari",
+      "O‘zbek tili"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Konstitutsiya: 1-bosqich",
+    "q": "Konstitutsiyaning 13-moddasiga muvofiq, demokratik davlatda oliy qadriyat nima hisoblanadi?",
+    "o": [
+      "Inson, uning hayoti, erkinligi, sha’ni, qadr-qimmati va boshqa ajralmas huquqlari",
+      "Davlatning iqtisodiy qudrati",
+      "Siyosiy partiyalarning faoliyati",
+      "Xalqaro maydondagi obro‘"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Konstitutsiya: 1-bosqich",
+    "q": "Konstitutsiyaning 22-moddasiga muvofiq, O‘zbekiston Respublikasida qanday fuqarolik belgilanadi?",
+    "o": [
+      "Har bir viloyat uchun alohida fuqarolik",
+      "Yagona fuqarolik",
+      "Faqat hududiy fuqarolik",
+      "Fuqarolikni faqat sud belgilaydi"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Konstitutsiya: 1-bosqich",
+    "q": "Konstitutsiyaning 33-moddasiga muvofiq, axborotni izlash, olish va tarqatish huquqi qanday cheklanishi mumkin?",
+    "o": [
+      "Hech qanday holatda cheklanmaydi",
+      "Faqat ijtimoiy tarmoqlar qarori bilan",
+      "Qonunga muvofiq va zarur hollarda",
+      "Faqat davlat organining og‘zaki ko‘rsatmasi bilan"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Konstitutsiya: 1-bosqich",
+    "q": "Konstitutsiyaning 12-moddasiga ko‘ra, ijtimoiy hayot qanday asosda rivojlanadi?",
+    "o": [
+      "Faqat bitta hukmron mafkura asosida",
+      "Chet davlatlarning ko‘rsatmalari asosida",
+      "Faqat iqtisodiy manfaatlar asosida",
+      "Siyosiy institutlar, mafkuralar va fikrlarning xilma-xilligi asosida"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Konstitutsiya: 1-bosqich",
+    "q": "Konstitutsiyaning 26-moddasiga ko‘ra, qaysi muomala va harakatlar taqiqlanadi?",
+    "o": [
+      "Qiynoq, zo‘ravonlik va boshqa shafqatsiz, g‘ayriinsoniy yoki qadr-qimmatni kamsituvchi muomala",
+      "Qonuniy tibbiy yordam ko‘rsatish",
+      "Shaxsning sha’ni va qadr-qimmatini hurmat qilish",
+      "Rozilik asosidagi qonuniy ilmiy tadqiqot"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Konstitutsiya: 1-bosqich",
+    "q": "Konstitutsiyaning 11-moddasiga ko‘ra, davlat hokimiyati tizimi qaysi prinsipga asoslanadi?",
+    "o": [
+      "Hokimiyatni bir qo‘lda jamlashga",
+      "Qonun chiqaruvchi, ijro etuvchi va sud hokimiyatining bo‘linishiga",
+      "Mahalliy va markaziy organlarni birlashtirishga",
+      "Partiyalar o‘rtasida vakolatlarni taqsimlashga"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Konstitutsiya: 1-bosqich",
+    "q": "O‘zbekiston Respublikasi Konstitutsiyasining 1-moddasida davlat boshqaruv shakli qanday belgilangan?",
+    "o": [
+      "Mutlaq monarxiya",
+      "Federativ monarxiya",
+      "Respublika",
+      "Konfederatsiya"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Konstitutsiya: 1-bosqich",
+    "q": "O‘zbekiston Respublikasining davlat ramzlari nimalardan iborat?",
+    "o": [
+      "Bayroq va gerbdan",
+      "Bayroq, gerb va poytaxt ramzidan",
+      "Gerb, madhiyadan va davlat muhridan",
+      "Bayroq, gerb va madhiyadan"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Konstitutsiya: 1-bosqich",
+    "q": "Konstitutsiyaning 2-moddasiga ko‘ra, davlat kimning irodasini ifoda etadi va kimning manfaatlariga xizmat qiladi?",
+    "o": [
+      "Xalqning",
+      "Faqat davlat organlarining",
+      "Faqat siyosiy partiyalarning",
+      "Faqat tadbirkorlarning"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Konstitutsiya: 1-bosqich",
+    "q": "Konstitutsiyaning 23-moddasiga muvofiq, O‘zbekiston o‘z fuqarolarini qayerda himoya qilishni kafolatlaydi?",
+    "o": [
+      "Faqat O‘zbekiston hududida",
+      "O‘zbekiston hududida ham, uning tashqarisida ham",
+      "Faqat chet elda",
+      "Faqat diplomatik vakolatxonalar joylashgan davlatlarda"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Konstitutsiya: 1-bosqich",
+    "q": "Konstitutsiyaning 14-moddasiga muvofiq, davlat o‘z faoliyatini qaysi prinsiplarga asoslanib amalga oshiradi?",
+    "o": [
+      "Faqat iqtisodiy foyda olishga",
+      "Buyruqbozlikka",
+      "Qonuniylik, ijtimoiy adolat va birdamlikka",
+      "Chet davlatlarning ko‘rsatmalariga"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Konstitutsiya: 1-bosqich",
+    "q": "Konstitutsiyaning 21-moddasiga ko‘ra, inson o‘z huquq va erkinliklarini amalga oshirayotganda nimalarga putur yetkazmasligi kerak?",
+    "o": [
+      "Faqat xalqaro tashkilotlarning hisobotlariga",
+      "Chet davlatlarning savdo shartnomalariga",
+      "Mahalliy organlarning shaxsiy rejalariga",
+      "Boshqa shaxslarning, jamiyat va davlatning huquqlari, erkinliklari hamda qonuniy manfaatlariga"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Konstitutsiya: 1-bosqich",
+    "q": "Konstitutsiyaning 9-moddasiga ko‘ra, jamiyat va davlat hayotining eng muhim masalalari qanday hal etiladi?",
+    "o": [
+      "Xalq muhokamasiga taqdim etilishi va referendumga qo‘yilishi mumkin",
+      "Faqat vazirliklar tomonidan yopiq tarzda hal etiladi",
+      "Faqat xalqaro tashkilotlar tomonidan hal etiladi",
+      "Faqat iqtisodiy masalalar bo‘yicha referendum o‘tkaziladi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Konstitutsiya: 1-bosqich",
+    "q": "Konstitutsiyaning 17-moddasiga muvofiq, O‘zbekiston tashqi siyosatining asosiy prinsiplaridan biri qaysi?",
+    "o": [
+      "Boshqa davlatlarning ichki ishlariga aralashish",
+      "Davlatlarning suveren tengligi va nizolarni tinch yo‘l bilan hal etish",
+      "Hududlarni kuch bilan kengaytirish",
+      "Faqat harbiy ittifoqlar tuzish"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Konstitutsiya: 1-bosqich",
+    "q": "Konstitutsiyaning 16-moddasiga muvofiq, Konstitutsiya qoidalari qanday talqin etilishi mumkin emas?",
+    "o": [
+      "Qonunlar asosida izohlanishi mumkin",
+      "Sudlar tomonidan qo‘llanilishi mumkin",
+      "Konstitutsiyaning birinchi bo‘limidagi asosiy prinsip va normalarga zarar yetkazadigan tarzda",
+      "Rasmiy tartibda sharhlanishi mumkin"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Konstitutsiya: 1-bosqich",
+    "q": "O‘zbekiston Respublikasining poytaxti qaysi shahar?",
+    "o": [
+      "Samarqand",
+      "Buxoro",
+      "Namangan",
+      "Toshkent"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Konstitutsiya: 1-bosqich",
+    "q": "Konstitutsiyaning 8-moddasiga binoan O‘zbekiston xalqini kimlar tashkil etadi?",
+    "o": [
+      "Millatidan qat’i nazar, O‘zbekiston Respublikasining fuqarolari",
+      "Faqat o‘zbek millati vakillari",
+      "O‘zbekiston hududida yashovchi barcha chet el fuqarolari",
+      "Faqat voyaga yetgan fuqarolar"
+    ],
+    "a": 0
+  }
+]
+
