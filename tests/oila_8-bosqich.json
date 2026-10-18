@@ -1,1 +1,277 @@
-
+[
+  {
+    "topic": "Oila huquqi: 8-bosqich",
+    "q": "211-moddaga muvofiq, oilaviy munosabatlarni qonuniy tartibga solishda fuqarolarning huquqiy tengligini taʼminlash qaysi organlar zimmasiga yuklatiladi?",
+    "o": [
+      "Barcha vakolatli davlat organlari va sudlar",
+      "Faqat mahalla fuqarolar yigʻinlari",
+      "Faqat xususiy notariuslar",
+      "Faqat tijorat banklari"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 8-bosqich",
+    "q": "212-moddaga koʻra, oila aʼzolarining shaxsiy nomulkiy huquqlarini himoya qilish qanday tartibda amalga oshiriladi?",
+    "o": [
+      "Fuqarolik qonunchiligida nazarda tutilgan usullar bilan sud tartibida",
+      "Faqat oʻzaro ogʻzaki kelishuv orqali",
+      "Faqat maʼmuriy ogohlantirish bilan",
+      "Himoya qilish qonun bilan kafolatlanmagan"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 8-bosqich",
+    "q": "XATO koʻrsatilgan maʼlumotni aniqlang (213-modda):",
+    "o": [
+      "Oila aʼzolari oʻzaro munosabatlarda bir-birining huquqlarini hurmat qilishlari shart",
+      "Oila aʼzolaridan biri boshqasining huquqlarini poymol etsa, hech qanday chora koʻrilmaydi",
+      "Oilada har bir aʼzo oʻz shaʼni va qadr-qimmatini himoya qilish huquqiga ega",
+      "Oila aʼzolarining huquqlarini buzganlik qonunda belgilangan javobgarlikka sabab boʻladi"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Oila huquqi: 8-bosqich",
+    "q": "Nuqtalar oʻrniga mos javobni qoʻying (214-modda): «Voyaga yetmagan bolalarning huquqlarini himoya qilish va ularning manfaatlarini taʼminlash ... ustuvor vazifasi hisoblanadi.»",
+    "o": [
+      "davlatning",
+      "faqat ota-onaning",
+      "faqat maktabning",
+      "xususiy jamgʻarmalarning"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 8-bosqich",
+    "q": "215-moddaga muvofiq, ota-ona oʻz majburiyatlarini bajarmaganda yoki lozim darajada bajarmaganda kimlar ularga taʼsir koʻrsatish choralarini koʻradi?",
+    "o": [
+      "Vasiylik va homiylik organlari hamda boshqa vakolatli davlat idoralari",
+      "Faqat qoʻshnilar va qarindoshlar",
+      "Faqat doʻstlari",
+      "Hech qanday organ aralashishga haqli emas"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 8-bosqich",
+    "q": "Toʻgʻri maʼlumotni aniqlang (216-modda — Bolalarni tarbiyalashda jismoniy jazo berishni taqiqlash):",
+    "o": [
+      "Bolalarni tarbiyalashda ularning shaʼni va qadr-qimmatini kamsitishga, jismoniy jazo berishga yoki shafqatsiz muomalada boʻlishga yoʻl qoʻyilmaydi",
+      "Bolani tarbiyalash uchun yengil jismoniy jazolarga ruxsat etiladi",
+      "Ota-ona xohlagan usulda, shu jumladan jismoniy kuch ishlatib tarbiyalash huquqiga ega",
+      "Jismoniy jazo faqat maktab oʻqituvchilariga ruxsat etilgan"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 8-bosqich",
+    "q": "Toʻgʻri moslashtirishni aniqlang (217-modda): a) Ota-onaning huquqlari; b) Ota-onaning majburiyatlari. 1. Bolani tarbiyalash, unga taʼlim berish va himoya qilish. 2. Boladan oʻz huquqlarini amalga oshirishda foydalanish va manfaatlarini taʼminlash.",
+    "o": [
+      "a–2; b–1",
+      "a–1; b–2",
+      "a–1; b–1",
+      "a–2; b–2"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 8-bosqich",
+    "q": "Quyidagi bayonotlardan qaysi birlari toʻgʻri? (218-modda) 1. Ota-onaning huquqlari bolaning manfaatlariga zid ravishda amalga oshirilishi mumkin emas. 2. Ota-ona oʻz huquqlarini bolaning huquq va manfaatlarini buzgan holda ishlatganda javobgarlikka tortiladi. 3. Ota-ona oʻz huquqlarini boshqalarga oʻtkazish huquqiga mutlaqo ega emas (qonunda belgilangan hollar mustasno). 4. Ota-ona xohlasa farzandining huquqlarini butunlay bekor qilishi mumkin.",
+    "o": [
+      "1, 2 va 3",
+      "2, 3 va 4",
+      "1 va 4",
+      "Barchasi toʻgʻri"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 8-bosqich",
+    "q": "219-moddaga muvofiq, voyaga yetmagan bolalarning mol-mulkiga nisbatan ota-onaning huquqlari qanday cheklangan?",
+    "o": [
+      "Ota-ona bolaning mol-mulkini vasiylik organining ruxsatisiz sotishga, almashtirishga yoki boshqa tarzda tasarruf etishga haqli emas",
+      "Ota-ona bolaning mol-mulkini oʻz xohishicha sotishi mumkin",
+      "Bolaning mol-mulki faqat otaning nomiga oʻtkaziladi",
+      "Ota-ona bolaning mulkiga nisbatan hech qanday majburiyatga ega emas"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 8-bosqich",
+    "q": "XATO koʻrsatilgan maʼlumotni aniqlang (220-modda):",
+    "o": [
+      "Ota-ona va bolalar oʻrtasidagi mulkiy nizolar sud tartibida hal qilinadi",
+      "Ota-ona oʻzining voyaga yetgan mehnatga layoqatli farzandlaridan aliment talab qilish huquqiga ega (agar qonuniy shartlar mavjud boʻlsa)",
+      "Ota-ona har doim voyaga yetgan bolalarining daromadlarini toʻliq tortib olishga haqli",
+      "Bolalar va ota-ona oʻrtasidagi mulkiy munosabatlar qonun bilan tartibga solinadi"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Oila huquqi: 8-bosqich",
+    "q": "221-moddaga muvofiq, er-xotinning shaxsiy huquqlari tengligini buzuvchi harakatlar qanday baholanadi?",
+    "o": [
+      "Qonunga zid deb topiladi va tegishli javobgarlikka sabab boʻladi",
+      "Oila ichidagi odatiy holat sifatida baholanadi",
+      "Faqat tanbeh berish bilan cheklanadi",
+      "Hech qanday huquqiy oqibat keltirib chiqarmaydi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 8-bosqich",
+    "q": "222-moddaga koʻra, oilaviy munosabatlarda milliy va madaniy oʻziga xosliklar qanday inobatga olinadi?",
+    "o": [
+      "Agar ular Oʻzbekiston Respublikasi qonunlariga va umuminsoniy qadriyatlarga zid kelmasa",
+      "Qonunlardan ustun turadi va istalgan urf-odat qoʻllaniladi",
+      "Oila munosabatlarida urf-odatlar umuman eʼtiborga olinmaydi",
+      "Faqat mahalliy hokimiyat ruxsati bilan"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 8-bosqich",
+    "q": "Nuqtalar oʻrniga mos javobni qoʻying (223-modda): «Oila aʼzolari oʻrtasidagi kelishmovchiliklarni tinch yoʻl bilan hal etish ... qoidalariga asoslanadi.»",
+    "o": [
+      "axloqiy va huquqiy normalarga",
+      "faqat jismoniy kuch ishlatishga",
+      "ixtiyoriy kelishuvga (faqat axloqiy deyilgan, lekin asosiy qoida axloqiy va qonuniy)",
+      "moliyaviy manfaatlarga"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 8-bosqich",
+    "q": "224-moddaga muvofiq, voyaga yetmagan bolalarning ota-ona qaramogʻidan mahrum boʻlish sabablarini bartaraf etish kimning vazifasi?",
+    "o": [
+      "Davlat organlari va jamiyatning",
+      "Faqat bolaning oʻzining vazifasi",
+      "Faqat chet el tashkilotlarining",
+      "Xususiy shaxslarning ixtiyoriy ishi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 8-bosqich",
+    "q": "Toʻgʻri maʼlumotni aniqlang (225-modda — Vasiylik va homiylik organlarining hisobot berishi):",
+    "o": [
+      "Vasiylik va homiylik organlari oʻz faoliyati yuzasidan tegishli yuqori idoralarga belgilangan tartibda hisobot beradilar",
+      "Vasiylik organlari hech kimga hisobot bermaydi",
+      "Hisobotlar har oʻn yilda bir marta topshiriladi",
+      "Hisobot berish faqat sud talabigagina bajariladi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 8-bosqich",
+    "q": "XATO koʻrsatilgan maʼlumotni aniqlang (226-modda):",
+    "o": [
+      "Vasiylar oʻzlarining tarbiyalanuvchilari mol-mulkidan foydalanganlik uchun vasiylik organiga hisobot taqdim etishlari shart",
+      "Vasiy tarbiyalanuvchining mol-mulki haqida hisobot bermaslik huquqiga ega",
+      "Mol-mulkni boshqarish boʻyicha qoidalar qonun bilan qatʼiy belgilangan",
+      "Vasiylik organi vasiylarning hisobotlarini tekshirib boradi"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Oila huquqi: 8-bosqich",
+    "q": "227-moddaga muvofiq, Oila kodeksining normalarini buzganlik uchun fuqarolarga qanday jazo turlari qoʻllanilishi mumkin?",
+    "o": [
+      "Qonunda belgilangan intizomiy, maʼmuriy yoki jinoiy javobgarlik choralari",
+      "Faqat jismoniy jazo turlari",
+      "Faqat davlatdan chiqarib yuborish",
+      "Hech qanday jazo mavjud emas"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 8-bosqich",
+    "q": "Nuqtalar oʻrniga mos javobni qoʻying (228-modda): «Oila munosabatlarini tartibga soluvchi qonun hujjatlarini buzgan shaxslar ... javobgarlikka tortiladilar.»",
+    "o": [
+      "qonun hujjatlarida belgilangan tartibda",
+      "faqat ogʻzaki tanbeh bilan",
+      "mahalla yigʻinining qarori bilan",
+      "jarima toʻlamasdan ozod etiladi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 8-bosqich",
+    "q": "229-moddaga koʻra, xorijiy elementlar qatnashgan oilaviy munosabatlarda qaysi davlat qonunlari ustuvor sanaladi?",
+    "o": [
+      "Oʻzbekiston Respublikasining xalqaro shartnomalari va Oila kodeksi normalari",
+      "Har doim xorijiy davlatning qonunlari",
+      "Faqat BMT qoidalari",
+      "Hech qanday qonun qoʻllanilmaydi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 8-bosqich",
+    "q": "Toʻgʻri maʼlumotni aniqlang (230-modda — Oila qonunchiligining ijrosini taʼminlash):",
+    "o": [
+      "Oila qonunchiligi normalari barcha davlat organlari, korxonalar, muassasalar va fuqarolar tomonidan bajarilishi shart",
+      "Qonunlarni bajarish ixtiyoriy hisoblanadi",
+      "Faqat yuridik shaxslar bajarishi shart, fuqarolar majbur emas",
+      "Qonunlar faqat bayram kunlari amal qiladi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 8-bosqich",
+    "q": "Quyidagi bayonotlardan qaysi birlari toʻgʻri? (231-modda) 1. Oila kodeksi Oʻzbekiston Respublikasining butun hududida bir xilda amal qiladi. 2. Qonun hujjatlariga kiritilgan oʻzgarishlar oilaviy munosabatlarga ham taʼsir koʻrsatishi mumkin. 3. Oila kodeksi faqat ayrim viloyatlarda amal qiladi. 4. Mahalliy organlar Oila kodeksiga zid keluvchi qarorlar chiqarishga haqli emas.",
+    "o": [
+      "1, 2 va 4",
+      "2, 3 va 4",
+      "1 va 3",
+      "Barchasi toʻgʻri"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 8-bosqich",
+    "q": "232-moddaga muvofiq, oilaviy huquqlarni himoya qilish qaysi organlar orqali amalga oshiriladi?",
+    "o": [
+      "Sud, vasiylik va homiylik organlari hamda qonunda nazarda tutilgan boshqa organlar",
+      "Faqat soliq idoralari",
+      "Faqat xususiy detektiv agentliklari",
+      "Faqat banklar"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 8-bosqich",
+    "q": "XATO koʻrsatilgan maʼlumotni aniqlang (233-modda):",
+    "o": [
+      "Oila aʼzolari oʻz huquqlarini sud orqali himoya qilish huquqiga ega",
+      "Sudga murojaat qilish huquqi barcha oila aʼzolari uchun teng kafolatlanadi",
+      "Oila aʼzolarining sudga murojaat etishi qonun bilan taqiqlangan",
+      "Sud oilaviy nizolarni qonun hujjatlariga muvofiq koʻrib chiqadi"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Oila huquqi: 8-bosqich",
+    "q": "Nuqtalar oʻrniga mos javobni qoʻying (234-modda): «Ushbu Oila kodeksining normalarini buzganlik uchun javobgarlikni belgilovchi qoidalar ... qonunlariga asoslanadi.»",
+    "o": [
+      "Oʻzbekiston Respublikasining qonun",
+      "xalqaro tashkilotlar",
+      "mahalliy odat",
+      "chet el"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 8-bosqich",
+    "q": "235-moddaga muvofiq, Oʻzbekiston Respublikasining Oila kodeksi qaysi sanadan eʼtiboran toʻliq kuchga kirgan va amal qila boshlagan?",
+    "o": [
+      "Qonunda belgilangan va rasmiy eʼlon qilingan kundan boshlab",
+      "Faqat kelgusi yilning 1 yanvalidan",
+      "Faqat muhokama qilingan oydan",
+      "Hokimlar imzolagan kundan boshlab"
+    ],
+    "a": 0
+  }
+]
