@@ -1,1 +1,334 @@
 
+[
+  {
+    "topic": "Konstitutsiya: 2-bosqich",
+    "q": "Oʻzbekiston Respublikasi Konstitutsiyasining 31-moddasiga muvofiq, quyidagilardan qaysi biri har bir insonning huquqlaridan biri hisoblanadi?",
+    "o": [
+      "Shaxsiy hayotining daxlsizligi, shaxsiy va oilaviy sirga ega boʻlish huquqi.",
+      "Faqat davlat idoralarida ishlaydigan shaxslarning yozishmalarini sir saqlash huquqi.",
+      "Chet el davlatlarida doimiy yashash uchun ruxsat olish huquqi.",
+      "Oʻz xohishiga koʻra har qanday uy-joyni egallash huquqi."
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Konstitutsiya: 2-bosqich",
+    "q": "Konstitutsiyaning 31-moddasiga asosan uy-joyda tintuv oʻtkazishga qanday tartibda yoʻl qoʻyiladi?",
+    "o": [
+      "Tergovchining shaxsiy qarori va prokurorning ogʻzaki ruxsati bilan.",
+      "Faqat qonunga muvofiq va sudning qaroriga asosan.",
+      "Mahalliy hokimiyat organlarining koʻrsatmasiga binoan.",
+      "Istalgan vaqtda ichki ishlar xodimlarining talabiga koʻra."
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Konstitutsiya: 2-bosqich",
+    "q": "Konstitutsiyaning 32-moddasiga koʻra, qonuniy asoslarda mamlakatda boʻlib turgan har kim qanday huquqqa ega?",
+    "o": [
+      "Faqat oʻz viloyati hududida yashash va harakatlanish huquqiga.",
+      "Chet elga chiqish uchun maxsus ruxsatnoma olish majburiyatiga.",
+      "Mamlakat boʻylab erkin harakatlanish, turar va yashash joyini tanlash huquqiga.",
+      "Faqat davlat tomonidan berilgan turar joyda yashash huquqiga."
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Konstitutsiya: 2-bosqich",
+    "q": "Konstitutsiyaning 33-moddasiga muvofiq, davlat internet jahon axborot tarmogʻidan foydalanish uchun nima qilishi kerak?",
+    "o": [
+      "Faqat chet el kanallarini tomosha qilish imkonini yaratishi kerak.",
+      "Faqat bosma nashrlarni chop etishni taʼminlashi kerak.",
+      "Kitob doʻkonlarini moliyalashtirishi kerak.",
+      "Internetdan foydalanish uchun shart-sharoitlar yaratishi kerak."
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Konstitutsiya: 2-bosqich",
+    "q": "Konstitutsiyaning 34-moddasiga asosan davlat organlari va tashkilotlari fuqarolarga nimalar bilan tanishish imkoniyatini taʼminlashi shart?",
+    "o": [
+      "Oʻz huquqlari hamda qonuniy manfaatlariga daxldor boʻlgan hujjatlar, qarorlar va boshqa materiallar bilan.",
+      "Faqat davlat sirlari va yopiq farmoyishlar bilan.",
+      "Rahbariyatning shaxsiy hujjatlari va rejalari bilan.",
+      "Chet el kompaniyalarining tijorat sirlari bilan."
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Konstitutsiya: 2-bosqich",
+    "q": "Konstitutsiyaning 35-moddasiga muvofiq, hamma uchun nima kafolatlanadi?",
+    "o": [
+      "Faqat bitta rasmiy dinga eʼtiqod qilish majburiyati.",
+      "Vijdon erkinligi, xohlagan dinga eʼtiqod qilish yoki hech qaysi dinga eʼtiqod qilmaslik huquqi.",
+      "Diniy taʼlimotlarni majburan oʻrganish tartibi.",
+      "Diniy tashkilotlarni moliyalashtirish majburiyati."
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Konstitutsiya: 2-bosqich",
+    "q": "Konstitutsiyaning 36-moddasiga muvofiq, fuqarolar jamiyat va davlat ishlarini boshqarishda qanday ishtirok etish huquqiga ega?",
+    "o": [
+      "Faqat chet el tashkilotlari orqali.",
+      "Faqat tayinlangan mansabdor shaxslar orqali.",
+      "Bevosita hamda oʻz vakillari orqali.",
+      "Faqat siyosiy partiyalarning yopiq yigʻilishlari orqali."
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Konstitutsiya: 2-bosqich",
+    "q": "Konstitutsiyaning 37-moddasiga koʻra, fuqarolar davlat xizmatiga kirishda qanday huquqqa ega?",
+    "o": [
+      "Faqat imtiyozli qatlam vakillari davlat xizmatiga kirishi mumkin.",
+      "Faqat imtihonsiz va tanlovsiz kirish huquqiga ega.",
+      "Yosh chegarasi belgilanmagan holda kirish huquqiga ega.",
+      "Davlat xizmatiga kirishda teng huquqqa ega."
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Konstitutsiya: 2-bosqich",
+    "q": "Konstitutsiyaning 38-moddasiga binoan, fuqarolar oʻz ijtimoiy faolliklarini qaysi shakllarda amalga oshirish huquqiga ega?",
+    "o": [
+      "Mitinglar, yigʻilishlar va namoyishlar shaklida.",
+      "Faqat yopiq xonalarda yigʻilish oʻtkazish orqali.",
+      "Faqat internet tarmoqlarida anonim fikr bildirish orqali.",
+      "Faqat chet davlat fuqarolari bilan birgalikdagi namoyishlar orqali."
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Konstitutsiya: 2-bosqich",
+    "q": "Konstitutsiyaning 39-moddasiga muvofiq, fuqarolar qaysi birlashmalarga uyushish huquqiga ega?",
+    "o": [
+      "Faqat xalqaro tijorat korporatsiyalariga.",
+      "Kasaba uyushmalariga, siyosiy partiyalarga va boshqa jamoat birlashmalariga.",
+      "Faqat maxfiy va yopiq jamiyatlarga.",
+      "Faqat davlat tasarrufidagi idoralarga."
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Konstitutsiya: 2-bosqich",
+    "q": "Konstitutsiyaning 40-moddasiga asosan, murojaat qilish huquqiga oid qaysi bayonot toʻgʻri?",
+    "o": [
+      "Murojaatlar faqat ogʻzaki shaklda va yilda bir marta qabul qilinadi.",
+      "Davlat organlari murojaatlarni koʻrib chiqishni istisno tariqasida rad etishi mumkin.",
+      "Har kim arizalar, takliflar va shikoyatlar bilan murojaat qilish huquqiga ega; ular qonunda belgilangan tartibda va muddatlarda koʻrib chiqilishi shart.",
+      "Shikoyatlar faqat chet tillarida yuborilgandagina koʻrib chiqiladi."
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Konstitutsiya: 2-bosqich",
+    "q": "Konstitutsiyaning 41-moddasiga koʻra, har bir shaxs qanday huquqqa ega?",
+    "o": [
+      "Faqat davlat bergan mulkni vaqtincha boshqarish huquqiga.",
+      "Boshqalarning mulkini ixtiyoriy taqsimlash huquqiga.",
+      "Mulkdor boʻlish huquqiga ega emas, barcha mulk davlatnikidir.",
+      "Mulkdor boʻlishga haqli; bank operatsiyalari, omonatlar siri va meros huquqi qonun bilan kafolatlanadi."
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Konstitutsiya: 2-bosqich",
+    "q": "Konstitutsiyaning 42-moddasiga binoan, mehnat qilish huquqiga doir qaysi maʼlumot XATO?",
+    "o": [
+      "Har kim munosib mehnat qilish, kasb va faoliyat turini erkin tanlash huquqiga ega.",
+      "Homiladorligi yoki bolasi borligi sababli ayollarni ishga qabul qilishni rad etish va ishdan boʻshatish taqiqlanadi.",
+      "Mehnatga haq toʻlashning eng kam miqdori munosib turmush darajasini taʼminlash zarurati hisobga olingan holda belgilanadi.",
+      "Xodimning roziligisiz uning ish haqini istalgan miqdorda kamaytirishga yoʻl qoʻyiladi."
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Konstitutsiya: 2-bosqich",
+    "q": "Konstitutsiyaning 43-moddasiga muvofiq, davlat bandlikni taʼminlash borasida qanday choralarni koʻradi?",
+    "o": [
+      "Fuqarolarning bandligini taʼminlash, ularni ishsizlikdan himoya qilish va kambagʻallikni qisqartirish choralarini koʻradi.",
+      "Barcha fuqarolarni majburiy ravishda bitta davlat korxonasiga ishga joylashtiradi.",
+      "Ishsizlik nafaqalarini butunlay bekor qiladi.",
+      "Faqat xususiy korxonalarning ish haqi miqdorini belgilaydi."
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Konstitutsiya: 2-bosqich",
+    "q": "Konstitutsiyaning 44-moddasiga asosan, qanday mehnat taqiqlangan?",
+    "o": [
+      "Har qanday yozgi amaliyot ishlari va koʻngilli hasharlar.",
+      "Sud qarori bilan tayinlangan jazoni ijro etish tartibidan yoki qonunda nazarda tutilgan boshqa hollardan tashqari majburiy mehnat.",
+      "Oʻquvchilarning maktabdagi oʻz-oʻziga xizmat koʻrsatish ishlari.",
+      "Tadbirkorlarning shaxsiy loyihalaridagi ixtiyoriy mehnati."
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Konstitutsiya: 2-bosqich",
+    "q": "Konstitutsiyaning 45-moddasiga koʻra, yollanib ishlovchilarning dam olish huquqi qanday taʼminlanadi?",
+    "o": [
+      "Dam olish kunlarida ish vaqtini ikki baravar oshirish orqali.",
+      "Ish beruvchining xohishiga koʻra beriladigan ixtiyoriy taʼtillar orqali.",
+      "Ish vaqti davomiyligi, dam olish va ishlanmaydigan bayram kunlari hamda haq toʻlanadigan har yilgi mehnat taʼtilini belgilash orqali.",
+      "Har oyda bir marta beriladigan bir kunlik qisqa tanaffuslar orqali."
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Konstitutsiya: 2-bosqich",
+    "q": "Konstitutsiyaning 46-moddasiga binoan, nafaqalar va pensiyalar miqdori nimalardan oz boʻlishi mumkin emas?",
+    "o": [
+      "Viloyat hokimining oʻrtacha oylik daromadidan.",
+      "Xalqaro valyuta jamgʻarmasining bazaviy stavkasidan.",
+      "Tijorat banklarining minimal foiz stavkasidan.",
+      "Rasman belgilangan eng kam isteʼmol xarajatlaridan."
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Konstitutsiya: 2-bosqich",
+    "q": "Konstitutsiyaning 47-moddasiga asosan, uy-joydan mahrum etilgan mulkdorni himoya qilish boʻyicha qaysi qoida toʻgʻri?",
+    "o": [
+      "Uy-joyidan mahrum etilgan mulkdorga uy-joy qiymati hamda koʻrgan zararlarining oʻrni oldindan va teng qiymatda qoplanishi taʼminlanadi.",
+      "Davlat xohlagan vaqtda fuqaroning uy-joyini bepul olib qoʻyishi mumkin.",
+      "Uy-joy faqat sud qarorisiz, hokim farmoyishi bilan olib qoʻyilishi mumkin.",
+      "Uy-joy buzilganda zararlar faqat bir yildan keyin qoplanadi."
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Konstitutsiya: 2-bosqich",
+    "q": "Konstitutsiyaning 48-moddasiga muvofiq, fuqarolar sogʻliqni saqlash sohasida qanday huquqqa ega?",
+    "o": [
+      "Barcha murakkab operatsiyalarni faqat chet elda bepul oʻtkazish huquqiga.",
+      "Tibbiy yordamning kafolatlangan hajmini qonunda belgilangan tartibda davlat hisobidan olishga.",
+      "Barcha dori-darmonlarni bepul olish huquqiga.",
+      "Davlat shifoxonalarida barcha xizmatlardan toʻlovsiz foydalanish huquqiga."
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Konstitutsiya: 2-bosqich",
+    "q": "Konstitutsiyaning 49-moddasiga binoan, shaharsozlik hujjatlari loyihalari qanday tartibda oʻtkaziladi?",
+    "o": [
+      "Faqat maxsus yopiq komissiya tomonidan tasdiqlanadi.",
+      "Jamoatchilik ishtirokisiz faqat quruvchi tashkilot tomonidan hal qilinadi.",
+      "Qonunda belgilangan tartibda jamoatchilik muhokamasidan oʻtkaziladi.",
+      "Chet el ekspertlarining yashirin xulosasiga koʻra amalga oshiriladi."
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Konstitutsiya: 2-bosqich",
+    "q": "Konstitutsiyaning 50-moddasiga koʻra, qaysi taʼlim majburiy hisoblanadi va davlat tomonidan bepul taʼminlanadi?",
+    "o": [
+      "Bepul oliy taʼlim va magistratura bosqichi.",
+      "Faqat maktabgacha taʼlim va tarbiya.",
+      "Xususiy litsey va kollejlarda oʻqish.",
+      "Umumiy oʻrta taʼlim bepul va majburiydir; boshlangʻich professional taʼlim olish kafolatlanadi."
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Konstitutsiya: 2-bosqich",
+    "q": "Konstitutsiyaning 51-moddasiga muvofiq, fuqarolar davlat taʼlim tashkilotlarida qanday asosda oliy maʼlumot olishga haqli?",
+    "o": [
+      "Tanlov asosida davlat hisobidan.",
+      "Faqat shartnoma (kontrakt) toʻlash sharti bilan.",
+      "Imtihonsiz va suhbat asosida.",
+      "Faqat imtiyozli tavsiyanomalar orqali."
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Konstitutsiya: 2-bosqich",
+    "q": "Konstitutsiyaning 52-moddasiga binoan, kimning mehnati jamiyat va davlatni rivojlantirishning asosi sifatida eʼtirof etiladi?",
+    "o": [
+      "Faqat davlat xizmatchilarining mehnati.",
+      "Oʻqituvchining mehnati.",
+      "Tadbirkorlarning moliyaviy faoliyati.",
+      "Ilmiy tadqiqotchilarning ixtirolari."
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Konstitutsiya: 2-bosqich",
+    "q": "Konstitutsiyaning 53-moddasiga asosan, nimalar qonun bilan muhofaza qilinadi?",
+    "o": [
+      "Faqat xususiy binolar va yer uchastkalari.",
+      "Davlat korxonalarining texnik jihozlari.",
+      "Intellektual mulk.",
+      "Chet el investitsiyalari va aksiyalari."
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Konstitutsiya: 2-bosqich",
+    "q": "Konstitutsiyaning 54-moddasiga muvofiq, insonning huquq va erkinliklarini taʼminlash nima hisoblanadi?",
+    "o": [
+      "Faqat sud va huquqni muhofaza qilish organlarining vazifasi.",
+      "Xalqaro tashkilotlarning yordamchi vazifasi.",
+      "Fuqarolarning oʻz zimmasidagi ixtiyoriy burchi.",
+      "Davlatning oliy maqsadi."
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Konstitutsiya: 2-bosqich",
+    "q": "Konstitutsiyaning 55-moddasiga koʻra, har kim oʻz huquq va erkinliklarini qanday usullar bilan himoya qilishga haqli?",
+    "o": [
+      "Qonunda taqiqlanmagan barcha usullar bilan.",
+      "Faqat oʻzini oʻzi himoya qilish va kuch ishlatish yoʻli bilan.",
+      "Faqat xalqaro sudlarga murojaat qilish yoʻli bilan.",
+      "Mahalliy hokimiyat organlarining ruxsati bilan."
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Konstitutsiya: 2-bosqich",
+    "q": "Konstitutsiyaning 56-moddasiga binoan, inson huquqlari boʻyicha milliy institutlar qanday vazifani bajaradi?",
+    "o": [
+      "Sudlarning qarorlarini oʻzgartirish va bekor qilish huquqiga ega.",
+      "Inson huquqlari va erkinliklarini himoya qilishning mavjud shakllari hamda vositalarini toʻldiradi va fuqarolik jamiyatini rivojlantiradi.",
+      "Qonun loyihalarini yagona tartibda tasdiqlaydi.",
+      "Fuqarolarni jinoiy javobgarlikka tortish masalasini hal qiladi."
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Konstitutsiya: 2-bosqich",
+    "q": "Konstitutsiyaning 57-moddasiga muvofiq, aholining ijtimoiy jihatdan ehtiyojmand qatlamlari qanday himoya qilinadi?",
+    "o": [
+      "Faqat xayriya jamgʻarmalarining ixtiyoriy yordamiga tayanadi.",
+      "Himoya faqat mahalliy budjet imkoniyatlariga qarab belgilanadi.",
+      "Ularning huquqlari davlat himoyasidadir.",
+      "Ularning huquqlari qonunlar bilan qatʼiy cheklab qoʻyiladi."
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Konstitutsiya: 2-bosqich",
+    "q": "Konstitutsiyaning 58-moddasiga binoan, xotin-qizlar va erkaklar oʻrtasidagi huquqiy munosabatlar qanday belgilangan?",
+    "o": [
+      "Davlat organlaridagi rahbarlik lavozimlarida erkaklar ustunlikka ega.",
+      "Xotin-qizlar faqat ijtimoiy sohada ishtirok etish huquqiga ega.",
+      "Huquqlar va imtiyozlar faqat erkaklar uchun kafolatlanadi.",
+      "Xotin-qizlar va erkaklar teng huquqlidirlar."
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Konstitutsiya: 2-bosqich",
+    "q": "Konstitutsiyaning 59–60-moddalariga muvofiq, fuqarolar qanday burchlarni bajarishlari shart?",
+    "o": [
+      "Konstitutsiyada belgilangan burchlarni bajarish, Konstitutsiya va qonunlarga rioya etish hamda boshqalarning huquq va erkinliklarini hurmat qilish.",
+      "Faqat oʻz shaxsiy manfaatlarini ustun qoʻyish.",
+      "Mahalliy qonunlarni bajarmasdan, faqat xalqaro qoidalarga rioya qilish.",
+      "Faqat kasbiy majburiyatlarini bajarish bilan cheklanish."
+    ],
+    "a": 0
+  }
+]
+
