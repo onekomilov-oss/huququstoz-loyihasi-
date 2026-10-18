@@ -1,5 +1,5 @@
 // ==========================================
-// HUQUQUSTOZ AKADEMIYASI - TO'LIQ MANTIQ (app.js)
+// HUQUQUSTOZ AKADEMIYASI - ASOSIY MANTIQ (app.js)
 // ==========================================
 
 const tg = window.Telegram.WebApp;
@@ -103,7 +103,6 @@ function renderTopicsList() {
   const topicsListContainer = document.getElementById('topics-list');
   if (!topicsListContainer) return;
 
-  // Mavzularni guruhlash
   const topicsMap = {};
   allTests.forEach(test => {
     const topic = test.topic || "Umumiy huquqiy testlar";
@@ -137,25 +136,22 @@ function renderTopicsList() {
   });
 }
 
-// Tanlangan mavzu testlarini boshlash
 function startQuizForTopic(tests) {
   currentTopicTests = tests;
   currentTestIndex = 0;
   
-  // HTML ko'rinishlarini almashtirish
   document.getElementById('topic-select-view').classList.add('hidden');
   document.getElementById('quiz-view').classList.remove('hidden');
   
   renderQuestion();
 }
 
-// Mavzular ro'yxatiga qaytish
 function showTopicsView() {
   document.getElementById('quiz-view').classList.add('hidden');
   document.getElementById('topic-select-view').classList.remove('hidden');
 }
 
-// Savolni ekranga chiqarish
+// Savolni ekranga chiqarish (q, o formatiga moslangan)
 function renderQuestion() {
   if (currentTestIndex >= currentTopicTests.length) {
     showQuizFinished();
@@ -164,29 +160,28 @@ function renderQuestion() {
 
   const q = currentTopicTests[currentTestIndex];
   
-  // Progress va raqam
   document.getElementById('quiz-progress').textContent = `${currentTestIndex + 1} / ${currentTopicTests.length}`;
   const percent = ((currentTestIndex + 1) / currentTopicTests.length) * 100;
   document.getElementById('quiz-progress-bar').style.width = `${percent}%`;
 
-  // Savol matni
-  document.getElementById('question-text').textContent = q.question;
+  // Savol (q)
+  document.getElementById('question-text').textContent = q.q;
 
-  // Variantlar
+  // Variantlar (o)
   const optionsContainer = document.getElementById('options-container');
   optionsContainer.innerHTML = '';
   
-  const optionsList = q.options || q.variants || [];
+  const optionsList = q.o || [];
   optionsList.forEach((opt, idx) => {
     const btn = document.createElement('button');
     btn.className = 'glass-card option-btn';
     btn.style.cssText = 'width: 100%; text-align: left; padding: 14px; margin-bottom: 8px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.1); background: rgba(255,255,255,0.05); color: var(--text-main); cursor: pointer;';
     btn.textContent = opt;
-    btn.addEventListener('click', () => selectAnswer(idx, q.correct !== undefined ? q.correct : q.answer, q));
+    // To'g'ri javob indeksi (a)
+    btn.addEventListener('click', () => selectAnswer(idx, q.a, q));
     optionsContainer.appendChild(btn);
   });
 
-  // Tahlil panelini yashirish
   document.getElementById('analysis-panel').classList.add('hidden');
 }
 
@@ -194,7 +189,7 @@ function renderQuestion() {
 function selectAnswer(selectedIndex, correctIndex, q) {
   const buttons = document.querySelectorAll('.option-btn');
   buttons.forEach((btn, idx) => {
-    btn.style.pointerEvents = 'none'; // Boshqa bosilmasin
+    btn.style.pointerEvents = 'none'; 
     if (idx === correctIndex) {
       btn.style.background = 'rgba(40, 167, 69, 0.3)';
       btn.style.borderColor = '#28a745';
@@ -209,34 +204,22 @@ function selectAnswer(selectedIndex, correctIndex, q) {
     updateGlobalStats();
   }
 
-  // Tahlil (Izoh) panelini ko'rsatish
+  // Izoh va tahlilni ko'rsatish (why)
   const analysisPanel = document.getElementById('analysis-panel');
   const analysisText = document.getElementById('analysis-text');
   const lexBtn = document.getElementById('btn-lex-link');
 
-  if (q.explanation || q.analysis) {
-    analysisText.textContent = q.explanation || q.analysis;
-  } else {
-    analysisText.textContent = "To'g'ri javob belgilandi.";
-  }
+  if (lexBtn) lexBtn.style.display = 'none'; // Lex tugmasi yashirildi
 
-  if (q.lexLink || q.url) {
-    lexBtn.style.display = 'block';
-    lexBtn.onclick = () => window.open(q.lexLink || q.url, '_blank');
-  } else {
-    lexBtn.style.display = 'none';
-  }
-
+  analysisText.textContent = q.why || "To'g'ri javob belgilandi.";
   analysisPanel.classList.remove('hidden');
 }
 
-// Keyingi savolga o'tish
 function nextQuestion() {
   currentTestIndex++;
   renderQuestion();
 }
 
-// Testlar tugaganda
 function showQuizFinished() {
   const quizView = document.getElementById('quiz-view');
   quizView.innerHTML = `
@@ -249,7 +232,6 @@ function showQuizFinished() {
   `;
 }
 
-// Ballarni yangilash
 function updateGlobalStats() {
   const statCorrect = document.getElementById('stat-correct');
   const certCorrect = document.getElementById('cert-correct');
