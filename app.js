@@ -1,238 +1,350 @@
-// ==========================================
-// HUQUQUSTOZ AKADEMIYASI - ASOSIY MANTIQ (app.js)
-// ==========================================
 
-const tg = window.Telegram.WebApp;
-tg.expand();
+ // HUQUQUSTOZ AKADEMIYASI — tuzatilgan app.js
 
-let allTests = [];          // Barcha yuklangan testlar
-let currentTopicTests = []; // Tanlangan mavzudagi testlar
-let currentTestIndex = 0;   // Hozirgi savol indeksi
-let userScore = 0;          // To'g'ri javoblar soni
+const tg = window.Telegram?.WebApp ?? null;
 
-document.addEventListener('DOMContentLoaded', () => {
-  // 1. Telegram ismini chiqarish
-  const tgUser = tg.initDataUnsafe?.user;
+if (tg) {
+  try {
+    tg.ready();
+    tg.expand();
+  } catch (error) {
+    console.warn("Telegram WebApp xatosi:", error);
+  }
+}
+
+let allTests = [];
+let currentTopicTests = [];
+let currentTestIndex = 0;
+let userScore = 0;
+let answerSelected = false;
+let quizViewTemplate = "";
+
+document.addEventListener("DOMContentLoaded", () => {
+  const tgUser = tg?.initDataUnsafe?.user;
+
   if (tgUser) {
-    const fullName = tgUser.first_name + (tgUser.last_name ? ' ' + tgUser.last_name : '');
-    const userNameEl = document.getElementById('user-name');
-    const certNameEl = document.getElementById('cert-user-name');
-    if (userNameEl) userNameEl.textContent = fullName;
-    if (certNameEl) certNameEl.textContent = fullName;
+    const fullName = [
+      tgUser.first_name,
+      tgUser.last_name
+    ].filter(Boolean).join(" ");
+
+    setText("user-name", fullName);
+    setText("cert-user-name", fullName);
   }
 
-  // 2. Qonunlar va Testlarni yuklash
+  const quizView = getElement("quiz-view");
+  if (quizView) quizViewTemplate = quizView.innerHTML;
+
   fetchLaws();
   loadTestsData();
-
-  // 3. Menyular va Streak
   setupTabs();
   updateStreak();
-
-  // 4. Test interfeysi tugmalari
-  const btnBackTopics = document.getElementById('btn-back-topics');
-  if (btnBackTopics) {
-    btnBackTopics.addEventListener('click', showTopicsView);
-  }
-
-  const btnNext = document.getElementById('btn-next-question');
-  if (btnNext) {
-    btnNext.addEventListener('click', nextQuestion);
-  }
+  bindQuizButtons();
+  updateGlobalStats();
 });
 
-// --- QONUNLARNI XAVFSIZ CHIQARISH (textContent orqali) ---
+function getElement(id) {
+  return document.getElementById(id);
+}
+
+function setText(id, value) {
+  const element = getElement(id);
+  if (element) element.textContent = value ?? "";
+}
+
+function bindQuizButtons() {
+  const back = getElement("btn-back-topics");
+  const next = getElement("btn-next-question");
+
+  if (back) back.addEventListener("click", showTopicsView);
+  if (next) next.addEventListener("click", nextQuestion);
+}
+
+function showMessage(container, message) {
+  container.replaceChildren();
+  const div = document.createElement("div");
+  div.style.padding = "10px";
+  div.textContent = message;
+  container.appendChild(div);
+}
+
+function safeHttpUrl(value) {
+  if (typeof value !== "string" || !value.trim()) return null;
+
+  try {
+    const url = new URL(value, window.location.href);
+    if (!["https:", "http:"].includes(url.protocol)) return null;
+    return url.href;
+  } catch {
+    return null;
+  }
+}
+
+// QONUNLARNI YUKLASH
 async function fetchLaws() {
-  const container = document.getElementById('laws-list');
+  const container = getElement("laws-list");
   if (!container) return;
 
   try {
-    const response = await fetch('./laws.json');
-    if (!response.ok) throw new Error('Fayl topilmadi');
-    
-    const lawsData = await response.json();
-    container.innerHTML = '';
+    const response = await fetch("./laws.json");
+    if (!response.ok) throw new Error("laws.json yuklanmadi");
 
-    lawsData.forEach(law => {
-      const link = document.createElement('a');
-      link.href = law.url;
-      link.target = '_blank';
-      link.className = 'glass-card';
-      link.style.cssText = 'text-decoration: none; color: var(--text-main); padding: 16px; display: flex; align-items: center; gap: 12px; margin-bottom: 10px; border-radius: 12px;';
+    const laws = await response.json();
+    if (!Array.isArray(laws)) throw new Error("JSON formati noto‘g‘ri");
 
-      const iconSpan = document.createElement('span');
-      iconSpan.style.fontSize = '24px';
-      iconSpan.textContent = '📜';
+    container.replaceChildren();
 
-      const textSpan = document.createElement('span');
+    laws.forEach(law => {
+      if (!law || typeof law !== "object") return;
 
-      const smallSub = document.createElement('small');
-      smallSub.style.color = 'var(--text-sub)';
-      smallSub.textContent = `Hujjat №${law.n}`;
+      const url = safeHttpUrl(law.url);
+      if (!url) return;
 
-      const br = document.createElement('br');
+      const link = document.createElement("a");
+      link.href = url;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.className = "glass-card";
+      link.style.cssText =
+        "display:flex;gap:12px;padding:16px;margin-bottom:10px;" +
+        "align-items:center;text-decoration:none;color:var(--text-main)";
 
-      const strongTitle = document.createElement('strong');
-      strongTitle.textContent = law.title;
+      const icon = document.createElement("span");
+      icon.style.fontSize = "24px";
+      icon.textContent = "📜";
 
-      textSpan.appendChild(smallSub);
-      textSpan.appendChild(br);
-      textSpan.appendChild(strongTitle);
+      const details = document.createElement("span");
+      const number = document.createElement("small");
+      number.style.color = "var(--text-sub)";
+      number.textContent = `Hujjat №${law.n ?? "—"}`;
 
-      link.appendChild(iconSpan);
-      link.appendChild(textSpan);
+      const title = document.createElement("strong");
+      title.textContent = String(law.title ?? "Nomsiz hujjat");
+
+      details.append(number, document.createElement("br"), title);
+      link.append(icon, details);
       container.appendChild(link);
     });
+
+    if (!container.childElementCount) {
+      showMessage(container, "Hozircha qonunlar mavjud emas.");
+    }
   } catch (error) {
     console.error(error);
-    const errDiv = document.createElement('div');
-    errDiv.style.cssText = 'padding: 10px; color: var(--text-sub);';
-    errDiv.textContent = 'Qonunlarni yuklab bo\'lmadi.';
-    container.innerHTML = '';
-    container.appendChild(errDiv);
+    showMessage(container, "Qonunlarni yuklab bo‘lmadi.");
   }
 }
 
-// --- TESTLARNI YUKLASH ---
+// TESTLARNI YUKLASH
 async function loadTestsData() {
+  const container = getElement("topics-list");
+
   try {
-    const response = await fetch('./namuna.json');
-    if (!response.ok) throw new Error('Testlarni yuklab bo\'lmadi');
-    
-    allTests = await response.json();
-    renderTopicsList();
-  } catch (error) {
-    console.error(error);
-    const topicsList = document.getElementById('topics-list');
-    if (topicsList) {
-      topicsList.textContent = 'Testlar tez orada qo\'shiladi.';
-      topicsList.style.cssText = 'color: var(--text-sub); padding: 10px;';
-    }
-  }
-}
+    const response = await fetch("./namuna.json");
+    if (!response.ok) throw new Error("namuna.json yuklanmadi");
 
-// --- MAVZULAR MUNDARIJASINI XAVFSIZ CHIQARISH ---
-function renderTopicsList() {
-  const topicsListContainer = document.getElementById('topics-list');
-  if (!topicsListContainer) return;
+    const data = await response.json();
+    if (!Array.isArray(data)) throw new Error("Test JSON formati noto‘g‘ri");
 
-  const topicsMap = {};
-  allTests.forEach(test => {
-    const topic = test.topic || "Umumiy huquqiy testlar";
-    if (!topicsMap[topic]) {
-      topicsMap[topic] = [];
-    }
-    topicsMap[topic].push(test);
-  });
+    allTests = data.filter(test => {
+      const valid = test &&
+        typeof test.q === "string" &&
+        Array.isArray(test.o) &&
+        test.o.length > 1 &&
+        Number.isInteger(test.a) &&
+        test.a >= 0 &&
+        test.a < test.o.length &&
+        test.o.every(option => typeof option === "string");
 
-  topicsListContainer.innerHTML = '';
-
-  Object.keys(topicsMap).forEach(topicName => {
-    const testsInTopic = topicsMap[topicName];
-    
-    const card = document.createElement('div');
-    card.className = 'glass-card';
-    card.style.cssText = 'padding: 16px; margin-bottom: 12px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; border-radius: 12px;';
-    
-    const infoDiv = document.createElement('div');
-
-    const titleStrong = document.createElement('strong');
-    titleStrong.style.cssText = 'font-size: 16px; color: var(--text-main); display: block;';
-    titleStrong.textContent = topicName;
-
-    const countDiv = document.createElement('div');
-    countDiv.style.cssText = 'font-size: 13px; color: var(--text-sub); margin-top: 4px;';
-    countDiv.textContent = `Savollar soni: ${testsInTopic.length} ta`;
-
-    infoDiv.appendChild(titleStrong);
-    infoDiv.appendChild(countDiv);
-
-    const arrowSpan = document.createElement('span');
-    arrowSpan.style.cssText = 'font-size: 18px; color: var(--accent);';
-    arrowSpan.textContent = '▶';
-
-    card.appendChild(infoDiv);
-    card.appendChild(arrowSpan);
-
-    card.addEventListener('click', () => {
-      startQuizForTopic(testsInTopic);
+      if (!valid) console.warn("Noto‘g‘ri test:", test);
+      return valid;
     });
 
-    topicsListContainer.appendChild(card);
+    renderTopicsList();
+
+    if (!allTests.length && container) {
+      showMessage(container, "Hozircha yaroqli testlar mavjud emas.");
+    }
+  } catch (error) {
+    console.error(error);
+    if (container) {
+      showMessage(container, "Testlarni yuklab bo‘lmadi. namuna.json faylini tekshiring.");
+    }
+  }
+}
+
+// MAVZULAR RO‘YXATI
+function renderTopicsList() {
+  const container = getElement("topics-list");
+  if (!container) return;
+
+  const topics = new Map();
+
+  allTests.forEach(test => {
+    const name = typeof test.topic === "string" && test.topic.trim()
+      ? test.topic.trim()
+      : "Umumiy huquqiy testlar";
+
+    if (!topics.has(name)) topics.set(name, []);
+    topics.get(name).push(test);
+  });
+
+  container.replaceChildren();
+
+  topics.forEach((tests, name) => {
+    const card = document.createElement("button");
+    card.type = "button";
+    card.className = "glass-card";
+    card.style.cssText =
+      "width:100%;text-align:left;padding:16px;margin-bottom:12px;" +
+      "cursor:pointer;display:flex;justify-content:space-between;" +
+      "align-items:center;border-radius:12px;color:var(--text-main)";
+
+    const details = document.createElement("div");
+    const title = document.createElement("strong");
+    title.textContent = name;
+
+    const count = document.createElement("div");
+    count.style.cssText =
+      "font-size:13px;color:var(--text-sub);margin-top:4px";
+    count.textContent = `Savollar soni: ${tests.length} ta`;
+
+    const arrow = document.createElement("span");
+    arrow.style.color = "var(--accent)";
+    arrow.textContent = "▶";
+
+    details.append(title, count);
+    card.append(details, arrow);
+    card.addEventListener("click", () => startQuizForTopic(tests));
+    container.appendChild(card);
   });
 }
 
-// --- 1. MAVZUNI NOLDAN BOSHLASH ---
+// TESTNI BOSHLASH
 function startQuizForTopic(tests) {
+  if (!Array.isArray(tests) || !tests.length) return;
+
   currentTopicTests = tests;
   currentTestIndex = 0;
-  userScore = 0; // Har safar yangi mavzu 0 balldan boshlanadi
+  userScore = 0;
+  answerSelected = false;
 
   updateGlobalStats();
 
-  document.getElementById('topic-select-view').classList.add('hidden');
-  document.getElementById('quiz-view').classList.remove('hidden');
-  
+  const topicsView = getElement("topic-select-view");
+  const quizView = getElement("quiz-view");
+
+  if (!topicsView || !quizView) {
+    console.error("Test oynasi topilmadi.");
+    return;
+  }
+
+  topicsView.classList.add("hidden");
+  quizView.classList.remove("hidden");
+
   renderQuestion();
 }
 
-// --- 2. ORTGA QAYTISH VA HOLATNI TOZALASH ---
+// MAVZULARGA QAYTISH
 function showTopicsView() {
   currentTestIndex = 0;
-  userScore = 0; // Ortga qaytganda ham ball tozalanadi
+  userScore = 0;
+  answerSelected = false;
+  currentTopicTests = [];
 
   updateGlobalStats();
 
-  document.getElementById('quiz-view').classList.add('hidden');
-  document.getElementById('topic-select-view').classList.remove('hidden');
+  const quizView = getElement("quiz-view");
+  const topicsView = getElement("topic-select-view");
+
+  if (quizView) quizView.classList.add("hidden");
+  if (topicsView) topicsView.classList.remove("hidden");
+
+  restoreQuizView();
 }
 
-// --- SAVOLNI XAVFSIZ CHIQARISH ---
+function restoreQuizView() {
+  const quizView = getElement("quiz-view");
+  if (!quizView) return;
+
+  if (quizViewTemplate) {
+    quizView.innerHTML = quizViewTemplate;
+  }
+
+  bindQuizButtons();
+}
+
+// SAVOLNI CHIQARISH
 function renderQuestion() {
   if (currentTestIndex >= currentTopicTests.length) {
     showQuizFinished();
     return;
   }
 
-  const q = currentTopicTests[currentTestIndex];
-  
-  document.getElementById('quiz-progress').textContent = `${currentTestIndex + 1} / ${currentTopicTests.length}`;
-  const percent = ((currentTestIndex + 1) / currentTopicTests.length) * 100;
-  document.getElementById('quiz-progress-bar').style.width = `${percent}%`;
+  const question = currentTopicTests[currentTestIndex];
+  if (!question) return;
 
-  // Savol matnini xavfsiz chiqarish
-  document.getElementById('question-textミュニ' === undefined ? '' : '') // Placeholder
-  const qTextEl = document.getElementById('question-text');
-  if (qTextEl) qTextEl.textContent = q.q;
+  answerSelected = false;
 
-  // Variantlar
-  const optionsContainer = document.getElementById('options-container');
-  optionsContainer.innerHTML = '';
-  
-  const optionsList = q.o || [];
-  optionsList.forEach((opt, idx) => {
-    const btn = document.createElement('button');
-    btn.className = 'glass-card option-btn';
-    btn.style.cssText = 'width: 100%; text-align: left; padding: 14px; margin-bottom: 8px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.1); background: rgba(255,255,255,0.05); color: var(--text-main); cursor: pointer;';
-    btn.textContent = opt; // Xavfsiz chiqdi
-    btn.addEventListener('click', () => selectAnswer(idx, q.a, q));
-    optionsContainer.appendChild(btn);
+  setText(
+    "quiz-progress",
+    `${currentTestIndex + 1} / ${currentTopicTests.length}`
+  );
+
+  const progress = getElement("quiz-progress-bar");
+  if (progress) {
+    progress.style.width =
+      `${((currentTestIndex + 1) / currentTopicTests.length) * 100}%`;
+  }
+
+  setText("question-text", question.q);
+
+  const options = getElement("options-container");
+  if (!options) return;
+
+  options.replaceChildren();
+
+  question.o.forEach((option, index) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "glass-card option-btn";
+    button.style.cssText =
+      "width:100%;text-align:left;padding:14px;margin-bottom:8px;" +
+      "border-radius:10px;color:var(--text-main);cursor:pointer";
+
+    button.textContent = option;
+    button.addEventListener("click", () => {
+      selectAnswer(index, question.a, question);
+    });
+
+    options.appendChild(button);
   });
 
-  document.getElementById('analysis-panel').classList.add('hidden');
+  const panel = getElement("analysis-panel");
+  if (panel) panel.classList.add("hidden");
+
+  const next = getElement("btn-next-question");
+  if (next) next.disabled = true;
 }
 
-// Javobni tekshirish
-function selectAnswer(selectedIndex, correctIndex, q) {
-  const buttons = document.querySelectorAll('.option-btn');
-  buttons.forEach((btn, idx) => {
-    btn.style.pointerEvents = 'none'; 
-    if (idx === correctIndex) {
-      btn.style.background = 'rgba(40, 167, 69, 0.3)';
-      btn.style.borderColor = '#28a745';
-    } else if (idx === selectedIndex) {
-      btn.style.background = 'rgba(220, 53, 69, 0.3)';
-      btn.style.borderColor = '#dc3545';
+// JAVOBNI TEKSHIRISH
+function selectAnswer(selectedIndex, correctIndex, question) {
+  if (answerSelected) return;
+  answerSelected = true;
+
+  const buttons = document.querySelectorAll(
+    "#options-container .option-btn"
+  );
+
+  buttons.forEach((button, index) => {
+    button.disabled = true;
+
+    if (index === correctIndex) {
+      button.style.background = "rgba(40,167,69,0.3)";
+      button.style.borderColor = "#28a745";
+    } else if (index === selectedIndex) {
+      button.style.background = "rgba(220,53,69,0.3)";
+      button.style.borderColor = "#dc3545";
     }
   });
 
@@ -241,165 +353,168 @@ function selectAnswer(selectedIndex, correctIndex, q) {
     updateGlobalStats();
   }
 
-  // Izoh va tahlilni xavfsiz chiqarish
-  const analysisPanel = document.getElementById('analysis-panel');
-  const analysisText = document.getElementById('analysis-text');
-  const lexBtn = document.getElementById('btn-lex-link');
+  const analysis = getElement("analysis-panel");
+  const text = getElement("analysis-text");
+  const lex = getElement("btn-lex-link");
 
-  if (lexBtn) lexBtn.style.display = 'none';
+  if (lex) lex.style.display = "none";
 
-  if (analysisText) {
-    analysisText.textContent = q.why || "To'g'ri javob belgilandi.";
+  if (text) {
+    text.textContent = question.why ||
+      (selectedIndex === correctIndex
+        ? "To‘g‘ri javob!"
+        : "Noto‘g‘ri javob. To‘g‘ri javob yashil rangda ko‘rsatilgan.");
   }
-  analysisPanel.classList.remove('hidden');
+
+  if (analysis) analysis.classList.remove("hidden");
+
+  const next = getElement("btn-next-question");
+  if (next) next.disabled = false;
 }
 
+// KEYINGI SAVOL
 function nextQuestion() {
+  if (!answerSelected) return;
+
   currentTestIndex++;
   renderQuestion();
 }
 
-// --- 3. TEST YAKUNIDA TO'G'RI BALL VA FOIZNI KO'RSATISH ---
+// TEST YAKUNI
 function showQuizFinished() {
+  const view = getElement("quiz-view");
+  if (!view) return;
+
   const total = currentTopicTests.length;
-  const percent = total > 0 ? Math.round((userScore / total) * 100) : 0;
+  const percent = total ? Math.round(userScore / total * 100) : 0;
 
-  const quizView = document.getElementById('quiz-view');
-  
-  // Asosiy elementlarni yaratish orqali xavfsiz va toza qurish
-  quizView.innerHTML = '';
+  view.replaceChildren();
 
-  const card = document.createElement('div');
-  card.className = 'glass-card';
-  card.style.cssText = 'text-align: center; padding: 30px; border-radius: 16px;';
+  const card = document.createElement("div");
+  card.className = "glass-card";
+  card.style.cssText = "text-align:center;padding:30px";
 
-  const h3 = document.createElement('h3');
-  h3.style.cssText = 'margin-bottom: 10px; font-family: "Cinzel", serif; color: var(--text-main);';
-  h3.textContent = '🎉 Mavzu yakunlandi!';
+  const heading = document.createElement("h3");
+  heading.textContent = "Mavzu yakunlandi!";
 
-  const p1 = document.createElement('p');
-  p1.style.cssText = 'color: var(--text-sub); margin-bottom: 10px;';
-  p1.textContent = 'Siz ushbu mavzodagi barcha testlarni muvaffaqiyatli tugatdingiz.';
+  const score = document.createElement("p");
+  score.textContent = `To‘g‘ri javoblar: ${userScore} / ${total}`;
 
-  const p2 = document.createElement('p');
-  p2.style.cssText = 'font-size: 16px; margin-bottom: 6px; color: var(--text-main);';
-  p2.textContent = `To'g'ri javoblar: ${userScore} / ${total}`;
+  const result = document.createElement("p");
+  result.textContent = `Natija: ${percent}%`;
 
-  const p3 = document.createElement('p');
-  p3.style.cssText = 'font-size: 18px; font-weight: bold; margin-bottom: 20px; color: var(--accent);';
-  p3.textContent = `Natija: ${percent}%`;
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = "btn btn-primary btn-lg";
+  button.textContent = "Mavzularga qaytish";
+  button.addEventListener("click", backToMenu);
 
-  const btn = document.createElement('button');
-  btn.className = 'btn btn-primary btn-lg';
-  btn.textContent = 'Mavzularga qaytish 🔄';
-  btn.addEventListener('click', backToMenu);
-
-  card.appendChild(h3);
-  card.appendChild(p1);
-  card.appendChild(p2);
-  card.appendChild(p3);
-  card.appendChild(btn);
-
-  quizView.appendChild(card);
+  card.append(heading, score, result, button);
+  view.appendChild(card);
 }
 
-// Qaytish tugmasi bosilganda oynalarni to'g'ri almashtirish
 function backToMenu() {
   currentTestIndex = 0;
   userScore = 0;
+  answerSelected = false;
+  currentTopicTests = [];
+
   updateGlobalStats();
-  
-  document.getElementById('quiz-view').classList.add('hidden');
-  document.getElementById('topic-select-view').classList.remove('hidden');
-  
+
+  const view = getElement("quiz-view");
+  const topics = getElement("topic-select-view");
+
+  if (view) view.classList.add("hidden");
+  if (topics) topics.classList.remove("hidden");
+
+  restoreQuizView();
   renderTopicsList();
-  
-  // Quiz view HTML tuzilishini asliga qaytaramiz
-  const quizView = document.getElementById('quiz-view');
-  quizView.innerHTML = `
-    <div class="quiz-top-nav">
-      <button id="btn-back-topics" class="btn-back">← Ortga</button>
-      <div id="quiz-progress" class="quiz-badge">1 / 30</div>
-    </div>
-    <div class="progress-track">
-      <div id="quiz-progress-bar" class="progress-fill"></div>
-    </div>
-    <div id="question-card" class="glass-card quiz-card">
-      <div id="question-text" class="question-text">Savol yuklanmoqda...</div>
-      <div id="options-container" class="options-grid"></div>
-    </div>
-    <div id="analysis-panel" class="glass-card analysis-card hidden">
-      <div class="analysis-header">
-        <span>📖</span>
-        <h3>Huquqiy Tahlil</h3>
-      </div>
-      <p id="analysis-text" class="analysis-body"></p>
-      <button id="btn-next-question" class="btn btn-primary btn-lg" style="margin-top:12px;">Keyingi Savol →</button>
-    </div>
-  `;
-
-  const btnBack = document.getElementById('btn-back-topics');
-  if (btnBack) btnBack.addEventListener('click', showTopicsView);
-
-  const btnNext = document.getElementById('btn-next-question');
-  if (btnNext) btnNext.addEventListener('click', nextQuestion);
 }
 
 function updateGlobalStats() {
-  const statCorrect = document.getElementById('stat-correct');
-  const certCorrect = document.getElementById('cert-correct');
-  if (statCorrect) statCorrect.textContent = userScore;
-  if (certCorrect) certCorrect.textContent = userScore;
+  setText("stat-correct", userScore);
+  setText("cert-correct", userScore);
 }
 
-// --- MENYULAR VA STREAK ---
+// MENYULAR
 function setupTabs() {
-  const navItems = document.querySelectorAll('.nav-item');
-  const tabPages = document.querySelectorAll('.tab-page');
+  const navItems = document.querySelectorAll(".nav-item");
+  const pages = document.querySelectorAll(".tab-page");
 
   navItems.forEach(item => {
-    item.addEventListener('click', () => {
-      navItems.forEach(nav => nav.classList.remove('active'));
-      tabPages.forEach(tab => tab.classList.remove('active'));
-      
-      item.classList.add('active');
-      const tabId = item.getAttribute('data-tab');
-      const activeTab = document.getElementById(tabId);
-      if (activeTab) activeTab.classList.add('active');
+    item.addEventListener("click", () => {
+      navItems.forEach(nav => nav.classList.remove("active"));
+      pages.forEach(page => page.classList.remove("active"));
+
+      item.classList.add("active");
+
+      const tab = getElement(item.getAttribute("data-tab"));
+      if (tab) tab.classList.add("active");
     });
   });
 
-  const btnStartQuick = document.getElementById('btn-start-quick');
-  if (btnStartQuick) {
-    btnStartQuick.addEventListener('click', () => {
-      document.querySelector('.nav-item[data-tab="tab-tests"]').click();
+  const quick = getElement("btn-start-quick");
+  if (quick) {
+    quick.addEventListener("click", () => {
+      const tab = document.querySelector(
+        '.nav-item[data-tab="tab-tests"]'
+      );
+      if (tab) tab.click();
     });
+  }
+}
+
+// STREAK
+function localDateKey(date = new Date()) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+
+  return `${year}-${month}-${day}`;
+}
+
+function safeStorageGet(key) {
+  try {
+    return localStorage.getItem(key);
+  } catch {
+    return null;
+  }
+}
+
+function safeStorageSet(key, value) {
+  try {
+    localStorage.setItem(key, String(value));
+  } catch (error) {
+    console.warn("Streak saqlanmadi:", error);
   }
 }
 
 function updateStreak() {
-  const today = new Date().toDateString();
-  const lastVisit = localStorage.getItem('lastVisit');
-  let streak = parseInt(localStorage.getItem('streakCount')) || 0;
+  const today = localDateKey();
+  const last = safeStorageGet("lastVisit");
+  let streak = parseInt(safeStorageGet("streakCount") || "0", 10);
 
-  if (lastVisit !== today) {
-    if (lastVisit) {
-      const lastDate = new Date(lastVisit);
-      const currentDate = new Date(today);
-      const diffDays = Math.ceil(Math.abs(currentDate - lastDate) / (1000 * 60 * 60 * 24));
-      streak = (diffDays === 1) ? streak + 1 : 1;
+  if (!Number.isFinite(streak) || streak < 0) streak = 0;
+
+  if (last !== today) {
+    if (last && /^\d{4}-\d{2}-\d{2}$/.test(last)) {
+      const [y, m, d] = last.split("-").map(Number);
+      const previous = new Date(y, m - 1, d);
+      const current = new Date();
+      previous.setHours(0, 0, 0, 0);
+      current.setHours(0, 0, 0, 0);
+
+      const days = Math.round((current - previous) / 86400000);
+      streak = days === 1 ? streak + 1 : 1;
     } else {
       streak = 1;
     }
-    localStorage.setItem('lastVisit', today);
-    localStorage.setItem('streakCount', streak);
+
+    safeStorageSet("lastVisit", today);
+    safeStorageSet("streakCount", streak);
   }
 
-  const topStreakEl = document.getElementById('streak-count');
-  const mainStreakEl = document.getElementById('stat-streak');
-  const certStreakEl = document.getElementById('cert-streak');
-
-  if (topStreakEl) topStreakEl.textContent = streak;
-  if (mainStreakEl) mainStreakEl.textContent = streak;
-  if (certStreakEl) certStreakEl.textContent = streak + ' kun';
+  setText("streak-count", streak);
+  setText("stat-streak", streak);
+  setText("cert-streak", `${streak} kun`);
 }
