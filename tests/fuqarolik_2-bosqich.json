@@ -1,331 +1,332 @@
+
 [
   {
     "topic": "Fuqarolik huquqi: 2-bosqich",
-    "q": "Quyidagi maʼlumotlardan qaysi biri xato?",
+    "q": "Fuqaroning muomala layoqatini cheklashga oid quyidagi bayonotlardan qaysi biri TO‘G‘RI?",
     "o": [
-      "Diniy tashkilotlarning faoliyatiga qonuniy doirada yoʻl qoʻyiladi.",
-      "Diniy qarashlarni majburan singdirishga yoʻl qoʻyiladi.",
-      "Hamma oʻz vijdon erkinligi huquqiga ega.",
-      "Har bir inson istalgan dinga eʼtiqod qilish yoki hech qaysiga eʼtiqod qilmaslik huquqiga ega."
-    ],
-    "a": 1
-  },
-  {
-    "topic": "Fuqarolik huquqi: 2-bosqich",
-    "q": "Quyidagi maʼlumotlardan qaysi biri toʻgʻri?",
-    "o": [
-      "Axborotni qidirish, olish va tarqatish faqat davlat organlarining ruxsati bilan amalga oshiriladi.",
-      "Har kim oʻz fikrini va eʼtiqodini erkin ifoda etish huquqiga ega.",
-      "Ommaviy axborot vositalari erkinligi davlat organlari tomonidan toʻliq cheklanadi.",
-      "Oʻzbekiston Respublikasida fuqarolar oʻz fikrini va eʼtiqodini oshkor qilishga haqli emas."
-    ],
-    "a": 1
-  },
-  {
-    "topic": "Fuqarolik huquqi: 2-bosqich",
-    "q": "Nuqtalar oʻrniga mos javobni qoʻying:\n«Har kim oʻz huquq va erkinliklarini qonun bilan taqiqlanmagan ... usullar bilan amalga oshirishga haqli.»",
-    "o": [
-      "boshqa",
-      "maxsus",
-      "faqat davlat tomonidan ruxsat etilgan",
-      "barcha"
-    ],
-    "a": 3
-  },
-  {
-    "topic": "Fuqarolik huquqi: 2-bosqich",
-    "q": "Qaysi bayonotlar toʻgʻri?\n1. Har kim yashash huquqiga ega.\n2. Oʻzbekiston Respublikasida oʻlim jazosi qonun bilan taqiqlanadi.\n3. Insonning hayotiga suiqasd qilish eng ogʻir jinoyatdir.\n4. Davlat fuqarolarning hayotini himoya qilish majburiyatini oʻz zimmasiga olmaydi.",
-    "o": [
-      "1 va 4",
-      "1, 2 va 3",
-      "2 va 4",
-      "Hammasi toʻgʻri"
-    ],
-    "a": 1
-  },
-  {
-    "topic": "Fuqarolik huquqi: 2-bosqich",
-    "q": "Quyidagi maʼlumotlardan qaysi biri xato?",
-    "o": [
-      "Shaxsiy hayotning daxlsizligi qonun bilan muhofaza qilinadi.",
-      "Xususiy yozishmalar, telefon orqali soʻzlashuvlar va xabarlar sir saqlanishi huquqi istisno hollarda ham hech qachon cheklanishi mumkin emas.",
-      "Uy-joy daxlsizdir, hech kim uy-joyga uning egasining ixtiyorisiz kirishga haqli emas.",
-      "Har kim oʻz shaʼni va obroʻsiga qilingan tajovuzlardan himoyalanish huquqiga ega."
-    ],
-    "a": 1
-  },
-  {
-    "topic": "Fuqarolik huquqi: 2-bosqich",
-    "q": "Quyidagi maʼlumotlardan qaysi biri toʻgʻri?",
-    "o": [
-      "Oʻzbekiston Respublikasi fuqarolari respublika hududida erkin harakatlanish va yashash joyini tanlash huquqiga ega.",
-      "Mamlakatdan chiqish huquqi doimiy ravishda cheklab qoʻyilishi mumkin.",
-      "Chet el fuqarolari va fuqaroligi boʻlmagan shaxslar Oʻzbekiston hududida harakatlana olmaydi.",
-      "Yashash joyini tanlash huquqi faqat maxsus ruxsatnoma (propiska) asosidagina amalga oshiriladi."
+      "Spirtli ichimliklarni yoki giyohvandlik vositalarini suiiste’mol qilish natijasida o‘z oilasini og‘ir moddiy ahvolga solib qo‘yayotgan fuqaroning muomala layoqati sud tomonidan cheklab qo‘yilishi mumkin",
+      "Bunday fuqaroga vasiylik belgilanadi",
+      "Bunday fuqaro mayda maishiy bitimlarni mustaqil tuzish huquqiga ega emas",
+      "Bunday fuqaro barcha bitimlarni mustaqil tuzishi mumkin"
     ],
     "a": 0
   },
   {
     "topic": "Fuqarolik huquqi: 2-bosqich",
-    "q": "Quyidagi bayonotlarning toʻgʻri yoki notoʻgʻriligini toʻgʻri koʻrsatgan javobni toping:\n1. Oʻzbekiston Respublikasining fuqarosi Oʻzbekistondan tashqariga chiqish huquqiga ega.\n2. Har kim mamlakatga qaytish huquqiga ega.\n3. Oʻzbekiston Respublikasi fuqarosi chet davlatda boʻlgan vaqtida davlat himoyasida boʻladi.\n4. Fuqarolarni Oʻzbekistondan chiqarib yuborishga qonunan yoʻl qoʻyiladi.",
+    "q": "XATO ko‘rsatilgan ma’lumotni aniqlang.",
     "o": [
-      "1, 2 va 3 toʻgʻri, 4 notoʻgʻri",
-      "1 va 4 toʻgʻri, 2 va 3 notoʻgʻri",
-      "Hammasi notoʻgʻri",
-      "Hammasi toʻgʻri"
+      "Vasiylik va homiylik muomalaga layoqatsiz yoki muomalaga to‘liq layoqatli bo‘lmagan fuqarolarning huquq va manfaatlarini himoya qilish uchun belgilanadi",
+      "Voyaga yetmaganlarga vasiylik va homiylik ularni tarbiyalash maqsadida ham belgilanadi",
+      "Vasiylar va homiylar o‘z himoyalaridagi shaxslarning huquq va manfaatlarini faqat sudlarda maxsus vakolat bilan himoya qiladilar",
+      "Voyaga yetmaganlarga vasiylik va homiylik ota-onasi sud tomonidan ota-onalik huquqlaridan mahrum qilingan taqdirda belgilanadi"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Fuqaroning bedarak yo‘qolgan deb topilishiga oid quyidagi bayonotlardan qaysi biri TO‘G‘RI?",
+    "o": [
+      "Fuqaroning qayerdaligi haqida uning yashash joyida bir yil davomida ma’lumotlar bo‘lmasa, manfaatdor shaxslarning arizasiga muvofiq sud bu fuqaroni bedarak yo‘qolgan deb topishi mumkin",
+      "Fuqaroning qayerdaligi haqida olti oy davomida ma’lumotlar bo‘lmasa kifoya",
+      "Bunday qarorni faqat prokuror arizasiga ko‘ra sud qabul qiladi",
+      "Bedarak yo‘qolgan deb topish muddati hech qanday holatda aniqlanmasa ham boshlanmaydi"
     ],
     "a": 0
   },
   {
     "topic": "Fuqarolik huquqi: 2-bosqich",
-    "q": "Moslashtiring:\na) Yashash huquqi\nb) Nikoh tuzish huquqi\nc) Mehnat qilish huquqi\nd) Taʼlim olish huquqi\n\n1. har bir insonning tabiiy huquqi\n2. erkak va ayolning ixtiyoriy roziligi bilan\n3. erkin tanlangan kasb va adolatli mehnat sharoitlari\n4. davlat tomonidan bepul umumiy taʼlim kafolatlanishi",
+    "q": "Quyidagi bayonotlardan qaysi biri TO‘G‘RI?\n\n1. Yo‘qolgan shaxs to‘g‘risida oxirgi ma’lumotlar olingan kunni aniqlash mumkin bo‘lmasa, muddat oxirgi ma’lumotlar olingan oydan keyingi oyning birinchi kunidan boshlanadi.\n2. Bu oyni belgilash mumkin bo‘lmagan taqdirda, muddat keyingi yilning birinchi yanvaridan boshlanadi.\n3. Bedarak yo‘qolgan deb topish muddati uch yildan iborat.\n4. Bedarak yo‘qolgan deb topish muddati o‘n yildan iborat.",
     "o": [
-      "(a)–4; (b)–3; (c)–2; (d)–1",
-      "(a)–2; (b)–1; (c)–4; (d)–3",
-      "(a)–1; (b)–2; (c)–3; (d)–4",
-      "(a)–3; (b)–4; (c)–1; (d)–2"
-    ],
-    "a": 2
-  },
-  {
-    "topic": "Fuqarolik huquqi: 2-bosqich",
-    "q": "Quyidagi maʼlumotlardan qaysi biri xato?",
-    "o": [
-      "Oila jamiyatning asosiy boʻgʻinidir.",
-      "Oila davlatning muhofazasidadir.",
-      "Ota-onalar oʻz farzandlarini voyaga yetguniga qadar boqish va tarbiyalash majburiyatidan ixtiyoriy ravishda ozod qilinishi mumkin.",
-      "Nikoh taraflarning ixtiyoriy roziligiga asoslanadi."
-    ],
-    "a": 2
-  },
-  {
-    "topic": "Fuqarolik huquqi: 2-bosqich",
-    "q": "Quyidagi maʼlumotlardan qaysi biri toʻgʻri?",
-    "o": [
-      "Davlat voyaga yetmaganlarni himoya qilishni oilaga toʻliq yuklaydi.",
-      "Voyaga yetmaganlarning tarbiyasi faqat oilaning ishi boʻlib, davlat va jamiyat bunga masʼul emas.",
-      "Davlat va jamiyat voyaga yetmaganlarning tarbiyalanishi, oʻqitilishi va rivojlanishini kafolatlaydi.",
-      "Voyaga yetmaganlarning oʻqish huquqi faqat ota-onalarning roziligi bilan qonun bilan chegaralanadi."
-    ],
-    "a": 2
-  },
-  {
-    "topic": "Fuqarolik huquqi: 2-bosqich",
-    "q": "Quyidagi maʼlumotlardan qaysi biri toʻgʻri?",
-    "o": [
-      "Davlat keksalar va nogironligi boʻlgan shaxslarning huquqlarini himoya qilishni taʼminlaydi.",
-      "Davlat maktabgacha taʼlimni rivojlantirishga masʼul emas.",
-      "Oʻqish va taʼlim olish faqat pul toʻlash sharti bilan amalga oshiriladi.",
-      "Voyaga yetgan farzandlar ota-onalariga gʻamxoʻrlik qilishga majbur emaslar."
-    ],
-    "a": 0
-  },
-  {
-    "topic": "Fuqarolik huquqi: 2-bosqich",
-    "q": "Qaysi bayonotlar toʻgʻri?\n1. Har kim mulkdor boʻlishga haqli.\n2. Meros huquqi qonun bilan kafolatlanadi.\n3. Xususiy mulk davlat mulkidan ustun turishi shart emas, barcha shakldagi mulklar teng huquqlidir.\n4. Tortib olingan mulk uchun kompensatsiya toʻlanishi shart emas.",
-    "o": [
-      "1, 2 va 3",
-      "1 va 4",
-      "2 va 4",
-      "Hammasi toʻgʻri"
-    ],
-    "a": 0
-  },
-  {
-    "topic": "Fuqarolik huquqi: 2-bosqich",
-    "q": "Quyidagi maʼlumotlardan qaysi biri xato?",
-    "o": [
-      "Har bir xodim adolatli mehnat sharoitida ishlash huquqiga ega.",
-      "Majburiy mehnat qonun bilan taqiqlanadi.",
-      "Ish haqining eng kam miqdori insonning yashash minimumidan kam boʻlishi qonunan ruxsat etiladi.",
-      "Har bir shaxs mehnat qilish, erkin kasb tanlash huquqiga ega."
-    ],
-    "a": 2
-  },
-  {
-    "topic": "Fuqarolik huquqi: 2-bosqich",
-    "q": "Quyidagi maʼlumotlardan qaysi biri toʻgʻri?",
-    "o": [
-      "Dam olish huquqi faqat davlat xizmatchilariga beriladi.",
-      "Dam olish huquqi haftalik ish vaqtining cheklanishi bilan taʼminlanadi.",
-      "Har bir shaxs xohlagancha ishlashi shart, dam olish huquqi kafolatlanmaydi.",
-      "Taʼtil olish huquqi faqat yozgi mavsumga tegishli."
-    ],
-    "a": 1
-  },
-  {
-    "topic": "Fuqarolik huquqi: 2-bosqich",
-    "q": "Nuqtalar oʻrniga mos javobni qoʻying:\n«Har kim malakali tibbiy xizmatdan foydalanish ... ega.»",
-    "o": [
-      "majburiyatiga",
-      "kafolatiga",
-      "huquqiga",
-      "imkoniyatiga"
-    ],
-    "a": 2
-  },
-  {
-    "topic": "Fuqarolik huquqi: 2-bosqich",
-    "q": "Quyidagi maʼlumotlardan qaysi biri xato?",
-    "o": [
-      "Davlat bepul umumiy oʻrta taʼlim olishni kafolatlaydi.",
-      "Har kim bilim olish huquqiga ega.",
-      "Oliy taʼlim muassasalarida shartnoma asosida oʻqish mutlaqo bepul amalga oshiriladi.",
-      "Maktab ishlari davlat nazoratidadir."
-    ],
-    "a": 2
-  },
-  {
-    "topic": "Fuqarolik huquqi: 2-bosqich",
-    "q": "Moslashtiring:\na) Ilmiy va texnik ijod erkinligi\nb) Mulk huquqi\nc) Vijdon erkinligi\nd) Saylov huquqi\n\n1. har kimning oʻz dinga eʼtiqod qilish huquqi\n2. intellektual mulk himoyasi\n3. meros huquqining kafolati\n4. fuqarolarning davlat ishlarini boshqarishda ishtiroki",
-    "o": [
-      "(a)–3; (b)–4; (c)–2; (d)–1",
-      "(a)–1; (b)–2; (c)–4; (d)–3",
-      "(a)–4; (b)–1; (c)–3; (d)–2",
-      "(a)–2; (b)–3; (c)–1; (d)–4"
-    ],
-    "a": 3
-  },
-  {
-    "topic": "Fuqarolik huquqi: 2-bosqich",
-    "q": "Qaysi bayonotlar toʻgʻri?\n1. Oʻzbekiston Respublikasining fuqarolari jamiyat va davlat ishlarini boshqarishda bevosita hamda vakillari orqali ishtirok etish huquqiga ega.\n2. Saylovlar umumiy, teng va toʻgʻridan-toʻgʻri saylov huquqi asosida yashirin ovoz berish yoʻli bilan oʻtkaziladi.\n3. 18 yoshga toʻlgan Oʻzbekiston Respublikasi fuqarolari saylash huquqiga ega.\n4. Sud tomonidan muomalaga layoqatsiz deb topilgan fuqarolar saylovda qatnasha oladi.",
-    "o": [
-      "2 va 4",
-      "Hammasi toʻgʻri",
-      "1 va 4",
-      "1, 2 va 3"
-    ],
-    "a": 3
-  },
-  {
-    "topic": "Fuqarolik huquqi: 2-bosqich",
-    "q": "Quyidagi maʼlumotlardan qaysi biri xato?",
-    "o": [
-      "Fuqarolar davlat hokimiyati vakillik organlariga saylanish huquqiga ega.",
-      "Soliqlar adolatli boʻlishi va ijtimoiy himoya tamoyillariga asoslanishi kerak.",
-      "Oʻzbekiston Respublikasining har bir fuqarosi qonunda belgilangan soliqlar va yigʻimlarni toʻlashi shart.",
-      "Soliq toʻlamaslik konstitutsiyaviy burch hisoblanmaydi, istalgan vaqtda toʻxtatilishi mumkin."
-    ],
-    "a": 3
-  },
-  {
-    "topic": "Fuqarolik huquqi: 2-bosqich",
-    "q": "Nuqtalar oʻrniga mos javobni qoʻying:\n«Oʻzbekiston Respublikasini himoya qilish — Oʻzbekiston Respublikasi har bir fuqarosining ... burchidir.»",
-    "o": [
-      "asosiy",
-      "muqaddas",
-      "fuqarolik",
-      "sharafli"
-    ],
-    "a": 1
-  },
-  {
-    "topic": "Fuqarolik huquqi: 2-bosqich",
-    "q": "Quyidagi maʼlumotlardan qaysi biri toʻgʻri?",
-    "o": [
-      "Oʻzbekiston Respublikasi fuqarolari harbiy xizmatni oʻtashga majbur emas.",
-      "Faqat erkaklar soliq toʻlashga majbur.",
-      "Harbiy xizmatni oʻtash tartibi Prezidentning yozma buyrugʻi bilan har bir fuqaro uchun alohida belgilanadi.",
-      "Harbiy xizmatni oʻtash tartibi qonun bilan belgilanadi."
-    ],
-    "a": 3
-  },
-  {
-    "topic": "Fuqarolik huquqi: 2-bosqich",
-    "q": "Qaysi bayonotlar toʻgʻri?\n1. Oʻzbekiston Respublikasi hududida barcha fuqarolar uchun atrof-muhitni muhofaza qilish majburiyati belgilanadi.\n2. Har kim qulay atrof-muhitga ega boʻlish huquqiga ega.\n3. Tabiatga ehtiyotkorona munosabatda boʻlish majburiyatdir.\n4. Korxonalar ekologik zararni qoplashdan ozod qilinishi mumkin.",
-    "o": [
-      "1 va 4",
-      "Hammasi toʻgʻri",
-      "1, 2 va 3",
-      "2 va 4"
-    ],
-    "a": 2
-  },
-  {
-    "topic": "Fuqarolik huquqi: 2-bosqich",
-    "q": "Quyidagi maʼlumotlardan qaysi biri xato?",
-    "o": [
-      "Hech kim qonunga asoslanmagan holda hibsga olinishi mumkin emas.",
-      "Davlat organlari fuqarolarning shaxsiy yozishmalarini hech qanday cheklovsiz ochib koʻrsatishga haqli.",
-      "Har bir shaxs qonun bilan qoʻriqlanadigan sirga ega boʻlishi mumkin.",
-      "Jismoniy erkinlik va daxlsizlik huquqi kafolatlanadi."
-    ],
-    "a": 1
-  },
-  {
-    "topic": "Fuqarolik huquqi: 2-bosqich",
-    "q": "Quyidagi maʼlumotlardan qaysi biri toʻgʻri?",
-    "o": [
-      "Ayblanuvchi oʻzining aybsizligini isbotlab berishi shart.",
-      "Jinoyat sodir etganlikda ayblanayotgan shaxs uning aybi qonuniy tartibda isbotlanmaguncha aybsiz deb hisoblanadi.",
-      "Guvoh sifatida oʻziga qarshi koʻrsatma berish majburiyati har bir fuqaroda bor.",
-      "Sudning qarorisiz shaxs 72 soatdan ortiq ushlab turilishi mumkin."
-    ],
-    "a": 1
-  },
-  {
-    "topic": "Fuqarolik huquqi: 2-bosqich",
-    "q": "Nuqtalar oʻrniga mos javobni qoʻying:\n«Hech kim qiynoqqa solinishi, zoʻravonlikka, boshqa shafqatsiz, gʻayriinsoniy yoki qadr-qimmatsizlantiruvchi muomalaga ... mumkin emas.»",
-    "o": [
-      "duchor etilishi",
-      "tortilishi",
-      "berilishi",
-      "jalb etilishi"
-    ],
-    "a": 0
-  },
-  {
-    "topic": "Fuqarolik huquqi: 2-bosqich",
-    "q": "Moslashtiring:\na) Aybsizlik prezumpsiyasi\nb) Soliq toʻlash\nc) Uy-joy daxlsizligi\nd) Harbiy burch\n\n1. aybi qonuniy tartibda isbotlanmaguncha shaxs aybsiz hisoblanadi\n2. qonunda belgilangan soliq va yigʻimlarni toʻlash majburiyati\n3. egasining ixtiyorisiz uy-joyga kirishga hech kim haqli emas\n4. Vatanni himoya qilish muqaddas burch",
-    "o": [
-      "(a)–1; (b)–2; (c)–3; (d)–4",
-      "(a)–3; (b)–4; (c)–1; (d)–2",
-      "(a)–4; (b)–3; (c)–2; (d)–1",
-      "(a)–2; (b)–1; (c)–4; (d)–3"
-    ],
-    "a": 0
-  },
-  {
-    "topic": "Fuqarolik huquqi: 2-bosqich",
-    "q": "Qaysi bayonot xato?\n1. Har kim oʻz huquq va erkinliklarini sud orqali himoya qilish huquqiga ega.\n2. Advokatura institutining faoliyati qonun bilan tartibga solinadi.\n3. Malakali yuridik yordam olish huquqi kafolatlanadi.\n4. Davlat organlarining qarorlari ustidan sudga shikoyat qilish taqiqlanadi.",
-    "o": [
-      "Faqat 4-bayonot",
       "1 va 2",
-      "3 va 4",
-      "2 va 3"
+      "2 va 4",
+      "1 va 3",
+      "3 va 4"
     ],
     "a": 0
   },
   {
     "topic": "Fuqarolik huquqi: 2-bosqich",
-    "q": "Quyidagi maʼlumotlardan qaysi biri xato?",
+    "q": "Bedarak yo‘qolgan deb topilgan fuqaroning mol-mulkini doimiy ravishda boshqarib turish zarur bo‘lsa, bu mol-mulk ______ asosida ish olib boradigan shaxsga topshiriladi.",
     "o": [
-      "Kasaba uyushmalari xodimlarning huquqlarini himoya qiladi.",
-      "Oʻzbekiston Respublikasida fuqarolar jamoat birlashmalariga birlashish huquqiga ega.",
-      "Jamoat birlashmalarining faoliyatini qonunga zid ravishda toʻxtatib qoʻyilishiga yoʻl qoʻyilmaydi.",
-      "Siyosiy partiyalar davlat organlari funksiyalarini bajarishi shart."
+      "Vasiylik va homiylik organi bilan tuziladigan ishonchli boshqaruv to‘g‘risidagi shartnoma",
+      "Sud tomonidan tuziladigan ijara shartnomasi",
+      "Davlat organi bilan tuziladigan muloqot shartnomasi",
+      "Meros huquqiga oid shartnoma"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "XATO ko‘rsatilgan ma’lumotni aniqlang.",
+    "o": [
+      "Ushbu mol-mulkdan bedarak yo‘qolgan shaxs qonunga muvofiq boqishi kerak bo‘lgan fuqarolarga ta’minot beriladi",
+      "Uning soliqlar va boshqa majburiyatlar bo‘yicha qarzlari to‘lanadi",
+      "Vasiylik va homiylik organi yo‘qolgan fuqaroning qayerdaligi to‘g‘risida ma’lumot olingan kundan boshlab bir yil o‘tgunga qadar ham uning mol-mulkini muhofaza qiluvchi shaxsni belgilashi mumkin",
+      "Bedarak yo‘qolgan deb topishning barcha oqibatlari faqat ushbu qoidalar bilan belgilanadi"
     ],
     "a": 3
   },
   {
     "topic": "Fuqarolik huquqi: 2-bosqich",
-    "q": "Quyidagi maʼlumotlardan qaysi biri toʻgʻri?",
+    "q": "Fuqaroning vafot etgan deb e’lon qilinishiga oid quyidagi bayonotlardan qaysi biri TO‘G‘RI?",
     "o": [
-      "Mulkdor oʻz mol-mulkidan boshqalarning huquqlariga zarar yetkazadigan tarzda foydalanishi mumkin.",
-      "Yer va tabiiy resurslar faqat xususiy mulk boʻlishi mumkin.",
-      "Davlat mulki xususiy mulkdan ustunlik maqomiga ega.",
-      "Xususiy mulk daxlsiz va davlat tomonidan qoʻriqlanadi."
+      "Fuqaroning qayerda turganligi haqida uning yashash joyida uch yil mobaynida ma’lumot bo‘lmasa yoki u o‘lim xavfi solib turgan yoxud muayyan baxtsiz hodisadan halok bo‘lgan deb taxmin qilish uchun asos bo‘ladigan vaziyatlarda bedarak yo‘qolib, qayerdaligi haqida olti oy mobaynida ma’lumot bo‘lmasa, sud uni vafot etgan deb e’lon qilishi mumkin",
+      "Fuqaroning qayerdaligi haqida bir yil ma’lumot bo‘lmasa, darhol vafot etgan deb e’lon qilinadi",
+      "Bunday qarorni faqat davlat organi qabul qiladi",
+      "Vafot etgan deb e’lon qilish fuqaroning huquq va burchlari borasida hech qanday oqibat vujudga keltirmaydi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Quyidagi bayonotlardan qaysi biri TO‘G‘RI?\n\n1. Harbiy harakatlar munosabati bilan bedarak yo‘qolgan harbiy xizmatchi harbiy harakatlar tamom bo‘lgan kundan e’tiboran kamida ikki yil o‘tgandan keyin sud tomonidan vafot etgan deb e’lon qilinishi mumkin.\n2. Sudning fuqaroni vafot etgan deb e’lon qilish haqidagi qarori qonuniy kuchga kirgan kun fuqaroning o‘lgan kuni deb hisoblanadi.\n3. O‘lim xavfi solib turgan vaziyatlarda bedarak yo‘qolgan fuqaro vafot etgan deb e’lon qilingan taqdirda, sud uning taxmin qilingan halokat kunini o‘lgan kuni deb topishi mumkin.\n4. Fuqaroni vafot etgan deb e’lon qilish faqat uning vasiy arizasiga ko‘ra amalga oshiriladi.",
+    "o": [
+      "1, 2 va 3",
+      "2 va 4",
+      "1 va 4",
+      "Faqat 4"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Vafot etgan deb e’lon qilingan fuqaro qaytib kelgan taqdirda, u har qanday shaxsdan bu shaxsga bepul o‘tib qolgan mavjud mol-mulkini o‘ziga qaytarib berishni ______ mobaynida sud orqali talab qilishga haqli.",
+    "o": [
+      "Bir yil",
+      "Uch yil",
+      "Besh yil",
+      "O‘n yil"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Quyidagi bayonotlardan qaysi biri NOTO‘G‘RI?\n\n1. Fuqarolik holati hujjatlarini qayd etish fuqarolik holati hujjatlarini yozish organlari tomonidan amalga oshiriladi.\n2. Farzandlikka olish, otalikni belgilash, familiya, ism va ota ismini o‘zgartirish tegishli fuqarolik holati hujjatlariga o‘zgartirish kiritish orqali ifodalanadi.\n3. Fuqarolik holati hujjatlari yozuvlarini bekor qilish va tiklash sud qarori asosida amalga oshirilishi mumkin.\n4. Fuqarolik holati hujjatlari yozuvlarini tuzatish manfaatdor shaxslar o‘rtasida nizo bo‘lsa ham faqat yozish organi tomonidan amalga oshiriladi.",
+    "o": [
+      "Faqat 4",
+      "Faqat 1",
+      "Faqat 2",
+      "Faqat 3"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Yuridik shaxs tushunchasiga oid quyidagi bayonotlardan qaysi biri TO‘G‘RI?",
+    "o": [
+      "O‘z mulkida yoki operativ boshqaruvida alohida mol-mulkka ega bo‘lgan hamda o‘z majburiyatlari yuzasidan ushbu mol-mulk bilan javob beradigan tashkilot yuridik shaxs hisoblanadi",
+      "Yuridik shaxs faqat jismoniy shaxslardan tashkil topgan tashkilotdir",
+      "Yuridik shaxs o‘z majburiyatlari yuzasidan faqat daromadlari bilan javob beradi",
+      "Yuridik shaxs sifatida faqat davlat korxonalari tan olinadi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "XATO ko‘rsatilgan ma’lumotni aniqlang.",
+    "o": [
+      "Yuridik shaxs o‘z nomidan mulkiy yoki shaxsiy nomulkiy huquqlarga ega bo‘la oladi",
+      "Yuridik shaxs majburiyatlarni bajara oladi",
+      "Yuridik shaxs sudda da’vogar va javobgar bo‘la oladi",
+      "Yuridik shaxslar mustaqil balans yoki smetaga ega bo‘lishlari shart emas"
     ],
     "a": 3
   },
   {
     "topic": "Fuqarolik huquqi: 2-bosqich",
-    "q": "Quyidagi maʼlumotlardan qaysi biri toʻgʻri?",
+    "q": "Quyidagi bayonotlardan qaysi juftliklar TO‘G‘RI?\n\n1. Foyda olishni o‘z faoliyatining asosiy maqsadi qilib olgan yuridik shaxs tijoratchi tashkilotdir.\n2. Tijoratchi tashkilot bo‘lgan yuridik shaxs xo‘jalik shirkati va jamiyati, ishlab chiqarish kooperativi shaklida tuzilishi mumkin.\n3. Tijoratchi bo‘lmagan yuridik shaxs jamoat birlashmasi, ijtimoiy fond va muassasa shaklida tashkil etilishi mumkin.\n4. Tijoratchi bo‘lmagan tashkilot hech qanday holatda tadbirkorlik faoliyati bilan shug‘ullanishi mumkin emas.",
     "o": [
-      "Har kim uy-joyli boʻlish huquqiga ega.",
-      "Uy-joyli boʻlish huquqi faqat davlat xizmatchilariga beriladi.",
-      "Uy-joy faqat davlat mulki boʻlishi mumkin.",
-      "Uy-joyga ega boʻlish huquqi Konstitutsiyada koʻzda tutilmagan."
+      "1, 2 va 3",
+      "2 va 4",
+      "1 va 4",
+      "Faqat 4"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Yuridik shaxsning huquq layoqati qachondan boshlab vujudga keladi va uni tugatish yakunlangan paytdan e’tiboran tugatiladi?",
+    "o": [
+      "Ta’sis hujjatlari imzolangan paytdan",
+      "Tuzilgan paytdan",
+      "Birinchi daromad olgan paytdan",
+      "Ta’sis shartnomasi tuzilgan paytdan"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "To‘g‘ri moslashtiring.\n\n(a) Yuridik shaxsning ayrim faoliyat turlari bilan shug‘ullanishi\n(b) Yuridik shaxsning maxsus huquq layoqati\n(c) Yuridik shaxs huquqlarining cheklanishi\n(d) Yuridik shaxsning faoliyati\n\n1. Faqat maxsus ruxsatnoma (litsenziya) asosida\n2. Ustavi, nizomi yoki qonunchilik bilan belgilanadi\n3. Qonunda nazarda tutilgan hollarda va tartibdagina mumkin\n4. Ta’sis hujjatlarida nazarda tutilgan faoliyat maqsadlariga muvofiq",
+    "o": [
+      "(a)–1; (b)–2; (c)–3; (d)–4",
+      "(a)–2; (b)–1; (c)–4; (d)–3",
+      "(a)–3; (b)–4; (c)–1; (d)–2",
+      "(a)–4; (b)–3; (c)–2; (d)–1"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Quyidagi bayonotlardan qaysi biri TO‘G‘RI?\n\n1. Yuridik shaxs ustav asosida yoki ta’sis shartnomasi va ustav asosida yoxud faqat ta’sis shartnomasi asosida ish olib boradi.\n2. Yuridik shaxsning ta’sis shartnomasi uning muassislari tomonidan tuziladi, ustavi esa tasdiqlanadi.\n3. Bir muassis tomonidan tashkil etilgan yuridik shaxs shu muassis tasdiqlagan ustav asosida ish olib boradi.\n4. Yuridik shaxsning ta’sis hujjatlarida faqat uning nomi ko‘rsatilishi kifoya.",
+    "o": [
+      "1, 2 va 3",
+      "2 va 4",
+      "1 va 4",
+      "Faqat 4"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "XATO ko‘rsatilgan ma’lumotni aniqlang.",
+    "o": [
+      "Yuridik shaxsni tashkil etishning qonunda belgilab qo‘yilgan tartibini buzish uni davlat ro‘yxatidan o‘tkazishni rad etishga sabab bo‘ladi",
+      "Yuridik shaxsni tashkil etish maqsadga muvofiq emas degan vaj bilan uni ro‘yxatdan o‘tkazishni rad etishga yo‘l qo‘yilmaydi",
+      "Davlat ro‘yxatidan o‘tkazishni rad etish ustidan sudga shikoyat qilinishi mumkin",
+      "Yuridik shaxs ta’sis hujjatlari imzolangan paytdan boshlab tashkil etilgan hisoblanadi"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Quyidagi bayonotlardan qaysi biri NOTO‘G‘RI?\n\n1. Yuridik shaxs o‘z organlari orqali fuqarolik huquqlariga ega bo‘ladi va o‘z zimmasiga fuqarolik burchlarini oladi.\n2. Yuridik shaxs nomidan ish olib boradigan shaxs halol va oqilona ish olib borishi kerak.\n3. Yuridik shaxs o‘zi bilan aloqa amalga oshiriladigan pochta manziliga ega bo‘lishi lozim.\n4. Yuridik shaxs o‘z firmasining nomidan foydalanish huquqiga faqat davlat organining ruxsati bilan ega.",
+    "o": [
+      "Faqat 4",
+      "Faqat 1",
+      "Faqat 2",
+      "Faqat 3"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Vakolatxona va filialga oid quyidagi bayonotlardan qaysi biri TO‘G‘RI?",
+    "o": [
+      "Vakolatxona yuridik shaxsning barcha vazifalarini bajaradigan alohida bo‘linmasidir",
+      "Filial yuridik shaxsning u turgan yerdan tashqarida joylashgan hamda uning barcha vazifalarini yoki vazifalarining bir qismini bajaradigan alohida bo‘linmasidir",
+      "Vakolatxona va filiallar mustaqil yuridik shaxs hisoblanadi",
+      "Vakolatxona va filiallarning rahbarlari o‘zlarini tashkil etgan organ tomonidan tayinlanadi"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Quyidagi bayonotlardan qaysi juftliklar TO‘G‘RI?\n\n1. Yuridik shaxs o‘z majburiyatlari bo‘yicha o‘ziga qarashli butun mol-mulk bilan javob beradi.\n2. Yuridik shaxsning muassisi yoki ishtirokchisi yuridik shaxsning majburiyatlari bo‘yicha javob bermaydi.\n3. Yuridik shaxsning mol-mulki yetarli bo‘lmagan taqdirda, g‘ayriqonuniy harakatlar tufayli to‘lovga qobiliyatsizlik vujudga keltirilgan bo‘lsa, subsidiar javobgarlik yuklatilishi mumkin.\n4. Yuridik shaxs muassisining shaxsiy majburiyatlari bo‘yicha javob beradi.",
+    "o": [
+      "1, 2 va 3",
+      "2 va 4",
+      "1 va 4",
+      "Faqat 4"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Yuridik shaxsni qayta tashkil etish shakllariga quyidagilar kiradi:",
+    "o": [
+      "Faqat qo‘shib yuborish va bo‘lish",
+      "Qo‘shib yuborish, qo‘shib olish, bo‘lish, ajratib chiqarish, o‘zgartirish",
+      "Faqat tugatish va qayta ro‘yxatdan o‘tkazish",
+      "Faqat o‘zgartirish va tugatish"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "XATO ko‘rsatilgan ma’lumotni aniqlang.",
+    "o": [
+      "Yuridik shaxslar qo‘shib yuborilganida ularning huquq va burchlari yangidan vujudga kelgan yuridik shaxsga o‘tadi",
+      "Yuridik shaxs bo‘lingan taqdirda uning huquq va burchlari taqsimlash balansiga muvofiq yangidan vujudga kelgan yuridik shaxslarga o‘tadi",
+      "Yuridik shaxs tarkibidan bir yoki bir necha yuridik shaxs ajralib chiqqanida huquq va burchlar taqsimlash balansiga muvofiq ularga o‘tadi",
+      "Yuridik shaxs bo‘lingan taqdirda uning huquq va burchlari topshirish hujjatiga muvofiq yangi bir yagona yuridik shaxsga o‘tadi"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Quyidagi bayonotlardan qaysi biri TO‘G‘RI?\n\n1. Topshirish hujjati va taqsimlash balansi huquqiy vorislik to‘g‘risidagi qoidalarni o‘z ichiga olishi kerak.\n2. Qayta tashkil etilayotgan yuridik shaxsning kreditori majburiyatlarni bekor qilishni yoki muddatidan oldin bajarishni hamda zararni to‘lashni talab qilishga haqli.\n3. Qayta tashkil etish to‘g‘risida qaror qabul qilgan muassislar kreditorlarni yozma ravishda xabardor qilishlari shart.\n4. Kreditorlarni xabardor qilish shart emas.",
+    "o": [
+      "1, 2 va 3",
+      "2 va 4",
+      "1 va 4",
+      "Faqat 4"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Yuridik shaxsni tugatish uning huquq va burchlari huquqiy vorislik tartibida boshqa shaxsga o‘tmasdan ______ olib keladi.",
+    "o": [
+      "Faqat qisman bekor qilinishiga",
+      "Bekor qilinishiga",
+      "Davom etishiga",
+      "Boshqa shaxsga o‘tishiga"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Quyidagi bayonotlardan qaysi biri TO‘G‘RI?\n\n1. Tugatish to‘g‘risida qaror qabul qilgan muassislar yoki organ davlat ro‘yxatidan o‘tkazuvchi organga darhol yozma xabar berishlari kerak.\n2. Tugatuvchi sifatida tugatish komissiyasi yoki jismoniy shaxs tayinlanadi.\n3. Tugatuvchi tayinlangan paytdan boshlab yuridik shaxs ishlarini boshqarish bo‘yicha vakolatlar tugatuvchiga o‘tadi.\n4. Tugatuvchi tayinlanmaydi, ishlarni muassisning o‘zi boshqaradi.",
+    "o": [
+      "1, 2 va 3",
+      "2 va 4",
+      "1 va 4",
+      "Faqat 4"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Yuridik shaxsning tugatilishi haqidagi e’londa kreditorlar talablarini bildirish muddati e’lon chiqqan paytdan e’tiboran qancha bo‘lishi kerak?",
+    "o": [
+      "Bir oydan kam bo‘lmasligi",
+      "Ikki oydan kam bo‘lmasligi",
+      "Olti oydan kam bo‘lmasligi",
+      "Bir yildan kam bo‘lmasligi"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "XATO ko‘rsatilgan ma’lumotni aniqlang.",
+    "o": [
+      "Yuridik shaxsning tugatilishi haqidagi yozuv yagona davlat reyestriga kiritilgandan so‘ng tugatish tamomlangan hisoblanadi",
+      "Pul mablag‘lari yetarli bo‘lmasa, tugatuvchi mol-mulkni kimoshdi savdosi orqali sotadi",
+      "Birinchi navbatda fuqarolarning mehnatga oid huquqiy munosabatlaridan kelib chiqadigan talablar qanoatlantiriladi",
+      "Kreditorlar talablari qondirilganidan keyin qolgan mol-mulk davlatga topshiriladi"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Quyidagi bayonotlardan qaysi biri TO‘G‘RI?",
+    "o": [
+      "Tijoratchi tashkilot bo‘lgan yuridik shaxs, shuningdek matlubot kooperativi yoki ijtimoiy fond shaklida ish olib borayotgan yuridik shaxs sud tomonidan to‘lovga qobiliyatsiz deb topilishi mumkin",
+      "Har qanday yuridik shaxs avtomatik ravishda to‘lovga qobiliyatsiz deb topiladi",
+      "To‘lovga qobiliyatsizlik faqat soliqlar bo‘yicha qarz mavjud bo‘lsa aniqlanadi",
+      "To‘lovga qobiliyatsiz deb topishning asoslari faqat Fuqarolik kodeksida belgilanadi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "To‘g‘ri moslashtiring.\n\n(a) Xo‘jalik shirkatlari va jamiyatlari shakllari\n(b) To‘liq shirkatlarda ishtirokchilar\n(c) Xo‘jalik jamiyatlarida ishtirokchilar\n(d) Aksiyalar chiqarish huquqi\n\n1. To‘liq shirkat, kommandit shirkat, mas’uliyati cheklangan jamiyat, aksiyadorlik jamiyati\n2. Yakka tadbirkorlar va/yoki tijoratchi tashkilotlar\n3. Fuqarolar va yuridik shaxslar\n4. Faqat aksiyadorlik jamiyatiga tegishli",
+    "o": [
+      "(a)–1; (b)–2; (c)–3; (d)–4",
+      "(a)–2; (b)–1; (c)–4; (d)–3",
+      "(a)–3; (b)–4; (c)–1; (d)–2",
+      "(a)–4; (b)–3; (c)–2; (d)–1"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Quyidagi bayonotlardan qaysi biri TO‘G‘RI?\n\n1. Ishtirokchilar shirkat yoki jamiyat ishlarini boshqarishda qatnashishga haqlidirlar.\n2. Ishtirokchilar ta’sis hujjatlarida belgilangan tartibda shirkat faoliyati to‘g‘risida axborot olish hamda buxgalteriya daftarlari bilan tanishishga haqlidirlar.\n3. To‘liq shirkat ishtirokchilari shirkat majburiyatlari bo‘yicha o‘zlariga qarashli butun mol-mulk bilan javob beradilar.\n4. Shaxs bir vaqtning o‘zida bir nechta to‘liq shirkatning ishtirokchisi bo‘lishi mumkin.",
+    "o": [
+      "1, 2 va 3",
+      "2 va 4",
+      "1 va 4",
+      "Faqat 4"
     ],
     "a": 0
   }
