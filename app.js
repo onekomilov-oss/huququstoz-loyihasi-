@@ -29,8 +29,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // --- C) Pastki menyu (Tab) larni ishlashini ta'minlash ---
   setupTabs();
-});
 
+  // --- D) Kunlik olovchalar (Streak) ni hisoblash ---
+  updateStreak();
+});
 
 // 3. Qonunlarni ekranga chiqaruvchi funksiya
 function renderLawsList() {
@@ -71,7 +73,6 @@ function renderLawsList() {
   });
 }
 
-
 // 4. Pastki menyudagi sahifalarni almashtirish funksiyasi
 function setupTabs() {
   const navItems = document.querySelectorAll('.nav-item');
@@ -102,4 +103,45 @@ function setupTabs() {
       document.querySelector('.nav-item[data-tab="tab-tests"]').click();
     });
   }
+}
+
+// 5. Olovchalar (Streak) tizimi
+function updateStreak() {
+  const today = new Date().toDateString(); // Bugungi sana
+  const lastVisit = localStorage.getItem('lastVisit');
+  let streak = parseInt(localStorage.getItem('streakCount')) || 0;
+
+  if (lastVisit !== today) {
+    if (lastVisit) {
+      // Vaqt farqini hisoblash
+      const lastDate = new Date(lastVisit);
+      const currentDate = new Date(today);
+      const diffTime = Math.abs(currentDate - lastDate);
+      const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+
+      if (diffDays === 1) {
+        // Agar kecha kirgan bo'lsa, olovchani bittaga oshiramiz
+        streak += 1;
+      } else {
+        // Agar 1 kundan ko'p vaqt o'tib ketgan bo'lsa, streak kuyadi
+        streak = 1;
+      }
+    } else {
+      // Ilovaga birinchi marta kirishi
+      streak = 1;
+    }
+
+    // Yangi ma'lumotlarni xotiraga saqlash
+    localStorage.setItem('lastVisit', today);
+    localStorage.setItem('streakCount', streak);
+  }
+
+  // Ekranda olovchalar sonini yangilash (Tepadagi, Bosh sahifadagi va Guvohnomadagi)
+  const topStreakEl = document.getElementById('streak-count');
+  const mainStreakEl = document.getElementById('stat-streak');
+  const certStreakEl = document.getElementById('cert-streak');
+
+  if (topStreakEl) topStreakEl.textContent = streak;
+  if (mainStreakEl) mainStreakEl.textContent = streak;
+  if (certStreakEl) certStreakEl.textContent = streak + ' kun';
 }
