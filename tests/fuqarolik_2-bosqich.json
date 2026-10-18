@@ -1,0 +1,332 @@
+[
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Quyidagi maʼlumotlardan qaysi biri xato?",
+    "o": [
+      "Diniy tashkilotlarning faoliyatiga qonuniy doirada yoʻl qoʻyiladi.",
+      "Diniy qarashlarni majburan singdirishga yoʻl qoʻyiladi.",
+      "Hamma oʻz vijdon erkinligi huquqiga ega.",
+      "Har bir inson istalgan dinga eʼtiqod qilish yoki hech qaysiga eʼtiqod qilmaslik huquqiga ega."
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Quyidagi maʼlumotlardan qaysi biri toʻgʻri?",
+    "o": [
+      "Axborotni qidirish, olish va tarqatish faqat davlat organlarining ruxsati bilan amalga oshiriladi.",
+      "Har kim oʻz fikrini va eʼtiqodini erkin ifoda etish huquqiga ega.",
+      "Ommaviy axborot vositalari erkinligi davlat organlari tomonidan toʻliq cheklanadi.",
+      "Oʻzbekiston Respublikasida fuqarolar oʻz fikrini va eʼtiqodini oshkor qilishga haqli emas."
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Nuqtalar oʻrniga mos javobni qoʻying:\n«Har kim oʻz huquq va erkinliklarini qonun bilan taqiqlanmagan ... usullar bilan amalga oshirishga haqli.»",
+    "o": [
+      "boshqa",
+      "maxsus",
+      "faqat davlat tomonidan ruxsat etilgan",
+      "barcha"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Qaysi bayonotlar toʻgʻri?\n1. Har kim yashash huquqiga ega.\n2. Oʻzbekiston Respublikasida oʻlim jazosi qonun bilan taqiqlanadi.\n3. Insonning hayotiga suiqasd qilish eng ogʻir jinoyatdir.\n4. Davlat fuqarolarning hayotini himoya qilish majburiyatini oʻz zimmasiga olmaydi.",
+    "o": [
+      "1 va 4",
+      "1, 2 va 3",
+      "2 va 4",
+      "Hammasi toʻgʻri"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Quyidagi maʼlumotlardan qaysi biri xato?",
+    "o": [
+      "Shaxsiy hayotning daxlsizligi qonun bilan muhofaza qilinadi.",
+      "Xususiy yozishmalar, telefon orqali soʻzlashuvlar va xabarlar sir saqlanishi huquqi istisno hollarda ham hech qachon cheklanishi mumkin emas.",
+      "Uy-joy daxlsizdir, hech kim uy-joyga uning egasining ixtiyorisiz kirishga haqli emas.",
+      "Har kim oʻz shaʼni va obroʻsiga qilingan tajovuzlardan himoyalanish huquqiga ega."
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Quyidagi maʼlumotlardan qaysi biri toʻgʻri?",
+    "o": [
+      "Oʻzbekiston Respublikasi fuqarolari respublika hududida erkin harakatlanish va yashash joyini tanlash huquqiga ega.",
+      "Mamlakatdan chiqish huquqi doimiy ravishda cheklab qoʻyilishi mumkin.",
+      "Chet el fuqarolari va fuqaroligi boʻlmagan shaxslar Oʻzbekiston hududida harakatlana olmaydi.",
+      "Yashash joyini tanlash huquqi faqat maxsus ruxsatnoma (propiska) asosidagina amalga oshiriladi."
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Quyidagi bayonotlarning toʻgʻri yoki notoʻgʻriligini toʻgʻri koʻrsatgan javobni toping:\n1. Oʻzbekiston Respublikasining fuqarosi Oʻzbekistondan tashqariga chiqish huquqiga ega.\n2. Har kim mamlakatga qaytish huquqiga ega.\n3. Oʻzbekiston Respublikasi fuqarosi chet davlatda boʻlgan vaqtida davlat himoyasida boʻladi.\n4. Fuqarolarni Oʻzbekistondan chiqarib yuborishga qonunan yoʻl qoʻyiladi.",
+    "o": [
+      "1, 2 va 3 toʻgʻri, 4 notoʻgʻri",
+      "1 va 4 toʻgʻri, 2 va 3 notoʻgʻri",
+      "Hammasi notoʻgʻri",
+      "Hammasi toʻgʻri"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Moslashtiring:\na) Yashash huquqi\nb) Nikoh tuzish huquqi\nc) Mehnat qilish huquqi\nd) Taʼlim olish huquqi\n\n1. har bir insonning tabiiy huquqi\n2. erkak va ayolning ixtiyoriy roziligi bilan\n3. erkin tanlangan kasb va adolatli mehnat sharoitlari\n4. davlat tomonidan bepul umumiy taʼlim kafolatlanishi",
+    "o": [
+      "(a)–4; (b)–3; (c)–2; (d)–1",
+      "(a)–2; (b)–1; (c)–4; (d)–3",
+      "(a)–1; (b)–2; (c)–3; (d)–4",
+      "(a)–3; (b)–4; (c)–1; (d)–2"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Quyidagi maʼlumotlardan qaysi biri xato?",
+    "o": [
+      "Oila jamiyatning asosiy boʻgʻinidir.",
+      "Oila davlatning muhofazasidadir.",
+      "Ota-onalar oʻz farzandlarini voyaga yetguniga qadar boqish va tarbiyalash majburiyatidan ixtiyoriy ravishda ozod qilinishi mumkin.",
+      "Nikoh taraflarning ixtiyoriy roziligiga asoslanadi."
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Quyidagi maʼlumotlardan qaysi biri toʻgʻri?",
+    "o": [
+      "Davlat voyaga yetmaganlarni himoya qilishni oilaga toʻliq yuklaydi.",
+      "Voyaga yetmaganlarning tarbiyasi faqat oilaning ishi boʻlib, davlat va jamiyat bunga masʼul emas.",
+      "Davlat va jamiyat voyaga yetmaganlarning tarbiyalanishi, oʻqitilishi va rivojlanishini kafolatlaydi.",
+      "Voyaga yetmaganlarning oʻqish huquqi faqat ota-onalarning roziligi bilan qonun bilan chegaralanadi."
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Quyidagi maʼlumotlardan qaysi biri toʻgʻri?",
+    "o": [
+      "Davlat keksalar va nogironligi boʻlgan shaxslarning huquqlarini himoya qilishni taʼminlaydi.",
+      "Davlat maktabgacha taʼlimni rivojlantirishga masʼul emas.",
+      "Oʻqish va taʼlim olish faqat pul toʻlash sharti bilan amalga oshiriladi.",
+      "Voyaga yetgan farzandlar ota-onalariga gʻamxoʻrlik qilishga majbur emaslar."
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Qaysi bayonotlar toʻgʻri?\n1. Har kim mulkdor boʻlishga haqli.\n2. Meros huquqi qonun bilan kafolatlanadi.\n3. Xususiy mulk davlat mulkidan ustun turishi shart emas, barcha shakldagi mulklar teng huquqlidir.\n4. Tortib olingan mulk uchun kompensatsiya toʻlanishi shart emas.",
+    "o": [
+      "1, 2 va 3",
+      "1 va 4",
+      "2 va 4",
+      "Hammasi toʻgʻri"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Quyidagi maʼlumotlardan qaysi biri xato?",
+    "o": [
+      "Har bir xodim adolatli mehnat sharoitida ishlash huquqiga ega.",
+      "Majburiy mehnat qonun bilan taqiqlanadi.",
+      "Ish haqining eng kam miqdori insonning yashash minimumidan kam boʻlishi qonunan ruxsat etiladi.",
+      "Har bir shaxs mehnat qilish, erkin kasb tanlash huquqiga ega."
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Quyidagi maʼlumotlardan qaysi biri toʻgʻri?",
+    "o": [
+      "Dam olish huquqi faqat davlat xizmatchilariga beriladi.",
+      "Dam olish huquqi haftalik ish vaqtining cheklanishi bilan taʼminlanadi.",
+      "Har bir shaxs xohlagancha ishlashi shart, dam olish huquqi kafolatlanmaydi.",
+      "Taʼtil olish huquqi faqat yozgi mavsumga tegishli."
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Nuqtalar oʻrniga mos javobni qoʻying:\n«Har kim malakali tibbiy xizmatdan foydalanish ... ega.»",
+    "o": [
+      "majburiyatiga",
+      "kafolatiga",
+      "huquqiga",
+      "imkoniyatiga"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Quyidagi maʼlumotlardan qaysi biri xato?",
+    "o": [
+      "Davlat bepul umumiy oʻrta taʼlim olishni kafolatlaydi.",
+      "Har kim bilim olish huquqiga ega.",
+      "Oliy taʼlim muassasalarida shartnoma asosida oʻqish mutlaqo bepul amalga oshiriladi.",
+      "Maktab ishlari davlat nazoratidadir."
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Moslashtiring:\na) Ilmiy va texnik ijod erkinligi\nb) Mulk huquqi\nc) Vijdon erkinligi\nd) Saylov huquqi\n\n1. har kimning oʻz dinga eʼtiqod qilish huquqi\n2. intellektual mulk himoyasi\n3. meros huquqining kafolati\n4. fuqarolarning davlat ishlarini boshqarishda ishtiroki",
+    "o": [
+      "(a)–3; (b)–4; (c)–2; (d)–1",
+      "(a)–1; (b)–2; (c)–4; (d)–3",
+      "(a)–4; (b)–1; (c)–3; (d)–2",
+      "(a)–2; (b)–3; (c)–1; (d)–4"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Qaysi bayonotlar toʻgʻri?\n1. Oʻzbekiston Respublikasining fuqarolari jamiyat va davlat ishlarini boshqarishda bevosita hamda vakillari orqali ishtirok etish huquqiga ega.\n2. Saylovlar umumiy, teng va toʻgʻridan-toʻgʻri saylov huquqi asosida yashirin ovoz berish yoʻli bilan oʻtkaziladi.\n3. 18 yoshga toʻlgan Oʻzbekiston Respublikasi fuqarolari saylash huquqiga ega.\n4. Sud tomonidan muomalaga layoqatsiz deb topilgan fuqarolar saylovda qatnasha oladi.",
+    "o": [
+      "2 va 4",
+      "Hammasi toʻgʻri",
+      "1 va 4",
+      "1, 2 va 3"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Quyidagi maʼlumotlardan qaysi biri xato?",
+    "o": [
+      "Fuqarolar davlat hokimiyati vakillik organlariga saylanish huquqiga ega.",
+      "Soliqlar adolatli boʻlishi va ijtimoiy himoya tamoyillariga asoslanishi kerak.",
+      "Oʻzbekiston Respublikasining har bir fuqarosi qonunda belgilangan soliqlar va yigʻimlarni toʻlashi shart.",
+      "Soliq toʻlamaslik konstitutsiyaviy burch hisoblanmaydi, istalgan vaqtda toʻxtatilishi mumkin."
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Nuqtalar oʻrniga mos javobni qoʻying:\n«Oʻzbekiston Respublikasini himoya qilish — Oʻzbekiston Respublikasi har bir fuqarosining ... burchidir.»",
+    "o": [
+      "asosiy",
+      "muqaddas",
+      "fuqarolik",
+      "sharafli"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Quyidagi maʼlumotlardan qaysi biri toʻgʻri?",
+    "o": [
+      "Oʻzbekiston Respublikasi fuqarolari harbiy xizmatni oʻtashga majbur emas.",
+      "Faqat erkaklar soliq toʻlashga majbur.",
+      "Harbiy xizmatni oʻtash tartibi Prezidentning yozma buyrugʻi bilan har bir fuqaro uchun alohida belgilanadi.",
+      "Harbiy xizmatni oʻtash tartibi qonun bilan belgilanadi."
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Qaysi bayonotlar toʻgʻri?\n1. Oʻzbekiston Respublikasi hududida barcha fuqarolar uchun atrof-muhitni muhofaza qilish majburiyati belgilanadi.\n2. Har kim qulay atrof-muhitga ega boʻlish huquqiga ega.\n3. Tabiatga ehtiyotkorona munosabatda boʻlish majburiyatdir.\n4. Korxonalar ekologik zararni qoplashdan ozod qilinishi mumkin.",
+    "o": [
+      "1 va 4",
+      "Hammasi toʻgʻri",
+      "1, 2 va 3",
+      "2 va 4"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Quyidagi maʼlumotlardan qaysi biri xato?",
+    "o": [
+      "Hech kim qonunga asoslanmagan holda hibsga olinishi mumkin emas.",
+      "Davlat organlari fuqarolarning shaxsiy yozishmalarini hech qanday cheklovsiz ochib koʻrsatishga haqli.",
+      "Har bir shaxs qonun bilan qoʻriqlanadigan sirga ega boʻlishi mumkin.",
+      "Jismoniy erkinlik va daxlsizlik huquqi kafolatlanadi."
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Quyidagi maʼlumotlardan qaysi biri toʻgʻri?",
+    "o": [
+      "Ayblanuvchi oʻzining aybsizligini isbotlab berishi shart.",
+      "Jinoyat sodir etganlikda ayblanayotgan shaxs uning aybi qonuniy tartibda isbotlanmaguncha aybsiz deb hisoblanadi.",
+      "Guvoh sifatida oʻziga qarshi koʻrsatma berish majburiyati har bir fuqaroda bor.",
+      "Sudning qarorisiz shaxs 72 soatdan ortiq ushlab turilishi mumkin."
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Nuqtalar oʻrniga mos javobni qoʻying:\n«Hech kim qiynoqqa solinishi, zoʻravonlikka, boshqa shafqatsiz, gʻayriinsoniy yoki qadr-qimmatsizlantiruvchi muomalaga ... mumkin emas.»",
+    "o": [
+      "duchor etilishi",
+      "tortilishi",
+      "berilishi",
+      "jalb etilishi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Moslashtiring:\na) Aybsizlik prezumpsiyasi\nb) Soliq toʻlash\nc) Uy-joy daxlsizligi\nd) Harbiy burch\n\n1. aybi qonuniy tartibda isbotlanmaguncha shaxs aybsiz hisoblanadi\n2. qonunda belgilangan soliq va yigʻimlarni toʻlash majburiyati\n3. egasining ixtiyorisiz uy-joyga kirishga hech kim haqli emas\n4. Vatanni himoya qilish muqaddas burch",
+    "o": [
+      "(a)–1; (b)–2; (c)–3; (d)–4",
+      "(a)–3; (b)–4; (c)–1; (d)–2",
+      "(a)–4; (b)–3; (c)–2; (d)–1",
+      "(a)–2; (b)–1; (c)–4; (d)–3"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Qaysi bayonot xato?\n1. Har kim oʻz huquq va erkinliklarini sud orqali himoya qilish huquqiga ega.\n2. Advokatura institutining faoliyati qonun bilan tartibga solinadi.\n3. Malakali yuridik yordam olish huquqi kafolatlanadi.\n4. Davlat organlarining qarorlari ustidan sudga shikoyat qilish taqiqlanadi.",
+    "o": [
+      "Faqat 4-bayonot",
+      "1 va 2",
+      "3 va 4",
+      "2 va 3"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Quyidagi maʼlumotlardan qaysi biri xato?",
+    "o": [
+      "Kasaba uyushmalari xodimlarning huquqlarini himoya qiladi.",
+      "Oʻzbekiston Respublikasida fuqarolar jamoat birlashmalariga birlashish huquqiga ega.",
+      "Jamoat birlashmalarining faoliyatini qonunga zid ravishda toʻxtatib qoʻyilishiga yoʻl qoʻyilmaydi.",
+      "Siyosiy partiyalar davlat organlari funksiyalarini bajarishi shart."
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Quyidagi maʼlumotlardan qaysi biri toʻgʻri?",
+    "o": [
+      "Mulkdor oʻz mol-mulkidan boshqalarning huquqlariga zarar yetkazadigan tarzda foydalanishi mumkin.",
+      "Yer va tabiiy resurslar faqat xususiy mulk boʻlishi mumkin.",
+      "Davlat mulki xususiy mulkdan ustunlik maqomiga ega.",
+      "Xususiy mulk daxlsiz va davlat tomonidan qoʻriqlanadi."
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Fuqarolik huquqi: 2-bosqich",
+    "q": "Quyidagi maʼlumotlardan qaysi biri toʻgʻri?",
+    "o": [
+      "Har kim uy-joyli boʻlish huquqiga ega.",
+      "Uy-joyli boʻlish huquqi faqat davlat xizmatchilariga beriladi.",
+      "Uy-joy faqat davlat mulki boʻlishi mumkin.",
+      "Uy-joyga ega boʻlish huquqi Konstitutsiyada koʻzda tutilmagan."
+    ],
+    "a": 0
+  }
+]
