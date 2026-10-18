@@ -6,7 +6,6 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' https://telegram.org; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://raw.githubusercontent.com;">
   <title>Huququstoz — Premium Akademiya</title>
   
-  <!-- Premium Shriftlar -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -16,12 +15,10 @@
   <script src="config.js"></script>
 </head>
 <body>
-  <!-- Dinamik Harakatlanuvchi Fon Nurlari -->
   <div class="glow-sphere sphere-1"></div>
   <div class="glow-sphere sphere-2"></div>
   <div class="glow-sphere sphere-3"></div>
 
-  <!-- Telegram Tashqarisida Ochilganda -->
   <div id="external-warning" class="glass-card hidden" style="margin:24px; text-align:center;">
     <div style="font-size: 40px; margin-bottom: 12px;">⚖️</div>
     <h2 class="title-serif">Kirish Cheklangan</h2>
@@ -30,7 +27,6 @@
   </div>
 
   <div id="app" class="app-container hidden">
-    <!-- Yuqori Profil va Streak Paneli -->
     <header class="top-bar">
       <div class="user-profile">
         <div class="avatar-badge">⚖️</div>
@@ -45,14 +41,13 @@
       </div>
     </header>
 
-    <!-- Asosiy Kontent -->
     <main class="main-content">
       <!-- 1. BOSH SAHIFA -->
       <section id="tab-home" class="tab-page active">
         <div class="glass-card hero-card">
           <span class="hero-tag">RAQAMLI AKADEMIYA</span>
           <h1 class="title-serif">Huququstoz</h1>
-          <p>Davlat va huquq asoslarini chuqur interaktiv testlar hamda tahlillar orqali o'zlashtiring.</p>
+          <p>Davlat va huquq asoslarini interaktiv testlar hamda tahlillar orqali o'zlashtiring va kunlik streakingizni oshiring.</p>
         </div>
 
         <div class="stats-grid">
@@ -105,29 +100,16 @@
         </div>
       </section>
 
-      <!-- 3. REYTING BO'LIMI -->
-      <section id="tab-leaderboard" class="tab-page">
-        <h2 class="title-serif section-title">🏆 Oliy Sud Sudyalari</h2>
-        <p class="section-desc">Haftalik eng yuqori natija ko'rsatgan TOP-10 ishtirokchilar ro'yxati.</p>
-        <div class="glass-card" style="padding:12px;">
-          <ul id="leaderboard-list" class="leaderboard-list">
-            <li>Yuklanmoqda...</li>
-          </ul>
+      <!-- 3. QONUNLAR BO'LIMI -->
+      <section id="tab-laws" class="tab-page">
+        <h2 class="title-serif section-title">📜 Rasmiy Qonunlar</h2>
+        <p style="color: var(--text-sub); margin-bottom: 16px; font-size: 13px;">Asosiy huquqiy hujjatlar va ularning Lex.uz manzillari:</p>
+        <div id="laws-list" class="topics-list">
+          <div>Yuklanmoqda...</div>
         </div>
       </section>
 
-      <!-- 4. KUTUBXONA BO'LIMI -->
-      <section id="tab-library" class="tab-page">
-        <h2 class="title-serif section-title">📚 Darsliklar & Qonunlar</h2>
-        <div class="sub-tab-bar">
-          <button id="btn-sub-docs" class="sub-tab-btn active">Darsliklar</button>
-          <button id="btn-sub-laws" class="sub-tab-btn">52 ta Hujjat</button>
-        </div>
-        <div id="library-docs-list" class="library-grid"></div>
-        <div id="library-laws-list" class="library-grid hidden"></div>
-      </section>
-
-      <!-- 5. GUVOHNOMA BO'LIMI -->
+      <!-- 4. GUVOHNOMA BO'LIMI -->
       <section id="tab-cert" class="tab-page">
         <h2 class="title-serif section-title">📜 Virtual Guvohnoma</h2>
         <div id="cert-card" class="cert-card">
@@ -146,13 +128,13 @@
             </div>
           </div>
           <div class="cert-footer">
-            Skrinshot qiling va <b>@huquqmind</b> guruhida ulashing!
+            Skrinshot qiling va do'stlaringiz bilan ulashing!
           </div>
         </div>
       </section>
     </main>
 
-    <!-- Pastki Navigatsiya -->
+    <!-- Pastki Navigatsiya Bar (4 ta Bo'lim) -->
     <nav class="bottom-nav">
       <button class="nav-item active" data-tab="tab-home">
         <span class="nav-icon">🏠</span>
@@ -162,13 +144,9 @@
         <span class="nav-icon">📝</span>
         <span class="nav-label">Testlar</span>
       </button>
-      <button class="nav-item" data-tab="tab-leaderboard">
-        <span class="nav-icon">🏆</span>
-        <span class="nav-label">Reyting</span>
-      </button>
-      <button class="nav-item" data-tab="tab-library">
-        <span class="nav-icon">📚</span>
-        <span class="nav-label">Kutubxona</span>
+      <button class="nav-item" data-tab="tab-laws">
+        <span class="nav-icon">⚖️</span>
+        <span class="nav-label">Qonunlar</span>
       </button>
       <button class="nav-item" data-tab="tab-cert">
         <span class="nav-icon">📜</span>
