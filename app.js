@@ -2,53 +2,44 @@
 // HUQUQUSTOZ AKADEMIYASI - ASOSIY MANTIQ (app.js)
 // ==========================================
 
-// 1. Telegram API ni ulash
 const tg = window.Telegram.WebApp;
-tg.expand(); // Ilovani darhol to'liq ekranda ochish
+tg.expand();
 
-// 2. Sahifa yuklanganda avtomat ishga tushadigan jarayonlar
 document.addEventListener('DOMContentLoaded', () => {
-  
-  // --- A) Telegramdan foydalanuvchi ismini olish ---
+  // 1. Telegram ismini chiqarish
   const tgUser = tg.initDataUnsafe?.user;
-  
   if (tgUser) {
     const fullName = tgUser.first_name + (tgUser.last_name ? ' ' + tgUser.last_name : '');
-    
     const userNameEl = document.getElementById('user-name');
     const certNameEl = document.getElementById('cert-user-name');
-    
     if (userNameEl) userNameEl.textContent = fullName;
     if (certNameEl) certNameEl.textContent = fullName;
   }
 
-  // --- B) Qonunlar ro'yxatini laws.json dan o'qib ekranga chizish ---
-  fetchLawsList();
+  // 2. Qonunlarni laws.json dan olish
+  fetchLaws();
 
-  // --- C) Pastki menyu (Tab) larni ishlashini ta'minlash ---
+  // 3. Menyular va Streak
   setupTabs();
-
-  // --- D) Kunlik olovchalar (Streak) ni hisoblash ---
   updateStreak();
 });
 
-// 3. laws.json faylini o'qib, qonunlarni ekranga chiqaruvchi funksiya
-async function fetchLawsList() {
-  const lawsContainer = document.getElementById('laws-list');
-  if (!lawsContainer) return;
-  
+// laws.json ni o'qish funksiyasi
+async function fetchLaws() {
+  const container = document.getElementById('laws-list');
+  if (!container) return;
+
   try {
-    // laws.json faylidan ma'lumotlarni tortib olish
-    const response = await fetch('laws.json');
-    if (!response.ok) {
-      throw new Error('laws.json faylini o\'qib bo\'lmadi');
-    }
+    // Nisbiy yo'lni to'g'ri ko'rsatish
+    const response = await fetch('./laws.json');
+    if (!response.ok) throw new Error('Fayl topilmadi');
     
     const lawsData = await response.json();
-    lawsContainer.innerHTML = ''; // "Yuklanmoqda..." ni tozalash
-    
+    container.innerHTML = '';
+
     lawsData.forEach(law => {
       const link = document.createElement('a');
+      // Agar url boshida / bo'lsa yoki to'g'ri bo'lsa
       link.href = law.url;
       link.target = '_blank';
       link.className = 'glass-card';
@@ -60,7 +51,6 @@ async function fetchLawsList() {
       link.style.gap = '12px';
       link.style.marginBottom = '10px';
 
-      // Qonun qutisining ichki dizayni
       link.innerHTML = `
         <span style="font-size: 24px;">📜</span>
         <span>
@@ -68,17 +58,14 @@ async function fetchLawsList() {
           <strong>${law.title}</strong>
         </span>
       `;
-      
-      lawsContainer.appendChild(link);
+      container.appendChild(link);
     });
-
   } catch (error) {
     console.error(error);
-    lawsContainer.innerHTML = '<div>Ma\'lumotlarni yuklashda xatolik yuz berdi. laws.json faylini tekshiring.</div>';
+    container.innerHTML = '<div style="padding: 10px; color: var(--text-sub);">Qonunlarni yuklab bo\'lmadi. laws.json faylini tekshiring.</div>';
   }
 }
 
-// 4. Pastki menyudagi sahifalarni almashtirish funksiyasi
 function setupTabs() {
   const navItems = document.querySelectorAll('.nav-item');
   const tabPages = document.querySelectorAll('.tab-page');
@@ -89,12 +76,9 @@ function setupTabs() {
       tabPages.forEach(tab => tab.classList.remove('active'));
       
       item.classList.add('active');
-      
       const tabId = item.getAttribute('data-tab');
       const activeTab = document.getElementById(tabId);
-      if (activeTab) {
-        activeTab.classList.add('active');
-      }
+      if (activeTab) activeTab.classList.add('active');
     });
   });
 
@@ -106,7 +90,6 @@ function setupTabs() {
   }
 }
 
-// 5. Olovchalar (Streak) tizimi
 function updateStreak() {
   const today = new Date().toDateString();
   const lastVisit = localStorage.getItem('lastVisit');
@@ -116,18 +99,11 @@ function updateStreak() {
     if (lastVisit) {
       const lastDate = new Date(lastVisit);
       const currentDate = new Date(today);
-      const diffTime = Math.abs(currentDate - lastDate);
-      const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-
-      if (diffDays === 1) {
-        streak += 1;
-      } else {
-        streak = 1;
-      }
+      const diffDays = Math.ceil(Math.abs(currentDate - lastDate) / (1000 * 60 * 60 * 24));
+      streak = (diffDays === 1) ? streak + 1 : 1;
     } else {
       streak = 1;
     }
-
     localStorage.setItem('lastVisit', today);
     localStorage.setItem('streakCount', streak);
   }
