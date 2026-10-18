@@ -1,1 +1,332 @@
-
+[
+  {
+    "topic": "Oila huquqi: 5-bosqich",
+    "q": "121-moddaga muvofiq, farzandlikka olishni bekor qilish qanday tartibda hal etiladi?",
+    "o": [
+      "Faqat sud tartibida",
+      "Faqat tuman, shahar hokimining qarori bilan",
+      "Vasiylik va homiylik organining buyrugʻi bilan",
+      "ZAGS organining qarori bilan"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 5-bosqich",
+    "q": "122-moddaga koʻra, farzandlikka olishni bekor qilishga kimlar huquqli?",
+    "o": [
+      "Farzandlikka oluvchilar, ota-onalar, farzandlikka olingan bola (oʻn toʻrt yoshga toʻlgan boʻlsa), prokuror, shuningdek vasiylik va homiylik organi",
+      "Faqat farzandlikka oluvchining oʻzi",
+      "Istalgan begona qoʻshni shaxs",
+      "Faqat bolaning ota-onasi (boshqalar huquqqa ega emas)"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 5-bosqich",
+    "q": "XATO koʻrsatilgan maʼlumotni aniqlang (123-modda):",
+    "o": [
+      "Farzandlikka olish bekor qilinganda bola va farzandlikka oluvchilar oʻrtasidagi oʻzaro huquq va majburiyatlar tugatiladi",
+      "Farzandlikka olish bekor qilinganda bolaning ota-onasi va qarindoshlari bilan huquq va majburiyatlari sudning xohishiga koʻra tiklanmaydi",
+      "Farzandlikka olish bekor qilinganda, agar bolaning manfaatlari talab etsa, bola ota-onasiga berilishi mumkin",
+      "Farzandlikka olish bekor qilinganda bolaning ota-onasi bilan huquq va majburiyatlari tiklanishi mumkin"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Oila huquqi: 5-bosqich",
+    "q": "Nuqtalar oʻrniga mos javobni qoʻying (124-modda): «Yetim bolalar va ota-ona qaramogʻidan mahrum boʻlgan bolalarni joylashtirish shakllari quyidagilardan iborat: farzandlikka olish, vasiylik va homiylik, bolani ... (patronat) berish.»",
+    "o": [
+      "tarbiyaga (patronatga)",
+      "oʻqishga",
+      "davolashga",
+      "vaqtincha saqlashga"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 5-bosqich",
+    "q": "125-moddaga muvofiq, vasiylik va homiylik qaysi organlar tomonidan belgilanadi?",
+    "o": [
+      "Faqat tuman, shahar hokimliklari tomonidan vasiylik va homiylik organlarining taqdimnomasiga asosan",
+      "Faqat sud qarori bilan",
+      "Ichki ishlar boʻlimi tomonidan",
+      "Mahalla fuqarolar yigʻinining oʻzi mustaqil ravishda"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 5-bosqich",
+    "q": "Toʻgʻri maʼlumotni aniqlang (126-modda — Vasiylik va homiylik belgilanadigan bolalar):",
+    "o": [
+      "Vasiylik oʻn toʻrt yoshga toʻlmagan bolalarga, homiylik esa oʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan voyaga yetmagan bolalarga belgilanadi",
+      "Vasiylik faqat 18 yoshdan oshganlarga belgilanadi",
+      "Homiylik faqat 7 yoshgacha boʻlgan bolalarga belgilanadi",
+      "Vasiylik va homiylik tushunchalari qonunda farqlanmaydi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 5-bosqich",
+    "q": "Toʻgʻri moslashtirishni aniqlang (127-modda — Vasiy va homiylarni tayinlash): a) Vasiy etib tayinlanadigan shaxs; b) Vasiy etib tayinlanishi mumkin boʻlmagan shaxslar. 1. Voyaga yetgan, muomalaga layoqatli shaxslar. 2. Muomalaga layoqatsiz yoki cheklangan, sudlanganligi bor shaxslar.",
+    "o": [
+      "a–1; b–2",
+      "a–2; b–1",
+      "a–1; b–1",
+      "a–2; b–2"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 5-bosqich",
+    "q": "Quyidagi bayonotlardan qaysilari toʻgʻri? (128-modda — Vasiy va homiylarning huquq va majburiyatlari): 1. Vasiy va homiylar oʻz vafelilarini (tarbiyalanuvchilarini) tarbiyalash, ularning huquq va manfaatlarini himoya qilish huquqi va majburiyatiga egadirlar. 2. Vasiy va homiylar oʻz vazifalarini haq toʻlanadigan asosda ham bajarishlari mumkin. 3. Vasiylar bolaning mol-mulkini oʻz xohishiga koʻra sotish huquqiga har doim ega. 4. Vasiy va homiylar voyaga yetmagan bolalarning taʼminoti uchun oʻz shaxsiy mablagʻlarini sarflashga majbur emas (buning uchun bolaning pensiya, nafaqa va alimentlari ishlatiladi).",
+    "o": [
+      "1, 2 va 4",
+      "2, 3 va 4",
+      "1 va 3",
+      "Barchasi toʻgʻri"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 5-bosqich",
+    "q": "129-moddaga muvofiq, vasiylik va homiylik qachon tugatiladi?",
+    "o": [
+      "Bola oʻn sakkiz yoshga toʻlganda, shuningdek farzandlikka olinganda yoki muomalaga toʻla layoqatli deb topilganda",
+      "Vasiyning xohishi bilan istalgan vaqtda",
+      "Bola 10 yoshga toʻlganda avtomatik ravishda",
+      "Faqat sudning alohida qarori bilan"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 5-bosqich",
+    "q": "XATO koʻrsatilgan maʼlumotni aniqlang (130-modda — Bolani tarbiyaga olishga (patronatga) berish):",
+    "o": [
+      "Patronatga berish deganda ota-ona qaramogʻidan mahrum boʻlgan bolani tarbiyaga oilaga olish tushuniladi",
+      "Patronat tarbiyachisi bilan vasiylik va homiylik organi oʻrtasida shartnoma tuziladi",
+      "Patronatga olingan bolaga davlat tomonidan nafaqa toʻlanadi",
+      "Patronat tarbiyachisi bolani xohlagan vaqtda hech qanday sababsiz koʻchaga haydab yuborishga haqli"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Oila huquqi: 5-bosqich",
+    "q": "131-moddaga muvofiq, patronat tarbiyachilari etib tayinlanadigan shaxslarga qoʻyiladigan talablar qanday?",
+    "o": [
+      "Voyaga yetgan, muomalaga layoqatli shaxslar boʻlishi lozim",
+      "Faqat yuridik maʼlumotga ega shaxslar boʻlishi shart",
+      "Faqat badavlat tadbirkorlar boʻlishi kerak",
+      "Faqat pensionerlar boʻlishi shart"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 5-bosqich",
+    "q": "132-moddaga koʻra, patronat toʻgʻrisidagi shartnomaning amal qilish muddati qanday belgilanadi?",
+    "o": [
+      "Shartnomada koʻrsatilgan muddatga belgilanadi",
+      "Doimiy va umrbod tuziladi",
+      "Faqat 1 yilgacha belgilanadi",
+      "Bola 7 yoshga toʻlgungacha amal qiladi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 5-bosqich",
+    "q": "Nuqtalar oʻrniga mos javobni qoʻying (133-modda): «Ota-ona qaramogʻidan mahrum boʻlgan bolalarni joylashtirish uchun ... muassasalar ham qoʻllaniladi (yetim bolalar uyi, maxsus maktab-internatlar va boshqalar).»",
+    "o": [
+      "davlat taʼlim va tarbiya (yoki vasiylikka olinganlar uchun moʻljallangan tibbiy, ijtimoiy va boshqa)",
+      "tijorat",
+      "xususiy koʻngilochar",
+      "sport"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 5-bosqich",
+    "q": "134-moddaga muvofiq, bolalar muassasalarida turgan bolalarning huquqlari kim tomonidan himoya qilinadi?",
+    "o": [
+      "Ushbu muassasalarning maʼmuriyati vasiy va homiy vazifalarini bajaradi",
+      "Faqat mahalla qoʻmitasi",
+      "Faqat bolaning oʻzi",
+      "Hech kim himoya qilmaydi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 5-bosqich",
+    "q": "Toʻgʻri maʼlumotni aniqlang (135-modda — Chet el fuqarolarining Oʻzbekiston Respublikasi fuqarosi boʻlgan bolalarni farzandlikka olishi):",
+    "o": [
+      "Chet el fuqarolari Oʻzbekiston fuqarosi boʻlgan bolalarni faqat Oʻzbekiston Respublikasining tegishli vazirlik va idoralari ruxsati hamda sud qarori bilan, agar bolani Oʻzbekiston fuqarolariga tarbiyaga berish imkoni boʻlmasa, farzandlikka olishlari mumkin",
+      "Chet el fuqarolari istalgan vaqtda erkin va cheklovsiz farzandlikka olishi mumkin",
+      "Chet el fuqarolariga Oʻzbekiston bolalarini farzandlikka olish qatʼiyan taqiqlangan",
+      "Faqat pul mablagʻlarini toʻlash evaziga ruxsat etiladi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 5-bosqich",
+    "q": "XATO koʻrsatilgan maʼlumotni aniqlang (136-modda):",
+    "o": [
+      "Oʻzbekiston Respublikasi fuqarosi boʻlgan bolani farzandlikka olayotgan chet el fuqarosi Oʻzbekiston qonunlariga rioya qilishi shart",
+      "Chet el fuqarosi va Oʻzbekiston fuqarosi oʻrtasidagi farzandlikka olishda Oʻzbekiston Respublikasi qonunchiligi talablari bajarilishi shart",
+      "Chet el fuqarosi farzandlikka olayotganda Oʻzbekiston qonunlarini chetlab oʻtish huquqiga ega",
+      "Farzandlikka olinayotgan bolaning huquqlari har qanday holatda ham himoya qilinishi shart"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Oila huquqi: 5-bosqich",
+    "q": "137-moddaga muvofiq, nikoh (er-xotin) tuzishda chet el fuqarolari va fuqaroligi boʻlmagan shaxslarning ishtiroki qanday tartibga solinadi?",
+    "o": [
+      "Oʻzbekiston Respublikasi hududida nikoh tuzish Oʻzbekiston Respublikasi qonunlari asosida amalga oshiriladi",
+      "Faqat ularning oʻz davlati qonunlari qoʻllaniladi",
+      "Nikoh tuzishga yoʻl qoʻyilmaydi",
+      "Faqat xalqaro shartnomalar asosida belgilanadi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 5-bosqich",
+    "q": "Nuqtalar oʻrniga mos javobni qoʻying (138-modda): «Chet el fuqarolari oʻrtasida Oʻzbekiston Respublikasi hududidan tashqarida tuzilgan nikohning haqiqiyligi ... qonun hujjatlariga asoslanib belgilanadi.»",
+    "o": [
+      "nikoh tuzilgan joydagi",
+      "faqat Oʻzbekiston Respublikasining",
+      "BMTning",
+      "mahalliy"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 5-bosqich",
+    "q": "139-moddaga koʻra, er-xotinning shaxsiy nomulkiy va mulkiy huquqlari qaysi qonun bilan belgilanadi?",
+    "o": [
+      "Birgalikda yashash joyidagi qonunlar bilan, birgalikdagi yashash joyi boʻlmasa, Oʻzbekiston Respublikasi qonunlari bilan",
+      "Faqat erning milliy qonuni bilan",
+      "Faqat xotinning milliy qonuni bilan",
+      "Faqat xalqaro sud qarori bilan"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 5-bosqich",
+    "q": "Toʻgʻri maʼlumotni aniqlang (140-modda — Nikoh shartnomasiga nisbatan qoʻllaniladigan qonun):",
+    "o": [
+      "Nikoh shartnomasi tuzish va uni bekor qilish er-xotin yashab turgan joydagi qonunlar bilan, yashash joyi boʻlmasa, shartnoma tuzilgan joydagi qonunlar bilan belgilanadi",
+      "Har doim faqat Oʻzbekiston qonunlari qoʻllaniladi",
+      "Nikoh shartnomasini chet el fuqarolari tuzishi taqiqlanadi",
+      "Faqat sud tomonidan belgilanadi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 5-bosqich",
+    "q": "Quyidagi bayonotlardan qaysilari toʻgʻri? (141-modda — Chet el elementlari boʻlgan nikohdan ajratish): 1. Oʻzbekiston Respublikasi fuqarolari bilan chet el fuqarolari oʻrtasidagi nikohdan ajratish Oʻzbekiston qonunlari asosida hal qilinadi. 2. Chet el fuqarolari oʻrtasida Oʻzbekiston Respublikasida nikohdan ajratish ham Oʻzbekiston Respublikasi qonunlari asosida amalga oshiriladi. 3. Chet elda tuzilgan nikohdan ajratish Oʻzbekistonda hech qachon tan olinmaydi. 4. Chet el fuqarolari Oʻzbekistonda nikohdan ajralish huquqiga ega emas.",
+    "o": [
+      "1 va 2",
+      "3 va 4",
+      "1 va 3",
+      "2 va 4"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 5-bosqich",
+    "q": "142-moddaga muvofiq, bolaning kelib chiqishini belgilash va unga doir nizolar qaysi qonun asosida hal etiladi?",
+    "o": [
+      "Bolaning doimiy yashash joyidagi qonunlar asosida",
+      "Faqat Oʻzbekiston qonunlari asosida",
+      "Otaning fuqaroligi boʻyicha qonunlar asosida",
+      "Faqat xalqaro arbitraj qarori bilan"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 5-bosqich",
+    "q": "XATO koʻrsatilgan maʼlumotni aniqlang (143-modda):",
+    "o": [
+      "Ota-ona va bolalar oʻrtasidagi huquq va majburiyatlar bolaning doimiy yashash joyidagi qonunlar bilan belgilanadi",
+      "Agar ota-ona va bolalar Oʻzbekistonda yashasa, Oʻzbekiston Respublikasi Oila kodeksi normalari qoʻllaniladi",
+      "Ota-ona va bolalar oʻrtasidagi munosabatlarga chet el qonunlari hech qachon tatbiq etilmaydi va bu qatʼiyan taqiqlangan",
+      "Bolaning manfaatlari har doim ustuvor hisoblanadi"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Oila huquqi: 5-bosqich",
+    "q": "Nuqtalar oʻrniga mos javobni qoʻying (144-modda): «Voyaga yetmagan bolalar va boshqa mehnatga layoqatsiz shaxslarga taʼminot berish majburiyatlari ... qonunlari bilan belgilanadi.»",
+    "o": [
+      "ularning yashash joyidagi",
+      "faqat Oʻzbekistonning",
+      "BMTning",
+      "toʻlovchining ixtiyoriy tanlagan"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 5-bosqich",
+    "q": "145-moddaga muvofiq, chet el elementlari boʻlgan oilaviy munosabatlarga nisbatan chet el qonunlarini qoʻllashdagi cheklov nima?",
+    "o": [
+      "Agar chet el qonunlarini qoʻllash Oʻzbekiston Respublikasining konstitutsiyaviy tuzumiga zid kelsa, chet el qonunlari qoʻllanilmaydi",
+      "Cheklovlar mavjud emas, barcha chet el qonunlari soʻzsiz bajariladi",
+      "Faqat pul mablagʻlari yetarli boʻlsa qoʻllaniladi",
+      "Faqat Yevropa davlatlari qonunlari qoʻllaniladi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 5-bosqich",
+    "q": "146-moddaga koʻra, xorijiy davlatlar sudlarining nikohdan ajratish haqidagi qarorlari Oʻzbekistonda tan olinadimi?",
+    "o": [
+      "Ha, qonun hujjatlarida belgilangan tartibda tan olinishi mumkin",
+      "Yoʻq, hech qachon tan olinmaydi",
+      "Faqat Prezident farmoni bilan tasdiqlangandagina",
+      "Avtomatik ravishda amal qiladi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 5-bosqich",
+    "q": "XATO koʻrsatilgan maʼlumotni aniqlang (147-modda):",
+    "o": [
+      "Oʻzbekiston Respublikasining oila qonunchiligi xalqaro huquq normalariga muvofiq amal qiladi",
+      "Oʻzbekiston Respublikasining xalqaro shartnomasida Oila kodeksidagidan boshqacha qoidalar belgilangan boʻlsa, xalqaro shartnoma qoidalari qoʻllaniladi",
+      "Oʻzbekistonning xalqaro shartnomalari oilaviy munosabatlarda hech qanday kuchga ega emas va Oila kodeksi har doim ustundir",
+      "Xalqaro shartnomalar ustuvorligi qonun tomonidan kafolatlanadi"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Oila huquqi: 5-bosqich",
+    "q": "148-moddaga muvofiq, Oila kodeksi kuchga kirgunga qadar yuzaga kelgan oilaviy munosabatlarga nisbatan qanday qoida qoʻllaniladi?",
+    "o": [
+      "Kodeks kuchga kirganidan keyin yuzaga kelgan huquq va majburiyatlarga nisbatan qoʻllaniladi",
+      "Oʻtgan davrdagi barcha munosabatlar qaytadan koʻrib chiqiladi",
+      "Kodeks oʻtmishdagi barcha nikohlarni bekor qiladi",
+      "Kodeksning amal qilish muddati cheklangan"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 5-bosqich",
+    "q": "Nuqtalar oʻrniga mos javobni qoʻying (149-modda): «Oʻzbekiston Respublikasining Oila kodeksi talablarini buzgan shaxslar ... javobgarlikka tortiladilar.»",
+    "o": [
+      "qonun hujjatlarida belgilangan tartibda",
+      "faqat intizomiy",
+      "hech qanday javobgarlikka tortilmaydi",
+      "faqat jarima toʻlash bilan qutuladi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 5-bosqich",
+    "q": "150-moddaga muvofiq, Oila kodeksining amalga kiritilishi va uning ijrosini taʼminlash tartibi nima bilan belgilanadi?",
+    "o": [
+      "Oʻzbekiston Respublikasining qonuni bilan",
+      "Vazirlar Mahkamasining yopiq qarori bilan",
+      "Oliy sudning koʻrsatmasi bilan",
+      "Mahalliy hokimlik qarorlari bilan"
+    ],
+    "a": 0
+  }
+]
