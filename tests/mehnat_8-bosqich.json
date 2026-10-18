@@ -1,1 +1,332 @@
-
+[
+  {
+    "topic": "Mehnat huquqi: 8-bosqich",
+    "q": "XATO ko'rsatilgan ma'lumotni aniqlang:",
+    "o": [
+      "Jamoa kelishuvlari va shartnomalari tuzishda tomonlar teng huquqlidir.",
+      "Jamoa muzokaralarini o'tkazishda ishtirok etuvchi shaxslarga ish beruvchi tomonidan to'sqinlik qilish taqiqlanadi.",
+      "Ish beruvchi xohlagan vaqtda jamoa muzokaralarida qatnashishdan bosh tortishi va xodimlarning vakillarini ishdan bo'shatishi mumkin.",
+      "Jamoa kelishuvlari qonunchilikka zid kelmasligi kerak."
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Mehnat huquqi: 8-bosqich",
+    "q": "To'g'ri ma'lumotni aniqlang:",
+    "o": [
+      "Xodimning malakasini oshirish va uni o'qitish shartlari mehnat shartnomasida yoki o'quv shartnomasida belgilanadi.",
+      "O'qitish davrida xodimga hech qanday oylik yoki stipendiya to'lanmaydi.",
+      "Kasbga o'qitish shartnomasi faqat og'zaki tuziladi va rasmiylashtirilmaydi.",
+      "Ish beruvchi xodimni o'qitgandan so'ng uni xohlagancha jarimaga tortishga haqli."
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 8-bosqich",
+    "q": "Nuqtalar o'rniga mos keladigan so'zni qo'ying: \"Xodimni kasbga tayyorlash, qayta tayyorlash va uning malakasini oshirish ... tashkilot mablag'lari hisobidan ham amalga oshirilishi mumkin.\"",
+    "o": [
+      "faqat xodimning o'zi",
+      "ish beruvchining",
+      "chet el jamg'armalarining",
+      "mahalliy hokimiyatning"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Mehnat huquqi: 8-bosqich",
+    "q": "To'g'ri moslashtiruvchi javobni aniqlang: a) Xizmat safari; b) Sutkalik pul; c) Yo'lkira xarajati. 1) Xodimning boshqa joyga yuborilishi; 2) Safar davridagi xarajatlar uchun to'lov; 3) Transport xarajatlarini qoplash.",
+    "o": [
+      "(a)–3; (b)–2; (c)–1",
+      "(a)–1; (b)–3; (c)–2",
+      "(a)–1; (b)–2; (c)–3",
+      "(a)–2; (b)–1; (c)–3"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Mehnat huquqi: 8-bosqich",
+    "q": "Qaysi javobda mehnat shartnomasini bekor qilish asoslari to'g'ri ko'rsatilgan? 1. Taraflarning kelishuvi bo'yicha; 2. Xodimning o'z tashabbusi bilan; 3. Ish beruvchining tashabbusi bilan; 4. Taraflarning irodasiga bog'liq bo'lmagan holatlar bo'yicha; 5. Istalgan shaxsning og'zaki buyrug'i bilan.",
+    "o": [
+      "1, 2, 3 va 4",
+      "2, 3 va 5",
+      "1, 3 va 5",
+      "Barchasi to'g'ri"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 8-bosqich",
+    "q": "Quyidagi bayonotlardan qaysi biri XATO?",
+    "o": [
+      "Mehnat shartnomasi bekor qilinganda xodimga barcha hisob-kitob oxirgi ish kunida qilinishi shart.",
+      "Ish beruvchi xodimning oxirgi ish kunida hisob-kitob qilishni 6 oyga kechiktirishi mumkin.",
+      "Mehnat daftarchasi xodimga oxirgi ish kuni berilishi kerak.",
+      "Chiqish nafaqasi qonunda nazarda tutilgan hollarda to'lanadi."
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Mehnat huquqi: 8-bosqich",
+    "q": "XATO ko'rsatilgan ma'lumotni aniqlang:",
+    "o": [
+      "Yakka tartibdagi mehnat nizolari bo'yicha xodim sudga murojaat qilganda davlat bojidan ozod qilinadi.",
+      "Ishdan bo'shatish nizolari bo'yicha murojaat muddati bir oyni tashkil etadi.",
+      "Mehnat nizolari faqat sud tomonidan hal etiladi, boshqa organlarga murojaat qilish taqiqlanadi.",
+      "Mehnat nizolari komissiyasi tashkilotda tuzilishi mumkin."
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Mehnat huquqi: 8-bosqich",
+    "q": "To'g'ri ma'lumotni aniqlang:",
+    "o": [
+      "Intizomiy jazo qo'llanilganda xodimdan yozma tushuntirish talab qilinishi shart.",
+      "Xodim tushuntirish bermasa ham unga jazo qo'llab bo'lmaydi.",
+      "Intizomiy jazo huquqbuzarlik aniqlangandan keyin 5 yil o'tgach ham qo'llanilishi mumkin.",
+      "Intizomiy jazo faqat og'zaki ravishda e'lon qilinadi."
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 8-bosqich",
+    "q": "Nuqtalar o'rniga mos keladigan so'zni qo'ying: \"Intizomiy jazo chorasini qo'llashdan oldin xodimdan ... talab qilinishi shart.\"",
+    "o": [
+      "jarima to'lashni",
+      "yozma tushuntirishni",
+      "ariza yozishni",
+      "tushuntirish talab qilinmaydi"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Mehnat huquqi: 8-bosqich",
+    "q": "To'g'ri moslashtiruvchi javobni aniqlang: a) Moddiy javobgarlik; b) Cheklangan javobgarlik; c) To'liq javobgarlik. 1) Zararni qoplash majburiyati; 2) O'rtacha oylik ish haqi doirasida; 3) Zararning to'liq qiymati miqdorida.",
+    "o": [
+      "(a)–3; (b)–2; (c)–1",
+      "(a)–1; (b)–2; (c)–3",
+      "(a)–2; (b)–1; (c)–3",
+      "(a)–1; (b)–3; (c)–2"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Mehnat huquqi: 8-bosqich",
+    "q": "Qaysi bayonotlar TO'G'RI? 1. Normal ish vaqtining davomiyligi haftasiga 40 soatdan oshishi mumkin emas. 2. Qisqartirilgan ish vaqti ayrim toifadagi xodimlar uchun belgilanadi. 3. To'liqsiz ish vaqti taraflarning kelishuviga ko'ra belgilanadi. 4. Ish beruvchi xodimni xohlagancha cheksiz ishlashga majbur qilishga haqli.",
+    "o": [
+      "1, 2 va 3",
+      "2 va 4",
+      "1 va 4",
+      "Barchasi to'g'ri"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 8-bosqich",
+    "q": "XATO ko'rsatilgan ma'lumotni aniqlang:",
+    "o": [
+      "Yillik asosiy ta'tilning eng kam davomiyligi qonunda belgilanadi.",
+      "Ta'til puli xodimga ta'til boshlanishidan oldin to'lanishi shart.",
+      "Yillik ta'tilni pul kompensatsiyasiga almashtirish qonuniy qoidalarga muvofiq bo'ladi.",
+      "Yillik ta'tilni o'n yil davomida bermasdan to'plab borish va ishlatmaslikka ruxsat etiladi."
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Mehnat huquqi: 8-bosqich",
+    "q": "To'g'ri ma'lumotni aniqlang:",
+    "o": [
+      "Mehnatni muhofaza qilish qoidalari barcha ish beruvchilar va xodimlar uchun majburiydir.",
+      "Ish beruvchi xavfsiz sharoitlarni yaratib berishga majbur emas.",
+      "Xodim xavfsizlik qoidalariga o'qitilmasa ham ishga qo'yilaveradi.",
+      "Shaxsiy himoya vositalari xodimlarga pulli sotiladi."
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 8-bosqich",
+    "q": "Nuqtalar o'rniga mos keladigan so'zni qo'ying: \"Ish beruvchi xodimlarni mehnatni muhofaza qilish talablari bo'yicha ... o'tkazishi shart.\"",
+    "o": [
+      "jarimaga tortishni",
+      "o'qitish va yo'riqnomadan",
+      "sinovdan o'tkazmasdan",
+      "cheklashni"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Mehnat huquqi: 8-bosqich",
+    "q": "To'g'ri moslashtiruvchi javobni aniqlang: a) Dastlabki tibbiy ko'rik; b) Davriy tibbiy ko'rik; c) Himoya vositalari. 1) Ishga kirishganda; 2) Ish davomida; 3) Bepul beriladigan vosita.",
+    "o": [
+      "(a)–2; (b)–1; (c)–3",
+      "(a)–3; (b)–2; (c)–1",
+      "(a)–1; (b)–2; (c)–3",
+      "(a)–1; (b)–3; (c)–2"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Mehnat huquqi: 8-bosqich",
+    "q": "Qaysi bayonotlar TO'G'RI? 1. Ayollar mehnati qonunchilikda belgilangan qo'shimcha kafolatlar bilan muhofaza qilinadi. 2. Homilador ayollarni tungi ishlarga va qo'shimcha ishlarga jalb qilish taqiqlanadi. 3. Homiladorlik va tug'ish ta'tillari ayollarga beriladi. 4. Ayollar erkaklar bilan bir xil mehnat shartlariga ega bo'lmasligi kerak.",
+    "o": [
+      "1, 2 va 3",
+      "2 va 4",
+      "1 va 4",
+      "Barchasi to'g'ri"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 8-bosqich",
+    "q": "XATO ko'rsatilgan ma'lumotni aniqlang:",
+    "o": [
+      "O'n sakkiz yoshga to'lmagan shaxslarning mehnati maxsus himoya qilinadi.",
+      "Voyaga yetmaganlarni og'ir yuklarni ko'tarish ishlariga jalb qilish taqiqlanadi.",
+      "Voyaga yetmaganlarga qisqartirilgan ish vaqti belgilanadi.",
+      "Voyaga yetmaganlarni xohlagancha tungi ishlarga jalb qilishga ruxsat etiladi."
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Mehnat huquqi: 8-bosqich",
+    "q": "To'g'ri ma'lumotni aniqlang:",
+    "o": [
+      "Nogironligi bo'lgan xodimlarga qonunda belgilangan imtiyozlar beriladi.",
+      "Nogironligi bo'lgan shaxslarga yillik ta'til berish mutlaqo taqiqlangan.",
+      "Nogironlarga qisqartirilgan ish vaqti berilmaydi.",
+      "Ish beruvchi nogiron shaxs bilan xohlasa shartnoma tuzmaslik huquqiga ega (kamsitish asosida)."
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 8-bosqich",
+    "q": "Nuqtalar o'rniga mos keladigan so'zni qo'ying: \"Nogironligi bo'lgan shaxslarning mehnat huquqlari davlat tomonidan ... ta'minlanadi.\"",
+    "o": [
+      "cheklanadi",
+      "kafolatlanadi",
+      "taqiqlanadi",
+      "e'tiborsiz qoldiriladi"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Mehnat huquqi: 8-bosqich",
+    "q": "To'g'ri moslashtiruvchi javobni aniqlang: a) Ayollar imtiyozlari; b) Voyaga yetmaganlar; c) Nogironlar. 1) Homiladorlik ta'tili; 2) Tungi ishlarga qo'yilmaslik; 3) Qo'shimcha kafolatlar.",
+    "o": [
+      "(a)–2; (b)–1; (c)–3",
+      "(a)–3; (b)–2; (c)–1",
+      "(a)–1; (b)–2; (c)–3",
+      "(a)–1; (b)–3; (c)–2"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Mehnat huquqi: 8-bosqich",
+    "q": "Qaysi bayonotlar XATO? 1. O'rindoshlik asosida ishlash xodimning asosiy ishidan tashqari vaqtda bajariladi. 2. O'rindoshlar uchun ish vaqti kuniga to'rt soatdan oshmasligi kerak. 3. O'rindoshlarga yillik ta'til berilmaydi va ular ta'til olish huquqiga ega emas. 4. O'rindoshlik bo'yicha ham alohida mehnat shartnomasi tuziladi.",
+    "o": [
+      "3",
+      "1 va 2",
+      "2 va 4",
+      "Yolg'on bayonot yo'q"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 8-bosqich",
+    "q": "To'g'ri ma'lumotni aniqlang:",
+    "o": [
+      "Mavsumiy ishlar o'n oydan ortiq bo'lmagan davrda bajariladigan ishlardir.",
+      "Mavsumiy ishchilar bilan shartnoma tuzish taqiqlangan.",
+      "Mavsumiy ishlarda sinov muddati faqat 1 yil etib belgilanadi.",
+      "Mavsumiy ishchilarga hisob-kitob qilish shart emas."
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 8-bosqich",
+    "q": "Nuqtalar o'rniga mos keladigan so'zni qo'ying: \"Mavsumiy tusdagi ishlarga deb ... oydan ortiq bo'lmagan davr mobaynida bajariladigan ishlar kiradi.\"",
+    "o": [
+      "uch",
+      "olti",
+      "o'n",
+      "o'n ikki"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Mehnat huquqi: 8-bosqich",
+    "q": "To'g'ri moslashtiruvchi javobni aniqlang: a) Mavsumiy ishlar; b) Vaqtinchalik ishlar; c) Masofaviy ishlar. 1) O'n oygacha bo'lgan; 2) Qisqa muddatli; 3) Masofadan bajariladigan.",
+    "o": [
+      "(a)–3; (b)–2; (c)–1",
+      "(a)–2; (b)–1; (c)–3",
+      "(a)–1; (b)–2; (c)–3",
+      "(a)–1; (b)–3; (c)–2"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Mehnat huquqi: 8-bosqich",
+    "q": "Qaysi bayonotlar TO'G'RI? 1. Masofaviy ishlar axborot texnologiyalaridan foydalangan holda bajariladi. 2. Masofaviy ishchilar bilan yozma mehnat shartnomasi tuziladi. 3. Masofaviy xodimlarga ham mehnat qonunchiligi qoidalari tatbiq etiladi. 4. Masofaviy ishchilar mehnat qonunlaridan batamom ozod qilingan.",
+    "o": [
+      "1, 2 va 3",
+      "2 va 4",
+      "1 va 4",
+      "Barchasi to'g'ri"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 8-bosqich",
+    "q": "XATO ko'rsatilgan ma'lumotni aniqlang:",
+    "o": [
+      "Mehnat qonunchiligini buzgan shaxslar qonunda belgilangan tartibda javobgarlikka tortiladi.",
+      "Davlat mehnat inspeksiyasi qonunlarga rioya etilishini nazorat qiladi.",
+      "Ish beruvchi mehnat qonunlarini buzgani uchun hech qanday javobgarlikka tortilmaydi.",
+      "Xodim o'z huquqlarini himoya qilish uchun sudga murojaat qilishga haqli."
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Mehnat huquqi: 8-bosqich",
+    "q": "To'g'ri ma'lumotni aniqlang:",
+    "o": [
+      "Mehnat kodeksi fuqarolarning mehnat huquqlarini va erkinliklarini kafolatlaydi.",
+      "Kodeks faqat davlat xizmatchilari uchun amal qiladi.",
+      "Mehnat shartnomasi har doim qonunga zid tuzilishi shart.",
+      "Ish beruvchi xodimning huquqlarini cheklashga doim haqli."
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 8-bosqich",
+    "q": "Nuqtalar o'rniga mos keladigan so'zni qo'ying: \"Ushbu Kodeks fuqarolarning mehnat qilish huquqini ta'minlashga va mehnat sohasida ... munosabatlarni tartibga solishga qaratilgan.\"",
+    "o": [
+      "ijtimoiy",
+      "soliq",
+      "jinoiy",
+      "tijorat"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 8-bosqich",
+    "q": "Qaysi bayonotlar XATO? 1. Mehnat daftarchasi xodimning mehnat stajini tasdiqlovchi hujjatdir. 2. Mehnat daftarchasini yuritish tartibi qonun bilan belgilanadi. 3. Xodim o'z xohishiga ko'ra o'z mehnat daftarchasini o'zi uyida to'ldirishi mumkin. 4. Mehnat daftarchasi asosiy ish joyida yuritiladi.",
+    "o": [
+      "3",
+      "1 va 2",
+      "2 va 4",
+      "Yolg'on bayonot yo'q"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 8-bosqich",
+    "q": "To'g'ri moslashtiruvchi javobni aniqlang: a) Mehnat kodeksi; b) Mehnat daftarchasi; c) Sud. 1) Asosiy qonun; 2) Stajni tasdiqlovchi hujjat; 3) Nizolarni hal etuvchi organ.",
+    "o": [
+      "(a)–2; (b)–1; (c)–3",
+      "(a)–3; (b)–2; (c)–1",
+      "(a)–1; (b)–2; (c)–3",
+      "(a)–1; (b)–3; (c)–2"
+    ],
+    "a": 2
+  }
+]
