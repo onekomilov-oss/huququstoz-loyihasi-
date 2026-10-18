@@ -1,1 +1,334 @@
 
+[
+  {
+    "topic": "Konstitutsiya: 4-bosqich",
+    "q": "Oʻzbekiston Respublikasi Konstitutsiyasining 92-moddasiga muvofiq Qonunchilik palatasi deputati va Senat aʼzosi boʻlish uchun saylov kuni necha yoshga toʻlgan boʻlishi shart?",
+    "o": [
+      "Yigirma besh yoshga",
+      "Oʻttiz besh yoshga",
+      "Qirq yoshga",
+      "Oʻn sakkiz yoshga"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Konstitutsiya: 4-bosqich",
+    "q": "Oʻzbekiston Respublikasi Konstitutsiyasining 93-moddasiga asosan Oliy Majlis palatalarining birgalikdagi vakolatlariga nimalar kiradi?",
+    "o": [
+      "Faqat vazirliklarni tuzish va tugatish",
+      "Viloyat hokimlarini yakkaboshchilik asosida tayinlash",
+      "Konstitutsiyani qabul qilish, unga oʻzgartirish va qoʻshimchalar kiritish",
+      "Sudyalarni bevosita lavozimdan ozod etish"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Konstitutsiya: 4-bosqich",
+    "q": "Konstitutsiyaning 94-moddasiga muvofiq Qonunchilik palatasi oʻzini oʻzi tarqatib yuborish toʻgʻrisida qanday ovoz bilan qaror qabul qilishi mumkin?",
+    "o": [
+      "Deputatlar yarmining oddiy koʻpchilik ovozi bilan",
+      "Faqat Prezidentning koʻrsatmasiga binoan",
+      "Uchdan bir qismining roziligi bilan",
+      "Deputatlar umumiy sonining kamida uchdan ikki qismidan iborat koʻpchilik ovozi bilan"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Konstitutsiya: 4-bosqich",
+    "q": "Konstitutsiyaning 95-moddasiga asosan Prezident taqdimiga binoan Senat tomonidan kimlar saylanadi?",
+    "o": [
+      "Konstitutsiyaviy sud, Oliy sud, Sudyalar oliy kengashining rahbarlari",
+      "Toshkent shahar hokimi va uning oʻrinbosarlari",
+      "Barcha tuman prokurorlari va tergovchilar",
+      "Ommaviy axborot vositalari rahbarlari"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Konstitutsiya: 4-bosqich",
+    "q": "Konstitutsiyaning 96-moddasiga asosan Qonunchilik palatasining majlislari, qoida tariqasida, qachondan qachongacha oʻtkaziladi?",
+    "o": [
+      "Yanvar boshidan dekabr oxirigacha uzluksiz ravishda",
+      "Sentabrning birinchi ish kunidan boshlab kelgusi yilning iyun oyi oxirgi ish kuniga qadar",
+      "Faqat bahor va kuz oylarida har oyda bir marta",
+      "Prezident belgilagan maxsus muddatlarda"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Konstitutsiya: 4-bosqich",
+    "q": "Konstitutsiyaning 97-moddasiga muvofiq Oliy Majlis palatalarining qarorlari qanday qabul qilinadi?",
+    "o": [
+      "Faqat bir ovozdan, toʻliq yakdillik bilan",
+      "Senat Raisining yakka qarori bilan",
+      "Deputatlar yoki senatorlar umumiy sonining koʻpchilik ovozi bilan",
+      "Vazirlar Mahkamasining roziligi asosida"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Konstitutsiya: 4-bosqich",
+    "q": "Konstitutsiyaning 98-moddasiga koʻra qonunchilik tashabbusi huquqiga ega boʻlgan subyektlar qaysi javobda koʻrsatilgan?",
+    "o": [
+      "Faqat xususiy tadbirkorlar va banklar",
+      "Har qanday fuqaro oʻz xohishiga koʻra",
+      "Faqat mahalliy hokimiyat organlari",
+      "Prezident, Qoraqalpogʻiston Respublikasi, Qonunchilik palatasi deputatlari, Vazirlar Mahkamasi, Konstitutsiyaviy sud, Oliy sud va Bosh prokuror"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Konstitutsiya: 4-bosqich",
+    "q": "Konstitutsiyaning 99-moddasiga asosan Senat tomonidan rad etilgan qonunni Qonunchilik palatasi qayta koʻrib chiqib, qanday ovoz bilan maʼqullasa, qonun qabul qilingan hisoblanadi?",
+    "o": [
+      "Deputatlar umumiy sonining uchdan ikki qismidan iborat koʻpchilik ovozi bilan",
+      "Oddiy koʻpchilik ovoz bilan",
+      "Yuz foiz ovoz berilgandagina",
+      "Senat yana qayta ovoz bergandan keyin"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Konstitutsiya: 4-bosqich",
+    "q": "Konstitutsiyaning 100-moddasiga muvofiq Qonunchilik palatasi Spikeri ayni bir shaxs sifatida surunkasiga koʻpi bilan necha muddat saylanishi mumkin emas?",
+    "o": [
+      "Uch muddatdan ortiq",
+      "Ikki muddatdan ortiq",
+      "Bir muddatdan ortiq",
+      "Cheklov belgilanmagan"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Konstitutsiya: 4-bosqich",
+    "q": "Konstitutsiyaning 101-moddasiga asosan Senat Raisi kimning taqdimiga binoan saylanadi?",
+    "o": [
+      "Bosh vazirning taqdimiga binoan",
+      "Senatorlarning oʻz tashabbusiga koʻra",
+      "Oʻzbekiston Respublikasi Prezidentining taqdimiga binoan",
+      "Markaziy saylov komissiyasining tavsiyasiga koʻra"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Konstitutsiya: 4-bosqich",
+    "q": "Konstitutsiyaning 102-moddasiga muvofiq palatalar oʻz vazifalarini bajarish uchun kimlar orasidan qoʻmitalar saylaydi?",
+    "o": [
+      "Hukumat aʼzolari va vazirlar orasidan",
+      "Taklif etilgan xorijiy ekspertlar orasidan",
+      "Hokimlar va tuman rahbarlari orasidan",
+      "Deputatlar va senatorlar orasidan"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Konstitutsiya: 4-bosqich",
+    "q": "Konstitutsiyaning 103-moddasiga muvofiq parlament tekshiruvi qanday maqsadda oʻtkazilishi mumkin?",
+    "o": [
+      "Xavfsizlikka tahdid soladigan, inson huquqlariga salbiy taʼsir koʻrsatadigan faktlar va voqealarni oʻrganish maqsadida qoʻshma qaror bilan",
+      "Faqat iqtisodiy foydani hisoblash uchun har oyda bir marta",
+      "Vazirlar Mahkamasining yopiq buyrugʻiga asosan",
+      "Har bir qonun loyihasini qabul qilishdan oldin majburiy tarzda"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Konstitutsiya: 4-bosqich",
+    "q": "Konstitutsiyaning 104-moddasiga koʻra Qonunchilik palatasi deputatlari va Senatda doimiy asosda ishlovchi senatorlar qanday faoliyat bilan shugʻullana olmaydi?",
+    "o": [
+      "Ilmiy faoliyat bilan",
+      "Ilmiy, ijodiy va pedagogik faoliyatdan tashqari haq toʻlanadigan boshqa turdagi faoliyat bilan",
+      "Ijodiy faoliyat bilan",
+      "Pedagogik faoliyat bilan"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Konstitutsiya: 4-bosqich",
+    "q": "Konstitutsiyaning 105-moddasiga asosan Oʻzbekiston Respublikasi Prezidenti kim hisoblanadi?",
+    "o": [
+      "Faqat ijro etuvchi hokimiyat rahbari",
+      "Oliy sudning bosh sudyasi",
+      "Davlat boshligʻi va davlat hokimiyati organlarining kelishilgan holda faoliyat yuritishini taʼminlaydi",
+      "Oliy Majlisning doimiy raisi"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Konstitutsiya: 4-bosqich",
+    "q": "Konstitutsiyaning 106-moddasiga muvofiq Prezident lavozimiga necha yoshdan kichik boʻlmagan shaxs necha yil muddatga saylanadi?",
+    "o": [
+      "Qirq yoshdan kichik boʻlmagan, besh yil muddatga",
+      "Oʻttiz yoshdan kichik boʻlmagan, oʻn yil muddatga",
+      "Yigirma besh yoshdan kichik boʻlmagan, yetti yil muddatga",
+      "Oʻttiz besh yoshdan kichik boʻlmagan, yetti yil muddatga"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Konstitutsiya: 4-bosqich",
+    "q": "Konstitutsiyaning 107-moddasiga asosan Oʻzbekiston Respublikasi Prezidentining shaxsi qanday maqomga ega?",
+    "o": [
+      "Shaxsi daxlsizdir va qonun bilan muhofaza etiladi",
+      "Umumiy sudlar nazoratida boʻladi",
+      "Vaqtincha daxlsizlik huquqiga ega",
+      "Parlament oldida toʻla hisobdordir"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Konstitutsiya: 4-bosqich",
+    "q": "Konstitutsiyaning 108-moddasiga muvofiq Prezident oʻz vazifasiga qachondan kirishgan hisoblanadi?",
+    "o": [
+      "Saylov natijalari eʼlon qilingan kundan boshlab",
+      "Oliy Majlis yigʻilishida qasamyod qabul qilgan paytdan boshlab",
+      "Markaziy saylov komissiyasidan guvohnoma olgan paytdan boshlab",
+      "Vazirlar Mahkamasi tasdiqlanganidan keyin"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Konstitutsiya: 4-bosqich",
+    "q": "Konstitutsiyaning 109-moddasiga asosan Prezidentning vakolatlariga nimalar kiradi?",
+    "o": [
+      "Oliy sud raisining qarorlarini bevosita oʻzgartirish",
+      "Parlament qonunlarini toʻgʻridan-toʻgʻri bekor qilish",
+      "Qurolli Kuchlarning Oliy Bosh qoʻmondoni boʻlish va oliy harbiy unvonlar berish",
+      "Mahalliy xalq deputatlari Kengashlarini yakka tartibda saylash"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Konstitutsiya: 4-bosqich",
+    "q": "Konstitutsiyaning 110-moddasiga muvofiq Prezident respublikaning butun hududida majburiy kuchga ega boʻlgan qanday hujjatlar chiqaradi?",
+    "o": [
+      "Faqat buyruqlar va koʻrsatmalar",
+      "Qonunlar va kodekslar",
+      "Rezolyutsiyalar va bayonnomalar",
+      "Farmonlar, qarorlar va farmoyishlar"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Konstitutsiya: 4-bosqich",
+    "q": "Konstitutsiyaning 111-moddasiga asosan palatalar oʻrtasida hal qilib boʻlmaydigan ixtiloflar yuzaga kelganda Prezident kim bilan bamaslahat palatalarni tarqatib yuborishi mumkin?",
+    "o": [
+      "Konstitutsiyaviy sud bilan bamaslahat",
+      "Bosh vazir va Bosh prokuror bilan",
+      "Markaziy saylov komissiyasi raisi bilan",
+      "Xalqaro ekspertlar kengashi bilan"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Konstitutsiya: 4-bosqich",
+    "q": "Konstitutsiyaning 112-moddasiga koʻra amaldagi Prezident oʻz vazifalarini bajara olmaydigan holatlarda uning vakolatlari vaqtincha kimning zimmasiga yuklatiladi?",
+    "o": [
+      "Bosh vazirning zimmasiga",
+      "Oliy Majlis Senati Raisining zimmasiga",
+      "Qonunchilik palatasi Spikerining zimmasiga",
+      "Oliy sud raisining zimmasiga"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Konstitutsiya: 4-bosqich",
+    "q": "Konstitutsiyaning 113-moddasiga binoan vakolati tugashi munosabati bilan isteʼfoga chiqqan Prezident qanday maqomga ega boʻladi?",
+    "o": [
+      "Xavfsizlik kengashining doimiy raisi boʻladi",
+      "Faxriy sudya lavozimiga tayinlanadi",
+      "Umrbod Oʻzbekiston Respublikasi Oliy Majlisi Senati aʼzosi boʻladi",
+      "Bosh vazir maslahatchisi boʻladi"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Konstitutsiya: 4-bosqich",
+    "q": "Konstitutsiyaning 114-moddasiga binoan ijro etuvchi hokimiyatni kim amalga oshiradi?",
+    "o": [
+      "Prezident Administratsiyasi",
+      "Mahalliy hokimlar Kengashi",
+      "Oliy Majlis qoʻmitalari",
+      "Oʻzbekiston Respublikasi Vazirlar Mahkamasi"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Konstitutsiya: 4-bosqich",
+    "q": "Konstitutsiyaning 115-moddasiga asosan Vazirlar Mahkamasining vakolatlariga nimalar kiradi?",
+    "o": [
+      "Iqtisodiy va ijtimoiy dasturlarni amalga oshirish hamda budjet siyosatini bajarish",
+      "Sud qarorlarini oʻzgartirish va bekor qilish",
+      "Yangi qonunlarni toʻgʻridan-toʻgʻri ratifikatsiya qilish",
+      "Xalqaro shartnomalarni yakka tartibda imzolash"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Konstitutsiya: 4-bosqich",
+    "q": "Konstitutsiyaning 116-moddasiga muvofiq Vazirlar Mahkamasi oʻz faoliyatida kimlar oldida javobgardir?",
+    "o": [
+      "Faqat viloyat xalq deputatlari Kengashlari oldida",
+      "Oʻzbekiston Respublikasi Oliy Majlisi va Oʻzbekiston Respublikasi Prezidenti oldida",
+      "Xalqaro valyuta jamgʻarmasi oldida",
+      "Faqat Sudyalar oliy kengashi oldida"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Konstitutsiya: 4-bosqich",
+    "q": "Konstitutsiyaning 117-moddasiga asosan Bosh vazirning asosiy vazifalaridan biri nima?",
+    "o": [
+      "Oliy sud majlislarida raislik qilish",
+      "Barcha viloyat hokimlarini oʻzi tayinlash",
+      "Vazirlar Mahkamasi faoliyatini tashkil etish va unga rahbarlik qilish, uning samarali ishlashi uchun shaxsan javobgar boʻlish",
+      "Parlament saylovlarini bevosita oʻtkazish"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Konstitutsiya: 4-bosqich",
+    "q": "Konstitutsiyaning 118-moddasiga binoan Bosh vazir nomzodi kim tomonidan taqdim etiladi?",
+    "o": [
+      "Oliy Majlis Senati Raisi tomonidan",
+      "Qonunchilik palatasi deputatlarining umumiy ovozi bilan",
+      "Markaziy saylov komissiyasi tomonidan",
+      "Prezident tomonidan barcha siyosiy partiyalar fraksiyalari bilan maslahatlashuvlar oʻtkazilgandan soʻng"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Konstitutsiya: 4-bosqich",
+    "q": "Konstitutsiyaning 119-moddasiga muvofiq Bosh vazirga nisbatan ishonchsizlik votumi bildirish uchun Qonunchilik palatasi deputatlari umumiy sonining qancha qismi ovoz berishi kerak?",
+    "o": [
+      "Kamida uchdan ikki qismi",
+      "Yarmidan koʻpi",
+      "Uchdan bir qismi",
+      "Toʻrtdan uch qismi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Konstitutsiya: 4-bosqich",
+    "q": "Konstitutsiyaning 120-moddasiga koʻra viloyatlar, tumanlar va shaharlarda davlat hokimiyati vakillik organlari nima deb ataladi?",
+    "o": [
+      "Mahalliy hokimiyat idoralari",
+      "Xalq deputatlari Kengashlari",
+      "Xalq vakillari majlislari",
+      "Hududiy boshqaruv qoʻmitalari"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Konstitutsiya: 4-bosqich",
+    "q": "Konstitutsiyaning 120-moddasiga asosan viloyat, tuman yoki shahar hokimi bir vaqtning oʻzida xalq deputatlari Kengashining raisi boʻla oladimi?",
+    "o": [
+      "Ha, agar Prezident ruxsat bersagina mumkin",
+      "Faqat tuman darajasida mumkin",
+      "Yoʻq, bir vaqtning oʻzida Kengash raisi lavozimini egallashi mumkin emas",
+      "Ha, bu qonun boʻyicha majburiy talabdir"
+    ],
+    "a": 2
+  }
+]
+
