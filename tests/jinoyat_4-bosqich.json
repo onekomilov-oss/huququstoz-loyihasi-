@@ -1,1 +1,362 @@
-
+[
+  {
+    "topic": "Jinoyat huquqi: 4-bosqich",
+    "q": "Jinoyat kodeksining Maxsus qismi necha bob va qaysi moddalardan boshlanadi?",
+    "o": [
+      "91-moddadan boshlanadi va bo‘lim hamda boblarga bo‘lingan holda hayotga qarshi jinoyatlardan boshlanadi.",
+      "Faqat 1-moddadan boshlanadi.",
+      "50-moddadan boshlanadi.",
+      "121-moddadan boshlanadi."
+    ],
+    "a": 0,
+    "why": "Berilgan javoblar kalitiga ko‘ra, Maxsus qism 91-moddadan boshlanadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 4-bosqich",
+    "q": "Qasddan odam o‘ldirish (97-modda) jinoyatining og‘irlashtiruvchi holatlariga qaysi biri kirmaydi?",
+    "o": [
+      "O‘n sakkiz yoshga to‘lmaganligi aybdorga ayon bo‘lgan shaxsni o‘ldirish.",
+      "Homiladorligi aybdorga ayon bo‘lgan ayolni o‘ldirish.",
+      "O‘ta shafqatsizlik bilan o‘ldirish.",
+      "Zaruriy mudofaa chegarasidan chetga chiqqan holda ehtiyotsizlik tufayli o‘ldirish."
+    ],
+    "a": 3,
+    "why": "97-modda. Zaruriy mudofaa chegarasidan chetga chiqish bilan bog‘liq holat alohida huquqiy baholanadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 4-bosqich",
+    "q": "Ehtiyotsizlik orqasida odam o‘ldirish (102-modda) jinoyatiga nisbatan qonunda qanday jazo turlari nazarda tutilgan?",
+    "o": [
+      "Uch yildan besh yilgacha ozodlikni cheklash yoki uch yildan besh yilgacha ozodlikdan mahrum qilish.",
+      "Faqat umrbod ozodlikdan mahrum qilish.",
+      "Uch yilgacha axloq tuzatish ishlari.",
+      "Faqat jarima."
+    ],
+    "a": 0,
+    "why": "102-modda. Ehtiyotsizlik orqasida odam o‘ldirish uchun nazarda tutilgan jazo haqidagi savol."
+  },
+  {
+    "topic": "Jinoyat huquqi: 4-bosqich",
+    "q": "Odamni o‘zini o‘zi o‘ldirish darajasiga yetkazish (103-modda) jinoyatining asosiy belgisi nimadan iborat?",
+    "o": [
+      "Jabrlanuvchini muntazam ravishda xo‘rlash, unga nisbatan shafqatsiz muomalada bo‘lish yoki uning sha’ni va qadr-qimmatini kamsitish yo‘li bilan o‘zini o‘zi o‘ldirishga yoki shu darajaga yetkazish.",
+      "Tasodifiy janjal natijasida kelib chiqqan ehtiyotsizlik.",
+      "Jabrlanuvchining shaxsiy ixtiyori bilan kasalxonadan qochishi.",
+      "Hech qanday huquqiy oqibat keltirib chiqarmaydigan harakat."
+    ],
+    "a": 0,
+    "why": "103-modda. O‘zini o‘zi o‘ldirish darajasiga yetkazishning asosiy belgilari."
+  },
+  {
+    "topic": "Jinoyat huquqi: 4-bosqich",
+    "q": "Badanga qasddan og‘ir shikast yetkazish (104-modda) jinoyatining malakali belgilari qaysi qatorda to‘g‘ri ko‘rsatilgan?",
+    "o": [
+      "Hayot uchun xavfli bo‘lgan, ko‘rish, eshitish yoki nutq qobiliyatidan mahrum qilgan yoxud homilaning tushishiga olib kelgan shikastlar.",
+      "Faqat yengil tan jarohati yetkazish.",
+      "Bir kundan kam davom etgan vaqtinchalik og‘riq.",
+      "Mulkka zarar yetkazish bilan bog‘liq qilmishlar."
+    ],
+    "a": 0,
+    "why": "104-modda. Badanga qasddan og‘ir shikast yetkazish belgilari."
+  },
+  {
+    "topic": "Jinoyat huquqi: 4-bosqich",
+    "q": "Badanga qasddan o‘rtacha og‘ir shikast yetkazish (105-modda) natijasida sog‘liqning buzilish muddati qanday ko‘rsatilgan?",
+    "o": [
+      "Olti kundan ortiq, lekin yigirma bir kundan ko‘p bo‘lmagan muddat.",
+      "Vaqtincha mehnat qobiliyatini uncha uzoq bo‘lmagan muddatga, 21 kundan ko‘p yo‘qotishga olib kelgan shikastlar.",
+      "Faqat bir soatlik yengil shishish.",
+      "Bir yildan ortiq davolanishni talab qiluvchi kasalliklar."
+    ],
+    "a": 1,
+    "why": "105-modda. O‘rtacha og‘ir tan jarohatining ta’rifi haqidagi berilgan javoblar kaliti asosida tanlandi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 4-bosqich",
+    "q": "Kuchli ruhiy hayajonlanish holatida badanga shikast yetkazish (106-modda) qanday sharoitda sodir etiladi?",
+    "o": [
+      "Jabrlanuvchining zo‘rligi, og‘ir haqorati yoki huquqqa xilof boshqa zo‘ravonlik harakatlari yoxud og‘ir haqorati tufayli kelib chiqqan kutilmagan kuchli ruhiy hayajonlanish holatida.",
+      "Oldindan rejalashtirilgan uyushgan guruh tomonidan tamagirlik niyatida.",
+      "Spirtli ichimlik ta’sirida o‘zini boshqara olmagan holda tinch holatda.",
+      "O‘quv mashg‘ulotlari paytida ehtiyotsizlik orqasida."
+    ],
+    "a": 0,
+    "why": "106-modda. Kuchli ruhiy hayajonlanish — affekt holatida jinoyat sodir etish."
+  },
+  {
+    "topic": "Jinoyat huquqi: 4-bosqich",
+    "q": "Bemorning o‘z holatiga tashlab qo‘yilishi yoki shifokorning o‘z vazifasini lozim darajada bajarmasligi oqibatida zarar yetkazilishi qaysi moddada tartibga solingan?",
+    "o": [
+      "116-modda — kasb yuzasidan o‘z vazifalarini lozim darajada bajarmaslik.",
+      "97-modda.",
+      "104-modda.",
+      "130-modda."
+    ],
+    "a": 0,
+    "why": "116-modda. Kasb yuzasidan o‘z vazifalarini lozim darajada bajarmaslik."
+  },
+  {
+    "topic": "Jinoyat huquqi: 4-bosqich",
+    "q": "Odamning immunitet tanqisligi virusini (OIV) yuqtirish jinoyatiga (113-modda) oid qaysi fikr to‘g‘ri?",
+    "o": [
+      "OIV infeksiyasini boshqa shaxsga yuqtirganlik yoki yuqtirish xavfi ostida qoldirganlik uchun jinoiy javobgarlik belgilanishi mumkin.",
+      "Bu qilmish mutlaqo jinoyat deb topilmaydi.",
+      "Faqat ma’muriy jarima bilan cheklaniladi.",
+      "Bu kasallik faqat hayvonlar orqali yuqsa, javobgarlikka sabab bo‘ladi."
+    ],
+    "a": 0,
+    "why": "113-modda. OIV infeksiyasini yuqtirish yoki yuqtirish xavfi ostida qoldirish."
+  },
+  {
+    "topic": "Jinoyat huquqi: 4-bosqich",
+    "q": "Shaxsning erkinligiga qarshi jinoyatlar sirasiga kiruvchi odam savdosi (135-modda) jinoyatining ta’rifi nimadan iborat?",
+    "o": [
+      "Odamni sotib olish yoki sotish yoxud uni ekspluatatsiya qilish maqsadida yollash, tashish, topshirish, yashirish yoki qo‘lga kiritish.",
+      "Shaxsning o‘z uyidan ixtiyoriy ravishda boshqa shaharga ko‘chib o‘tishi.",
+      "Rasmiy mehnat shartnomasi asosida chet elga ishga borish.",
+      "Do‘stlar o‘rtasidagi vaqtincha qarzdorlik munosabatlari."
+    ],
+    "a": 0,
+    "why": "135-modda. Odam savdosi tushunchasi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 4-bosqich",
+    "q": "Noqonuniy ravishda ozodlikdan mahrum qilish (138-modda) jinoyati qanday harakatlar orqali sodir etiladi?",
+    "o": [
+      "Insonga nisbatan qonuniy asoslarsiz jismoniy majburlov qo‘llab, uni yashirin yoki ochiq ravishda biror joyda tutib turish yoki qamab qo‘yish.",
+      "Rasmiy qamoqxonada sud hukmiga ko‘ra saqlash.",
+      "Mehnat ta’tiliga chiqishni taqiqlash.",
+      "Universitetda dars qoldirganlik uchun qo‘shimcha vazifa berish."
+    ],
+    "a": 0,
+    "why": "138-modda deb ko‘rsatilgan manba asosida tanlandi. Modda raqami va jinoyat tarkibini amaldagi kodeks bilan tekshirish tavsiya etiladi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 4-bosqich",
+    "q": "Konstitutsiyaviy huquq va erkinliklarni buzishga oid jinoyatlar ichida mehnatni muhofaza qilish qoidalarini buzish qaysi moddada nazarda tutilgan?",
+    "o": [
+      "257-modda.",
+      "97-modda.",
+      "110-modda.",
+      "150-modda."
+    ],
+    "a": 0,
+    "why": "257-modda. Mehnatni muhofaza qilish qoidalarini buzish."
+  },
+  {
+    "topic": "Jinoyat huquqi: 4-bosqich",
+    "q": "Jinsiy erkinlikka qarshi jinoyatlar sirasiga kiruvchi nomusga tegish (118-modda) jinoyatining asosiy belgisi nimadan iborat?",
+    "o": [
+      "Jabrlanuvchining irodasiga qarshi ravishda yoki uning ojiz ahvolidan foydalanib, zo‘rlik ishlatib yoki zo‘rlik ishlatish bilan qo‘rqitib jinsiy aloqa qilish.",
+      "O‘zaro rozilik asosida turmush qurish.",
+      "Rasmiy nikohdagi shaxslarning oilaviy munosabatlari.",
+      "Jamoat joyida tanishish maqsadida murojaat qilish."
+    ],
+    "a": 0,
+    "why": "118-modda. Nomusga tegish jinoyatining asosiy belgilari."
+  },
+  {
+    "topic": "Jinoyat huquqi: 4-bosqich",
+    "q": "Voyaga yetmagan shaxsga nisbatan sodir etilgan jinsiy jinoyatlar yuzasidan Jinoyat kodeksida qanday yondashuv qo‘llaniladi?",
+    "o": [
+      "Bunday jinoyatlar uchun jazo choralari qat’iy bo‘lib, qonunda nazarda tutilgan holatlarda javobgarlik og‘irlashtiriladi.",
+      "Hech qanday javobgarlik nazarda tutilmagan.",
+      "Faqat ogohlantirish bilan cheklaniladi.",
+      "Jabrlanuvchining roziligi inobatga olinib, ish har doim yopiladi."
+    ],
+    "a": 0,
+    "why": "Voyaga yetmaganlarga qarshi jinsiy jinoyatlar uchun javobgarlik qonunchilikda belgilangan."
+  },
+  {
+    "topic": "Jinoyat huquqi: 4-bosqich",
+    "q": "Shaxsning sha’ni va qadr-qimmatini kamsituvchi tuhmat (139-modda) va haqorat qilish (140-modda) jinoyatlari orasidagi asosiy farq nimada?",
+    "o": [
+      "Tuhmat — bila turib yolg‘on, shaxsni sharmanda qiluvchi uydirmalarni tarqatish; haqorat qilish — shaxsning sha’ni va qadr-qimmatini odob qoidalariga zid ravishda qasddan tahqirlash.",
+      "Ular bir xil tushunchalar bo‘lib, hech qanday farqi yo‘q.",
+      "Tuhmat faqat matbuotda, haqorat esa faqat yozma ravishda bo‘ladi.",
+      "Haqorat qilish uchun faqat o‘lim jazosi beriladi."
+    ],
+    "a": 0,
+    "why": "139- va 140-moddalar. Tuhmat va haqorat qilish o‘rtasidagi farq."
+  },
+  {
+    "topic": "Jinoyat huquqi: 4-bosqich",
+    "q": "Uy-joy daxlsizligini buzish jinoyati qanday qilmishlar uchun javobgarlikka sabab bo‘ladi?",
+    "o": [
+      "Uy-joyda yashovchi shaxslarning xohishiga qarshi ravishda unga kirish, qonunga xilof ravishda tintuv o‘tkazish yoki boshqa harakatlar bilan uy-joy daxlsizligini buzish.",
+      "O‘z uyini ta’mirlash uchun ustalar yollash.",
+      "Ko‘chmas mulkni qonuniy oldi-sotdi qilish.",
+      "Mehmon kutish qoidalariga rioya qilmaslik."
+    ],
+    "a": 0,
+    "why": "Savolda 141-modda ko‘rsatilgan. Modda raqami va jinoyat tarkibini amaldagi kodeks bilan tekshirish lozim."
+  },
+  {
+    "topic": "Jinoyat huquqi: 4-bosqich",
+    "q": "Fuqarolarning murojaat qilish huquqini buzish (144-modda) jinoyati kimlar tomonidan sodir etilishi mumkin?",
+    "o": [
+      "Mansabdor shaxslar tomonidan fuqarolarning ariza, taklif va shikoyatlarini ko‘rib chiqish tartibini qasddan buzish yoki sansalorlik qilish orqali.",
+      "Har qanday oddiy fuqaro tomonidan.",
+      "Faqat chet el fuqarolari tomonidan.",
+      "Sudyalarga nisbatan qo‘llanilmaydi."
+    ],
+    "a": 0,
+    "why": "144-modda. Fuqarolarning murojaat qilish huquqini buzish."
+  },
+  {
+    "topic": "Jinoyat huquqi: 4-bosqich",
+    "q": "Saylov huquqini yoki referendum o‘tkazish huquqini amalga oshirishga to‘sqinlik qilish (146-modda) qanday qilmishlar orqali namoyon bo‘ladi?",
+    "o": [
+      "Zo‘rlik, aldash, qo‘rqitish yoki boshqa usullar bilan fuqarolarning o‘z xohish-irodasini erkin bildirishiga to‘sqinlik qilish.",
+      "Saylov uchastkasiga o‘z vaqtida kelib ovoz berish.",
+      "Nomzodlarning dasturlarini o‘rganish.",
+      "Saylov byulletenini saqlab qo‘yish."
+    ],
+    "a": 0,
+    "why": "146-modda. Saylov huquqi yoki referendum o‘tkazish huquqini amalga oshirishga to‘sqinlik qilish."
+  },
+  {
+    "topic": "Jinoyat huquqi: 4-bosqich",
+    "q": "Mulkka qarshi jinoyatlar sirasiga kiruvchi o‘g‘rilik (169-modda) jinoyatining ta’rifi qaysi javobda to‘g‘ri ko‘rsatilgan?",
+    "o": [
+      "O‘zganing mol-mulkini yashirin ravishda talon-toroj qilish.",
+      "Ochiqdan-ochiq talon qilish.",
+      "Aldash yoki ishonchni suiiste’mol qilish yo‘li bilan egallash.",
+      "Zo‘rlik ishlatib tortib olish."
+    ],
+    "a": 0,
+    "why": "169-modda. O‘g‘rilik — o‘zganing mol-mulkini yashirin ravishda talon-toroj qilish."
+  },
+  {
+    "topic": "Jinoyat huquqi: 4-bosqich",
+    "q": "Talonchilik (166-modda) bilan bosqinchilik (164-modda) jinoyatlarining asosiy farqi nimada?",
+    "o": [
+      "Talonchilik — o‘zganing mol-mulkini ochiqdan-ochiq talon-toroj qilish; bosqinchilik — hayot yoki sog‘liq uchun xavfli zo‘rlik ishlatib yoki shunday zo‘rlik bilan qo‘rqitib hujum qilish.",
+      "Ularning ikkalasi ham bir xil jinoyat hisoblanadi.",
+      "Bosqinchilik faqat tungi vaqtda yopiq binoda sodir etiladi.",
+      "Talonchilikda har doim quroldan foydalaniladi."
+    ],
+    "a": 0,
+    "why": "164- va 166-moddalar. Talonchilik va bosqinchilik o‘rtasidagi farq zo‘rlik xususiyati bilan bog‘liq."
+  },
+  {
+    "topic": "Jinoyat huquqi: 4-bosqich",
+    "q": "Firibgarlik (168-modda) jinoyatining asosiy sodir etish usuli nima?",
+    "o": [
+      "Aldash yoki ishonchni suiiste’mol qilish yo‘li bilan o‘zganing mol-mulkini yoki mulkka bo‘lgan huquqini qo‘lga kiritish.",
+      "Derazani sindirib uyga kirish va mulkni o‘g‘irlash.",
+      "Yo‘lda to‘satdan hujum qilib pul tortib olish.",
+      "Mol-mulkni qasddan yoqib yuborish."
+    ],
+    "a": 0,
+    "why": "168-modda. Firibgarlik — aldash yoki ishonchni suiiste’mol qilish orqali mol-mulkni yoki mulkiy huquqni qo‘lga kiritish."
+  },
+  {
+    "topic": "Jinoyat huquqi: 4-bosqich",
+    "q": "O‘zganing mulkini qasddan nobud qilish yoki unga zarar yetkazish (173-modda) qanday holatlarda jinoiy javobgarlikka sabab bo‘ladi?",
+    "o": [
+      "Qilmish ancha miqdorda zarar yetkazilishiga sabab bo‘lsa.",
+      "Zarar miqdoridan qat’i nazar, har qanday holatda.",
+      "Faqat tabiatga zarar yetganda.",
+      "Mulk egasi rozi bo‘lmasa ham, zarar kichik miqdorda bo‘lganda."
+    ],
+    "a": 0,
+    "why": "173-modda. Qasddan mulkni nobud qilish yoki unga zarar yetkazish."
+  },
+  {
+    "topic": "Jinoyat huquqi: 4-bosqich",
+    "q": "Tovlamachilik (165-modda) jinoyatining mazmuni nimadan iborat?",
+    "o": [
+      "Jabrlanuvchi yoki uning yaqin kishilaridan mulk yoki mulkiy huquqni berishni talab qilib qo‘rqitish, shu jumladan obro‘sizlantiruvchi ma’lumotlarni tarqatish bilan tahdid qilish.",
+      "Mol-mulkni yashirincha olib chiqib ketish.",
+      "Ko‘chada pullarni tortib olish.",
+      "Ixtiyoriy ravishda qarz berish."
+    ],
+    "a": 0,
+    "why": "165-modda. Tovlamachilik tushunchasi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 4-bosqich",
+    "q": "O‘zlashtirish yoki rastrata qilish yo‘li bilan talon-toroj qilish (167-modda) subyekti kim bo‘lishi mumkin?",
+    "o": [
+      "O‘ziga ishonib topshirilgan yoki uning ixtiyorida bo‘lgan o‘zganing mol-mulkini o‘zlashtirgan yoki rastrata qilgan shaxs.",
+      "Tasodifiy ko‘cha o‘g‘risi.",
+      "Chet el fuqarosi.",
+      "Mol-mulkka hech qanday aloqasi bo‘lmagan shaxs."
+    ],
+    "a": 0,
+    "why": "167-modda. O‘zlashtirish yoki rastrata qilish yo‘li bilan talon-toroj qilish."
+  },
+  {
+    "topic": "Jinoyat huquqi: 4-bosqich",
+    "q": "Iqtisodiyot sohasidagi soliqlar yoki yig‘imlarni to‘lashdan bo‘yin tovlash jinoyati qanday sodir etiladi?",
+    "o": [
+      "Daromadlarni yashirish yoki buxgalteriya hujjatlariga ataylab yolg‘on ma’lumotlar kiritish orqali budjetga soliq va yig‘imlarni to‘lamaslik.",
+      "Soliqlarni o‘z vaqtida to‘lash.",
+      "Davlat bankiga ixtiyoriy ravishda xayriya qilish.",
+      "Soliq idorasiga murojaat qilmaslik."
+    ],
+    "a": 0,
+    "why": "Soliq yoki yig‘imlarni to‘lashdan bo‘yin tovlash usullari haqidagi berilgan javoblar kaliti asosida tanlandi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 4-bosqich",
+    "q": "Qalbaki pul, aksiz markasi yoki qimmatli qog‘ozlar yasash va ularni o‘tkazish (176-modda) jinoyatining obyektiga nima kiradi?",
+    "o": [
+      "Pul-kredit tizimining normal ishlashi va moliyaviy muomalalar xavfsizligi.",
+      "Faqat fuqarolarning shaxsiy kiyimlari.",
+      "Uy-joy qurilishi materiallari.",
+      "Transport vositalari harakati."
+    ],
+    "a": 0,
+    "why": "176-modda deb ko‘rsatilgan manbaga ko‘ra, savol qalbaki pul va boshqa moliyaviy vositalar muomalasiga taalluqli."
+  },
+  {
+    "topic": "Jinoyat huquqi: 4-bosqich",
+    "q": "Ekologik jinoyatlar sirasiga kiruvchi suvni bulg‘antirish yoki uning xususiyatlarini o‘zgartirish (195-modda) jinoyatining asosiy zarari nimada?",
+    "o": [
+      "Suv havzalarining yaroqsiz holga kelishi, o‘simliklar va hayvonot dunyosiga hamda inson salomatligiga zarar yetishi.",
+      "Suv quvurlarida oddiy ta’mirlash ishlarini olib borish.",
+      "Yomg‘ir suvlarining ko‘payib ketishi.",
+      "Hovuzlarni tozalash jarayoni."
+    ],
+    "a": 0,
+    "why": "195-modda deb ko‘rsatilgan manbaga ko‘ra, suvni bulg‘antirish ekologik zarar keltirib chiqarishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 4-bosqich",
+    "q": "O‘rmonlarni qonunga xilof ravishda kesish (198-modda) qanday hollarda jinoiy javobgarlikka sabab bo‘ladi?",
+    "o": [
+      "O‘rmon fondidagi daraxtlarni ruxsatsiz kesish natijasida ancha miqdorda zarar yetkazilganda.",
+      "Hovuz atrofidagi bitta gulni uzib olganda.",
+      "Faqat quruq o‘tinlarni terib olganda.",
+      "Daraxtlarni parvarish qilish jarayonida."
+    ],
+    "a": 0,
+    "why": "198-modda deb ko‘rsatilgan manbaga ko‘ra, javobgarlik holatlari va zarar miqdori qonunchilikka muvofiq aniqlanadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 4-bosqich",
+    "q": "Transport vositalarini olib qochish (267-modda) jinoyatining boshqa mulkiy jinoyatlardan, masalan, o‘g‘rilikdan farqi nimada?",
+    "o": [
+      "Bunda maqsad transport vositasini doimiy o‘zlashtirish emas, balki uni egallab, vaqtincha foydalanish yoki boshqa joyga haydab ketish bo‘lishi mumkin.",
+      "Hech qanday farqi yo‘q.",
+      "Faqat velosipedlarga nisbatan qo‘llaniladi.",
+      "Bu faqat piyodalar tomonidan sodir etiladi."
+    ],
+    "a": 0,
+    "why": "267-modda. Transport vositasini olib qochish haqidagi berilgan javoblar kaliti asosida tanlandi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 4-bosqich",
+    "q": "Jinoyat kodeksining Maxsus qismi normalarini qo‘llashda asosiy e’tibor nimaga qaratiladi?",
+    "o": [
+      "Shaxsning huquqlari, erkinliklari, mulkni, jamiyat va davlat manfaatlarini jinoiy tajovuzlardan himoya qilish hamda qonuniylik va adolat prinsiplarini ta’minlashga.",
+      "Faqat jarimalar miqdorini oshirishga.",
+      "Jinoyatchilarni jamiyatdan mutlaqo ajratib qo‘yishga.",
+      "Huquq-tartibot organlari vakolatlarini cheklashga."
+    ],
+    "a": 0,
+    "why": "Jinoyat qonunchiligining Maxsus qismi normalari shaxs, jamiyat va davlat manfaatlarini jinoiy tajovuzlardan himoya qilishga qaratilgan."
+  }
+]
