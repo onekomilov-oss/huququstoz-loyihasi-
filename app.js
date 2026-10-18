@@ -1,6 +1,6 @@
 // ==========================================
 // HUQUQUSTOZ AKADEMIYASI - ASOSIY MANTIQ (app.js)
-// Tuzatilgan versiya
+// To'liq va Yangilangan Versiya (15 ta Bosqich)
 // ==========================================
 
 const tg = window.Telegram.WebApp;
@@ -8,9 +8,9 @@ tg.expand();
 
 let allTests = [];           // Barcha yuklangan testlar
 let currentTopicTests = [];  // Tanlangan mavzudagi testlar
-let currentTestIndex = 0;     // Hozirgi savol indeksi
-let userScore = 0;            // Joriy mavzudagi to'g'ri javoblar soni
-let isAnswered = false;       // Joriy savolga javob berilganini belgilash
+let currentTestIndex = 0;    // Hozirgi savol indeksi
+let userScore = 0;           // Joriy mavzudagi to'g'ri javoblar soni
+let isAnswered = false;      // Joriy savolga javob berilganini belgilash
 
 document.addEventListener('DOMContentLoaded', () => {
   // 1. Telegram ismini chiqarish
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (certNameEl) certNameEl.textContent = fullName;
   }
 
-  // 2. Qonunlar va Testlarni yuklash
+  // 2. Qonunlar va Barcha 15 ta Test fayllarini yuklash
   fetchLaws();
   loadTestsData();
 
@@ -105,13 +105,52 @@ async function fetchLaws() {
   }
 }
 
-// --- TESTLARNI YUKLASH VA MAVZULARGA BO'LISH ---
+// --- BARCHA 15 TA TEST FAYLLARINI AVTOMATIK YUKLASH ---
 async function loadTestsData() {
   try {
-    const response = await fetch('./namuna.json');
-    if (!response.ok) throw new Error('Testlarni yuklab bo\'lmadi');
+    allTests = [];
+    
+    // Jinoyat (1-10) va Konstitutsiya (1-5) bosqichlari fayllari ro'yxati
+    const fileNames = [
+      'tests/jinoyat_1-bosqich.json',
+      'tests/jinoyat_2-bosqich.json',
+      'tests/jinoyat_3-bosqich.json',
+      'tests/jinoyat_4-bosqich.json',
+      'tests/jinoyat_5-bosqich.json',
+      'tests/jinoyat_6-bosqich.json',
+      'tests/jinoyat_7-bosqich.json',
+      'tests/jinoyat_8-bosqich.json',
+      'tests/jinoyat_9-bosqich.json',
+      'tests/jinoyat_10-bosqich.json',
+      'tests/konstitutsiya_1-bosqich.json',
+      'tests/konstitutsiya_2-bosqich.json',
+      'tests/konstitutsiya_3-bosqich.json',
+      'tests/konstitutsiya_4-bosqich.json',
+      'tests/konstitutsiya_5-bosqich.json'
+    ];
 
-    allTests = await response.json();
+    for (const filePath of fileNames) {
+      try {
+        const response = await fetch(`./${filePath}`);
+        if (response.ok) {
+          const fileData = await response.json();
+          if (Array.isArray(fileData)) {
+            allTests = allTests.concat(fileData);
+          }
+        }
+      } catch (err) {
+        console.warn(`${filePath} topilmadi yoki bo'sh.`);
+      }
+    }
+
+    // Agar hech qaysi fayldan topilmasa, namuna.json dan o'qish (zaxira)
+    if (allTests.length === 0) {
+      const response = await fetch('./namuna.json');
+      if (response.ok) {
+        allTests = await response.json();
+      }
+    }
+
     renderTopicsList();
   } catch (error) {
     console.error(error);
@@ -163,16 +202,14 @@ function renderTopicsList() {
 function startQuizForTopic(tests) {
   currentTopicTests = tests;
   currentTestIndex = 0;
-  userScore = 0; // MUHIM: har yangi mavzuda ball noldan boshlanadi
+  userScore = 0; 
   isAnswered = false;
 
-  // Quiz view tuzilishi butun bo'lishi kafolatlanadi (agar buzilgan bo'lsa tiklanadi)
   ensureQuizViewStructure();
 
   document.getElementById('topic-select-view').classList.add('hidden');
   document.getElementById('quiz-view').classList.remove('hidden');
 
-  // Telegram "Ortga" tugmasini ko'rsatamiz
   if (tg.BackButton) tg.BackButton.show();
 
   updateGlobalStats();
@@ -183,11 +220,10 @@ function showTopicsView() {
   document.getElementById('quiz-view').classList.add('hidden');
   document.getElementById('topic-select-view').classList.remove('hidden');
 
-  // Telegram "Ortga" tugmasini yashiramiz
   if (tg.BackButton) tg.BackButton.hide();
 }
 
-// Savolni ekranga chiqarish (q, o formatiga moslangan)
+// Savolni ekranga chiqarish
 function renderQuestion() {
   const quizView = document.getElementById('quiz-view');
 
@@ -196,13 +232,11 @@ function renderQuestion() {
     return;
   }
 
-  // Agar quiz view strukturasi buzilgan bo'lsa (oldingi yakunlash ekranidan) tiklaymiz
   ensureQuizViewStructure();
 
   const q = currentTopicTests[currentTestIndex];
   isAnswered = false;
 
-  // Progress: javob berilmagan savol hisobga kirmaydi
   const percent = (currentTestIndex / currentTopicTests.length) * 100;
 
   const progressEl = document.getElementById('quiz-progress');
@@ -210,10 +244,8 @@ function renderQuestion() {
   if (progressEl) progressEl.textContent = `${currentTestIndex + 1} / ${currentTopicTests.length}`;
   if (progressBarEl) progressBarEl.style.width = `${percent}%`;
 
-  // Savol (q)
   document.getElementById('question-text').textContent = q.q;
 
-  // Variantlar (o)
   const optionsContainer = document.getElementById('options-container');
   optionsContainer.innerHTML = '';
 
@@ -223,12 +255,10 @@ function renderQuestion() {
     btn.className = 'glass-card option-btn';
     btn.style.cssText = 'width: 100%; text-align: left; padding: 14px; margin-bottom: 8px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.1); background: rgba(255,255,255,0.05); color: var(--text-main); cursor: pointer;';
     btn.textContent = opt;
-    // To'g'ri javob indeksi (a)
     btn.addEventListener('click', () => selectAnswer(idx, q.a, q));
     optionsContainer.appendChild(btn);
   });
 
-  // Oxirgi savol bo'lsa tugma matnini o'zgartiramiz
   const btnNext = document.getElementById('btn-next-question');
   if (btnNext) {
     btnNext.textContent = (currentTestIndex === currentTopicTests.length - 1)
@@ -241,7 +271,7 @@ function renderQuestion() {
 
 // Javobni tekshirish
 function selectAnswer(selectedIndex, correctIndex, q) {
-  if (isAnswered) return; // bir savolga bir marta javob berish
+  if (isAnswered) return;
   isAnswered = true;
 
   const buttons = document.querySelectorAll('.option-btn');
@@ -261,17 +291,15 @@ function selectAnswer(selectedIndex, correctIndex, q) {
     updateGlobalStats();
   }
 
-  // Javob berilgach progress bar yangilanadi
   const percent = ((currentTestIndex + 1) / currentTopicTests.length) * 100;
   const progressBarEl = document.getElementById('quiz-progress-bar');
   if (progressBarEl) progressBarEl.style.width = `${percent}%`;
 
-  // Izoh va tahlilni ko'rsatish (why)
   const analysisPanel = document.getElementById('analysis-panel');
   const analysisText = document.getElementById('analysis-text');
   const lexBtn = document.getElementById('btn-lex-link');
 
-  if (lexBtn) lexBtn.style.display = 'none'; // Lex tugmasi yashirildi
+  if (lexBtn) lexBtn.style.display = 'none';
 
   analysisText.textContent = q.why || "To'g'ri javob belgilandi.";
   analysisPanel.classList.remove('hidden');
@@ -282,11 +310,10 @@ function nextQuestion() {
   renderQuestion();
 }
 
-// Quiz view ning asl HTML strukturasini tiklash (yakunlash ekranidan keyin)
 function ensureQuizViewStructure() {
   const quizView = document.getElementById('quiz-view');
   if (!quizView) return;
-  if (document.getElementById('question-text')) return; // struktura buzilmagan
+  if (document.getElementById('question-text')) return;
 
   quizView.innerHTML = `
     <div id="quiz-finished" class="hidden"></div>
@@ -313,7 +340,6 @@ function ensureQuizViewStructure() {
     </div>
   `;
 
-  // Tugmalarni qayta ulab qo'yamiz
   const btnBack = document.getElementById('btn-back-topics');
   if (btnBack) btnBack.addEventListener('click', showTopicsView);
 
@@ -321,7 +347,6 @@ function ensureQuizViewStructure() {
   if (btnNext) btnNext.addEventListener('click', nextQuestion);
 }
 
-// Testlar tugaganda ekranni ko'rsatish (quiz-body ni emas, alohida oynani)
 function showQuizFinished() {
   ensureQuizViewStructure();
 
@@ -335,7 +360,7 @@ function showQuizFinished() {
   finishedPanel.innerHTML = `
     <div style="text-align: center; padding: 30px;" class="glass-card">
       <h3 style="margin-bottom: 10px; font-family: 'Cinzel', serif;">🎉 Mavzu yakunlandi!</h3>
-      <p style="color: var(--text-sub); margin-bottom: 15px;">Siz ushbu mavzudagi barcha testlarni muvaffaqiyatli tugatdingiz.</p>
+      <p style="color: var(--text-sub); margin-bottom: 15px;">Siz ushbu mavzodagi barcha testlarni muvaffaqiyatli tugatdingiz.</p>
       <p style="font-size: 18px; margin-bottom: 20px;">To'plagan ballingiz: <strong>${userScore} / ${currentTopicTests.length}</strong></p>
       <button id="btn-back-menu" class="btn btn-primary btn-lg">Mavzularga qaytish 🔄</button>
     </div>
@@ -345,13 +370,11 @@ function showQuizFinished() {
   if (btnBackMenu) btnBackMenu.addEventListener('click', backToMenu);
 }
 
-// Qaytish tugmasi bosilganda
 function backToMenu() {
   currentTestIndex = 0;
   userScore = 0;
   isAnswered = false;
 
-  // Yakunlash panelini yashirib, asosiy quiz tuzilishini qaytaramiz
   const finishedPanel = document.getElementById('quiz-finished');
   const quizBody = document.getElementById('quiz-body');
   if (finishedPanel) {
@@ -360,13 +383,11 @@ function backToMenu() {
   }
   if (quizBody) quizBody.classList.remove('hidden');
 
-  // Oynalarni almashtiramiz
   document.getElementById('quiz-view').classList.add('hidden');
   document.getElementById('topic-select-view').classList.remove('hidden');
 
   if (tg.BackButton) tg.BackButton.hide();
 
-  // Mavzular ro'yxatini qaytadan chizamiz
   renderTopicsList();
 }
 
@@ -404,7 +425,7 @@ function setupTabs() {
 }
 
 function updateStreak() {
-  const today = new Date().toISOString().slice(0, 10); // YYYY-MM-DD (ishonchliroq format)
+  const today = new Date().toISOString().slice(0, 10);
   const lastVisit = localStorage.getItem('lastVisit');
   let streak = parseInt(localStorage.getItem('streakCount')) || 0;
 
