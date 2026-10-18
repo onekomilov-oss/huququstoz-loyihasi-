@@ -1,332 +1,333 @@
+
 [
   {
     "topic": "Fuqarolik huquqi: 1-bosqich",
-    "q": "Quyidagi maʼlumotlardan qaysi biri xato?",
+    "q": "Fuqarolik qonunchiligining asosiy negizlariga oid quyidagi bayonotlardan qaysi biri TO'G'RI? (1-modda)",
     "o": [
-      "Davlatning «Oʻzbekiston Respublikasi» va «Oʻzbekiston» degan nomlari turli maʼnolarni anglatadi.",
-      "Oʻzbekiston Respublikasi — boshqaruvning respublika shaklidagi suveren, demokratik, huquqiy, ijtimoiy va dunyoviy davlat.",
-      "Oʻzbekiston Respublikasi oʻzining davlat ramzlari — bayrogʻi, gerbi va madhiyasiga ega boʻlib, ular qonun bilan tasdiqlanadi.",
-      "Oʻzbekiston Respublikasining davlat tili oʻzbek tilidir."
+      "Fuqarolik qonunchiligi ishtirokchilarning tengligini e'tirof etishga, mulkning daxlsizligiga, shartnomaning erkinligiga asoslanadi",
+      "Fuqarolik qonunchiligi xususiy ishlarga biron-bir kishining o'zboshimchalik bilan aralashishiga yo'l qo'yilishiga asoslanadi",
+      "Fuqarolik qonunchiligi buzilgan huquqlar faqat ma'muriy tartibda tiklanishiga asoslanadi",
+      "Fuqarolik qonunchiligi faqat mulk munosabatlariga asoslanadi"
     ],
     "a": 0
   },
   {
     "topic": "Fuqarolik huquqi: 1-bosqich",
-    "q": "Quyidagi maʼlumotlardan qaysi biri toʻgʻri?",
+    "q": "XATO ko'rsatilgan ma'lumotni aniqlang. (1-modda)",
     "o": [
-      "Oʻzbekiston Respublikasi oʻzining milliy-davlat va maʼmuriy-hududiy tuzilishini, davlat hokimiyati va boshqaruv organlarining tizimini belgilaydi.",
-      "Oʻzbekiston Respublikasi oʻz hududida hokimiyatni faqat davlat organlarining manfaatlarini koʻzlab amalga oshiradi.",
-      "Oʻzbekiston Respublikasining davlat tili rus tili bilan bir qatorda davlat maqomiga ega.",
-      "Oʻzbekiston Respublikasida hokimiyatning birdan-bir manbai — Oʻzbekiston Respublikasi Oliy Majlisidir."
+      "Tovarlar, xizmatlar va moliyaviy mablag'lar O'zbekiston Respublikasining butun hududida erkin harakatda bo'ladi",
+      "Fuqarolar va yuridik shaxslar o'z fuqarolik huquqlariga o'z erklariga muvofiq ega bo'ladilar",
+      "Ular shartnoma asosida o'z huquq va burchlarini belgilashda erkindirlar",
+      "Xavfsizlikni ta'minlash uchun tovarlar va xizmatlar harakatda bo'lishini cheklash faqat Prezident farmoni bilan joriy etiladi"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Fuqarolik huquqi: 1-bosqich",
+    "q": "Fuqarolik qonunchiligi 2-moddaning birinchi qismida ko'rsatilgan belgilarga javob beradigan ______, ______ hamda tabiiy resurslardan foydalanish va atrof-muhitni muhofaza qilish bo'yicha munosabatlarga, bu munosabatlar maxsus qonun hujjatlari bilan tartibga solinmaydigan hollarda qo'llaniladi. (2-modda)",
+    "o": [
+      "oilaviy munosabatlarga; mehnat munosabatlariga",
+      "oilaviy munosabatlarga; ma'muriy munosabatlarga",
+      "mehnat munosabatlariga; soliq munosabatlariga",
+      "oilaviy munosabatlarga; jinoyat bilan bog'liq munosabatlarga"
     ],
     "a": 0
   },
   {
     "topic": "Fuqarolik huquqi: 1-bosqich",
-    "q": "Nuqtalar oʻrniga mos javobni qoʻying:\n«Oʻzbekiston Respublikasining davlat chegarasi va hududi ... va boʻlinmasdir.»",
+    "q": "Quyidagi bayonotlardan qaysi biri NOTO'G'RI? (2-modda)\n1) Fuqarolik qonunchiligi chet ellik fuqarolar va chet ellik yuridik shaxslar ishtirokidagi munosabatlarga, agar qonunda boshqacha tartib nazarda tutilgan bo'lmasa, qo'llaniladi.\n2) Bir tarafning ikkinchi tarafga ma'muriy bo'ysunishiga asoslangan mulkiy munosabatlarga fuqarolik qonunchiligi qo'llanilmaydi.\n3) Fuqarolar, yuridik shaxslar va davlat fuqarolik qonunchiligi bilan tartibga solinadigan munosabatlarning ishtirokchilari bo'ladilar.\n4) Shaxsiy nomulkiy munosabatlarga fuqarolik qonunchiligi hech qachon qo'llanilmaydi.",
     "o": [
-      "muqaddas",
-      "yaxlit",
-      "daxlsiz",
-      "mustaqil"
+      "Faqat 4",
+      "Faqat 2",
+      "Faqat 1",
+      "3 va 4"
     ],
-    "a": 2
+    "a": 0
   },
   {
     "topic": "Fuqarolik huquqi: 1-bosqich",
-    "q": "Qaysi bayonotlar toʻgʻri?\n1. Oʻzbekiston Respublikasi oʻzining milliy-davlat va maʼmuriy-hududiy tuzilishini oʻzi belgilaydi.\n2. Qoraqalpogʻiston Respublikasi Oʻzbekiston Respublikasi tarkibiga kiradi.\n3. Qoraqalpogʻiston Respublikasining suvereniteti Oʻzbekiston Respublikasi tomonidan cheklanishi mumkin.\n4. Qoraqalpogʻiston Respublikasining oʻz Konstitutsiyasi mavjud emas.",
+    "q": "XATO ko'rsatilgan ma'lumotni aniqlang. (3-modda)",
+    "o": [
+      "Fuqarolik qonunchiligi ushbu Kodeksdan, Kodeks 2-moddasining birinchi, to'rtinchi va beshinchi qismlarida ko'rsatilgan munosabatlarni tartibga soluvchi boshqa qonunlardan iborat",
+      "Boshqa qonunlardagi fuqarolik qonunchiligi normalari ushbu Kodeksga mos bo'lishi shart",
+      "Vazirliklar, idoralar va boshqa davlat organlari nazarda tutilgan hollarda fuqarolik munosabatlarini tartibga soluvchi hujjatlar chiqarishi mumkin",
+      "Fuqarolik qonunchiligi ushbu Kodeksning 2-moddasining birinchi, uchinchi va beshinchi qismlarida ko'rsatilgan munosabatlarni tartibga soluvchi boshqa qonunlarni o'z ichiga oladi"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Fuqarolik huquqi: 1-bosqich",
+    "q": "Fuqarolik qonunchiligining vaqt bo'yicha amal qilishiga oid quyidagi bayonotlardan qaysi biri TO'G'RI? (4-modda)",
+    "o": [
+      "Fuqarolik qonunchiligi hujjatlari orqaga qaytish kuchiga ega va amalga kiritilishidan oldingi munosabatlarga nisbatan qo'llaniladi",
+      "Fuqarolik qonunchiligi hujjatlari orqaga qaytish kuchiga ega emas va ular amalga kiritilganidan keyin vujudga kelgan munosabatlarga nisbatan qo'llaniladi",
+      "Qonun amalga kiritilgandan keyin shartnoma tuzilgan bo'lsa, shartnoma shartlari o'z kuchini yo'qotadi",
+      "Shartnoma tuzilganidan keyin qabul qilingan yangi qonun avval tuzilgan shartnoma shartlarini doim bekor qiladi"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Fuqarolik huquqi: 1-bosqich",
+    "q": "Quyidagi bayonotlardan qaysi biri TO'G'RI? (5-modda)\n1) Qonun o'xshashligidan foydalanish mumkin bo'lmasa, taraflarning huquq va burchlari fuqarolik qonunchiligining umumiy negizlari va mazmuniga hamda halollik, oqillik va adolat talablariga amal qilgan holda belgilanadi.\n2) Fuqarolik huquqlarini cheklaydigan normalarning o'xshashlik bo'yicha qo'llanilishiga yo'l qo'yiladi.\n3) Fuqarolik huquqlarini cheklaydigan va javobgarlik belgilaydigan normalarning o'xshashlik bo'yicha qo'llanilishiga yo'l qo'yilmaydi.\n4) Huquq o'xshashligidan foydalanish hech qachon mumkin emas.",
     "o": [
       "1 va 3",
       "2 va 4",
       "1 va 2",
       "3 va 4"
     ],
-    "a": 2
+    "a": 0
   },
   {
     "topic": "Fuqarolik huquqi: 1-bosqich",
-    "q": "Quyidagi maʼlumotlardan qaysi biri xato?",
+    "q": "Quyidagi bayonotlardan qaysi biri TO'G'RI? (6-modda)\n1) Tadbirkorlik faoliyatining biron-bir sohasida vujudga kelgan va keng qo'llaniladigan, qonunchilikda nazarda tutilmagan xulq-atvor qoidasi ish muomalasi odati deb hisoblanadi.\n2) Ish muomalasi odati faqat yozma hujjatda mustahkamlangan bo'lgandagina e'tirof etiladi.\n3) Fuqarolik qonunchiligida tegishli normalar bo'lmagan taqdirda mahalliy odat va an'analar qo'llaniladi.\n4) Qonunchilik normalariga zid bo'lgan ish muomalasi odatlari ham mutlaqo qo'llaniladi.",
     "o": [
-      "Oʻzbekiston Respublikasining butun hududida yagona fuqarolik belgilanadi.",
-      "Oʻzbekiston Respublikasining fuqaroligiga oid barcha masalalar qonun bilan tartibga solinadi.",
-      "Oʻzbekiston Respublikasining fuqarosi boshqa davlat fuqaroligiga ega boʻlishi har qanday holatda ham ruxsat etiladi.",
-      "Oʻzbekiston Respublikasi oʻz hududida ham, uning tashqarisida ham oʻz fuqarolarini himoya qilish va ularga homiylik qilishni taʼminlaydi."
-    ],
-    "a": 2
-  },
-  {
-    "topic": "Fuqarolik huquqi: 1-bosqich",
-    "q": "Quyidagi maʼlumotlardan qaysi biri toʻgʻri?",
-    "o": [
-      "Oʻzbekiston Respublikasida jamoat birlashmalari davlat organlari nazorati ostida ish olib boradi.",
-      "Jamiyat va davlat hayotining eng muhim masalalari xalq muhokamasiga taqdim etiladi hamda umumxalq ovoziga — referendumga qoʻyilishi mumkin.",
-      "Kasaba uyushmalari va siyosiy partiyalar davlat roʻyxatidan oʻtishi shart emas.",
-      "Siyosiy partiyalar davlat organlari tizimiga kiradi va ularni moliyalashtirish faqat byudjet mablagʻlari hisobidan amalga oshiriladi."
+      "Faqat 2 va 4",
+      "Faqat 1 va 3",
+      "Faqat 3 va 4",
+      "Faqat 2 va 3"
     ],
     "a": 1
   },
   {
     "topic": "Fuqarolik huquqi: 1-bosqich",
-    "q": "Quyidagi bayonotlarning toʻgʻri yoki notoʻgʻriligini toʻgʻri koʻrsatgan javobni toping:\n1. Oʻzbekiston Respublikasida jamoat birlashmalari sifatida kasaba uyushmalari, siyosiy partiyalar, olimlar jamiyatlari faoliyat yuritishi mumkin.\n2. Davlat jamoat birlashmalarining huquqlari va qonuniy manfaatlariga rioya etilishini taʼminlaydi.\n3. Siyosiy partiyalarning rahbar organlari chet el davlatlari hududida joylashishi mumkin.\n4. Jamoat birlashmalarining davlat organlari funksiyalarini bajarishiga yoʻl qoʻyiladi.",
+    "q": "XATO ko'rsatilgan ma'lumotni aniqlang. (7-modda)",
     "o": [
-      "1, 3 va 4 notoʻgʻri",
-      "1 va 2 toʻgʻri, 3 va 4 notoʻgʻri",
-      "Hammasi toʻgʻri",
-      "Yolgʻon faqat 1-bayonot"
+      "Agar xalqaro shartnomada fuqarolik qonunchiligidagiga qaraganda boshqacha qoidalar belgilangan bo'lsa, xalqaro shartnoma qoidalari qo'llaniladi",
+      "Agar bitimda fuqarolik qonunchiligiga qaraganda boshqacha qoidalar belgilangan bo'lsa, bitim qoidalari qo'llaniladi",
+      "Agar xalqaro bitimda fuqarolik qonunchiligiga qaraganda boshqacha qoidalar belgilangan bo'lsa, bitim qoidalari qo'llaniladi",
+      "Xalqaro shartnoma qoidalari fuqarolik qonunchiligi qoidalaridan farq qilganda ham xalqaro shartnoma qo'llaniladi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 1-bosqich",
+    "q": "Fuqarolik huquq va burchlari quyidagilardan vujudga keladi: qonunda nazarda tutilgan shartnomalar va boshqa bitimlardan, sudning fuqarolik huquq va burchlarini belgilagan qaroridan, fan, adabiyot, san'at asarlarini yaratish natijasida, boshqa shaxsga zarar yetkazish natijasida va ______. (8-modda)",
+    "o": [
+      "Asossiz boyib ketish natijasida",
+      "Meros qilib olish jarayonida sud ishtirokisiz amalga oshirilganda",
+      "Davlat xizmatidan bo'shash natijasida",
+      "Nikohni davlat organida rasmiylashtirish natijasida"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 1-bosqich",
+    "q": "Quyidagi bayonotlardan qaysi biri NOTO'G'RI? (9-modda)\n1) Fuqarolar va yuridik shaxslar o'zlariga tegishli fuqarolik huquqlarini o'z xohishlariga ko'ra tasarruf etadilar.\n2) Fuqarolik huquqlarini amalga oshirish boshqa shaxslarning huquqlarini hamda qonun bilan qo'riqlanadigan manfaatlarini buzmasligi shart.\n3) Huquqni amalga oshirishdan voz kechish bu huquqning doim bekor qilinishiga olib keladi.\n4) Huquqni uning maqsadiga zid tarzda amalga oshirishga qaratilgan harakatlarga yo'l qo'yilmaydi.",
+    "o": [
+      "Faqat 3",
+      "Faqat 1",
+      "Faqat 4",
+      "Faqat 2"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 1-bosqich",
+    "q": "Fuqarolik huquqlarini sud orqali himoya qilishga oid quyidagi bayonotlardan qaysi biri TO'G'RI? (10-modda)",
+    "o": [
+      "Fuqarolik huquqlari faqat umumiy yurisdiksiya sudlari tomonidan himoya qilinadi",
+      "Fuqarolik huquqlari sud, iqtisodiy sud yoki hakamlik sudi tomonidan himoya qilinadi",
+      "Fuqarolik huquqlari barcha hollarda ma'muriy tartibda himoya qilinadi",
+      "Ma'muriy tartibda qabul qilingan qaror ustidan sudga shikoyat qilish mumkin emas"
     ],
     "a": 1
   },
   {
     "topic": "Fuqarolik huquqi: 1-bosqich",
-    "q": "Moslashtiring:\na) Qonun ustunligi prinsipi\nb) Tashqi siyosat asoslari\nc) Demokratiya prinsipi\nd) Davlat hokimiyatining birdan-bir manbai\n\n1. xalq\n2. Konstitutsiya va qonunlarning soʻzsiz ustunligi\n3. inson, uning hayoti, erkinligi va shaʼni oliy qadriyat\n4. davlatlarning suveren tengligi va chegaralarning buzilmasligi",
+    "q": "To'g'ri moslashtiring. (11-modda)\n(a) Huquqni tan olish — 1. zararni to'lash\n(b) Bitimni haqiqiy emas deb topish — 2. usul emas: shartnoma tuzish\n(c) Burchini aslicha (natura) bajarishga majbur qilish — 3. usul\n(d) Neustoyka undirish — 4. usul",
     "o": [
-      "(a)–4; (b)–3; (c)–1; (d)–2",
-      "(a)–3; (b)–1; (c)–2; (d)–4",
-      "(a)–1; (b)–2; (c)–4; (d)–3",
-      "(a)–2; (b)–4; (c)–3; (d)–1"
-    ],
-    "a": 3
-  },
-  {
-    "topic": "Fuqarolik huquqi: 1-bosqich",
-    "q": "Quyidagi maʼlumotlardan qaysi biri xato?",
-    "o": [
-      "Har qanday mafkura davlat mafkurasi sifatida oʻrnatilishi mumkin.",
-      "Oʻzbekiston Respublikasida ijtimoiy hayot siyosiy institutlar, mafkuralar va fikrlarning xilma-xilligi asosida rivojlanadi.",
-      "Demokratik huquq va erkinliklar Konstitutsiya va qonunlar bilan himoya qilinadi.",
-      "Oʻzbekiston Respublikasida demokratiya umuminsoniy prinsiplarga asoslanadi."
+      "(a)–3; (b)–3; (c)–3; (d)–3",
+      "(a)–2; (b)–2; (c)–2; (d)–2",
+      "(a)–3; (b)–3; (c)–2; (d)–2",
+      "(a)–2; (b)–3; (c)–3; (d)–3"
     ],
     "a": 0
   },
   {
     "topic": "Fuqarolik huquqi: 1-bosqich",
-    "q": "Nuqtalar oʻrniga mos javobni qoʻying:\n«Davlat oʻz faoliyatini inson farovonligini va jamiyatning barqaror rivojlanishini taʼminlash maqsadida qonuniylik, ijtimoiy adolat va ... prinsiplari asosida amalga oshiradi.»",
+    "q": "XATO ko'rsatilgan ma'lumotni aniqlang. (12-modda)",
     "o": [
-      "birdamlik",
-      "mustaqillik",
-      "tenglik",
-      "oshkoralik"
-    ],
-    "a": 0
-  },
-  {
-    "topic": "Fuqarolik huquqi: 1-bosqich",
-    "q": "Quyidagi maʼlumotlardan qaysi biri toʻgʻri?",
-    "o": [
-      "Oʻzbekiston Respublikasi Konstitutsiyasi mamlakatning faqat poytaxtida oliy yuridik kuchga ega.",
-      "Oʻzbekiston Respublikasining xalqaro shartnomalari milliy qonunchilikdan past yuridik kuchga ega.",
-      "Konstitutsiya qoidalari faqat bilvosita amal qiladi.",
-      "Alohida hududlarda Oʻzbekiston Respublikasining Konstitutsiyaviy Qonuni bilan yagona huquqiy makon doirasida maxsus huquqiy rejim oʻrnatilishi mumkin."
+      "Davlat organining qonunchilikka muvofiq bo'lmagan hujjati sud tomonidan haqiqiy emas deb topilishi mumkin",
+      "Fuqarolarning o'zini o'zi boshqarish organining fuqarolik huquqlarini buzadigan hujjati haqiqiy emas deb topilishi mumkin",
+      "Sud hujjatni haqiqiy emas deb topgan taqdirda, buzilgan huquq Kodeksning 11-moddasida nazarda tutilgan usullarda himoya qilinishi kerak",
+      "Bunday hujjat faqat prokuror talabiga ko'ra haqiqiy emas deb topiladi"
     ],
     "a": 3
   },
   {
     "topic": "Fuqarolik huquqi: 1-bosqich",
-    "q": "Qaysi bayonotlar toʻgʻri?\n1. Ushbu Konstitutsiyaning birorta qoidasi Oʻzbekiston Respublikasining huquq va manfaatlariga zarar yetkazadigan tarzda talqin etilishi mumkin emas.\n2. Oʻzbekiston Respublikasining qonunlari Konstitutsiya asosida va uni ijro etish yuzasidan qabul qilinadi.\n3. Birorta qonun yoki boshqa normativ-huquqiy hujjat Konstitutsiyaning prinsip va normalariga zid boʻlishi mumkin.\n4. Xalqaro shartnomalar hech qachon milliy qonunlardan ustun boʻla olmaydi.",
+    "q": "Fuqarolik huquqlarini shaxsning o'zi himoya qilish usullari huquqni buzishga ______ bo'lishi hamda huquq buzilishining oldini olish uchun zarur harakatlar doirasidan ______ kerak. (13-modda)",
     "o": [
+      "Mutanosib; chiqib ketmasligi",
+      "Mutanosib; chiqib ketishi",
+      "Mutlaqo teng; cheklanmasligi",
+      "Cheklangan; chiqib ketishi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 1-bosqich",
+    "q": "Quyidagi bayonotlardan qaysi juftliklar TO'G'RI? (14-modda)\n1) Zarar deganda haqiqiy zarar va boy berilgan foyda tushuniladi.\n2) Boy berilgan foyda — shaxs o'z huquqlari buzilmaganida olishi mumkin bo'lgan, lekin ololmay qolgan daromadlari.\n3) Haqiqiy zarar — mol-mulk yo'qolishi yoki shikastlanishi hamda huquqni tiklash uchun qilingan xarajatlar.\n4) Huquqi buzilgan shaxs faqat haqiqiy zararni talab qilishi mumkin, boy berilgan foyda talab qilinmaydi.",
+    "o": [
+      "1, 2 va 3",
+      "2 va 4",
       "1 va 4",
-      "1 va 2",
-      "3 va 4",
-      "2 va 3"
-    ],
-    "a": 1
-  },
-  {
-    "topic": "Fuqarolik huquqi: 1-bosqich",
-    "q": "Quyidagi maʼlumotlardan qaysi biri xato?",
-    "o": [
-      "Oʻzbekiston Respublikasi xalqaro munosabatlarning toʻla huquqli subyektidir.",
-      "Nizolarni faqat harbiy kuch ishlatish yoʻli bilan hal etish prinsipi ustuvor hisoblanadi.",
-      "Tashqi siyosat davlatlarning suveren tengligiga asoslanadi.",
-      "Boshqa davlatlarning ichki ishlariga aralashmaslik prinsiplariga amal qilinadi."
-    ],
-    "a": 1
-  },
-  {
-    "topic": "Fuqarolik huquqi: 1-bosqich",
-    "q": "Quyidagi maʼlumotlardan qaysi biri toʻgʻri?",
-    "o": [
-      "Oʻzbekiston Respublikasi davlatning, xalqning oliy manfaatlaridan kelib chiqqan holda ittifoqlar tuzishi, hamdoʻstliklarga kirishi mumkin.",
-      "Oʻzbekiston Respublikasi faqat bir tomonlama munosabatlarni rivojlantiradi.",
-      "Oʻzbekiston boshqa davlatlar tuzilmalariga kirishi qatʼiyan taqiqlanadi.",
-      "Oʻzbekiston Respublikasi xalqaro tashkilotlarga aʼzo boʻlish huquqiga ega emas."
+      "Faqat 4"
     ],
     "a": 0
   },
   {
     "topic": "Fuqarolik huquqi: 1-bosqich",
-    "q": "Nuqtalar oʻrniga mos javobni qoʻying:\n«Inson huquq va erkinliklari har kimga ... boshlab tegishli boʻladi.»",
+    "q": "Davlat organlari va fuqarolarning o'zini o'zi boshqarish organlari tomonidan yetkazilgan zararni to'lashga oid quyidagi bayonotlardan qaysi biri TO'G'RI? (15-modda)",
     "o": [
-      "tugʻilganidan",
-      "voyaga yetganidan",
-      "pasport olganidan",
-      "fuqarolikni olganidan"
-    ],
-    "a": 0
-  },
-  {
-    "topic": "Fuqarolik huquqi: 1-bosqich",
-    "q": "Quyidagi maʼlumotlardan qaysi biri xato?",
-    "o": [
-      "Fuqarolar jinsi, irqi, millati, tili, dini, eʼtiqodidan qatʼi nazar qonun oldida tengdirlar.",
-      "Oʻzbekiston Respublikasida barcha fuqarolar bir xil huquq va erkinliklarga ega.",
-      "Shaxslarga ularning ijtimoiy kelib chiqishiga qarab qonun tomonidan cheklovlar belgilanadi.",
-      "Imtiyozlar faqat qonun bilan belgilanib, ijtimoiy adolat prinsiplariga mos kelishi kerak."
+      "Bunday zarar hech qachon qoplanmaydi",
+      "Bunday zarar faqat aybli mansabdor shaxsning shaxsiy mablag'lari hisobidan qoplanadi",
+      "Bunday zarar davlat tomonidan yoki fuqarolarning o'zini o'zi boshqarish organi tomonidan qoplanishi lozim",
+      "Bunday zarar faqat xayriya jamg'armalari hisobidan qoplanadi"
     ],
     "a": 2
   },
   {
     "topic": "Fuqarolik huquqi: 1-bosqich",
-    "q": "Moslashtiring:\na) 13-modda\nb) 15-modda\nc) 17-modda\nd) 19-modda\n\n1. Xalqaro munosabatlar va tashqi siyosat\n2. Konstitutsiya va qonunning ustunligi\n3. Inson huquq va erkinliklarining kafolatlari\n4. Demokratiya va inson oliy qadriyat ekanligi",
+    "q": "XATO ko'rsatilgan ma'lumotni aniqlang. (16-modda)",
     "o": [
-      "(a)–2; (b)–4; (c)–3; (d)–1",
-      "(a)–1; (b)–3; (c)–2; (d)–4",
-      "(a)–3; (b)–1; (c)–4; (d)–2",
-      "(a)–4; (b)–2; (c)–1; (d)–3"
+      "Fuqarolar (jismoniy shaxslar) deganda O'zbekiston Respublikasining fuqarolari tushuniladi",
+      "Fuqarolar (jismoniy shaxslar) deganda boshqa davlatlarning fuqarolari tushuniladi",
+      "Fuqarolar (jismoniy shaxslar) deganda fuqaroligi bo'lmagan shaxslar tushuniladi",
+      "Fuqarolar (jismoniy shaxslar) deganda yuridik shaxslar ham tushuniladi"
     ],
     "a": 3
   },
   {
     "topic": "Fuqarolik huquqi: 1-bosqich",
-    "q": "Qaysi bayonotlar toʻgʻri?\n1. Oʻzbekiston Respublikasining davlat tili — oʻzbek tili.\n2. Davlat oʻz hududida ham, uning tashqarisida ham oʻz fuqarolarini himoya qiladi.\n3. Oʻzbekiston Respublikasi hududida ikkita davlat tili mavjud.\n4. Oʻzbekiston Respublikasi oʻz fuqarosini chet davlatga berib yuborishga haqli.",
+    "q": "Fuqaroning huquq layoqati ______ paytdan e'tiboran vujudga keladi va ______ tugaydi. (17-modda)",
     "o": [
-      "3 va 4",
-      "1 va 2",
+      "Voyaga yetgan; sud qarori bilan",
+      "Tug'ilgan; vafot etishi bilan",
+      "Pasport olgan; muomala layoqati cheklanganda",
+      "Tug'ilgan; huquq layoqati cheklanganda"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Fuqarolik huquqi: 1-bosqich",
+    "q": "Quyidagi bayonotlardan qaysi juftliklar TO'G'RI? (18-modda)\n1) Fuqarolar mulk huquqi asosida mol-mulkka ega bo'lishlari mumkin.\n2) Fuqarolar yuridik shaxslar tashkil etishlari mumkin.\n3) Fuqarolar bitimlar tuzishlari va majburiyatlarda ishtirok etishlari mumkin.\n4) Fuqarolar faqat 21 yoshdan keyin meros qilib olishlari mumkin.",
+    "o": [
+      "1, 2 va 3",
       "1 va 4",
-      "2 va 3"
-    ],
-    "a": 1
-  },
-  {
-    "topic": "Fuqarolik huquqi: 1-bosqich",
-    "q": "Quyidagi maʼlumotlardan qaysi biri xato?",
-    "o": [
-      "Davlat organlari va mansabdor shaxslar fuqarolar oldida masʼuldirlar.",
-      "Oʻzbekiston Respublikasi oʻz fuqarosini chet davlatga berib yubormaslik kafolatini taʼminlaydi.",
-      "Oʻzbekiston Respublikasining qonunlari faqat mansabdor shaxslar uchun majburiydir.",
-      "Davlat va uning organlari Konstitutsiya va qonunlarga muvofiq ish yuritadilar."
-    ],
-    "a": 2
-  },
-  {
-    "topic": "Fuqarolik huquqi: 1-bosqich",
-    "q": "Nuqtalar oʻrniga mos javobni qoʻying:\n«Oʻzbekiston Respublikasining davlat budjeti va soliq tizimi ... tomonidan qonun yoʻli bilan tartibga solinadi.»",
-    "o": [
-      "Vazirlar Mahkamasi",
-      "Oliy Majlis",
-      "Iqtisodiyot va moliya vazirligi",
-      "Hisob palatasi"
-    ],
-    "a": 1
-  },
-  {
-    "topic": "Fuqarolik huquqi: 1-bosqich",
-    "q": "Quyidagi maʼlumotlardan qaysi biri toʻgʻri?",
-    "o": [
-      "Qoraqalpogʻiston Respublikasi suverenitetiga Oʻzbekiston Respublikasi aralashishga haqli emas.",
-      "Qoraqalpogʻiston Respublikasining qonunlari Oʻzbekiston Respublikasining qonunlariga zid kelishi mumkin emas.",
-      "Qoraqalpogʻiston Respublikasi Oʻzbekiston Respublikasi tarkibidan bir tomonlama chiqib ketishi mumkin.",
-      "Qoraqalpogʻiston Respublikasining oʻz Konstitutsiyasi mavjud boʻlib, u Oʻzbekiston Respublikasi Konstitutsiyasiga zid boʻlishi mumkin."
-    ],
-    "a": 1
-  },
-  {
-    "topic": "Fuqarolik huquqi: 1-bosqich",
-    "q": "Qaysi bayonotlar toʻgʻri?\n1. Oʻzbekiston Respublikasida jamoat birlashmalarining faoliyati qonun bilan taqiqlanishi mumkin.\n2. Siyosiy partiyalar aholining muayyan qatlamlari manfaatlarini ifodalaydi.\n3. Jamoat birlashmalariga davlat organlari funksiyalarini berish taqiqlanadi.\n4. Davlat jamoat birlashmalarining huquqlarini kamsitishga yoʻl qoʻymaydi.",
-    "o": [
-      "1 va 4",
-      "1 va 2",
-      "3 va 4",
-      "2 va 3"
-    ],
-    "a": 2
-  },
-  {
-    "topic": "Fuqarolik huquqi: 1-bosqich",
-    "q": "Quyidagi maʼlumotlardan qaysi biri xato?",
-    "o": [
-      "Oʻzbekiston Respublikasida barcha fuqarolar qonun oldida tengdirlar.",
-      "Inson va fuqaroning asosiy huquq va erkinliklari xalqaro huquq normalariga muvofiq eʼtirof etiladi.",
-      "Oʻzbekiston Respublikasi oʻz fuqarolarining huquq va erkinliklarini taʼminlaydi.",
-      "Inson huquq va erkinliklari faqat fuqarolikni olgandan keyingina paydo boʻladi."
-    ],
-    "a": 3
-  },
-  {
-    "topic": "Fuqarolik huquqi: 1-bosqich",
-    "q": "Quyidagi maʼlumotlardan qaysi biri toʻgʻri?",
-    "o": [
-      "Oʻzbekiston Respublikasida davlat organlari mustaqil boʻlib, xalq oldida hisobdor emas.",
-      "Oʻzbekiston Respublikasining hududi boshqa davlatlar hududiga qoʻshib berilishi mumkin.",
-      "Davlat tilini oʻrganish majburiy emas.",
-      "Oʻzbekiston Respublikasida davlat hokimiyati xalq manfaatlarini koʻzlab ish tutadi."
-    ],
-    "a": 3
-  },
-  {
-    "topic": "Fuqarolik huquqi: 1-bosqich",
-    "q": "Nuqtalar oʻrniga mos javobni qoʻying:\n«Oʻzbekiston Respublikasining xalqaro shartnomalari xalqaro huquqning umumeʼtirof etilgan prinsip va normalari bilan bir qatorda Oʻzbekiston Respublikasi huquqiy tizimining ... qismidir.»",
-    "o": [
-      "asosiy",
-      "tarkibiy",
-      "ikkinchi darajali",
-      "boshqaruv"
-    ],
-    "a": 1
-  },
-  {
-    "topic": "Fuqarolik huquqi: 1-bosqich",
-    "q": "Moslashtiring:\na) 11-modda\nb) 12-modda\nc) 14-modda\nd) 16-modda\n\n1. Davlat hokimiyatining tashkil etilishi\n2. Siyosiy institutlar va mafkuralarning xilma-xilligi\n3. Davlat faoliyatining prinsiplari (qonuniylik, birdamlik)\n4. Konstitutsiya normalariga zid boʻlmagan qonunlar qabul qilish",
-    "o": [
-      "(a)–1; (b)–2; (c)–3; (d)–4",
-      "(a)–2; (b)–1; (c)–4; (d)–3",
-      "(a)–4; (b)–3; (c)–2; (d)–1",
-      "(a)–3; (b)–4; (c)–1; (d)–2"
+      "2 va 4",
+      "Faqat 4"
     ],
     "a": 0
   },
   {
     "topic": "Fuqarolik huquqi: 1-bosqich",
-    "q": "Qaysi bayonotlar xato?\n1. Oʻzbekiston Respublikasi hududida yagona fuqarolik belgilanadi.\n2. Oʻzbekiston Respublikasi fuqarosi boshqa davlat fuqaroligiga ega boʻlishi qonun tomonidan ragʻbatlantiriladi.\n3. Oʻzbekiston Respublikasi Prezidenti davlat boshligʻidir.\n4. Qoraqalpogʻiston Respublikasi oʻz hududida mustaqil tashqi siyosat yuritadi.",
+    "q": "Quyidagi bayonotlardan qaysi biri TO'G'RI? (19-modda)\n1) Fuqaro o'z ismini o'zgartirishi avvalgi ismi bilan olgan huquq va burchlarini bekor qilish uchun asos bo'lmaydi.\n2) Fuqaro o'z ismini o'zgartirishga haqli.\n3) Boshqa shaxs ismidan foydalanib huquq va burchlarga ega bo'lishga yo'l qo'yilmaydi.\n4) Fuqaro faqat 25 yoshdan keyin ismini o'zgartirishi mumkin.",
     "o": [
-      "1 va 3",
-      "2 va 3",
+      "1, 2 va 3",
+      "2 va 4",
       "1 va 4",
-      "2 va 4"
-    ],
-    "a": 3
-  },
-  {
-    "topic": "Fuqarolik huquqi: 1-bosqich",
-    "q": "Quyidagi maʼlumotlardan qaysi biri xato?",
-    "o": [
-      "Davlat oʻz faoliyatida faqat iqtisodiy manfaatlarni koʻzlaydi.",
-      "Oʻzbekiston Respublikasining davlat ramzlari qonun bilan tasdiqlanadi.",
-      "Davlat tili maqomi Oʻzbekiston Respublikasining butun hududida majburiydir.",
-      "Oʻzbekiston Respublikasining poytaxti — Toshkent shahri."
+      "Faqat 3"
     ],
     "a": 0
   },
   {
     "topic": "Fuqarolik huquqi: 1-bosqich",
-    "q": "Quyidagi maʼlumotlardan qaysi biri toʻgʻri?",
+    "q": "Ismni himoya qilishga oid quyidagi bayonotlardan qaysi biri TO'G'RI? (20-modda)",
     "o": [
-      "Konstitutsiyaning amal qilishi faqat ayrim fuqarolarga tatbiq etiladi.",
-      "Davlat organlari xalqaro tashkilotlar bilan hamkorlik qilishga haqli emas.",
-      "Oʻzbekiston Respublikasi xalqaro shartnomalarining qoidalari milliy qonunlardan ustun turishi mumkin.",
-      "Oʻzbekiston Respublikasida siyosiy partiyalarni tuzish taqiqlanadi."
+      "Manfaatlari buzilayotgan shaxs bunday harakatlarga chek qo'yishni va raddiya berishni talab qilishi mumkin",
+      "Manfaat qasddan buzilganida jabrlanuvchi faqat raddiya talab qilishi mumkin",
+      "Ism yoki shaxsiy sha'n egasi bo'lmagan shaxs hech qanday talab qo'yishi mumkin emas",
+      "Zararni qoplash talabi o'limdan keyin ham doim tan olinadi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 1-bosqich",
+    "q": "XATO ko'rsatilgan ma'lumotni aniqlang. (21-modda)",
+    "o": [
+      "Fuqaroning doimiy yoki asosan yashab turgan joyi uning yashash joyi hisoblanadi",
+      "O'n to'rt yoshga to'lmagan voyaga yetmaganlarning qonuniy vakillari yashaydigan joy ularning yashash joyi hisoblanadi",
+      "Vasiylikda bo'lgan fuqarolarning vasiylari yashaydigan joy ularning yashash joyi hisoblanadi",
+      "O'n sakkiz yoshga to'lmagan voyaga yetmaganlarning qonuniy vakillari yashaydigan joy ularning yashash joyi hisoblanadi"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Fuqarolik huquqi: 1-bosqich",
+    "q": "Quyidagi bayonotlardan qaysi biri TO'G'RI? (22-modda)\n1) Fuqaroning muomala layoqati o'n sakkiz yoshga to'lgach to'la hajmda vujudga keladi.\n2) Voyaga yetgunga qadar qonuniy asosda nikohdan o'tgan fuqaro nikohdan o'tgan vaqtdan e'tiboran to'la hajmda muomala layoqatiga ega bo'ladi.\n3) Nikoh tuzish natijasida ega bo'lingan muomala layoqati 18 yoshga to'lmasdan nikoh bekor qilinganda ham to'la saqlanib qoladi.\n4) Muomala layoqati o'n to'rt yoshga to'lganda vujudga keladi.",
+    "o": [
+      "1, 2 va 3",
+      "2 va 4",
+      "1 va 4",
+      "Faqat 4"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 1-bosqich",
+    "q": "Quyidagi bayonotlardan qaysi biri NOTO'G'RI? (23-modda)\n1) Qonunda belgilangan hollar va tartibdan tashqari hech kimning huquq va muomala layoqati cheklanishi mumkin emas.\n2) Fuqaroning huquq layoqatidan yoki muomala layoqatidan to'la yoki qisman voz kechishi haqiqiy bitim hisoblanadi.\n3) Muomala layoqatini cheklashning qonundagi shartlari va tartibiga rioya qilmaslik davlat organi hujjatining haqiqiy emasligiga sabab bo'ladi.\n4) Huquq layoqatini cheklashga qaratilgan bitimlar o'z-o'zidan haqiqiy emasdir.",
+    "o": [
+      "Faqat 2",
+      "Faqat 1",
+      "Faqat 3",
+      "Faqat 4"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 1-bosqich",
+    "q": "Fuqaro yakka tadbirkor sifatida ______ boshlab tadbirkorlik faoliyati bilan shug'ullanishga haqlidir. (24-modda)",
+    "o": [
+      "Sud qarori qabul qilingan paytdan",
+      "Davlat ro'yxatidan o'tkazilgan paytdan",
+      "Tug'ilgan paytdan",
+      "16 yoshga to'lgan paytdan"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Fuqarolik huquqi: 1-bosqich",
+    "q": "XATO ko'rsatilgan ma'lumotni aniqlang. (25-modda)",
+    "o": [
+      "Fuqaro o'z majburiyatlari yuzasidan o'ziga qarashli butun mol-mulki bilan javob beradi",
+      "Qonunga muvofiq undiruvni qaratish mumkin bo'lmagan mol-mulk bundan mustasno",
+      "Fuqaro o'z majburiyatlari yuzasidan faqat daromadlari bilan javob beradi",
+      "Fuqaroning javobgarligi unga qarashli butun mol-mulki bilan ta'minlanadi"
     ],
     "a": 2
   },
   {
     "topic": "Fuqarolik huquqi: 1-bosqich",
-    "q": "Nuqtalar oʻrniga mos javobni qoʻying:\n«Oʻzbekiston Respublikasi Konstitutsiyasi mamlakatning butun hududida oliy yuridik kuchga ega, ... amal qiladi va yagona huquqiy makonning asosini tashkil etadi.»",
+    "q": "Quyidagi bayonotlardan qaysi juftliklar TO'G'RI? (26-modda)\n1) Yakka tartibdagi tadbirkor kreditorlarning pul majburiyatlari bo'yicha talablarini to'la hajmda qanoatlantirishga qodir bo'lmasa, sud tomonidan to'lovga qobiliyatsiz deb topilishi mumkin.\n2) Tadbirkorlik faoliyati bilan bog'liq bo'lmagan majburiyatlari bo'yicha kreditorlar hayotga yoki sog'liqqa yetkazilgan zararni qoplash va alimentlarni undirish haqidagi talablarini qo'yishga haqli.\n3) Tadbirkor maqomini yo'qotgan jismoniy shaxs, agar talablar ilgarigi tadbirkorlik faoliyatidan kelib chiqqan bo'lsa, sud tomonidan to'lovga qobiliyatsiz deb topilishi mumkin.\n4) To'lovga qobiliyatsizlik tartib-taomili tugallanganidan keyin qo'yilmagan talablar o'z kuchini yo'qotadi.",
     "o": [
-      "shartli",
-      "qisman",
-      "bilvosita",
-      "toʻgʻridan-toʻgʻri"
+      "1, 2 va 3",
+      "2 va 4",
+      "1 va 4",
+      "Faqat 4"
     ],
-    "a": 3
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 1-bosqich",
+    "q": "To'g'ri moslashtiring. (27–29-moddalar)\n(a) O'n to'rt yoshga to'lmagan voyaga yetmaganlar uchun bitimlarni nomidan tuzadi — 1. faqat vasiy\n(b) Olti yoshdan o'n to'rt yoshgacha bo'lganlar mustaqil ravishda amalga oshiradi — 2. mayda maishiy bitimlar\n(c) O'n to'rt yoshdan o'n sakkiz yoshgacha bo'lganlar ota-onalar yozma roziligi bilan tuzadi — 3. bitimlar\n(d) O'n to'rt yoshdan o'n sakkiz yoshgacha bo'lganlar o'z daromadlarini tasarruf etishda — 4. mustaqil",
+    "o": [
+      "(a)–3; (b)–2; (c)–3; (d)–4",
+      "(a)–1; (b)–4; (c)–2; (d)–3",
+      "(a)–2; (b)–3; (c)–4; (d)–1",
+      "(a)–4; (b)–1; (c)–3; (d)–2"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 1-bosqich",
+    "q": "Quyidagi bayonotlardan qaysi biri TO'G'RI? (30-modda)\n1) Ruhiy kasalligi yoki aqli zaifligi oqibatida o'z harakatlarining ahamiyatini tushuna olmaydigan fuqaro sud tomonidan muomalaga layoqatsiz deb topilishi mumkin.\n2) Bunday fuqaroga vasiylik belgilanadi.\n3) Muomalaga layoqatsiz deb topilgan fuqaro nomidan bitimlarni uning vasiysi amalga oshiradi.\n4) Fuqaroga o'n to'rt yoshga to'lganda avtomatik ravishda muomala layoqatsizlik belgilanadi.",
+    "o": [
+      "1, 2 va 3",
+      "2 va 4",
+      "1 va 4",
+      "Faqat 4"
+    ],
+    "a": 0
   }
 ]
