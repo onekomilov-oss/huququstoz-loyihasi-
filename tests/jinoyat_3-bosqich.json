@@ -1,1 +1,362 @@
-
+[
+  {
+    "topic": "Jinoyat huquqi: 3-bosqich",
+    "q": "Jinoyat kodeksining 61-moddasiga muvofiq, turli xil jazo turlarini o‘zaro hisoblab chiqish qoidalariga ko‘ra, ozodlikdan mahrum qilish jazosining bir kuni quyidagi jazolarning qaysi biriga mos keladi?",
+    "o": [
+      "Uch kunlik axloq tuzatish ishlariga",
+      "Bir kunlik qamoq yoki uch kunlik axloq tuzatish ishlariga",
+      "Besh kunlik jarimaga",
+      "O‘n kunlik majburiy jamoat ishlariga"
+    ],
+    "a": 1,
+    "why": "61-modda. Turli xil jazo turlarini qiyoslash va hisoblash qoidalari."
+  },
+  {
+    "topic": "Jinoyat huquqi: 3-bosqich",
+    "q": "Jazo o‘tab bo‘lingandan keyin yoki jazodan muddatidan ilgari ozod qilingan shaxslarga nisbatan qo‘llaniladigan ma’muriy nazorat institutiga oid qaysi bayonot to‘g‘ri?",
+    "o": [
+      "Ma’muriy nazorat faqat sudyalar tomonidan, ichki ishlar organlarining taqdimnomasiga asosan o‘ta og‘ir jinoyatlar sodir etgan va o‘zini axloqan tuzatmagan shaxslarga nisbatan belgilanadi.",
+      "Ma’muriy nazoratni o‘rnatish muddati olti oydan bir yilgacha etib belgilanadi va uni uzaytirish mutlaqo mumkin emas.",
+      "Bu chora faqat voyaga yetmagan shaxslarga nisbatan qo‘llaniladi.",
+      "Ma’muriy nazorat mahkum ozodlikka chiqqanidan keyin faqat ixtiyoriy ravishda amal qiladi."
+    ],
+    "a": 0,
+    "why": "Berilgan javoblar kalitiga ko‘ra, A varianti to‘g‘ri deb ko‘rsatilgan. Huquqiy aniqlik uchun ma’muriy nazorat haqidagi amaldagi qonunchilikni tekshirish lozim."
+  },
+  {
+    "topic": "Jinoyat huquqi: 3-bosqich",
+    "q": "Jinoiy javobgarlikka tortish muddatining o‘tib ketishi (64-modda) munosabati bilan shaxsni javobgarlikka tortib bo‘lmasligiga oid quyidagi fikrlardan qaysi biri xato?",
+    "o": [
+      "Uncha og‘ir bo‘lmagan jinoyat sodir etilgan kundan boshlab uch yil o‘tgach.",
+      "Og‘ir jinoyat sodir etilgan kundan boshlab o‘n yil o‘tgach.",
+      "O‘ta og‘ir jinoyat sodir etilgan kundan boshlab o‘n besh yil o‘tgach (agar sudda o‘lim jazosi yoki umrbod ozodlikdan mahrum qilish tayinlanishi mumkin bo‘lsa, muddat masalasini sud hal qiladi).",
+      "Jinoyat sodir etgan shaxs tergov va suddan yashiringan bo‘lsa, bu muddatlar o‘z-o‘zidan to‘xtatiladi va yashiringan davr muddatga kiritiladi."
+    ],
+    "a": 3,
+    "why": "64-modda. Tergov yoki suddan yashiringan davrda muddatning o‘tishi to‘xtatib turilishi mumkin; yashiringan davr muddatga kiritilmaydi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 3-bosqich",
+    "q": "Hukmning ijro etilish muddati o‘tib ketishi munosabati bilan shaxsni jazodan ozod qilish qoidalariga oid quyidagi tasdiqlarni ko‘rib chiqing: 1) Ayblov hukmi qonuniy kuchga kirganidan keyin belgilangan muddatda ijro etilmasa, shaxs jazoni o‘tashdan ozod qilinishi mumkin. 2) Mahkum hukm ijrosidan yashirinsa, muddatning o‘tishi to‘xtatib turiladi. 3) Hukmning ijro etilish muddati sudlanganlik holatiga ta’sir ko‘rsatmaydi. 4) Hukmning ijro etilish muddati faqat jarima jazosiga nisbatan tatbiq etiladi. Qaysi javob to‘g‘ri deb berilgan?",
+    "o": [
+      "1 va 2",
+      "1, 2 va 3",
+      "Faqat 4",
+      "2, 3 va 4"
+    ],
+    "a": 0,
+    "why": "65-modda. Hukmning ijro etilish muddati o‘tib ketishi shartlari. Javob berilgan kalit asosida tanlandi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 3-bosqich",
+    "q": "Jinoyat sodir etgan shaxsni jinoiy javobgarlikdan ozod qilishning turlaridan biri bo‘lgan chin ko‘ngildan pushaymon bo‘lish (66¹-modda) qaysi turdagi jinoyatlarga nisbatan qo‘llanilishi mumkin?",
+    "o": [
+      "Faqat o‘ta og‘ir jinoyatlarga",
+      "Ijtimoiy xavfi katta bo‘lmagan va uncha og‘ir bo‘lmagan jinoyatlarga",
+      "Barcha turdagi jinoyatlarga istisnosiz",
+      "Faqat davlat xiyonati jinoyatlariga"
+    ],
+    "a": 1,
+    "why": "66¹-modda. Chin ko‘ngildan pushaymon bo‘lish munosabati bilan javobgarlikdan ozod qilish."
+  },
+  {
+    "topic": "Jinoyat huquqi: 3-bosqich",
+    "q": "Jabrlanuvchi bilan yarashish instituti (66²-modda) qo‘llanilishi uchun qanday asosiy shartlar talab etiladi?",
+    "o": [
+      "Aybdor o‘z qilmishiga iqror bo‘lishi, jabrlanuvchi bilan yarashishi va yetkazilgan zararni to‘liq qoplashi kerak.",
+      "Faqatgina sudya va prokurorning qo‘shma qarori yetarli.",
+      "Jabrlanuvchi roziligidan qat’i nazar, faqat davlat foydasiga jarima to‘lansa kifoya.",
+      "Bu institut faqat ehtiyotsizlik orqasida sodir etilgan jinoyatlarga nisbatan ishlaydi."
+    ],
+    "a": 0,
+    "why": "66²-modda. Jabrlanuvchi bilan yarashish institutining shartlari."
+  },
+  {
+    "topic": "Jinoyat huquqi: 3-bosqich",
+    "q": "Amnistiya akti qo‘llanilganda shaxslar qanday huquqiy oqibatlarga duch keladilar?",
+    "o": [
+      "Amnistiya akti e’lon qilinganda shaxslar jazodan to‘la yoki qisman ozod etilishi, shuningdek sudlanganligi olib tashlanishi mumkin.",
+      "Amnistiya faqat jazoni yanada og‘irlashtirish uchun xizmat qiladi.",
+      "Amnistiya e’lon qilinganidan keyin barcha jinoyatlar umuman yo‘qqa chiqariladi va qonun o‘z kuchini yo‘qotadi.",
+      "Bu institut faqat chet elliklarga nisbatan qo‘llaniladi."
+    ],
+    "a": 0,
+    "why": "68-modda. Amnistiya aktining huquqiy oqibatlari."
+  },
+  {
+    "topic": "Jinoyat huquqi: 3-bosqich",
+    "q": "Afv etish to‘g‘risidagi iltimosnoma kim tomonidan ko‘rib chiqiladi va yakuniy qaror qaysi organ tomonidan qabul qilinadi?",
+    "o": [
+      "O‘zbekiston Respublikasi Oliy sudi raisi",
+      "O‘zbekiston Respublikasi Bosh prokurori",
+      "O‘zbekiston Respublikasi Prezidenti",
+      "Jinoyat ishlari bo‘yicha viloyat sudi"
+    ],
+    "a": 2,
+    "why": "Afv etish O‘zbekiston Respublikasi Prezidenti tomonidan amalga oshiriladi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 3-bosqich",
+    "q": "Sudlanganlikning tugallanish muddatlarini to‘g‘ri moslashtiring: (a) shartli hukm qilinganlarga nisbatan; (b) jarima jazosiga hukm qilinganlarga nisbatan; (c) og‘ir jinoyatlar uchun ozodlikdan mahrum etilganlarga nisbatan; (d) o‘ta og‘ir jinoyatlar uchun ozodlikdan mahrum etilganlarga nisbatan. Muddatlar: 1) sinov muddati tugagach; 2) jazoni o‘tab bo‘lganidan keyin uch yil o‘tgach; 3) jarima to‘langan kundan boshlab bir yil o‘tgach; 4) jazoni o‘tab bo‘lganidan keyin sakkiz yil o‘tgach. Berilgan javoblar kalitidagi moslikni tanlang.",
+    "o": [
+      "(a)–1; (b)–3; (c)–2; (d)–4",
+      "(a)–2; (b)–1; (c)–4; (d)–3",
+      "(a)–4; (b)–2; (c)–1; (d)–3",
+      "(a)–3; (b)–4; (c)–2; (d)–1"
+    ],
+    "a": 0,
+    "why": "77-modda. Sudlanganlik holatining tugallanish muddatlari. Moslik javoblar kaliti asosida kiritildi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 3-bosqich",
+    "q": "Sudlanganlikni muddatidan oldin olib tashlash qanday tartibda amalga oshiriladi?",
+    "o": [
+      "Agar shaxs jazoni o‘tab bo‘lgandan keyin o‘zining benuqson xulq-atvori bilan axloqan tuzalganligini isbotlasa, sud uning iltimosiga ko‘ra sudlanganlikni muddatidan oldin olib tashlashi mumkin.",
+      "Bu faqat avtomatik ravishda har bir yil yakunida amalga oshiriladi.",
+      "Sudlanganlikni muddatidan oldin olib tashlash mutlaqo taqiqlangan.",
+      "Faqat ichki ishlar bo‘limi boshlig‘ining buyrug‘i bilan belgilanadi."
+    ],
+    "a": 0,
+    "why": "78-modda. Sudlanganlikni muddatidan oldin olib tashlash tartibi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 3-bosqich",
+    "q": "Voyaga yetmaganlar jinoiy javobgarligining o‘ziga xos xususiyatlari bo‘yicha qaysi jazo turlari ularga nisbatan qo‘llanilishi mumkin?",
+    "o": [
+      "Jarima, axloq tuzatish ishlari, ozodlikni cheklash va ozodlikdan mahrum qilish",
+      "Umrbod ozodlikdan mahrum qilish va o‘lim jazosi",
+      "Faqat harbiy xizmat bo‘yicha cheklash",
+      "Faqat maxsus surgun qilish"
+    ],
+    "a": 0,
+    "why": "Voyaga yetmaganlarga nisbatan qo‘llanilishi mumkin bo‘lgan jazo turlari haqidagi savol. Javob berilgan kalit asosida tanlandi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 3-bosqich",
+    "q": "Voyaga yetmaganlarga nisbatan ozodlikdan mahrum qilish jazosining eng ko‘p muddati qanday belgilangan?",
+    "o": [
+      "O‘n yilgacha",
+      "Besh yilgacha",
+      "O‘n besh yilgacha",
+      "Yigirma yilgacha"
+    ],
+    "a": 0,
+    "why": "Berilgan javoblar kalitiga ko‘ra, voyaga yetmaganlar uchun ozodlikdan mahrum qilishning eng ko‘p muddati o‘n yil deb ko‘rsatilgan. Amaldagi qonunchilik bilan tekshirish tavsiya etiladi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 3-bosqich",
+    "q": "Voyaga yetmaganlarni jinoiy javobgarlikdan ozod qilib, majburiy tarbiyaviy ta’sir ko‘rsatish choralarini qo‘llash tartibiga oid to‘g‘ri fikrni toping.",
+    "o": [
+      "Agar voyaga yetmagan shaxs uncha og‘ir bo‘lmagan yoki ijtimoiy xavfi katta bo‘lmagan jinoyat sodir etgan bo‘lsa va uning axloqini tarbiyaviy choralar orqali tuzatish mumkin deb topilsa, u javobgarlikdan ozod etilib, tarbiyaviy choralar qo‘llanilishi mumkin.",
+      "Tarbiyaviy choralar faqat voyaga yetgan shaxslarga qo‘llaniladi.",
+      "Bu choralar sud qarorisiz faqat maktab direktori tomonidan belgilanadi.",
+      "Voyaga yetmaganlar tarbiyaviy ta’sir ko‘rsatish choralaridan keyin takroran jinoyat sodir etsa ham javobgarlikka tortilmaydi."
+    ],
+    "a": 0,
+    "why": "84-modda. Majburiy tarbiyaviy ta’sir ko‘rsatish choralarini qo‘llash."
+  },
+  {
+    "topic": "Jinoyat huquqi: 3-bosqich",
+    "q": "Maxsus tarbiyaviy muassasaga joylashtirish tarbiyaviy chorasi kimlarga va qanday maqsadlarda qo‘llaniladi?",
+    "o": [
+      "Jinoyat sodir etgan va maxsus yopiq yoki yarim yopiq tarbiyaviy muassasalarda saqlanishi talab etiladigan voyaga yetmaganlarga ularni jamiyatdan ajratmagan holda tarbiyalash uchun.",
+      "Faqatgina aqli noraso kattalarga.",
+      "Oliy o‘quv yurti talabalariga.",
+      "Chet el fuqarosi bo‘lgan voyaga yetmaganlarga."
+    ],
+    "a": 0,
+    "why": "85-modda. Maxsus tarbiyaviy muassasaga joylashtirish."
+  },
+  {
+    "topic": "Jinoyat huquqi: 3-bosqich",
+    "q": "Majburiy tibbiy yo‘sindagi choralar qo‘llaniladigan shaxslar doirasiga oid qaysi qoida xato?",
+    "o": [
+      "Jinoyat sodir etgunga qadar yoki jinoyat sodir etish vaqtida ruhiy kasallikka chalingan shaxslar.",
+      "Jinoyat sodir etgandan keyin ruhiy kasallikka chalingan shaxslar.",
+      "Ruhiy holatida vaqtincha buzilishlar bo‘lgan shaxslar.",
+      "O‘z xohishiga ko‘ra spirtli ichimlik yoki giyohvandlik vositalarini iste’mol qiluvchi mutlaqo sog‘lom shaxslar."
+    ],
+    "a": 3,
+    "why": "Majburiy tibbiy yo‘sindagi choralar qonunda belgilangan asoslar mavjud bo‘lganda qo‘llaniladi; ularni mutlaqo sog‘lom shaxslarga avtomatik tatbiq etish haqidagi fikr xato."
+  },
+  {
+    "topic": "Jinoyat huquqi: 3-bosqich",
+    "q": "Tibbiy yo‘sindagi majburiy choralarning turlarini ko‘rsating.",
+    "o": [
+      "Faqat jarima va ogohlantirish",
+      "Ambulator tartibdagi majburiy kuzatuv va davolanish, shuningdek shifoxona tartibidagi majburiy davolanish (umumiy yoki maxsus turdagi)",
+      "Uy qamog‘i va majburiy jamoat ishlari",
+      "Chet elga chiqarib yuborish"
+    ],
+    "a": 1,
+    "why": "93-modda deb ko‘rsatilgan manbaga ko‘ra, majburiy tibbiy choralar ambulator yoki shifoxona sharoitida amalga oshirilishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 3-bosqich",
+    "q": "Surunkali alkogolizm yoki giyohvandlikdan aziyat chekuvchi shaxslarga nisbatan qo‘llaniladigan tibbiy yo‘sindagi choralar qanday amalga oshiriladi?",
+    "o": [
+      "Jinoyat sodir etgan va spirtli ichimliklar yoki giyohvandlik vositalaridan kasallangan shaxslarga nisbatan jazoni o‘tash joylarida yoki tibbiy muassasalarda majburiy davolash choralari belgilanadi.",
+      "Ularga nisbatan hech qanday tibbiy chora ko‘rilmaydi.",
+      "Faqat ixtiyoriy ravishda dorixonalardan dori sotib olish tavsiya etiladi.",
+      "Ular darhol mamlakatdan deportatsiya qilinadi."
+    ],
+    "a": 0,
+    "why": "Berilgan javoblar kalitiga ko‘ra, alkogolizm yoki giyohvandlikdan aziyat chekuvchilarga nisbatan majburiy davolash choralari qo‘llanishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 3-bosqich",
+    "q": "Jinoyat qonunchiligida konfiskatsiya (mol-mulkni musodara qilish) instituti qanday tartibda qo‘llaniladi?",
+    "o": [
+      "Mol-mulkni musodara qilish faqat aybdorning shaxsiy mol-mulkini davlat foydasiga bepul undirib olishdan iborat bo‘lib, qonunda ko‘rsatilgan og‘ir va o‘ta og‘ir jinoyatlar uchun qo‘shimcha jazo sifatida belgilanadi.",
+      "Bu chora barcha turdagi jinoyatlar uchun majburiy asosiy jazo hisoblanadi.",
+      "Musodara qilish faqat jabrlanuvchining mol-mulkiga nisbatan qo‘llaniladi.",
+      "Mol-mulkni musodara qilish O‘zbekistonda butunlay bekor qilingan."
+    ],
+    "a": 0,
+    "why": "Savol va javoblar kalitida 99-modda keltirilgan. Musodara qilishning amaldagi huquqiy maqomini Jinoyat kodeksining tegishli normasidan tekshirish lozim."
+  },
+  {
+    "topic": "Jinoyat huquqi: 3-bosqich",
+    "q": "Jinoyat kodeksining 89- va 90-moddalari doirasida voyaga yetmaganlarning jinoyatlari bo‘yicha ish yuritish va jazoni o‘tash xususiyatlariga oid qaysi fikr to‘g‘ri?",
+    "o": [
+      "Voyaga yetmaganlarga nisbatan jazoni ijro etish koloniyalari ularning yosh xususiyatlari, o‘qish va kasb-hunar egallash sharoitlarini inobatga olgan holda alohida tashkil etiladi.",
+      "Voyaga yetmaganlar kattalar bilan bir kamerada saqlanishi shart.",
+      "Ularga nisbatan ta’lim olish huquqi butunlay cheklanadi.",
+      "Voyaga yetmaganlarga nisbatan mehnat qilish qoidalari qo‘llanilmaydi."
+    ],
+    "a": 0,
+    "why": "89- va 90-moddalar haqidagi berilgan izohga ko‘ra, voyaga yetmaganlarga nisbatan jazoni ijro etishning o‘ziga xos xususiyatlari mavjud."
+  },
+  {
+    "topic": "Jinoyat huquqi: 3-bosqich",
+    "q": "Jinoyat kodeksining 61–90-moddalari mazmunidan kelib chiqqan holda, shartli hukm qilish instituti qanday ishlaydi va uning sinov muddati qancha etib belgilanadi?",
+    "o": [
+      "Sinov muddati bir yildan uch yilgacha yoki uch yildan besh yilgacha qilib belgilanib, mahkumning xulqi nazorat qilinadi.",
+      "Sinov muddati doimiy ravishda o‘n yil bo‘ladi.",
+      "Shartli hukm qilingan shaxs darhol ozodlikdan umrbod mahrum qilinadi.",
+      "Sinov muddati faqat jarima to‘langan kundan boshlab hisoblanadi."
+    ],
+    "a": 0,
+    "why": "70- va 71-moddalar haqidagi berilgan izohga ko‘ra, shartli hukm va sinov muddati nazarda tutilgan. Muddatlarni amaldagi qonunchilik bilan tekshirish kerak."
+  },
+  {
+    "topic": "Jinoyat huquqi: 3-bosqich",
+    "q": "Shartli hukm qilingan shaxs sinov muddati davomida yangi jinoyat sodir etsa, sud qanday qaror qabul qiladi?",
+    "o": [
+      "Sud shartli hukmni bekor qiladi va ilgari chiqarilgan hukm bo‘yicha hamda yangi jinoyat uchun hukmlar yig‘indisi qoidalari bo‘yicha jazo tayinlaydi.",
+      "Shartli hukm avtomatik ravishda uzaytiriladi.",
+      "Hech qanday chora ko‘rilmaydi.",
+      "Faqat ogohlantirish berish bilan cheklaniladi."
+    ],
+    "a": 0,
+    "why": "Shartli hukm davrida yangi jinoyat sodir etishning huquqiy oqibatlari haqidagi berilgan javoblar kaliti asosida tanlandi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 3-bosqich",
+    "q": "Mahkumni jazoni o‘tashdan muddatidan ilgari shartli ravishda ozod qilish qaysi shartlar bajarilganda qo‘llaniladi?",
+    "o": [
+      "Mahkum jazoning qonunda belgilangan qismini (masalan, yarmidan ko‘pini yoki uchdan ikki qismini) haqiqatdan o‘tab bo‘lgan va axloqan tuzalganini ko‘rsatgan bo‘lsa.",
+      "Faqat sudya ta’tilga chiqishidan oldin.",
+      "Mahkum o‘z xohishiga ko‘ra ariza yozsa kifoya.",
+      "Bu faqat o‘lim jazosiga hukm qilinganlarga nisbatan qo‘llaniladi."
+    ],
+    "a": 0,
+    "why": "73-modda. Jazoni o‘tashdan muddatidan ilgari shartli ravishda ozod qilish shartlari."
+  },
+  {
+    "topic": "Jinoyat huquqi: 3-bosqich",
+    "q": "Kasallik yoki nogironlik tufayli jazodan ozod qilish qoidalariga ko‘ra, qanday holat asos bo‘ladi?",
+    "o": [
+      "Agar mahkum jazoni o‘tayotgan vaqtda og‘ir ruhiy kasallikka yoki boshqa og‘ir kasallikka chalingan bo‘lsa, bu kasallik uning jazoni davom ettirishiga to‘sqinlik qilsa, sud uni jazodan ozod qilishi mumkin.",
+      "Har qanday shamollash kasalligi jazodan ozod qilishga asos bo‘ladi.",
+      "Faqat tish og‘rig‘i bo‘yicha ozod qilinadi.",
+      "Kasallik holatida jazo muddati ikki barobar oshiriladi."
+    ],
+    "a": 0,
+    "why": "75-modda deb ko‘rsatilgan manbaga ko‘ra, jazoni davom ettirishga to‘sqinlik qiladigan og‘ir kasallik jazodan ozod qilish uchun asos bo‘lishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 3-bosqich",
+    "q": "Homilador ayollar va yosh bolasi bor ayollarga nisbatan jazoni ijro etishni kechiktirish instituti qanday tartibda ishlaydi?",
+    "o": [
+      "Homilador ayollarga yoki uch yoshgacha bolasi bor ayollarga nisbatan tayinlangan ozodlikdan mahrum qilish jazosining ijrosi bola uch yoshga to‘lgunga qadar kechiktirilishi mumkin.",
+      "Bu kechiktirish faqat erkaklarga nisbatan qo‘llaniladi.",
+      "Jazo muddati butunlay tugatib yuboriladi va qayta tiklanmaydi.",
+      "Kechiktirish faqat o‘ta og‘ir jinoyatlar uchun taqiqlanadi."
+    ],
+    "a": 0,
+    "why": "76-modda deb ko‘rsatilgan manbaga ko‘ra, homilador ayollar yoki yosh bolasi bor ayollarga nisbatan jazoni ijro etish kechiktirilishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 3-bosqich",
+    "q": "Kechiktirilgan jazo muddati tugagandan keyin ayolning xulqi ijobiy bo‘lsa, sud uni qanday qaror bilan jazodan ozod qilishi mumkin?",
+    "o": [
+      "Agar ayol bola parvarishiga e’tibor berib, qonun-qoidalarni buzmagan bo‘lsa, sud uni qolgan jazoni o‘tashdan ozod qilishi yoki yengilroq jazo bilan almashtirishi mumkin.",
+      "Sud uni majburiy ravishda yana qamoqqa jo‘natadi.",
+      "Kechiktirish muddati yana besh yilga uzaytiriladi.",
+      "Hech qanday qaror chiqarilmaydi."
+    ],
+    "a": 0,
+    "why": "76-modda haqidagi berilgan izoh asosida tanlandi. Aniq shartlar va huquqiy oqibatlar amaldagi qonunchilik bilan tekshirilishi lozim."
+  },
+  {
+    "topic": "Jinoyat huquqi: 3-bosqich",
+    "q": "Voyaga yetmaganlar uchun tayinlanadigan jazolar tizimida majburiy jamoat ishlari qancha muddatga belgilanadi?",
+    "o": [
+      "O‘n oydan uch yilgacha",
+      "O‘ttiz soatdan yuz yigirma soatgacha",
+      "Bir yildan besh yilgacha",
+      "O‘n besh kundan bir oygacha"
+    ],
+    "a": 1,
+    "why": "Berilgan javoblar kalitida voyaga yetmaganlar uchun majburiy jamoat ishlari muddati B varianti sifatida ko‘rsatilgan."
+  },
+  {
+    "topic": "Jinoyat huquqi: 3-bosqich",
+    "q": "Voyaga yetmaganlarga nisbatan tayinlanadigan axloq tuzatish ishlari qanday muddatlarda va qanday foiz ushlab qolish bilan amalga oshiriladi?",
+    "o": [
+      "Ikki oydan bir yilgacha bo‘lgan muddatga, ish haqidan o‘n foizdan yigirma foizgacha ushlab qolingan holda.",
+      "Besh yildan o‘n yilgacha.",
+      "Faqat jarima tarzida.",
+      "Ushlab qolish amalga oshirilmaydi."
+    ],
+    "a": 0,
+    "why": "Voyaga yetmaganlarga nisbatan axloq tuzatish ishlari haqidagi berilgan javoblar kaliti asosida tanlandi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 3-bosqich",
+    "q": "Voyaga yetmagan shaxslarga nisbatan ozodlikdan mahrum qilish jazosi qaysi turdagi muassasalarda o‘taladi?",
+    "o": [
+      "Tarbiyaviy koloniyalarda",
+      "Maxsus qattiq tartibli qamoqxonalarda",
+      "Umumiy tartibli koloniyalarda (kattalar bilan birga)",
+      "Harbiy qismlarda"
+    ],
+    "a": 0,
+    "why": "Berilgan javoblar kalitiga ko‘ra, voyaga yetmaganlar jazoni tarbiyaviy koloniyalarda o‘taydi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 3-bosqich",
+    "q": "Jinoyat kodeksining 61–90-moddalari doirasida huquqiy ta’sir ko‘rsatish choralari va jazo tayinlashning yakuniy maqsadlari nimadan iborat?",
+    "o": [
+      "Shaxsni axloqan tuzatish, yangi jinoyatlar sodir etilishining oldini olish va ijtimoiy adolatni tiklash.",
+      "Jamiyatdan barcha huquqbuzarlarni butunlay yo‘q qilish.",
+      "Faqat davlat budjetini jarimalar orqali to‘ldirish.",
+      "Mahkumlarga nisbatan jismoniy ta’sir ko‘rsatishni kuchaytirish."
+    ],
+    "a": 0,
+    "why": "Jinoyat qonunchiligining umumiy maqsadlari va prinsiplari."
+  },
+  {
+    "topic": "Jinoyat huquqi: 3-bosqich",
+    "q": "Amnistiya akti qo‘llanilishiga yo‘l qo‘yilmaydigan holatlar qaysilar?",
+    "o": [
+      "O‘ta og‘ir jinoyatlarni sodir etgan yoki muntazam ravishda xavfli jinoyatlarni sodir etib kelayotgan shaxslarga nisbatan amnistiya aktida belgilangan cheklovlarga muvofiq qo‘llanilmasligi mumkin.",
+      "Barcha shaxslarga nisbatan har qanday sharoitda cheklovsiz qo‘llaniladi.",
+      "Amnistiya faqat chet elliklarga nisbatan taqiqlanadi.",
+      "Bunday cheklovlar qonunchilikda umuman mavjud emas."
+    ],
+    "a": 0,
+    "why": "Amnistiya aktini qo‘llashdagi cheklovlar va istisnolar."
+  }
+]
