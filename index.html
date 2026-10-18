@@ -68,28 +68,34 @@
         </div>
 
         <div id="quiz-view" class="hidden">
-          <div class="quiz-top-nav">
-            <button id="btn-back-topics" class="btn-back">← Ortga</button>
-            <div id="quiz-progress" class="quiz-badge">1 / 30</div>
-          </div>
+          <!-- Yakunlash ekrani (JS tomonidan to'ldiriladi) -->
+          <div id="quiz-finished" class="hidden"></div>
 
-          <div class="progress-track">
-            <div id="quiz-progress-bar" class="progress-fill"></div>
-          </div>
-
-          <div id="question-card" class="glass-card quiz-card">
-            <div id="question-text" class="question-text">Savol yuklanmoqda...</div>
-            <div id="options-container" class="options-grid"></div>
-          </div>
-
-          <div id="analysis-panel" class="glass-card analysis-card hidden">
-            <div class="analysis-header">
-              <span>📖</span>
-              <h3>Huquqiy Tahlil</h3>
+          <!-- Asosiy quiz tuzilishi — hech qachon butunlay o'chirilmaydi -->
+          <div id="quiz-body">
+            <div class="quiz-top-nav">
+              <button id="btn-back-topics" class="btn-back">← Ortga</button>
+              <div id="quiz-progress" class="quiz-badge">1 / 30</div>
             </div>
-            <p id="analysis-text" class="analysis-body"></p>
-            <button id="btn-lex-link" class="btn btn-secondary btn-lg">📖 Lex.uz da Ochish</button>
-            <button id="btn-next-question" class="btn btn-primary btn-lg" style="margin-top:12px;">Keyingi Savol →</button>
+
+            <div class="progress-track">
+              <div id="quiz-progress-bar" class="progress-fill"></div>
+            </div>
+
+            <div id="question-card" class="glass-card quiz-card">
+              <div id="question-text" class="question-text">Savol yuklanmoqda...</div>
+              <div id="options-container" class="options-grid"></div>
+            </div>
+
+            <div id="analysis-panel" class="glass-card analysis-card hidden">
+              <div class="analysis-header">
+                <span>📖</span>
+                <h3>Huquqiy Tahlil</h3>
+              </div>
+              <p id="analysis-text" class="analysis-body"></p>
+              <button id="btn-lex-link" class="btn btn-secondary btn-lg">📖 Lex.uz da Ochish</button>
+              <button id="btn-next-question" class="btn btn-primary btn-lg" style="margin-top:12px;">Keyingi Savol →</button>
+            </div>
           </div>
         </div>
       </section>
