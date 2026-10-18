@@ -1,1 +1,364 @@
 
+[
+  {
+    "topic": "Jinoyat huquqi: 8-bosqich",
+    "q": "Pora berish (211-modda) jinoyatining obyektiv tomoni nimadan iborat?",
+    "o": [
+      "Mansabdor shaxsga uning xizmat mavqeidan foydalangan holda bajarishi lozim yoki mumkin bo‘lgan harakati evaziga qonunga xilof ravishda moddiy qimmatliklar berish yoki uni mulkiy manfaatdor etish.",
+      "Davlat idorasiga rasmiy davlat bojini to‘lash.",
+      "Xodimga qonuniy tartibda mukofot puli berish.",
+      "Xususiy do‘kondan mahsulot sotib olish."
+    ],
+    "a": 0,
+    "why": "Pora berish mansabdor shaxsga uning xizmat mavqeiga bog‘liq harakati yoki harakatsizligi evaziga qonunga xilof manfaat berish bilan bog‘liq."
+  },
+  {
+    "topic": "Jinoyat huquqi: 8-bosqich",
+    "q": "Pora olish-berishda vositachilik qilish (212-modda) jinoyatining og‘irlashtiruvchi holatlariga qaysi biri kirishi mumkin?",
+    "o": [
+      "Jinoyatni takroran, bir guruh shaxslar tomonidan oldindan til biriktirib yoki qonunda nazarda tutilgan boshqa og‘irlashtiruvchi holatlarda sodir etish.",
+      "Qilmishning jinoyat tarkibi mavjud bo‘lmagan holda sodir etilishi.",
+      "Vositachining jinoyat haqida xabar berishi har doim javobgarlikni og‘irlashtirishi.",
+      "Pora beruvchi va oluvchi o‘rtasida hech qanday aloqa bo‘lmasligi."
+    ],
+    "a": 0,
+    "why": "Jinoyatning og‘irlashtiruvchi belgilari Jinoyat kodeksining tegishli moddasi bilan belgilanadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 8-bosqich",
+    "q": "Mansab soxtakorligi (209-modda) qanday xavfni keltirib chiqaradi?",
+    "o": [
+      "Davlat organlari faoliyatining qonuniyligiga va rasmiy hujjatlarning ishonchliligiga putur yetkazadi.",
+      "Faqat transport vositalari harakati xavfsizligini buzadi.",
+      "Faqat shaxsiy mulkni o‘g‘irlashga olib keladi.",
+      "Faqat ekologik muvozanatni buzadi."
+    ],
+    "a": 0,
+    "why": "Mansab soxtakorligi rasmiy hujjatlarga bila turib yolg‘on ma’lumot kiritish yoki ularni soxtalashtirish bilan bog‘liq bo‘lishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 8-bosqich",
+    "q": "Hokimiyat yoki mansab vakolatini suiiste’mol qilish (205-modda) uchun jazo qanday belgilanadi?",
+    "o": [
+      "Sud Jinoyat kodeksidagi tegishli sanksiya, qilmishning holatlari va qonunda nazarda tutilgan oqibatlarga qarab jazo tayinlaydi.",
+      "Har doim faqat ogohlantirish beriladi.",
+      "Xodim maqtov yorlig‘i bilan taqdirlanadi.",
+      "Ish haqi ikki baravar oshiriladi."
+    ],
+    "a": 0,
+    "why": "Jazo jinoyatning xususiyati, oqibatlari va tegishli modda sanksiyasiga muvofiq tayinlanadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 8-bosqich",
+    "q": "Sud hujjatini ijro etmaslik (232-modda) qanday qilmishda namoyon bo‘lishi mumkin?",
+    "o": [
+      "Qonuniy kuchga kirgan sud hujjatini bajarishi shart bo‘lgan shaxsning uni qasddan bajarmasligi, qonunda nazarda tutilgan boshqa belgilar mavjud bo‘lganda.",
+      "Sudgacha bo‘lgan bosqichda guvoh sifatida qatnashish.",
+      "Chet davlat elchixonasiga murojaat qilish.",
+      "Sud hujjatini qonuniy tartibda ijro etish."
+    ],
+    "a": 0,
+    "why": "Sud hujjatini ijro etmaslikning javobgarlikka sabab bo‘lishi qonunda belgilangan shartlarga bog‘liq."
+  },
+  {
+    "topic": "Jinoyat huquqi: 8-bosqich",
+    "q": "Bila turib adolatsiz hukm, hal qiluv qarori, ajrim yoki qaror chiqarish (230-modda) jinoyatining maxsus subyekti kim?",
+    "o": [
+      "Sudya yoki sudyalar.",
+      "Har qanday oddiy ishchi.",
+      "Faqat jabrlanuvchi.",
+      "Har qanday guvoh."
+    ],
+    "a": 0,
+    "why": "Mazkur jinoyat sud hujjatini chiqarish vakolatiga ega bo‘lgan tegishli subyekt faoliyati bilan bog‘liq."
+  },
+  {
+    "topic": "Jinoyat huquqi: 8-bosqich",
+    "q": "Qonunga xilof ravishda ushlab turish yoki qamoqqa olish bilan bog‘liq qilmishning mohiyati nimadan iborat?",
+    "o": [
+      "Shaxsni qonuniy asoslarsiz yoki qonunda belgilangan tartibni buzgan holda ushlab turish yoxud qamoqqa olish.",
+      "Qonuniy asosda ushlangan shaxsni ozod qilish.",
+      "Guvohga qonuniy tartibda chaqiruv yuborish.",
+      "Jinoyat sodir etgan shaxsni qonuniy asosda qidirish."
+    ],
+    "a": 0,
+    "why": "Shaxs erkinligini qonunga xilof ravishda cheklash tegishli huquqiy shartlar mavjud bo‘lganda javobgarlikka sabab bo‘ladi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 8-bosqich",
+    "q": "Guvoh yoki jabrlanuvchining ko‘rsatuv berishdan bosh tortishi (239-modda) qaysi holatda javobgarlikka sabab bo‘lishi mumkin?",
+    "o": [
+      "Qonunda belgilangan shartlar mavjud bo‘lganda, guvoh yoki jabrlanuvchining ko‘rsatuv berishdan qonunga xilof ravishda bosh tortishi.",
+      "Sud majlisida o‘z fikrini erkin bildirmasligi.",
+      "Tergovchi bilan telefonda gaplashishni istamasligi.",
+      "Qonuniy ravishda ko‘rsatuv berishdan bosh tortish huquqidan foydalanishi."
+    ],
+    "a": 0,
+    "why": "Ko‘rsatuv berishdan bosh tortish uchun javobgarlik qonunda belgilangan shartlar va istisnolar hisobga olingan holda hal qilinadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 8-bosqich",
+    "q": "Ekspertning bila turib yolg‘on xulosa berishi yoki tarjimonning bila turib noto‘g‘ri tarjima qilishi qaysi toifadagi jinoyatlarga kiradi?",
+    "o": [
+      "Odil sudlovga qarshi jinoyatlar.",
+      "Iqtisodiy sohadagi jinoyatlar.",
+      "Ekologik jinoyatlar.",
+      "Transport xavfsizligiga qarshi jinoyatlar."
+    ],
+    "a": 0,
+    "why": "Sud va tergov jarayonida yolg‘on xulosa yoki noto‘g‘ri tarjima berish odil sudlov manfaatlariga zarar yetkazishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 8-bosqich",
+    "q": "Jinoiy jazoni ijro etish muassasalari faoliyatiga to‘sqinlik qilish bilan bog‘liq qilmishning huquqiy bahosi nimaga bog‘liq?",
+    "o": [
+      "Sodir etilgan harakatning aniq mazmuni va Jinoyat kodeksining tegishli moddasida belgilangan jinoyat tarkibiga.",
+      "Har qanday holatda 97-moddaga.",
+      "Har qanday holatda 169-moddaga.",
+      "Har qanday holatda 277-moddaga."
+    ],
+    "a": 0,
+    "why": "Jinoyatni to‘g‘ri kvalifikatsiya qilish uchun qilmishning belgilari tegishli modda bilan solishtiriladi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 8-bosqich",
+    "q": "Hokimiyat vakiliga yoki jamoat burchini bajaruvchi shaxsga qarshilik ko‘rsatish (219-modda) qanday harakatlarda namoyon bo‘lishi mumkin?",
+    "o": [
+      "Xizmat vazifasini bajarayotgan shaxsga nisbatan qonunda nazarda tutilgan shaklda qarshilik ko‘rsatish.",
+      "Xodimga minnatdorchilik bildirish.",
+      "Xizmat xonasidan ruxsat bilan chiqish.",
+      "Rasmiy hujjatni o‘qib chiqish."
+    ],
+    "a": 0,
+    "why": "Qarshilik ko‘rsatishning jinoiy javobgarlikka olib kelishi qilmishning xususiyati va qonundagi belgilariga bog‘liq."
+  },
+  {
+    "topic": "Jinoyat huquqi: 8-bosqich",
+    "q": "Ommaviy tartibsizliklarni tashkil etish yoki ularda faol qatnashish qanday huquqiy oqibatlarga olib kelishi mumkin?",
+    "o": [
+      "Qonunda belgilangan belgilar mavjud bo‘lsa, jinoiy javobgarlik va tegishli jazo tayinlanishiga.",
+      "Har doim faqat ogohlantirish berilishiga.",
+      "Barcha holatlarda javobgarlikdan ozod qilinishga.",
+      "Hech qanday huquqiy oqibat bo‘lmasligiga."
+    ],
+    "a": 0,
+    "why": "Ommaviy tartibsizliklarni tashkil etish va ularda qatnashish uchun javobgarlik qilmishning aniq holatlariga bog‘liq."
+  },
+  {
+    "topic": "Jinoyat huquqi: 8-bosqich",
+    "q": "Bezorilikni qurol yoki qurol sifatida foydalanilishi mumkin bo‘lgan narsalarni ishlatib sodir etish qanday ahamiyatga ega?",
+    "o": [
+      "Qonunda nazarda tutilgan hollarda jinoyatning og‘irlashtiruvchi yoki malakali belgisini tashkil etishi mumkin.",
+      "Har doim yengillashtiruvchi holat hisoblanadi.",
+      "Jinoyat tarkibiga hech qanday ta’sir ko‘rsatmaydi.",
+      "Har doim faqat ma’muriy huquqbuzarlik hisoblanadi."
+    ],
+    "a": 0,
+    "why": "Qurol yoki boshqa buyumlardan foydalanish bezorilikning huquqiy kvalifikatsiyasiga ta’sir qilishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 8-bosqich",
+    "q": "Giyohvandlik vositalari yoki psixotrop moddalarni iste’mol qilishga jalb etish qanday qilmishni anglatadi?",
+    "o": [
+      "Boshqa shaxsni giyohvandlik vositalari yoki psixotrop moddalarni iste’mol qilishga qonunga xilof ravishda undash yoki jalb etish.",
+      "Qonuniy tibbiy yordam ko‘rsatish.",
+      "Dorixonada qonuniy dori vositalarini sotish.",
+      "Sport bilan shug‘ullanishni targ‘ib qilish."
+    ],
+    "a": 0,
+    "why": "Boshqa shaxsni giyohvandlik vositalarini iste’mol qilishga jalb etish qonunda belgilangan shartlarda jinoiy javobgarlikka sabab bo‘lishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 8-bosqich",
+    "q": "Giyohvandlik vositalari bilan bog‘liq jinoyatlarni to‘g‘ri kvalifikatsiya qilishda nima muhim?",
+    "o": [
+      "Qilmishning aniq turi, moddalar bilan amalga oshirilgan harakat, maqsad va Jinoyat kodeksining tegishli normasi.",
+      "Faqat shaxsning kasbi.",
+      "Faqat harakat sodir etilgan kun.",
+      "Faqat moddalar saqlangan binoning turi."
+    ],
+    "a": 0,
+    "why": "Giyohvandlik vositalari bilan bog‘liq qilmishlarning huquqiy bahosi jinoyat tarkibi va qonunda belgilangan belgilar asosida aniqlanadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 8-bosqich",
+    "q": "Transport harakati xavfsizligi qoidalarini buzish oqibatida jinoyat sodir etilganini aniqlashda nima hisobga olinadi?",
+    "o": [
+      "Qoidabuzarlikning xususiyati, kelib chiqqan oqibatlar va ular o‘rtasidagi sababiy bog‘lanish.",
+      "Faqat transport vositasining rangi.",
+      "Faqat haydovchining yashash manzili.",
+      "Faqat yo‘lning nomi."
+    ],
+    "a": 0,
+    "why": "Jinoiy javobgarlik qilmishning tarkibi va qonunda nazarda tutilgan oqibatlar mavjudligiga bog‘liq."
+  },
+  {
+    "topic": "Jinoyat huquqi: 8-bosqich",
+    "q": "Yerlarni ifloslantirish yoki yaroqsiz holatga keltirish bilan bog‘liq qilmishning ekologik xavfi nimada?",
+    "o": [
+      "Tuproqning xususiyatlari buzilib, uning qishloq xo‘jaligi yoki boshqa qonuniy maqsadlarda foydalanishga yaroqliligi kamayishi mumkin.",
+      "Yerlarning unumdorligi har doim ortadi.",
+      "Tabiatga hech qanday ta’sir ko‘rsatmaydi.",
+      "Faqat transport harakatiga ta’sir qiladi."
+    ],
+    "a": 0,
+    "why": "Yerlarni ifloslantirish va yaroqsiz holatga keltirish atrof-muhit hamda yer resurslariga zarar yetkazishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 8-bosqich",
+    "q": "O‘rmonlarga zarar yetkazish bilan bog‘liq qilmishlarni huquqiy baholashda nima hisobga olinadi?",
+    "o": [
+      "O‘rmonlarga zarar yetkazish usuli, oqibatlari va Jinoyat kodeksining tegishli normasida belgilangan belgilar.",
+      "Faqat daraxtlarning balandligi.",
+      "Faqat o‘rmonning geografik nomi.",
+      "Faqat hududga tashrif buyuruvchilar soni."
+    ],
+    "a": 0,
+    "why": "O‘rmonlarga zarar yetkazish uchun javobgarlik qilmishning aniq holatlari va qonun talablariga bog‘liq."
+  },
+  {
+    "topic": "Jinoyat huquqi: 8-bosqich",
+    "q": "Davlat chegarasini qonunga xilof ravishda kesib o‘tish uchun javobgarlikni belgilashda nima muhim?",
+    "o": [
+      "Chegaradan o‘tish holati, qonuniy hujjatlar mavjudligi va qilmishda tegishli jinoyat tarkibi belgilarining mavjudligi.",
+      "Turistik safarga chiqishning o‘zi.",
+      "Chegara punktida qonuniy tekshiruvdan o‘tish.",
+      "Qonuniy tartibda mamlakatga qaytish."
+    ],
+    "a": 0,
+    "why": "Davlat chegarasini kesib o‘tish bilan bog‘liq javobgarlik qonunda belgilangan holatlar asosida aniqlanadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 8-bosqich",
+    "q": "Qalbakilashtirilgan rasmiy hujjatdan bila turib foydalanish qanday huquqiy oqibatga olib kelishi mumkin?",
+    "o": [
+      "Qonunda nazarda tutilgan shartlar mavjud bo‘lsa, hujjatni qalbakilashtirishdan alohida ravishda ham jinoiy javobgarlikka sabab bo‘lishi mumkin.",
+      "Faqat hujjatni tayyorlagan shaxs javobgar bo‘ladi.",
+      "Har doim faqat ogohlantirish beriladi.",
+      "Qalbaki hujjatdan foydalanish hech qachon javobgarlikka sabab bo‘lmaydi."
+    ],
+    "a": 0,
+    "why": "Qalbakilashtirilgan hujjatdan foydalanish uchun javobgarlik tegishli modda va qilmishning aniq holatlariga bog‘liq."
+  },
+  {
+    "topic": "Jinoyat huquqi: 8-bosqich",
+    "q": "Harbiy qismni yoki xizmat joyini o‘zboshimchalik bilan tashlab ketish qanday holatni anglatadi?",
+    "o": [
+      "Harbiy xizmatchining tegishli ruxsatsiz qism yoki xizmat joyini tark etishi yoxud belgilangan muddatda qaytmasligi, qonunda nazarda tutilgan shartlarda.",
+      "Komandirning rasmiy ruxsati bilan ta’tilga chiqish.",
+      "Harbiy mashg‘ulotlarda qatnashish.",
+      "Belgilangan tartibda harbiy gospitalda davolanish."
+    ],
+    "a": 0,
+    "why": "Harbiy xizmatga oid bunday qilmishning huquqiy bahosi xizmat tartibi va tegishli qonun normalariga bog‘liq."
+  },
+  {
+    "topic": "Jinoyat huquqi: 8-bosqich",
+    "q": "Harbiy mulkni qasddan yo‘q qilish yoki unga zarar yetkazish qaysi manfaatlarga tajovuz qilishi mumkin?",
+    "o": [
+      "Harbiy mulkning saqlanishi, harbiy xizmat manfaatlari va mamlakat mudofaa qobiliyatiga.",
+      "Faqat fuqarolarning shaxsiy avtomobillariga.",
+      "Faqat savdo do‘konlarining omborlariga.",
+      "Faqat shaxsiy uy-joylarga."
+    ],
+    "a": 0,
+    "why": "Harbiy mulkka zarar yetkazish harbiy xizmat manfaatlari va tegishli mulkiy munosabatlarga zarar keltirishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 8-bosqich",
+    "q": "Jinoyat kodeksining Umumiy va Maxsus qismlari o‘rtasidagi bog‘liqlik nimada namoyon bo‘ladi?",
+    "o": [
+      "Umumiy qismdagi prinsiplar, tushunchalar va jazo tayinlash qoidalari Maxsus qism normalarini qo‘llash uchun asos bo‘lib xizmat qiladi.",
+      "Ular bir-biriga mutlaqo aloqasiz.",
+      "Maxsus qism Umumiy qismni bekor qiladi.",
+      "Umumiy qism faqat tergov bosqichida qo‘llanadi."
+    ],
+    "a": 0,
+    "why": "Jinoyatni kvalifikatsiya qilish va jazo tayinlashda Umumiy hamda Maxsus qism normalari birgalikda qo‘llanadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 8-bosqich",
+    "q": "Sud jazo tayinlashda qaysi mezonlarni hisobga olishi kerak?",
+    "o": [
+      "Jinoyatning xususiyati va ijtimoiy xavflilik darajasi, aybdorning shaxsi, yengillashtiruvchi va og‘irlashtiruvchi holatlar hamda qonunda nazarda tutilgan boshqa mezonlar.",
+      "Faqat jabrlanuvchining shaxsiy istagi.",
+      "Faqat ommaviy axborot vositalarining talabi.",
+      "Faqat mahalliy hokimiyat organining xulosasi."
+    ],
+    "a": 0,
+    "why": "Jazo tayinlash qonunda belgilangan umumiy asoslar va ishning aniq holatlari bo‘yicha amalga oshiriladi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 8-bosqich",
+    "q": "Amnistiya va afv etish o‘rtasidagi asosiy farq nimada?",
+    "o": [
+      "Amnistiya tegishli vakolatli organ tomonidan shaxslarning muayyan toifasiga nisbatan, afv etish esa Prezident tomonidan individual tartibda amalga oshiriladi.",
+      "Ikkalasi ham faqat sud tomonidan e’lon qilinadi.",
+      "Amnistiya faqat chet elliklarga qo‘llanadi.",
+      "Ularning huquqiy mazmuni mutlaqo bir xil."
+    ],
+    "a": 0,
+    "why": "Amnistiya va afv etish qo‘llanish doirasi hamda vakolatli subyektiga ko‘ra farqlanadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 8-bosqich",
+    "q": "Shartli hukm qilingan shaxs sinov muddati davomida zimmasidagi majburiyatlarni bajarmasa, qanday oqibat yuz berishi mumkin?",
+    "o": [
+      "Qonunda belgilangan asoslar mavjud bo‘lsa, sud shartli hukmni bekor qilib, tayinlangan jazoni ijro etish to‘g‘risida qaror chiqarishi mumkin.",
+      "Sinov muddati har doim avtomatik ravishda qisqartiriladi.",
+      "Shaxsga mukofot puli beriladi.",
+      "Jinoyat ishi har doim butunlay tugatiladi."
+    ],
+    "a": 0,
+    "why": "Shartli hukmning bekor qilinishi va jazoning ijrosi qonunda belgilangan asoslar hamda tartibga muvofiq amalga oshiriladi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 8-bosqich",
+    "q": "Voyaga yetmaganlarga nisbatan jinoiy javobgarlik choralarining muhim maqsadlaridan biri nima?",
+    "o": [
+      "Ularni tarbiyalash, axloqan tuzatish va ijtimoiy hayotga moslashishiga ko‘maklashish.",
+      "Barcha huquqlarini butunlay bekor qilish.",
+      "Ularni har doim kattalar bilan bir xil tartibda jazolash.",
+      "Faqat jarima qo‘llash."
+    ],
+    "a": 0,
+    "why": "Voyaga yetmaganlarga jazo tayinlashda ularning yoshi, shaxsiy xususiyatlari va qonunda belgilangan maxsus qoidalar hisobga olinadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 8-bosqich",
+    "q": "Tibbiy yo‘sindagi majburiy choralarni qo‘llash va davom ettirish qanday belgilanadi?",
+    "o": [
+      "Shaxsning ruhiy holati, tibbiy xulosalar va qonunda belgilangan sud tartibi asosida.",
+      "Har doim aniq bir yil muddatga.",
+      "Faqat o‘n kun muddatga.",
+      "Faqat shaxsning o‘z xohishiga ko‘ra."
+    ],
+    "a": 0,
+    "why": "Tibbiy yo‘sindagi majburiy choralar shaxsning holati va qonunda belgilangan tartib asosida belgilanadi hamda qayta ko‘rib chiqiladi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 8-bosqich",
+    "q": "Jinoyat natijasida olingan yoki jinoyatni sodir etishda foydalanilgan mol-mulkka nisbatan qanday huquqiy chora qo‘llanishi mumkin?",
+    "o": [
+      "Qonunda nazarda tutilgan asoslar mavjud bo‘lsa, tegishli mol-mulkka nisbatan musodara yoki boshqa huquqiy choralar qo‘llanishi mumkin.",
+      "Aybdorning qarindoshlariga tegishli barcha mol-mulk avtomatik ravishda olib qo‘yiladi.",
+      "Har qanday uchinchi shaxsning mulki musodara qilinadi.",
+      "Davlatga tegishli barcha bino-inshootlar olib qo‘yiladi."
+    ],
+    "a": 0,
+    "why": "Mol-mulkni musodara qilish yoki boshqa choralarni qo‘llash uchun qonuniy asoslar va tegishli protsessual tartib talab etiladi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 8-bosqich",
+    "q": "Jinoyat kodeksining normalarini chuqur o‘rganishdan ko‘zlangan asosiy maqsad nima?",
+    "o": [
+      "Qonun ustuvorligini ta’minlash, huquqiy ong va madaniyatni yuksaltirish, ijtimoiy adolat hamda inson huquqlarini himoya qilish.",
+      "Faqat imtihon uchun moddalarni yodlash.",
+      "Jinoyatlar sonini ko‘paytirish.",
+      "Sud organlarining vakolatlarini asossiz cheklash."
+    ],
+    "a": 0,
+    "why": "Jinoyat qonunchiligini o‘rganish qonuniylikni ta’minlash va shaxs, jamiyat hamda davlat manfaatlarini himoya qilishga xizmat qiladi."
+  }
+]
+
