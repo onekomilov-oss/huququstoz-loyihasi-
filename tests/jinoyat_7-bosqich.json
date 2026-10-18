@@ -1,1 +1,363 @@
 
+[
+  {
+    "topic": "Jinoyat huquqi: 7-bosqich",
+    "q": "Qasddan bankrot qilish yoki soxta bankrotlik jinoyatining asosiy maqsadi va subyekti kim bo‘lishi mumkin?",
+    "o": [
+      "Korxona rahbarlari yoki mulkdorlari tomonidan kreditorlar manfaatlariga zarar yetkazish maqsadida o‘zini bankrot deb e’lon qilish yoki mol-mulkni yashirish.",
+      "Davlat soliq xodimlari tomonidan soliq yig‘ish jarayoni.",
+      "Oddiy xodimlarning o‘z xohishi bilan ishdan bo‘shashi.",
+      "Bank xodimlarining kredit tarqatishi."
+    ],
+    "a": 0,
+    "why": "Qasddan yoki soxta bankrotlik kreditorlar manfaatlariga zarar yetkazish bilan bog‘liq."
+  },
+  {
+    "topic": "Jinoyat huquqi: 7-bosqich",
+    "q": "Monopoliyaga qarshi qonunchilikni buzish qanday qilmishlar uchun jinoiy javobgarlikka sabab bo‘ladi?",
+    "o": [
+      "Narxlarni sun’iy ravishda oshirish yoki tushirish, bozorlarni bo‘lib olish bo‘yicha raqobatni cheklovchi yashirin kelishuvlarga erishish va qonunda belgilangan oqibatlarni keltirib chiqarish.",
+      "Halol raqobat asosida yangi mahsulot chiqarish.",
+      "Davlat korxonasini xususiylashtirish jarayoni.",
+      "Xususiy tadbirkorning o‘z mahsulotini reklama qilishi."
+    ],
+    "a": 0,
+    "why": "Raqobatni cheklovchi kelishuvlar qonunda belgilangan shartlar mavjud bo‘lganda javobgarlikka sabab bo‘lishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 7-bosqich",
+    "q": "Iste’molchilarni aldash yoki sifatsiz mahsulotlar chiqarish bilan bog‘liq jinoyatning asosiy belgilari qaysilar?",
+    "o": [
+      "Hayot yoki sog‘liq uchun xavfli tovarlarni sotish, ish bajarish yoki xizmat ko‘rsatish yoxud iste’molchilarni aldash orqali qonunda belgilangan oqibatlarni keltirib chiqarish.",
+      "Sifati mukammal bo‘lgan mahsulotni arzon narxda sotish.",
+      "Do‘konni vaqtinchalik ta’mirlash uchun yopish.",
+      "Savdo qoidalariga rioya qilgan holda faoliyat yuritish."
+    ],
+    "a": 0,
+    "why": "Xavfli yoki sifatsiz mahsulotlar bilan bog‘liq qilmishlar qonunda belgilangan shartlarda javobgarlikka sabab bo‘ladi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 7-bosqich",
+    "q": "Litsenziya talab qilinadigan faoliyatni litsenziyasiz amalga oshirish qanday hollarda jinoiy javobgarlikka olib kelishi mumkin?",
+    "o": [
+      "Litsenziya olish majburiy bo‘lgan faoliyat bilan tegishli ruxsatnomasiz shug‘ullanish va qonunda belgilangan shartlarning yuzaga kelishi.",
+      "Shaxsning o‘z uyida kitob o‘qishi.",
+      "Rasmiy ro‘yxatdan o‘tgan korxonaning qonuniy faoliyat boshlashi.",
+      "Jamoat transportidan foydalanish."
+    ],
+    "a": 0,
+    "why": "Litsenziya talab qilinadigan faoliyatni tegishli ruxsatsiz amalga oshirish qonunda belgilangan shartlarda javobgarlikka sabab bo‘ladi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 7-bosqich",
+    "q": "Qimmatbaho metallarni qonunga xilof ravishda qo‘lga kiritish, o‘tkazish yoki ulardan foydalanish qanday ijtimoiy munosabatlarga tajovuz qilishi mumkin?",
+    "o": [
+      "Moliya-kredit tizimi hamda qimmatbaho metallar muomalasining qonuniy tartibiga.",
+      "Fuqarolarning shaxsiy hayoti daxlsizligiga.",
+      "Transport harakati xavfsizligiga.",
+      "Mehnat intizomi qoidalariga."
+    ],
+    "a": 0,
+    "why": "Bunday qilmishlar moliyaviy va iqtisodiy munosabatlarga tajovuz qilishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 7-bosqich",
+    "q": "Yer uchastkalarini o‘zboshimchalik bilan egallash qanday harakatlarda namoyon bo‘ladi?",
+    "o": [
+      "Tegishli qonuniy asoslarsiz yer uchastkasini egallab olish yoki undan o‘zboshimchalik bilan foydalanish.",
+      "Davlat idorasiga yer olish uchun rasmiy ariza berish.",
+      "Bog‘dorchilik shirkatida qonuniy ravishda meva ekish.",
+      "Yerlarni sug‘orish tizimini tozalash."
+    ],
+    "a": 0,
+    "why": "Yer uchastkasini qonuniy asoslarsiz egallash yoki undan o‘zboshimchalik bilan foydalanish qonun talablarini buzishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 7-bosqich",
+    "q": "Qonunga xilof ravishda baliq ovlash yoki boshqa suv hayvonlarini tutish qaysi holatlarda jinoiy javobgarlikka sabab bo‘lishi mumkin?",
+    "o": [
+      "Qonunda nazarda tutilgan zarar miqdori yuzaga kelganda yoki taqiqlangan vositalar yoxud usullar qo‘llanilganda.",
+      "Oddiy qarmoq bilan qonuniy ravishda baliq tutganda.",
+      "Hovuzni tozalash jarayonida baliqlarni qonuniy ko‘chirganda.",
+      "Baliqchilik fermasini qonuniy boshqarganda."
+    ],
+    "a": 0,
+    "why": "Zarar miqdori hamda taqiqlangan vosita va usullardan foydalanish javobgarlikni belgilashda ahamiyatga ega."
+  },
+  {
+    "topic": "Jinoyat huquqi: 7-bosqich",
+    "q": "Ekologik xavfsizlik qoidalarini buzish natijasida hayvonlarning ommaviy qirilishi yoki daraxtlarning qurishi bilan bog‘liq qilmishlar qaysi yo‘nalishdagi normalar bilan tartibga solinadi?",
+    "o": [
+      "Ekologik jinoyatlarga oid normalar bilan.",
+      "Qasddan odam o‘ldirishga oid normalar bilan.",
+      "O‘g‘rilikka oid normalar bilan.",
+      "Bezorilikka oid normalar bilan."
+    ],
+    "a": 0,
+    "why": "Ekologik xavfsizlik va tabiatni muhofaza qilishga oid qilmishlar tegishli jinoyat-huquqiy normalar bilan tartibga solinadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 7-bosqich",
+    "q": "Hokimiyat yoki mansab vakolatini suiiste’mol qilish jinoyatining asosiy subyekti kim?",
+    "o": [
+      "O‘z xizmat mavqeidan qonunga zid ravishda foydalanib, davlat yoki fuqarolarning huquq va manfaatlariga jiddiy zarar yetkazgan mansabdor shaxs.",
+      "Oddiy ishchi.",
+      "O‘z vakolatlari doirasida qaror qabul qiluvchi xususiy tadbirkor.",
+      "Talaba."
+    ],
+    "a": 0,
+    "why": "Mazkur jinoyat mansabdor shaxsning xizmat vakolatlaridan qonunga zid foydalanishi bilan bog‘liq."
+  },
+  {
+    "topic": "Jinoyat huquqi: 7-bosqich",
+    "q": "Mansab vakolatini suiiste’mol qilish bilan vakolat doirasidan chetga chiqish o‘rtasidagi asosiy farq nimada?",
+    "o": [
+      "Suiiste’mol qilishda shaxs o‘z vakolatlaridan qonunga zid foydalanadi, vakolat doirasidan chetga chiqishda esa o‘ziga berilmagan vakolatlarni amalga oshiradi.",
+      "Ular mutlaqo bir xil tushunchalardir.",
+      "Biri faqat kechasi, ikkinchisi faqat kunduzi sodir etiladi.",
+      "Biri faqat chet el fuqarolariga nisbatan qo‘llanadi."
+    ],
+    "a": 0,
+    "why": "Asosiy farq shundaki, birinchi holatda mavjud vakolatlardan noqonuniy foydalaniladi, ikkinchisida esa vakolat doirasidan tashqariga chiqiladi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 7-bosqich",
+    "q": "Mansabga sovuqqonlik bilan qarashning huquqiy mazmuni nimadan iborat?",
+    "o": [
+      "Mansabdor shaxsning vazifalariga loqayd munosabatda bo‘lishi natijasida ularni bajarmasligi yoki lozim darajada bajarmasligi va qonunda belgilangan oqibatlarning kelib chiqishi.",
+      "Boshqalarning mol-mulkini o‘g‘irlash.",
+      "Davlat sirlarini oshkor qilish.",
+      "Pora talab qilish va olish."
+    ],
+    "a": 0,
+    "why": "Mansabga sovuqqonlik bilan qarash vazifalarga loqayd munosabat va qonunda nazarda tutilgan oqibatlar bilan tavsiflanadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 7-bosqich",
+    "q": "Pora olish jinoyatining og‘irlashtiruvchi holatlari qaysilar bo‘lishi mumkin?",
+    "o": [
+      "Qonunda nazarda tutilgan miqdorda pora olish, tovlamachilik yo‘li bilan pora olish yoki uyushgan guruh manfaatlarini ko‘zlab harakat qilish.",
+      "Qonuniy xizmat uchun rasmiy to‘lovni amalga oshirish.",
+      "Pora berish haqida huquqni muhofaza qiluvchi organga xabar berish.",
+      "Qonuniy ravishda xizmat ko‘rsatish."
+    ],
+    "a": 0,
+    "why": "Pora olishning ayrim usullari va holatlari qonunda og‘irlashtiruvchi belgilar sifatida nazarda tutilishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 7-bosqich",
+    "q": "Pora berish jinoyatini sodir etgan shaxs qaysi holatlarda jinoiy javobgarlikdan ozod qilinishi mumkin?",
+    "o": [
+      "Qonunda belgilangan shartlar mavjud bo‘lsa, jumladan pora talab qilinganligi haqida o‘z ixtiyori bilan tegishli organga xabar berib, chin ko‘ngildan pushaymon bo‘lganda.",
+      "Pora berish yashirin qolganida.",
+      "Pora miqdori katta bo‘lganida.",
+      "Hech qanday holatda javobgarlikdan ozod qilinmaydi."
+    ],
+    "a": 0,
+    "why": "Javobgarlikdan ozod qilish faqat qonunda belgilangan shartlar asosida amalga oshiriladi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 7-bosqich",
+    "q": "Pora olish-berishda vositachilik qilish qanday harakatlarda namoyon bo‘ladi?",
+    "o": [
+      "Pora beruvchi va oluvchi o‘rtasida vositachilik qilish yoki pora predmetini yetkazishga ko‘maklashish.",
+      "Sud majlisida qatnashish.",
+      "Savdo do‘konida rasmiy xarid qilish.",
+      "Bankda omonat ochish."
+    ],
+    "a": 0,
+    "why": "Vositachilik pora beruvchi va oluvchi o‘rtasidagi kelishuvga yoki pora predmetini yetkazishga ko‘maklashishni qamrab oladi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 7-bosqich",
+    "q": "Mansabdor shaxsning xizmat mavqeidan foydalanib, pora evaziga qonunga xilof harakat sodir etishi qanday huquqiy baholanishi mumkin?",
+    "o": [
+      "Qilmishning aniq holatlariga qarab, tegishli jinoyat tarkibi yoki jinoyatlar majmui yoxud qonunda nazarda tutilgan malakali belgi asosida baholanadi.",
+      "Har doim yengillashtiruvchi holat hisoblanadi.",
+      "Hech qanday huquqiy oqibat keltirib chiqarmaydi.",
+      "Faqat ma’muriy ogohlantirish bilan cheklanadi."
+    ],
+    "a": 0,
+    "why": "Huquqiy baho qilmishning aniq holatlari va Jinoyat kodeksidagi tegishli normalarga bog‘liq."
+  },
+  {
+    "topic": "Jinoyat huquqi: 7-bosqich",
+    "q": "Odil sudlovni amalga oshirishga to‘sqinlik qilish qanday harakatlarda namoyon bo‘lishi mumkin?",
+    "o": [
+      "Tergovchi, prokuror yoki sudyaning ishni har tomonlama, to‘la va xolisona ko‘rib chiqishiga noqonuniy ta’sir ko‘rsatish yoki to‘sqinlik qilish.",
+      "Sud zalida tinchgina o‘tirish.",
+      "Sudga tashakkurnoma yuborish.",
+      "Sud majlisiga o‘z vaqtida kelish."
+    ],
+    "a": 0,
+    "why": "Odil sudlovga noqonuniy ta’sir ko‘rsatish yoki uni amalga oshirishga to‘sqinlik qilish qonunda belgilangan shartlarda javobgarlikka sabab bo‘ladi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 7-bosqich",
+    "q": "Og‘ir yoki o‘ta og‘ir jinoyat sodir etgan shaxsni oldindan va’da bermasdan yashirish qanday holatda javobgarlikka sabab bo‘lishi mumkin?",
+    "o": [
+      "Jinoyat sodir etgan shaxsni yashirish yoki jinoyat izlari yoxud qurolini yashirish qonunda belgilangan shartlarga mos kelganda.",
+      "Ma’muriy huquqbuzarlik sodir etgan shaxsga qonuniy yordam berish.",
+      "O‘zining oddiy xatolarini yashirish.",
+      "Davlat statistika hisobotlarini qonuniy ravishda tuzatish."
+    ],
+    "a": 0,
+    "why": "Og‘ir yoki o‘ta og‘ir jinoyatni oldindan va’da bermasdan yashirish qonunda nazarda tutilgan hollarda javobgarlikka sabab bo‘lishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 7-bosqich",
+    "q": "Bila turib yolg‘on xabar berish yoki soxta ayblashning mazmuni nimadan iborat?",
+    "o": [
+      "Jinoyat sodir etilgani haqida bila turib yolg‘on xabar berish yoki shaxsni jinoyatda asossiz ravishda ayblash.",
+      "Jinoyatchini qonuniy yo‘l bilan fosh etish.",
+      "Sudda rost ko‘rsatma berish.",
+      "Huquqni muhofaza qiluvchi organlarga qonuniy yordam berish."
+    ],
+    "a": 0,
+    "why": "Bila turib yolg‘on xabar berish yoki soxta ayblash qonunda belgilangan javobgarlikka sabab bo‘lishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 7-bosqich",
+    "q": "Jinoyat sodir etganlikda gumon qilinib ushlangan yoki qamoqqa olingan shaxsning qochishi qaysi toifadagi jinoyatlarga kiradi?",
+    "o": [
+      "Odil sudlovga qarshi jinoyatlar.",
+      "Iqtisodiy jinoyatlar.",
+      "Mulkka qarshi jinoyatlar.",
+      "Ekologik jinoyatlar."
+    ],
+    "a": 0,
+    "why": "Mazkur qilmish Jinoyat kodeksida nazarda tutilgan tegishli jinoyat tarkibiga muvofiq baholanadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 7-bosqich",
+    "q": "Garovga olish jinoyatining asosiy mazmuni nimadan iborat?",
+    "o": [
+      "Odamni garov sifatida ushlab turish orqali davlatni, xalqaro tashkilotni yoki jismoniy shaxsni muayyan harakatni bajarishga yoxud undan tiyilishga majbur qilish.",
+      "Rasmiy shartnoma tuzish.",
+      "Saylovda ovoz berish.",
+      "Sport musobaqasini tashkil etish."
+    ],
+    "a": 0,
+    "why": "Garovga olishda shaxsni ushlab turish orqali boshqa tomon muayyan harakatni bajarishga yoki undan tiyilishga majburlanadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 7-bosqich",
+    "q": "Ommaviy tartibsizliklar paytida zo‘ravonlik, o‘t qo‘yish yoki vayronagarchilik sodir etish qanday baholanadi?",
+    "o": [
+      "Qonunda belgilangan belgilar mavjud bo‘lsa, jamoat xavfsizligiga qarshi jinoyat sifatida baholanadi.",
+      "Har doim ma’muriy xato hisoblanadi.",
+      "Tinchlik va insonparvarlik harakati hisoblanadi.",
+      "Shaxsiy mulkni himoya qilishning qonuniy usuli hisoblanadi."
+    ],
+    "a": 0,
+    "why": "Ommaviy tartibsizliklar davomida sodir etilgan zo‘ravonlik va vayronagarchilik qonunda belgilangan shartlarda jinoiy javobgarlikka sabab bo‘lishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 7-bosqich",
+    "q": "Qurol, o‘q-dori yoki portlovchi moddalarni qonunga xilof ravishda egallash, saqlash, olib yurish yoxud yasashning asosiy xavfi nimada?",
+    "o": [
+      "Jamoat xavfsizligiga tahdid solishi va fuqarolarning hayoti hamda sog‘lig‘iga xavf tug‘dirishi.",
+      "Davlat budjetiga moliyaviy foyda keltirishi.",
+      "Ilmiy-texnik taraqqiyotni rivojlantirishi.",
+      "Transport harakatini tezlashtirishi."
+    ],
+    "a": 0,
+    "why": "Qurol va portlovchi moddalar muomalasining noqonuniyligi jamoat xavfsizligi hamda insonlar hayotiga xavf tug‘dirishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 7-bosqich",
+    "q": "Giyohvandlik vositalari yoki psixotrop moddalar kontrabandasi qanday sodir etiladi?",
+    "o": [
+      "Mazkur moddalarni O‘zbekiston Respublikasining bojxona chegarasidan qonunga xilof ravishda olib o‘tish.",
+      "Dorixonadan qonuniy tartibda dori xarid qilish.",
+      "Tibbiy yordam ko‘rsatish.",
+      "Qonuniy ravishda sport musobaqasida qatnashish."
+    ],
+    "a": 0,
+    "why": "Kontrabanda tovar yoki boshqa predmetlarni bojxona chegarasidan qonunga xilof ravishda o‘tkazish bilan bog‘liq."
+  },
+  {
+    "topic": "Jinoyat huquqi: 7-bosqich",
+    "q": "Transport vositasini olib qochish jinoyati qaysi ijtimoiy munosabatlarga tajovuz qilishi mumkin?",
+    "o": [
+      "Transport vositasiga egalik qilish bilan bog‘liq munosabatlar va qonunda nazarda tutilgan hollarda transport xavfsizligiga.",
+      "Faqat shaxsiy kiyim-kechaklarga.",
+      "Faqat intellektual mulk huquqlariga.",
+      "Faqat mehnat intizomiga."
+    ],
+    "a": 0,
+    "why": "Transport vositasini qonunga xilof ravishda olib qochish tegishli mulkiy va transport xavfsizligi munosabatlariga tajovuz qilishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 7-bosqich",
+    "q": "Transport harakati yoki undan foydalanish xavfsizligi qoidalarini buzish odamlar o‘limiga sabab bo‘lsa, qanday jazo qo‘llanishi mumkin?",
+    "o": [
+      "Sud qonunda belgilangan sanksiya va ish holatlariga muvofiq tegishli jazo tayinlaydi.",
+      "Har doim faqat ogohlantirish beriladi.",
+      "Har doim faqat jarima solinadi.",
+      "Jinoiy ish barcha holatlarda tugatiladi."
+    ],
+    "a": 0,
+    "why": "Jazo qilmishning holatlari va Jinoyat kodeksida belgilangan sanksiyaga muvofiq tayinlanadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 7-bosqich",
+    "q": "Muhrlar, shtamplar va blankalarni tayyorlash, qalbakilashtirish yoki sotish jinoyatining subyekti kim bo‘lishi mumkin?",
+    "o": [
+      "Qonunda belgilangan yoshga yetgan va aqli raso jismoniy shaxs.",
+      "Faqat sudya.",
+      "Faqat chet el elchisi.",
+      "Faqat voyaga yetmagan shaxs."
+    ],
+    "a": 0,
+    "why": "Jinoyat subyekti tegishli modda talablariga muvofiq belgilanadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 7-bosqich",
+    "q": "Pasport yoki shaxsni tasdiqlovchi boshqa hujjatni qonunga xilof ravishda egallash, yo‘q qilish yoki shikastlash qanday qilmishlarni qamrab olishi mumkin?",
+    "o": [
+      "Boshqa shaxsning hujjatini qonunga xilof ravishda egallash, yashirish, qasddan yo‘q qilish yoki shikastlash.",
+      "O‘z pasportini yo‘qotgach, yangisini rasmiylashtirish.",
+      "Hujjatdan qonuniy nusxa olish.",
+      "Hujjatni qonuniy tartibda almashtirish."
+    ],
+    "a": 0,
+    "why": "Hujjatni qonunga xilof ravishda egallash, yo‘q qilish yoki shikastlash tegishli shartlarda javobgarlikka sabab bo‘lishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 7-bosqich",
+    "q": "Suvni bulg‘antirish va atmosferani ifloslantirish jinoyatlarining umumiy jihati nimada?",
+    "o": [
+      "Ularning ikkalasi ham atrof-muhitni muhofaza qilish va insonlar salomatligini himoya qilish bilan bog‘liq ijtimoiy munosabatlarga tajovuz qiladi.",
+      "Ular faqat iqtisodiy foyda olish maqsadida sodir etiladi.",
+      "Ular faqat uy sharoitida sodir etiladi.",
+      "Ularning hech qanday umumiy jihati yo‘q."
+    ],
+    "a": 0,
+    "why": "Suvni bulg‘antirish ham, atmosferani ifloslantirish ham atrof-muhit va inson salomatligiga zarar yetkazishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 7-bosqich",
+    "q": "Iqtisodiy va mansabdorlik jinoyatlarining oldini olishga qaysi choralar yordam beradi?",
+    "o": [
+      "Qonun ustuvorligini ta’minlash, huquqiy madaniyatni oshirish, shaffoflik va jamoatchilik nazoratini kuchaytirish.",
+      "Faqat barcha jazo choralarini bekor qilish.",
+      "Barcha soliq turlarini bekor qilish.",
+      "Huquqni muhofaza qiluvchi organlar faoliyatini to‘xtatish."
+    ],
+    "a": 0,
+    "why": "Qonun ustuvorligi, huquqiy madaniyat va shaffoflik jinoyatlarning oldini olishga yordam beradi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 7-bosqich",
+    "q": "Jinoyat qonunchiligini izchil qo‘llashdan ko‘zlangan asosiy maqsad nima?",
+    "o": [
+      "Shaxs, jamiyat va davlat manfaatlarini himoya qilish, adolatni ta’minlash hamda jinoyatlarning oldini olish.",
+      "Faqat jarimalar orqali davlat daromadini ko‘paytirish.",
+      "Sud tizimining ish yuklamasini oshirish.",
+      "Qonunlarning bajarilishini cheklash."
+    ],
+    "a": 0,
+    "why": "Jinoyat qonunchiligining asosiy maqsadlari shaxs, jamiyat va davlat manfaatlarini himoya qilish hamda jinoyatlarning oldini olishdan iborat."
+  }
+]
