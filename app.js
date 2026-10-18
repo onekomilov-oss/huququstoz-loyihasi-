@@ -1,6 +1,6 @@
 // ==========================================
 // HUQUQUSTOZ AKADEMIYASI - ASOSIY MANTIQ (app.js)
-// 2 Bosqichli Menyu va 15 ta Bosqich Versiyasi
+// Barcha huquq yo'nalishlari va 2 bosqichli Menyu
 // ==========================================
 
 const tg = window.Telegram.WebApp;
@@ -11,7 +11,7 @@ let currentTopicTests = [];  // Tanlangan mavzudagi testlar
 let currentTestIndex = 0;    // Hozirgi savol indeksi
 let userScore = 0;           // Joriy mavzudagi to'g'ri javoblar soni
 let isAnswered = false;      // Joriy savolga javob berilganini belgilash
-let currentCategory = null;  // Hozir tanlangan asosiy fan (masalan: "Jinoyat huquqi")
+let currentCategory = null;  // Hozir tanlangan asosiy fan
 
 document.addEventListener('DOMContentLoaded', () => {
   // 1. Telegram ismini chiqarish
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (certNameEl) certNameEl.textContent = fullName;
   }
 
-  // 2. Qonunlar va Barcha 15 ta Test fayllarini yuklash
+  // 2. Qonunlar va Barcha Test fayllarini yuklash
   fetchLaws();
   loadTestsData();
 
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
     btnNext.addEventListener('click', nextQuestion);
   }
 
-  // 5. Telegram "Ortga" tugmasi (telefon brauzeri tugmasi)
+  // 5. Telegram "Ortga" tugmasi
   if (tg.BackButton) {
     tg.BackButton.onClick(() => {
       const quizView = document.getElementById('quiz-view');
@@ -105,12 +105,20 @@ async function fetchLaws() {
   }
 }
 
-// --- BARCHA 15 TA TEST FAYLLARINI AVTOMATIK YUKLASH ---
+// --- BARCHA YO'NALISH DAGI TEST FAYLLARINI AVTOMATIK YUKLASH ---
 async function loadTestsData() {
   try {
     allTests = [];
     
+    // Yaratgan barcha fayllaringiz ro'yxati
     const fileNames = [
+      // Fuqarolik huquqi (1-4)
+      'tests/fuqarolik_1-bosqich.json',
+      'tests/fuqarolik_2-bosqich.json',
+      'tests/fuqarolik_3-bosqich.json',
+      'tests/fuqarolik_4-bosqich.json',
+      
+      // Jinoyat huquqi (1-10)
       'tests/jinoyat_1-bosqich.json',
       'tests/jinoyat_2-bosqich.json',
       'tests/jinoyat_3-bosqich.json',
@@ -121,11 +129,35 @@ async function loadTestsData() {
       'tests/jinoyat_8-bosqich.json',
       'tests/jinoyat_9-bosqich.json',
       'tests/jinoyat_10-bosqich.json',
+      
+      // Konstitutsiya (1-5)
       'tests/konstitutsiya_1-bosqich.json',
       'tests/konstitutsiya_2-bosqich.json',
       'tests/konstitutsiya_3-bosqich.json',
       'tests/konstitutsiya_4-bosqich.json',
-      'tests/konstitutsiya_5-bosqich.json'
+      'tests/konstitutsiya_5-bosqich.json',
+
+      // Mehnat huquqi (1-10)
+      'tests/mehnat_1-bosqich.json',
+      'tests/mehnat_2-bosqich.json',
+      'tests/mehnat_3-bosqich.json',
+      'tests/mehnat_4-bosqich.json',
+      'tests/mehnat_5-bosqich.json',
+      'tests/mehnat_6-bosqich.json',
+      'tests/mehnat_7-bosqich.json',
+      'tests/mehnat_8-bosqich.json',
+      'tests/mehnat_9-bosqich.json',
+      'tests/mehnat_10-bosqich.json',
+
+      // Oila huquqi (1-8)
+      'tests/oila_1-bosqich.json',
+      'tests/oila_2-bosqich.json',
+      'tests/oila_3-bosqich.json',
+      'tests/oila_4-bosqich.json',
+      'tests/oila_5-bosqich.json',
+      'tests/oila_6-bosqich.json',
+      'tests/oila_7-bosqich.json',
+      'tests/oila_8-bosqich.json'
     ];
 
     for (const filePath of fileNames) {
@@ -166,17 +198,15 @@ function renderTopicsList() {
 
   topicsListContainer.innerHTML = '';
 
-  // Agar biron fanga kirilgan bo'lsa, o'sha fanning bosqichlarini chiqaramiz
   if (currentCategory) {
     renderSubTopicsList(currentCategory);
     return;
   }
 
-  // Aks holda, asosiy fanlar ro'yxatini guruhlab chiqaramiz
   const categoriesMap = {};
   allTests.forEach(test => {
     let rawTopic = test.topic || "Umumiy huquqiy testlar";
-    let categoryName = rawTopic.split(':')[0].trim(); // Masalan: "Jinoyat huquqi" yoki "Konstitutsiya"
+    let categoryName = rawTopic.split(':')[0].trim(); // Fan nomi
     
     if (!categoriesMap[categoryName]) {
       categoriesMap[categoryName] = [];
@@ -184,7 +214,6 @@ function renderTopicsList() {
     categoriesMap[categoryName].push(test);
   });
 
-  // Asosiy fanlar kartochkalarini chizish
   Object.keys(categoriesMap).forEach(catName => {
     const testsInCat = categoriesMap[catName];
     
@@ -212,14 +241,12 @@ function renderTopicsList() {
   });
 }
 
-// Tanlangan fanning ichidagi bosqichlarni chiqarish
 function renderSubTopicsList(catName) {
   const topicsListContainer = document.getElementById('topics-list');
   if (!topicsListContainer) return;
 
   topicsListContainer.innerHTML = '';
 
-  // Orqaga qaytish tugmasi
   const backCatBtn = document.createElement('button');
   backCatBtn.className = 'btn btn-secondary';
   backCatBtn.style.cssText = 'margin-bottom: 14px; width: 100%; text-align: left; padding: 12px 16px; border-radius: 10px; cursor: pointer; background: rgba(255,255,255,0.08); color: var(--text-main); border: 1px solid rgba(255,255,255,0.1);';
@@ -295,7 +322,6 @@ function showTopicsView() {
   renderTopicsList();
 }
 
-// Savolni ekranga chiqarish
 function renderQuestion() {
   const quizView = document.getElementById('quiz-view');
 
@@ -341,7 +367,6 @@ function renderQuestion() {
   document.getElementById('analysis-panel').classList.add('hidden');
 }
 
-// Javobni tekshirish
 function selectAnswer(selectedIndex, correctIndex, q) {
   if (isAnswered) return;
   isAnswered = true;
@@ -460,7 +485,7 @@ function backToMenu() {
 
   if (tg.BackButton) tg.BackButton.hide();
 
-  currentCategory = null; // Asosiy fanlar menyusiga qaytish
+  currentCategory = null;
   renderTopicsList();
 }
 
