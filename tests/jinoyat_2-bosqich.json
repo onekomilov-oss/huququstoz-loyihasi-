@@ -1,1 +1,364 @@
 
+[
+  {
+    "topic": "Jinoyat huquqi: 31–60-moddalar",
+    "q": "Jinoyat kodeksining 31-moddasiga ko‘ra, bir nechta jinoyat sodir etganlik uchun jazoni tayinlashda qaysi tushuncha mavjud emas?",
+    "o": [
+      "Jinoyatlar yig‘indisi",
+      "Hukmlar yig‘indisi",
+      "Jinoyatlar retsidivi",
+      "Barcha javoblar to‘g‘ri"
+    ],
+    "a": 2,
+    "why": "Savoldagi javob kalitiga ko‘ra, C varianti tanlangan. Biroq modda raqami va huquqiy tasnif amaldagi Jinoyat kodeksi bilan tekshirilishi kerak."
+  },
+  {
+    "topic": "Jinoyat huquqi: 31–60-moddalar",
+    "q": "Jinoyatlar yig‘indisiga oid qaysi bayonot TO‘G‘RI?",
+    "o": [
+      "Sud hukmi chiqarilguniga qadar shaxs tomonidan Kodeksning turli moddalari bilan nazarda tutilgan ikki yoki undan ortiq jinoyat sodir etilishi jinoyatlar yig‘indisi bo‘lishi mumkin.",
+      "Jinoyatlar yig‘indisida faqat qat’iy qo‘shish usuli qo‘llaniladi.",
+      "Yakuniy jazo faqat jarima bo‘lishi mumkin.",
+      "Ozodlikdan mahrum qilish muddati qonundagi eng yuqori chegaradan istalgancha oshirilishi mumkin."
+    ],
+    "a": 0,
+    "why": "Jinoyatlar yig‘indisi tushunchasi va jazo tayinlash qoidalari Kodeksning tegishli normalari asosida belgilanadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 31–60-moddalar",
+    "q": "Hukmlar yig‘indisi bo‘yicha jazo tayinlashga oid qaysi fikr XATO?",
+    "o": [
+      "Yangi jinoyat avvalgi hukm bo‘yicha jazo to‘liq o‘talmasidan sodir etilsa, hukmlar yig‘indisi qoidalari qo‘llanishi mumkin.",
+      "Yakuniy jazo tayinlashda avvalgi hukm bo‘yicha o‘talmagan jazo qismi hisobga olinadi.",
+      "Yakuniy jazo qonunda belgilangan chegaralar doirasida tayinlanadi.",
+      "Ikkinchi hukm bo‘yicha tayinlangan jazo birinchi hukm bo‘yicha o‘talmagan jazodan albatta kam bo‘lishi shart."
+    ],
+    "a": 3,
+    "why": "Hukmlar yig‘indisi bo‘yicha jazo tayinlashda ikkinchi jazo albatta avvalgi o‘talmagan jazodan kam bo‘lishi shart degan umumiy qoida mavjud emas."
+  },
+  {
+    "topic": "Jinoyat huquqi: 31–60-moddalar",
+    "q": "Quyidagi holatlardan qaysilari jazoni og‘irlashtiruvchi holatlarga kiradi? (a) jinoyatni oldindan til biriktirgan guruh sodir etishi; (b) og‘ir oqibatlar kelib chiqishi; (c) homilador ayoldan jinoyat sodir etishda foydalanish; (d) jabrlanuvchining ojiz ahvolidan foydalanish. 1) Faqat (a) va (b); 2) Faqat (c) va (d); 3) Barchasi; 4) Faqat (a).",
+    "o": [
+      "3",
+      "1",
+      "2",
+      "4"
+    ],
+    "a": 0,
+    "why": "Jazoni og‘irlashtiruvchi holatlar Jinoyat kodeksining 56-moddasida ko‘rsatilgan. Har bir holatning qonundagi aniq ifodasi tekshirilishi kerak."
+  },
+  {
+    "topic": "Jinoyat huquqi: 31–60-moddalar",
+    "q": "Jazoni yengillashtiruvchi holatlarga oid qaysi qoida TO‘G‘RI?",
+    "o": [
+      "Aybdorning chin ko‘ngildan pushaymon bo‘lishi hech qachon hisobga olinmaydi.",
+      "Jabrlanuvchining huquqqa xilof yoki axloqqa zid xatti-harakati jinoyat kelib chiqishiga sabab bo‘lgan bo‘lsa, bu yengillashtiruvchi holat sifatida baholanishi mumkin.",
+      "Voyaga yetmagan farzandlari borligi hech qanday holatda e’tiborga olinmaydi.",
+      "Yetkazilgan zararni ixtiyoriy qoplash sud tomonidan hisobga olinishi mumkin emas."
+    ],
+    "a": 1,
+    "why": "55-modda jazoni yengillashtiruvchi holatlarni belgilaydi. Jabrlanuvchining noqonuniy yoki axloqqa zid xatti-harakati shunday holatlardan bo‘lishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 31–60-moddalar",
+    "q": "Jazo turlarini tasniflashda qaysi moslashtirish to‘g‘ri? (a) jarima; (b) muayyan huquqdan mahrum qilish; (c) axloq tuzatish ishlari; (d) ozodlikni cheklash. 1) Faqat asosiy jazo; 2) Asosiy yoki qo‘shimcha jazo bo‘lishi mumkin.",
+    "o": [
+      "(a)–2; (b)–2; (c)–1; (d)–1",
+      "(a)–1; (b)–1; (c)–2; (d)–2",
+      "(a)–2; (b)–1; (c)–1; (d)–2",
+      "(a)–1; (b)–2; (c)–2; (d)–1"
+    ],
+    "a": 2,
+    "why": "43-modda jazo turlarini belgilaydi. Jarima asosiy yoki qo‘shimcha jazo bo‘lishi mumkin; muayyan huquqdan mahrum qilish ham qonundagi shartlarga ko‘ra qo‘shimcha jazo sifatida qo‘llanishi mumkin. Ushbu savoldagi barcha mosliklar amaldagi modda bilan qayta tekshirilishi kerak."
+  },
+  {
+    "topic": "Jinoyat huquqi: 31–60-moddalar",
+    "q": "Jinoyat kodeksining 43-moddasiga muvofiq, jarima jazosiga oid qaysi bayonot XATO?",
+    "o": [
+      "Jarima sud tomonidan pul undirish tarzida tayinlanadi.",
+      "Jarima miqdori qonunda belgilangan mezonlar asosida belgilanadi.",
+      "Jarima faqat qo‘shimcha jazo sifatida tayinlanadi va asosiy jazo bo‘la olmaydi.",
+      "Jarima tayinlashda qonunda nazarda tutilgan holatlar hisobga olinadi."
+    ],
+    "a": 2,
+    "why": "Jarima asosiy jazo sifatida ham, qonunda nazarda tutilgan hollarda qo‘shimcha jazo sifatida ham qo‘llanishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 31–60-moddalar",
+    "q": "Muayyan huquqdan mahrum qilish jazosining muddati qaysi variantda ko‘rsatilgan?",
+    "o": [
+      "Olti oydan uch yilgacha",
+      "Bir yildan besh yilgacha",
+      "Uch oydan bir yilgacha",
+      "Besh yildan o‘n yilgacha"
+    ],
+    "a": 1,
+    "why": "44-modda muayyan huquqdan mahrum qilish jazosini tartibga soladi. Muddatlar jazoning asosiy yoki qo‘shimcha jazo sifatida qo‘llanishiga qarab farqlanishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 31–60-moddalar",
+    "q": "Axloq tuzatish ishlari jazosiga oid qaysi fikr to‘g‘ri deb berilgan?",
+    "o": [
+      "Jazo belgilangan muddat davomida o‘taladi va mahkumning ish haqidan qonunda ko‘rsatilgan miqdorda ushlab qolinadi.",
+      "Bu jazo faqat ishlamaydigan shaxslarga qo‘llaniladi.",
+      "Mahkum ish joyini istalgan vaqtda cheklovsiz o‘zgartirishi mumkin.",
+      "Jazo muddati har qanday holatda besh yildan oshadi."
+    ],
+    "a": 0,
+    "why": "46-modda axloq tuzatish ishlari jazosini tartibga soladi. Aniq muddat va ushlab qolish foizlari amaldagi modda matniga muvofiq tekshirilishi lozim."
+  },
+  {
+    "topic": "Jinoyat huquqi: 31–60-moddalar",
+    "q": "Ozodlikni cheklash jazosiga oid qaysi bayonot XATO?",
+    "o": [
+      "U shaxsning erkinligini muayyan cheklashlarni belgilashni nazarda tutadi.",
+      "Jazo davomida qonunda belgilangan majburiyatlar yuklanishi mumkin.",
+      "Mahkumga elektron kuzatuv vositalari qo‘llanishi mumkin.",
+      "Mahkum sud yoki vakolatli organ belgilagan cheklovlarni hisobga olmasdan istalgan boshqa joyga ko‘chib o‘tishi mumkin."
+    ],
+    "a": 3,
+    "why": "Ozodlikni cheklash jazosida mahkum belgilangan taqiq va majburiyatlarga rioya qilishi shart."
+  },
+  {
+    "topic": "Jinoyat huquqi: 31–60-moddalar",
+    "q": "Ozodlikdan mahrum qilish jazosining muddatlari qaysi variantda ko‘rsatilgan?",
+    "o": [
+      "50-modda: olti oydan yigirma yilgacha",
+      "48-modda: bir yildan o‘n besh yilgacha",
+      "52-modda: uch oydan o‘n yilgacha",
+      "45-modda: uch oydan besh yilgacha"
+    ],
+    "a": 0,
+    "why": "Savoldagi javob kalitida A varianti ko‘rsatilgan. Modda raqami va amaldagi minimal hamda maksimal muddatlar rasmiy Kodeks matnidan tekshirilishi kerak."
+  },
+  {
+    "topic": "Jinoyat huquqi: 31–60-moddalar",
+    "q": "Harbiy xizmat bo‘yicha cheklash jazosiga oid to‘g‘ri tasdiqlarni toping: 1) U muddatli harbiy xizmat harbiy xizmatchilariga nisbatan qo‘llanilmaydi. 2) Kontrakt bo‘yicha xizmat qilayotgan ayrim harbiy xizmatchilarga tayinlanishi mumkin. 3) Pul ta’minotidan qonunda belgilangan miqdorda ushlab qolinadi. 4) Barcha harbiy xizmatchilarga har qanday vaziyatda bir xil muddatda tayinlanadi.",
+    "o": [
+      "1, 2 va 3",
+      "Faqat 1 va 4",
+      "2 va 4",
+      "3 va 4"
+    ],
+    "a": 0,
+    "why": "49-modda harbiy xizmat bo‘yicha cheklash jazosini tartibga soladi. Jazoning qo‘llanish shartlari harbiy xizmatchining maqomiga bog‘liq."
+  },
+  {
+    "topic": "Jinoyat huquqi: 31–60-moddalar",
+    "q": "Umrbod ozodlikdan mahrum qilish jazosi qaysi holatda tayinlanishi mumkin?",
+    "o": [
+      "Har qanday o‘ta og‘ir jinoyat uchun majburiy ravishda.",
+      "Faqat qonunda bevosita nazarda tutilgan jinoyatlar va shartlar asosida.",
+      "Voyaga yetmaganlarning barchasiga.",
+      "Faqat ehtiyotsizlik orqasida o‘lim yuz bergan hollarda."
+    ],
+    "a": 1,
+    "why": "51-modda umrbod ozodlikdan mahrum qilishni qo‘llash shartlarini belgilaydi. Bu jazo barcha o‘ta og‘ir jinoyatlar uchun avtomatik tayinlanmaydi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 31–60-moddalar",
+    "q": "Jazoni tayinlashning umumiy asoslariga oid qaysi fikr XATO?",
+    "o": [
+      "Sud tayinlanadigan jazoning adolatli bo‘lishini ta’minlashi kerak.",
+      "Jinoyatning xususiyati va ijtimoiy xavflilik darajasi hisobga olinadi.",
+      "Sud faqat jabrlanuvchi talab qilgani uchun eng og‘ir jazoni tayinlashi shart.",
+      "Yengillashtiruvchi va og‘irlashtiruvchi holatlar hisobga olinadi."
+    ],
+    "a": 2,
+    "why": "54-modda bo‘yicha jazo qonuniy va adolatli tayinlanadi. Jabrlanuvchining talabi sudni avtomatik ravishda eng og‘ir jazo tayinlashga majbur qilmaydi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 31–60-moddalar",
+    "q": "Sud qonunda nazarda tutilganidan yengilroq jazo tayinlashi mumkin bo‘lgan holatni aniqlang.",
+    "o": [
+      "Ishning alohida holatlari va aybdorning shaxsini hisobga olib, qonunda belgilangan asoslar mavjud bo‘lsa.",
+      "Faqat prokuror yozma ruxsat berganda.",
+      "Jinoyat takroran sodir etilgan har qanday holatda.",
+      "Hech qanday holatda yengilroq jazo tayinlab bo‘lmaydi."
+    ],
+    "a": 0,
+    "why": "57-modda alohida holatlar mavjud bo‘lganda yengilroq jazo tayinlash imkoniyatini nazarda tutadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 31–60-moddalar",
+    "q": "Jazo tayinlashdagi maxsus cheklovlarga oid qaysi bayonot TO‘G‘RI?",
+    "o": [
+      "Homilador ayollar va yosh bolasi bor ayollarga jazo tayinlashda qonunda belgilangan maxsus qoidalar hisobga olinadi.",
+      "Ayollarga hech qanday jazo turi qo‘llanilmaydi.",
+      "Voyaga yetmaganlarga faqat umrbod ozodlikdan mahrum qilish tayinlanadi.",
+      "Pensiya yoshidagi shaxslarga jarima hech qachon tayinlanmaydi."
+    ],
+    "a": 0,
+    "why": "Jazo tayinlashda shaxsning qonunda nazarda tutilgan alohida holatlari hisobga olinadi. Bu holatlar jazoning barcha turlarini avtomatik ravishda taqiqlamaydi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 31–60-moddalar",
+    "q": "Sudlanganlikka oid qaysi bayonot XATO?",
+    "o": [
+      "Sudlanganlik qonunda belgilangan huquqiy oqibatlarni keltirib chiqarishi mumkin.",
+      "Sudlanganlik qonunda belgilangan shartlarda tugallanishi yoki olib tashlanishi mumkin.",
+      "Sudlangan shaxs barcha fuqarolik huquqlaridan mahrum bo‘ladi va hech qayerda ishlay olmaydi.",
+      "Sudlanganlikning tugallanish muddatlari jazo va jinoyatning qonundagi tasnifiga bog‘liq bo‘lishi mumkin."
+    ],
+    "a": 2,
+    "why": "Sudlanganlik shaxsni barcha fuqarolik huquqlaridan avtomatik ravishda mahrum qilmaydi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 31–60-moddalar",
+    "q": "Jinoiy javobgarlikdan ozod qilish turlarini to‘g‘ri moslashtiring: (a) chin ko‘ngildan pushaymon bo‘lish; (b) jabrlanuvchi bilan yarashish; (c) javobgarlikka tortish muddatining o‘tishi; (d) amnistiya akti. 1) Ma’lum muddat o‘tishi; 2) Vakolatli organ qabul qilgan hujjat asosida ozod qilish; 3) Aybni tan olish va jinoyatni fosh etishga yordam berish; 4) Jabrlanuvchi bilan yarashish va zararni qoplash.",
+    "o": [
+      "(a)–3; (b)–4; (c)–1; (d)–2",
+      "(a)–1; (b)–2; (c)–3; (d)–4",
+      "(a)–2; (b)–1; (c)–4; (d)–3",
+      "(a)–4; (b)–3; (c)–2; (d)–1"
+    ],
+    "a": 0,
+    "why": "Javobgarlikdan ozod qilishning har bir turi alohida qonuniy shartlarga ega."
+  },
+  {
+    "topic": "Jinoyat huquqi: 31–60-moddalar",
+    "q": "Jinoiy javobgarlikka tortish muddatining o‘tishiga oid qaysi qoida TO‘G‘RI?",
+    "o": [
+      "Uncha og‘ir bo‘lmagan har qanday jinoyat uchun muddat doimo uch yil.",
+      "O‘ta og‘ir jinoyatlar uchun javobgarlikka tortish muddati barcha holatlarda mavjud emas.",
+      "Shaxs tergovdan yashiringan bo‘lsa, qonunda belgilangan hollarda muddatning o‘tishi to‘xtatib turilishi mumkin.",
+      "A va C bandlari to‘g‘ri."
+    ],
+    "a": 2,
+    "why": "Javobgarlikka tortish muddatlari jinoyatning toifasi va qonundagi shartlarga bog‘liq. Tergovdan yoki suddan yashirinish muddatga ta’sir qilishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 31–60-moddalar",
+    "q": "Amnistiya va afv etish institutlariga oid qaysi fikr XATO?",
+    "o": [
+      "Amnistiya qonunda belgilangan tartibda shaxslar toifasiga nisbatan qo‘llanishi mumkin.",
+      "Afv etish muayyan shaxsga nisbatan qo‘llanadigan institutdir.",
+      "Amnistiya va afv faqat mukofotlashni anglatadi, jazoni yengillashtirish yoki undan ozod qilishga olib kelmaydi.",
+      "Afv etish natijasida qonunda nazarda tutilgan tartibda jazo yengillashtirilishi mumkin."
+    ],
+    "a": 2,
+    "why": "Amnistiya va afv qonunda belgilangan shartlarda jazodan ozod qilish yoki jazoni yengillashtirish kabi oqibatlarga olib kelishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 31–60-moddalar",
+    "q": "Jazoni o‘tashdan muddatidan ilgari shartli ozod qilish qaysi moddada nazarda tutilgan va uning asosiy sharti nima?",
+    "o": [
+      "73-modda: mahkumning tuzalish yo‘liga o‘tganligi va jazoning qonunda belgilangan qismini o‘taganligi.",
+      "65-modda: sudyaning istalgan vaqtdagi xohishi.",
+      "50-modda: jazoning yarmidan kamini o‘tash.",
+      "79-modda: jarimani to‘liq to‘lash."
+    ],
+    "a": 0,
+    "why": "73-modda muddatidan ilgari shartli ozod qilishni tartibga soladi. Qonunda belgilangan shartlar bajarilishi lozim."
+  },
+  {
+    "topic": "Jinoyat huquqi: 31–60-moddalar",
+    "q": "Jazoni yengilrog‘i bilan almashtirishga oid qaysi bayonot TO‘G‘RI?",
+    "o": [
+      "Qonunda nazarda tutilgan shartlar bajarilsa, o‘talmagan jazoning bir qismi yengilroq jazo bilan almashtirilishi mumkin.",
+      "Bu tartib jazoni og‘irlashtirish uchun qo‘llaniladi.",
+      "Og‘ir jinoyatlar sodir etgan barcha mahkumlar uchun bu imkoniyat mutlaqo taqiqlangan.",
+      "Bu tartib faqat chet el fuqarolariga nisbatan qo‘llaniladi."
+    ],
+    "a": 0,
+    "why": "74-modda jazoni yengilrog‘i bilan almashtirish tartibini va tegishli shartlarni belgilaydi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 31–60-moddalar",
+    "q": "Tibbiy yo‘sindagi majburiy choralar kimlarga nisbatan qo‘llanishi mumkin?",
+    "o": [
+      "Qonunda belgilangan asoslar mavjud bo‘lgan ruhiy holati buzilgan yoki aqli noraso shaxslarga.",
+      "Barcha huquqbuzarlarga jazoga qo‘shimcha tarzda.",
+      "Faqat voyaga yetmaganlarga tarbiyaviy maqsadda.",
+      "Jazoni to‘liq o‘tab bo‘lgan barcha shaxslarga."
+    ],
+    "a": 0,
+    "why": "Tibbiy yo‘sindagi majburiy choralar faqat Jinoyat kodeksida belgilangan asoslar va tartibda qo‘llanadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 31–60-moddalar",
+    "q": "Voyaga yetmaganlarga nisbatan qaysi jazo turi qo‘llanilmaydi?",
+    "o": [
+      "Jarima",
+      "Axloq tuzatish ishlari",
+      "Umrbod ozodlikdan mahrum qilish",
+      "Ozodlikni cheklash"
+    ],
+    "a": 2,
+    "why": "Voyaga yetmaganlarga umrbod ozodlikdan mahrum qilish jazosi tayinlanmaydi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 31–60-moddalar",
+    "q": "Voyaga yetmaganlarga nisbatan majburiy tarbiyaviy ta’sir choralari qaysilar?",
+    "o": [
+      "Ogohlantirish, ota-ona yoki ularning o‘rnini bosuvchi shaxslar nazoratiga topshirish, zararni qoplash majburiyatini yuklash va bo‘sh vaqtini cheklash kabi qonunda belgilangan choralar",
+      "Faqat ogohlantirish",
+      "Faqat zararni qoplash va bo‘sh vaqtini cheklash",
+      "Ogohlantirish va jarima"
+    ],
+    "a": 0,
+    "why": "Voyaga yetmaganlarga nisbatan tarbiyaviy ta’sir choralari qonunda alohida belgilanadi. Aniq ro‘yxat va qo‘llash shartlari tegishli modda bilan tekshirilishi kerak."
+  },
+  {
+    "topic": "Jinoyat huquqi: 31–60-moddalar",
+    "q": "Eng og‘ir jinoyatlar uchun sudlanganlik muddati haqida qaysi fikr to‘g‘ri?",
+    "o": [
+      "Barcha holatlarda uch yil",
+      "Barcha holatlarda besh yil",
+      "Barcha holatlarda sakkiz yil",
+      "Muddat jinoyat toifasi va tayinlangan jazoga qarab, Kodeksda belgilangan tartibda aniqlanadi."
+    ],
+    "a": 3,
+    "why": "Sudlanganlik muddatini bitta raqam bilan barcha holatlar uchun belgilab bo‘lmaydi. Jinoyat toifasi va jazo turi hisobga olinadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 31–60-moddalar",
+    "q": "Uyushgan guruh va jinoiy uyushma tushunchalari qaysi moddalarda yoritilgan va ularning asosiy belgisi nima?",
+    "o": [
+      "30–31-moddalar: guruhning barqarorligi va oldindan birlashish",
+      "40–41-moddalar: tasodifiy uchrashuv",
+      "55–56-moddalar: faqat davlat xizmatchilaridan tuzilish",
+      "20–21-moddalar: faqat qarindoshlar o‘rtasidagi kelishuv"
+    ],
+    "a": 0,
+    "why": "Savoldagi javob kalitida A varianti berilgan. Modda raqamlari va ishtirokchilik shakllarining ta’riflarini amaldagi Kodeksdan tekshirish zarur."
+  },
+  {
+    "topic": "Jinoyat huquqi: 31–60-moddalar",
+    "q": "Shaxs yangi qasddan jinoyat sodir etganida avvalgi sudlanganligi tugallanmagan bo‘lsa, bu holat qanday nomlanishi mumkin?",
+    "o": [
+      "Retsidiv; qonundagi shartlarga qarab jazo tayinlashga ta’sir qilishi mumkin.",
+      "Tasodifiy xatolik; javobgarlikni bekor qiladi.",
+      "Faqat jazoni yengillashtiruvchi holat.",
+      "Har doim hukmlar yig‘indisi."
+    ],
+    "a": 0,
+    "why": "Retsidivning mavjudligi jinoyatning turi, oldingi sudlanganlik va qonunda belgilangan shartlarga qarab aniqlanadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 31–60-moddalar",
+    "q": "Jinoyat natijasida yetkazilgan moddiy yoki ma’naviy zararni qoplash qanday ahamiyatga ega?",
+    "o": [
+      "Ixtiyoriy qoplash jazoni yengillashtiruvchi holat bo‘lishi va qonundagi shartlarda boshqa huquqiy oqibatlarga olib kelishi mumkin.",
+      "Hech qanday huquqiy ahamiyatga ega emas.",
+      "Zarar qoplansa, jinoyat tarkibi avtomatik ravishda yo‘qoladi.",
+      "Faqat prokuror qaror chiqarishi bilan ahamiyat kasb etadi."
+    ],
+    "a": 0,
+    "why": "Zararni ixtiyoriy qoplash jazo tayinlashda hisobga olinishi mumkin, biroq jinoyat tarkibini avtomatik ravishda yo‘q qilmaydi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 31–60-moddalar",
+    "q": "Jazo tayinlash prinsiplariga oid qaysi fikr TO‘G‘RI?",
+    "o": [
+      "Jazo qonuniylik, adolatlilik va insonparvarlik talablariga mos bo‘lishi hamda qonunda belgilangan maqsadlarga xizmat qilishi kerak.",
+      "Jazoning yagona maqsadi jismoniy azob berishdir.",
+      "Mahkumning millati va siyosiy qarashlari jazo belgilashda hal qiluvchi ahamiyatga ega.",
+      "Jazo turlarini faqat mahalliy hokimiyat organlari belgilaydi."
+    ],
+    "a": 0,
+    "why": "Jazo qonun asosida tayinlanadi. Uning maqsadlari va turlari Jinoyat kodeksida belgilanadi."
+  }
+]
+
