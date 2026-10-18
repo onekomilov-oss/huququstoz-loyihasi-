@@ -1,1 +1,364 @@
 
+[
+  {
+    "topic": "Jinoyat huquqi: 6-bosqich",
+    "q": "O‘zbekiston Respublikasi Jinoyat kodeksining 151-moddasida nazarda tutilgan tinchlik va insoniyat xavfsizligiga qarshi jinoyatlarning asosiy obyekti nima?",
+    "o": [
+      "Insoniyatning tinchligi, xavfsizligi hamda xalqaro huquq normalari.",
+      "Faqat shaxsiy mol-mulk va boyliklar.",
+      "Korxona va tashkilotlarning ichki intizom qoidalari.",
+      "Fuqarolarning shaxsiy yozishmalari."
+    ],
+    "a": 0,
+    "why": "Tinchlik va insoniyat xavfsizligiga qarshi jinoyatlar insoniyat tinchligi, xavfsizligi va xalqaro huquq bilan himoyalanadigan munosabatlarga tajovuz qiladi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 6-bosqich",
+    "q": "Tajovuzkor urushni rejalashtirish, tayyorlash, boshlash yoki olib borish qanday turdagi jinoyat hisoblanadi?",
+    "o": [
+      "Tinchlik va insoniyat xavfsizligiga qarshi og‘ir va o‘ta og‘ir jinoyat.",
+      "Uncha og‘ir bo‘lmagan iqtisodiy huquqbuzarlik.",
+      "Ekologik xususiyatdagi ehtiyotsizlik qilmishi.",
+      "Ma’muriy huquqbuzarlik."
+    ],
+    "a": 0,
+    "why": "Tajovuzkor urush bilan bog‘liq qilmishlar tinchlik va insoniyat xavfsizligiga qarshi jinoyatlar sirasiga kiradi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 6-bosqich",
+    "q": "Urush qonunlari va odatlarini buzish qanday qilmishlar uchun jinoiy javobgarlikka sabab bo‘ladi?",
+    "o": [
+      "Qurolli mojarolar paytida harbiy asirlarga va tinch aholiga nisbatan shafqatsiz munosabatda bo‘lish, ularni qiynoqqa solish yoki mol-mulkni talon-toroj qilish.",
+      "Harbiy xizmatchilarning o‘zaro kiyim-kechak almashishi.",
+      "Harbiy qism hududida o‘quv mashg‘ulotlarini o‘tkazish.",
+      "Chet davlatlar bilan madaniy aloqalarni o‘rnatish."
+    ],
+    "a": 0,
+    "why": "Urush qonunlari va odatlarini buzish qurolli mojaro vaqtida himoyalanishi lozim bo‘lgan shaxslarga yoki mol-mulkka noqonuniy tajovuz qilishni qamrab oladi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 6-bosqich",
+    "q": "Genotsid jinoyatining ta’rifi qaysi javobda to‘g‘ri ko‘rsatilgan?",
+    "o": [
+      "Milliy, etnik, irqiy yoki diniy guruhni to‘la yoki qisman yo‘q qilish maqsadida uning a’zolarini o‘ldirish, og‘ir tan jarohati yetkazish yoki qasddan hayot sharoitlarini yomonlashtirish.",
+      "Iqtisodiy raqobat natijasida korxonalarni bankrot qilish.",
+      "Sport musobaqalarida jamoalarni chetlashtirish.",
+      "Davlat chegaralarini vaqtincha yopib qo‘yish."
+    ],
+    "a": 0,
+    "why": "Genotsid muayyan milliy, etnik, irqiy yoki diniy guruhni to‘liq yoki qisman yo‘q qilish niyati bilan sodir etiladigan qilmishdir."
+  },
+  {
+    "topic": "Jinoyat huquqi: 6-bosqich",
+    "q": "Ekotsid — o‘simliklar yoki hayvonot dunyosini qirib tashlash, suv yoki atmosferani zaharlash va ekologik halokat keltirib chiqaruvchi boshqa harakatlar qanday jinoyat hisoblanadi?",
+    "o": [
+      "Tinchlik va insoniyat xavfsizligiga qarshi jinoyatlar sirasiga kiradi.",
+      "Mulkka qarshi oddiy o‘g‘rilik.",
+      "Transport harakati xavfsizligini buzish.",
+      "Mehnat intizomini buzish."
+    ],
+    "a": 0,
+    "why": "Ekotsid ekologik halokatga olib keluvchi, tabiatga keng ko‘lamli zarar yetkazadigan qilmishlar bilan bog‘liq."
+  },
+  {
+    "topic": "Jinoyat huquqi: 6-bosqich",
+    "q": "Terrorizm jinoyatini sodir etgan shaxslarga nisbatan qanday yondashuv qo‘llaniladi?",
+    "o": [
+      "Jazo choralari qat’iy bo‘lib, qonunda nazarda tutilgan hollarda uzoq muddatli yoki umrbod ozodlikdan mahrum qilish jazolari belgilanadi.",
+      "Faqat ogohlantirish berish bilan cheklaniladi.",
+      "Jinoyat tarkibi mavjud bo‘lmasa ham, ish darhol yopiladi.",
+      "Faqat jarima jazosi tayinlanadi."
+    ],
+    "a": 0,
+    "why": "Terrorizm uchun jazo jinoyatning tarkibi va og‘irligiga qarab Jinoyat kodeksida belgilanadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 6-bosqich",
+    "q": "O‘zbekiston Respublikasi Prezidentining hayotiga tajovuz qilish jinoyatining og‘irlik darajasi qanday?",
+    "o": [
+      "O‘ta og‘ir jinoyat bo‘lib, qonunda nazarda tutilgan og‘ir jazo bilan jazolanadi.",
+      "Uncha og‘ir bo‘lmagan jinoyat.",
+      "Ehtiyotsizlik orqasida sodir etilgan qilmish.",
+      "Ma’muriy huquqbuzarlik."
+    ],
+    "a": 0,
+    "why": "Prezident hayotiga tajovuz qilish davlat hokimiyati va konstitutsiyaviy tuzumga qarshi qaratilgan jiddiy jinoyatdir."
+  },
+  {
+    "topic": "Jinoyat huquqi: 6-bosqich",
+    "q": "Konstitutsiyaviy tuzumni to‘ntarish yoki hokimiyatni qo‘lga olishga ochiqdan-ochiq da’vat qilish qanday harakatlar orqali amalga oshirilishi mumkin?",
+    "o": [
+      "Ommaviy axborot vositalari, adabiyotlar yoki boshqa usullar yordamida konstitutsiyaviy tuzumga qarshi ochiq chaqiriqlar tarqatish.",
+      "Tinch ilmiy maqolalar yozish.",
+      "Davlat organlariga rasmiy shikoyat qilish.",
+      "Soliqlarni vaqtida to‘lash."
+    ],
+    "a": 0,
+    "why": "Konstitutsiyaviy tuzumga qarshi ochiq da’vatlar qonunda belgilangan shartlar mavjud bo‘lsa, jinoiy javobgarlikka sabab bo‘lishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 6-bosqich",
+    "q": "Davlat sirlarini oshkor qilish jinoyatining subyekti kim bo‘lishi mumkin?",
+    "o": [
+      "O‘ziga xizmat taqozosiga ko‘ra davlat sirlari ishonib topshirilgan yoki ma’lum bo‘lgan shaxs.",
+      "Tasodifiy ko‘cha fuqarosi.",
+      "Chet el turisti.",
+      "Maktab o‘quvchisi."
+    ],
+    "a": 0,
+    "why": "Davlat sirlarini oshkor qilishga oid javobgarlik, jumladan, davlat sirlari ishonib topshirilgan yoki xizmat yuzasidan ma’lum bo‘lgan shaxsga taalluqli bo‘lishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 6-bosqich",
+    "q": "Hokimiyat yoki mansab vakolatini suiiste’mol qilish (205-modda) qaysi turdagi jinoyatlarga kiradi?",
+    "o": [
+      "Hokimiyat, boshqaruv va jamoat birlashmalari organlari faoliyatining belgilangan tartibiga qarshi jinoyatlar.",
+      "Shaxsning sha’ni va qadr-qimmatiga qarshi jinoyatlar.",
+      "Transport harakati jinoyatlari.",
+      "Ekologik jinoyatlar."
+    ],
+    "a": 0,
+    "why": "205-modda mansabdor shaxsning o‘z vakolatlaridan qonunga xilof foydalanishi bilan bog‘liq."
+  },
+  {
+    "topic": "Jinoyat huquqi: 6-bosqich",
+    "q": "Pora olish va pora berish jinoyatlarining o‘zaro farqi nimada?",
+    "o": [
+      "Pora olish — mansabdor shaxsning xizmat mavqeidan foydalanib noqonuniy moddiy qimmatlik olishi; pora berish esa mansabdor shaxsga pora taqdim etishidir.",
+      "Bu ikki tushuncha bir xil bo‘lib, bitta shaxsning o‘zi tomonidan sodir etiladi.",
+      "Pora berish jinoyat hisoblanmaydi, faqat pora olish jazolanadi.",
+      "Bu faqat xususiy tadbirkorlar o‘rtasidagi savdo kelishuvidir."
+    ],
+    "a": 0,
+    "why": "Jinoyat kodeksida pora olish va pora berish alohida qilmishlar sifatida belgilangan."
+  },
+  {
+    "topic": "Jinoyat huquqi: 6-bosqich",
+    "q": "Pora olish-berishda vositachilik qilish qanday qilmishlar uchun javobgarlikka sabab bo‘ladi?",
+    "o": [
+      "Pora oluvchi va pora beruvchi o‘rtasida vositachilik qilish, kelishishga yoki pora predmetini topshirishga ko‘maklashish.",
+      "Bankdan qarz olish jarayonida maslahat berish.",
+      "Savdo do‘konida vositachi sifatida mahsulot sotish.",
+      "Sudda advokat sifatida qatnashish."
+    ],
+    "a": 0,
+    "why": "212-modda pora olish va berish jarayonida vositachilik qilish uchun javobgarlikni nazarda tutadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 6-bosqich",
+    "q": "Mansab soxtakorligi jinoyatining mazmuni nimadan iborat?",
+    "o": [
+      "Mansabdor shaxs tomonidan rasmiy hujjatlarga ataylab yolg‘on ma’lumotlar kiritish, soxta hujjatlar tuzish yoki ularga o‘zgartirishlar kiritish.",
+      "Shaxsiy kundalik daftariga noto‘g‘ri sana yozish.",
+      "Do‘kon chekini yo‘qotib qo‘yish.",
+      "Universitetda imtihon jadvalini o‘zgartirish."
+    ],
+    "a": 0,
+    "why": "Mansab soxtakorligi mansabdor shaxsning rasmiy hujjatlar bilan bog‘liq qonunga xilof harakatlarini qamrab oladi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 6-bosqich",
+    "q": "Hokimiyat harakatsizligi yoki mansab vazifalarini lozim darajada bajarmaslik qanday holatda yuzaga keladi?",
+    "o": [
+      "Mansabdor shaxs o‘z vazifasini bajarishi lozim bo‘lgan vaziyatda loqaydlik yoki vijdonsizlik tufayli harakatsizligi bilan huquqlarni buzishi.",
+      "O‘z xohishi bilan ishdan bo‘shab ketishi.",
+      "Ta’til paytida dam olishi.",
+      "Yangi loyihani muhokama qilishdan bosh tortishi."
+    ],
+    "a": 0,
+    "why": "Mansabdor shaxs zimmasidagi vazifalarni bajarmasligi yoki lozim darajada bajarmasligi qonunda nazarda tutilgan shartlar mavjud bo‘lsa, javobgarlikka sabab bo‘lishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 6-bosqich",
+    "q": "Sud hukmini bajarmaslik yoki uning ijrosiga to‘sqinlik qilish qaysi turdagi jinoyatlarga kiradi?",
+    "o": [
+      "Odil sudlovga qarshi jinoyatlar.",
+      "Iqtisodiy jinoyatlar.",
+      "Harbiy xizmatni o‘tashga qarshi jinoyatlar.",
+      "Mulkka qarshi jinoyatlar."
+    ],
+    "a": 0,
+    "why": "Sud hujjatlarini bajarmaslik odil sudlovning amalga oshirilishiga to‘sqinlik qiladi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 6-bosqich",
+    "q": "Yolg‘on guvohlik berish jinoyatining subyekti kim bo‘lishi mumkin?",
+    "o": [
+      "Guvoh, jabrlanuvchi, ekspert, tarjimon yoki mutaxassis tomonidan ataylab yolg‘on ko‘rsatma yoki xulosa berish.",
+      "Sudya va prokurorning o‘zi.",
+      "Qonunda guvohlik berishdan ozod qilingan yaqin qarindoshlar.",
+      "Guvoh bo‘lmagan tasodifiy o‘tkinchi."
+    ],
+    "a": 0,
+    "why": "238-modda ish uchun ahamiyatli holatlar yuzasidan ataylab yolg‘on ko‘rsatma yoki tegishli xulosa berish bilan bog‘liq."
+  },
+  {
+    "topic": "Jinoyat huquqi: 6-bosqich",
+    "q": "Jinoyatni yashirish qanday harakatlar uchun jinoiy javobgarlikka sabab bo‘lishi mumkin?",
+    "o": [
+      "Og‘ir yoki o‘ta og‘ir jinoyat sodir etilganligi haqida oldindan va’da bermasdan turib, jinoyat izlarini, qurolini yoki jinoyatchining o‘zini yashirish.",
+      "Jinoyat haqida darhol huquq-tartibot organlariga xabar berish.",
+      "Jabrlanuvchiga tibbiy yordam ko‘rsatish.",
+      "Sud majlisida guvohlik berish."
+    ],
+    "a": 0,
+    "why": "Jinoyatni oldindan va’da bermasdan yashirish uchun javobgarlik qonunda belgilangan shartlarga bog‘liq."
+  },
+  {
+    "topic": "Jinoyat huquqi: 6-bosqich",
+    "q": "Jinoyat haqida xabar bermaslik qaysi holatda jinoiy javobgarlikka sabab bo‘lishi mumkin?",
+    "o": [
+      "O‘ta og‘ir jinoyat tayyorlanayotgani yoki sodir etilgani aniq ma’lum bo‘la turib, bu haqda vakolatli organlarga xabar bermaslik.",
+      "Har qanday kichik huquqbuzarlik haqida xabar bermaslik.",
+      "Ma’muriy jarimalar haqida xabar bermaslik.",
+      "Fuqarolik nizolari haqida xabar bermaslik."
+    ],
+    "a": 0,
+    "why": "Javobgarlik jinoyatning turi va qonunda nazarda tutilgan shartlarga bog‘liq."
+  },
+  {
+    "topic": "Jinoyat huquqi: 6-bosqich",
+    "q": "Bezorilik jinoyatining asosiy belgisi nimadan iborat?",
+    "o": [
+      "Jamiyatda yurish-turish qoidalarini qasddan mensimasdan, jamoat joylarida janjal chiqarish yoki fuqarolarga nisbatan zo‘rlik ishlatish bilan namoyon bo‘ladigan harakatlar.",
+      "Uyida yolg‘on gapirish.",
+      "Shaxsiy mulkini o‘zi qasddan sindirish.",
+      "Xizmat vazifasini bajarish chog‘ida xato qilish."
+    ],
+    "a": 0,
+    "why": "Bezorilik jamoat tartibiga ochiqdan-ochiq hurmatsizlik bilan bog‘liq bo‘lib, qonunda belgilangan belgilar mavjud bo‘lishini talab qiladi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 6-bosqich",
+    "q": "Giyohvandlik vositalarini sotish maqsadini ko‘zlab tayyorlash, olish yoki saqlash qaysi turdagi jinoyatlarga kiradi?",
+    "o": [
+      "Jamoat xavfsizligi va aholi salomatligiga qarshi jinoyatlar.",
+      "Shaxsiy mulkka qarshi jinoyatlar.",
+      "Iqtisodiy sohadagi jinoyatlar.",
+      "Ekologik jinoyatlar."
+    ],
+    "a": 0,
+    "why": "Giyohvandlik vositalarining noqonuniy muomalasi jamoat xavfsizligi va aholi salomatligiga tahdid soladi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 6-bosqich",
+    "q": "Transport vositasini olib qochish jinoyatida qaysi holat og‘irlashtiruvchi belgi hisoblanishi mumkin?",
+    "o": [
+      "Bir guruh shaxslar tomonidan oldindan til biriktirib yoki zo‘rlik ishlatib sodir etilishi.",
+      "Kunduzi ochiq maydonda turishi.",
+      "Egasi tomonidan ruxsat berilishi.",
+      "Transportning eshigi ochiq qolishi."
+    ],
+    "a": 0,
+    "why": "Oldindan til biriktirgan guruh tomonidan yoki zo‘rlik ishlatib sodir etish jinoyatning og‘irligini oshirishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 6-bosqich",
+    "q": "Yo‘l harakati xavfsizligi qoidalarini buzish oqibatida o‘rtacha og‘ir yoki og‘ir tan jarohati yetkazilganda qanday jazo choralari qo‘llanishi mumkin?",
+    "o": [
+      "Jarima, muayyan huquqdan mahrum qilish, axloq tuzatish ishlari yoki ozodlikni cheklash yoxud ozodlikdan mahrum qilish.",
+      "Faqat ogohlantirish.",
+      "Mukofot berish.",
+      "Haydovchilik guvohnomasini bir soatga cheklash."
+    ],
+    "a": 0,
+    "why": "Jazo yetkazilgan zarar va Jinoyat kodeksining tegishli qismida belgilangan sanksiyaga qarab tayinlanadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 6-bosqich",
+    "q": "Hujjatlar, shtamplar, muhrlar va blankalarni qalbakilashtirish, sotish yoki ulardan foydalanish qaysi obyektga qarshi jinoyat hisoblanadi?",
+    "o": [
+      "Boshqaruv tartibiga va rasmiy hujjatlar muomalasi xavfsizligiga qarshi jinoyatlar.",
+      "Shaxsning jinsiy erkinligiga qarshi jinoyatlar.",
+      "Oilaviy munosabatlarga qarshi jinoyatlar.",
+      "Tabiatni muhofaza qilish sohasiga qarshi jinoyatlar."
+    ],
+    "a": 0,
+    "why": "Hujjatlarni qalbakilashtirish boshqaruv tartibi va rasmiy hujjatlar muomalasiga tajovuz qiladi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 6-bosqich",
+    "q": "Harbiy xizmatni o‘tash tartibiga qarshi jinoyatlar kimlarga nisbatan qo‘llaniladi?",
+    "o": [
+      "Harbiy xizmatchilarga, jumladan muddatli va kontrakt bo‘yicha xizmat qiluvchilarga.",
+      "Barcha fuqarolik shaxslariga.",
+      "Oliy o‘quv yurti talabalariga.",
+      "Chet el fuqarolariga."
+    ],
+    "a": 0,
+    "why": "Harbiy xizmatni o‘tash tartibiga qarshi jinoyatlar, odatda, harbiy xizmatni o‘tash bilan bog‘liq maxsus subyektlarga taalluqli."
+  },
+  {
+    "topic": "Jinoyat huquqi: 6-bosqich",
+    "q": "Davlat chegarasidan qonunga xilof ravishda o‘tish jinoyatining obyekti nima?",
+    "o": [
+      "O‘zbekiston Respublikasining davlat chegarasi daxlsizligi va chegarani qo‘riqlash tartibi.",
+      "Shaxsning uy-joy daxlsizligi.",
+      "Bank tizimining moliyaviy barqarorligi.",
+      "Transport vositalarining harakat tezligi."
+    ],
+    "a": 0,
+    "why": "Davlat chegarasidan noqonuniy o‘tish davlat chegarasini kesib o‘tishning belgilangan tartibiga tajovuz qiladi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 6-bosqich",
+    "q": "Kontrabandaning asosiy mazmuni nimadan iborat?",
+    "o": [
+      "Tovarlar yoki boshqa qimmatliklarni bojxona nazoratidan yashirib yoki aldov yo‘li bilan O‘zbekiston hududiga olib kirish yoki olib chiqish.",
+      "Do‘kondan qonuniy ravishda xarid qilish.",
+      "Shaxsiy kiyimlarni sayohatga olib chiqish.",
+      "Pochta orqali kitob jo‘natish."
+    ],
+    "a": 0,
+    "why": "Kontrabanda tovarlar yoki boshqa predmetlarni qonunda belgilangan bojxona tartibini buzgan holda olib kirish yoki olib chiqish bilan bog‘liq."
+  },
+  {
+    "topic": "Jinoyat huquqi: 6-bosqich",
+    "q": "Valyuta qimmatliklarini qonunga xilof ravishda olish yoki o‘tkazish qanday qilmishlar uchun javobgarlikka sabab bo‘lishi mumkin?",
+    "o": [
+      "Qonunda belgilangan tartibni buzgan holda chet el valyutasini noqonuniy ravishda sotib olish, sotish yoki ayirboshlash.",
+      "Bankda qonuniy ravishda valyuta hisobvarag‘ini ochish.",
+      "Chet eldan mahsulot import qilish uchun rasmiy shartnoma tuzish.",
+      "Sayohat uchun valyuta deklaratsiyasini to‘ldirish."
+    ],
+    "a": 0,
+    "why": "Valyuta qimmatliklari bilan bog‘liq javobgarlik qonunda belgilangan tartibni buzgan holda amalga oshirilgan operatsiyalarga taalluqli."
+  },
+  {
+    "topic": "Jinoyat huquqi: 6-bosqich",
+    "q": "Bankrotlikni soxtalashtirish yoki qasddan bankrot qilish qanday oqibatlarga olib kelishi mumkin?",
+    "o": [
+      "Kreditorlarning manfaatlariga jiddiy zarar yetkazish maqsadida o‘zini bankrot deb e’lon qilish yoki mol-mulkni yashirish.",
+      "Faoliyatni kengaytirish va yangi ish o‘rinlarini yaratish.",
+      "Soliqlarni muddatidan oldin to‘lab qo‘yish.",
+      "Xodimlarga mukofot pullarini tarqatish."
+    ],
+    "a": 0,
+    "why": "Bankrotlik bilan bog‘liq noqonuniy harakatlar kreditorlarning huquq va manfaatlariga zarar yetkazishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 6-bosqich",
+    "q": "Ov qilish qoidalarini buzish qanday holatda jinoiy javobgarlikka sabab bo‘lishi mumkin?",
+    "o": [
+      "Hayvonot olamiga ko‘p miqdorda zarar yetkazilganda yoki taqiqlangan qurollar va usullar ishlatilganda.",
+      "Uy hayvonlarini boqish jarayonida.",
+      "Baliq ovlash sporti musobaqalarida.",
+      "Tabiat qo‘ynida dam olish paytida."
+    ],
+    "a": 0,
+    "why": "Ov qilish qoidalarini buzganlik uchun javobgarlik zarar miqdori va qonunda ko‘rsatilgan boshqa holatlarga bog‘liq."
+  },
+  {
+    "topic": "Jinoyat huquqi: 6-bosqich",
+    "q": "Jinoyat kodeksining moddalarini o‘rganishdan ko‘zlangan asosiy huquqiy maqsad nima?",
+    "o": [
+      "Huquqbuzarliklarning oldini olish, jinoyat sodir etgan shaxslarga adolatli jazo tayinlash va jamiyatda qonun ustuvorligini ta’minlash.",
+      "Faqat jarimalar yig‘ish orqali davlat budjetini to‘ldirish.",
+      "Fuqarolarning huquqlarini cheklash.",
+      "Sud organlarining vakolatlarini kamaytirish."
+    ],
+    "a": 0,
+    "why": "Jinoyat qonunchiligi jinoyatlarning oldini olish, shaxslarni qonun asosida javobgarlikka tortish va qonun ustuvorligini ta’minlashga xizmat qiladi."
+  }
+]
+
