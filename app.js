@@ -220,6 +220,7 @@ function nextQuestion() {
   renderQuestion();
 }
 
+// Testlar tugaganda ekranni ko'rsatish
 function showQuizFinished() {
   const quizView = document.getElementById('quiz-view');
   quizView.innerHTML = `
@@ -227,9 +228,53 @@ function showQuizFinished() {
       <h3 style="margin-bottom: 10px; font-family: 'Cinzel', serif;">🎉 Mavzu yakunlandi!</h3>
       <p style="color: var(--text-sub); margin-bottom: 15px;">Siz ushbu mavzodagi barcha testlarni muvaffaqiyatli tugatdingiz.</p>
       <p style="font-size: 18px; margin-bottom: 20px;">To'plagan ballingiz: <strong>${userScore}</strong></p>
-      <button onclick="location.reload()" class="btn btn-primary btn-lg">Mavzularga qaytish 🔄</button>
+      <button onclick="backToMenu()" class="btn btn-primary btn-lg">Mavzularga qaytish 🔄</button>
     </div>
   `;
+}
+
+// Qaytish tugmasi bosilganda oynalarni to'g'ri almashtirish va quiz-view ni tiklash
+function backToMenu() {
+  currentTestIndex = 0;
+  userScore = 0;
+  
+  // Quiz oynasini yashirib, mavzular oynasini ochamiz
+  document.getElementById('quiz-view').classList.add('hidden');
+  document.getElementById('topic-select-view').classList.remove('hidden');
+  
+  // Mavzular ro'yxatini qaytadan chizamiz
+  renderTopicsList();
+  
+  // Quiz view HTML tuzilishini keyingi safar uchun asliga qaytaramiz
+  const quizView = document.getElementById('quiz-view');
+  quizView.innerHTML = `
+    <div class="quiz-top-nav">
+      <button id="btn-back-topics" class="btn-back">← Ortga</button>
+      <div id="quiz-progress" class="quiz-badge">1 / 30</div>
+    </div>
+    <div class="progress-track">
+      <div id="quiz-progress-bar" class="progress-fill"></div>
+    </div>
+    <div id="question-card" class="glass-card quiz-card">
+      <div id="question-text" class="question-text">Savol yuklanmoqda...</div>
+      <div id="options-container" class="options-grid"></div>
+    </div>
+    <div id="analysis-panel" class="glass-card analysis-card hidden">
+      <div class="analysis-header">
+        <span>📖</span>
+        <h3>Huquqiy Tahlil</h3>
+      </div>
+      <p id="analysis-text" class="analysis-body"></p>
+      <button id="btn-next-question" class="btn btn-primary btn-lg" style="margin-top:12px;">Keyingi Savol →</button>
+    </div>
+  `;
+
+  // Tugmalarni qayta ulab qo'yamiz
+  const btnBack = document.getElementById('btn-back-topics');
+  if (btnBack) btnBack.addEventListener('click', showTopicsView);
+
+  const btnNext = document.getElementById('btn-next-question');
+  if (btnNext) btnNext.addEventListener('click', nextQuestion);
 }
 
 function updateGlobalStats() {
