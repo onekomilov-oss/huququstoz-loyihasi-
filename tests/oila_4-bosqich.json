@@ -1,1 +1,332 @@
-
+[
+  {
+    "topic": "Oila huquqi: 4-bosqich",
+    "q": "91-moddaga muvofiq, aliment toʻlash haqidagi kelishuv bajarilmaganda nima qilinadi?",
+    "o": [
+      "Kelishuvni bajarishdan bosh tortilgan taqdirda, manfaatdor taraf uni majburiy ijro etishni talab qilib sudga murojaat qilishga haqli",
+      "Faqat mahalla qoʻmitasi orqali hal qilinadi",
+      "Kelishuv oʻz kuchini yoʻqotadi va qayta tuzilmaydi",
+      "Davlat tomonidan zarur mablagʻ qoplab beriladi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 4-bosqich",
+    "q": "92-moddaga koʻra, aliment toʻlash haqidagi kelishuvni oʻzgartirish yoki bekor qilish qanday tartibda amalga oshiriladi?",
+    "o": [
+      "Faqat bir tomonning talabi bilan sud orqali",
+      "Istalgan vaqtda taraflarning oʻzaro kelishuviga koʻra, u yozma ravishda va notarial tartibda tasdiqlanishi lozim",
+      "Faqat prokurorning ruxsati bilan",
+      "Ogʻzaki kelishuv orqali yetarli"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Oila huquqi: 4-bosqich",
+    "q": "XATO koʻrsatilgan maʼlumotni aniqlang (93-modda):",
+    "o": [
+      "Aliment toʻlash haqidagi kelishuvda moddiy ahvol oʻzgarganda uni oʻzgartirish yoki bekor qilish nazarda tutilishi mumkin",
+      "Moddiy yoki oilaviy ahvol keskin oʻzgarganda va taraflar uni oʻzgartirishga kelisha olmaganda, manfaatdor taraf kelishuvni oʻzgartirish yoki bekor qilish haqida sudga murojaat etishga haqli",
+      "Sud kelishuvni oʻzgartirganda taraflarning moddiy ahvolini inobatga olishga majbur emas",
+      "Aliment miqdorini oʻzgartirishda taraflarning oʻzaro kelishuvi muhim asos sanaladi"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Oila huquqi: 4-bosqich",
+    "q": "Nuqtalar oʻrniga mos javobni qoʻying (94-modda): «Voyaga yetmagan bolalarga taʼminot berish uchun ota-onalardan undiriladigan aliment miqdorini ... tartibda belgilash yoki oʻzgartirish mumkin emas, agar bu qonunda belgilangan kafolatlarni kamaytirsa.»",
+    "o": [
+      "shartnomaviy",
+      "sud",
+      "maʼmuriy",
+      "ixtiyoriy"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Oila huquqi: 4-bosqich",
+    "q": "95-moddaga muvofiq, voyaga yetmagan bolalarga nisbatan aliment toʻlashni talab qilish huquqiga ega boʻlgan shaxslar kimlar?",
+    "o": [
+      "Ota, ona, vasiylar, homiylar va vasiylik organi",
+      "Faqat bolaning oʻzi 18 yoshdan keyin",
+      "Faqat mahalla raisi",
+      "Faqat maktab direktori"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 4-bosqich",
+    "q": "Toʻgʻri maʼlumotni aniqlang (96-modda — Voyaga yetmagan bolalarga taʼminot berish boʻyicha ota-onaning majburiyati):",
+    "o": [
+      "Voyaga yetmagan bolalariga taʼminot berish majburiyatini ota-ona ixtiyoriy bajaradi, majburiy tartib mavjud emas",
+      "Ota-ona oʻzining voyaga yetmagan bolalariga taʼminot berishi shart va bu majburiyat qonun bilan qatʼiy belgilangan",
+      "Ota-ona faqat oʻz xohishiga koʻra pul berishi mumkin",
+      "Bolalar voyaga yetgunga qadar ota-onaning ularga moddiy yordam berishi majburiy emas"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Oila huquqi: 4-bosqich",
+    "q": "Toʻgʻri moslashtirishni aniqlang (97-modda — Mehnatga layoqatsiz voyaga yetgan bolalarga taʼminot): a) Mehnatga layoqatsiz va yordamga muhtoj voyaga yetgan bolalar; b) Mehnatga layoqatli voyaga yetgan bolalar. 1. Ota-onadan aliment olish huquqiga ega. 2. Ota-onasiga taʼminot berish majburiyatini bajaradi.",
+    "o": [
+      "a–1; b–2",
+      "a–2; b–1",
+      "a–1; b–1",
+      "a–2; b–2"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 4-bosqich",
+    "q": "Quyidagi bayonotlardan qaysilari toʻgʻri? (98-modda — Mehnatga layoqatsiz va yordamga muhtoj ota-onalarga taʼminot berish): 1. Mehnatga layoqatli voyaga yetgan bolalar oʻzlarining mehnatga layoqatsiz va yordamga muhtoj ota-onalariga taʼminot berishlari va ularga gʻamxoʻrlik qilishlari shart. 2. Bolalar ota-onaga taʼminot berish majburiyatidan hech qanday holatda ozod etilmaydi. 3. Agar ota-ona ota-onalik huquqidan mahrum etilgan boʻlsa, ular bolalardan aliment olish huquqidan mahrum qilinadilar. 4. Bolalar faqat ota-onaning xohishiga koʻra taʼminot beradi.",
+    "o": [
+      "1 va 3",
+      "2 va 4",
+      "1 va 2",
+      "3 va 4"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Oila huquqi: 4-bosqich",
+    "q": "99-moddaga muvofiq, mehnatga layoqatsiz, yordamga muhtoj ota-onalardan aliment undirish miqdori qanday belgilanadi?",
+    "o": [
+      "Har bir ota-ona uchun alohida qatʼiy pul summasida sud tartibida belgilanadi",
+      "Doimiy ravishda ota-onaning ish haqining yarmi miqdorida",
+      "Faqat mahalla qarori bilan",
+      "Bolalarning har birining daromadidan 80 foiz miqdorida"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 4-bosqich",
+    "q": "XATO koʻrsatilgan maʼlumotni aniqlang (100-modda):",
+    "o": [
+      "Bolalar ota-onani parvarish qilish bilan bogʻliq qoʻshimcha xarajatlarni toʻlashdan ozod qilinishi mumkin, agar ota-onaning oʻz daromadi yetarli boʻlsa",
+      "Favqulodda holatlar (ogʻir kasallik, shikastlanish va boshqalar) boʻlganda bolalar qoʻshimcha xarajatlarni qoplashga jalb etilishi mumkin",
+      "Favqulodda xarajatlarni undirish faqat sud tartibida hal qilinadi",
+      "Bolalar ota-onaning davolanishi uchun qoʻshimcha xarajatlar toʻlashdan qonunan mutlaqo ozod qilingan va hech qanday sharoitda talab qilinmaydi"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Oila huquqi: 4-bosqich",
+    "q": "101-moddaga muvofiq, er-xotin va sobiq er-xotin oʻrtasidagi aliment majburiyatlari kimlarga nisbatan tatbiq etiladi?",
+    "o": [
+      "Homiladorlik davrida va umumiy bolani parvarish qilayotgan xotinga, shuningdek mehnatga layoqatsiz muhtoj er (xotin)ga",
+      "Faqat hech qachon ishlamagan xotinga",
+      "Faqat chet el fuqarosi boʻlgan er-xotinga",
+      "Barcha ajrashgan er-xotinlarga istisnosiz"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 4-bosqich",
+    "q": "102-moddaga koʻra, xotin homiladorlik vaqtida va oʻrtada umumiy bola tugʻilganidan keyin necha yil mobaynida eridan aliment talab qilish huquqiga ega?",
+    "o": [
+      "Bir yil",
+      "Uch yil",
+      "Olti oy",
+      "Besh yil"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Oila huquqi: 4-bosqich",
+    "q": "Nuqtalar oʻrniga mos javobni qoʻying (103-modda): «Mehnatga layoqatsiz muhtoj sobiq er (xotin), shuningdek oʻrtadagi umumiy nogiron bolani parvarish qilayotgan sobiq xotin aliment olish ... huquqiga ega.»",
+    "o": [
+      "talab qilish",
+      "olish",
+      "cheklangan",
+      "majburiy"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Oila huquqi: 4-bosqich",
+    "q": "104-moddaga muvofiq, sobiq er-xotinga aliment undirish miqdori qanday belgilanadi?",
+    "o": [
+      "Sud tomonidan har oyda toʻlanadigan qatʼiy pul summasida belgilanadi",
+      "Har doim sobiq erning maoshining 50 foizi miqdorida",
+      "Faqat oʻzaro ogʻzaki kelishuv bilan",
+      "Davlat byudjetidan toʻlanadi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 4-bosqich",
+    "q": "Toʻgʻri maʼlumotni aniqlang (105-modda — Aliment toʻlash majburiyatining tugatilishi):",
+    "o": [
+      "Aliment oluvchining ehtiyojmandligi tugaganda yoki u boshqa shaxs bilan yangi nikohga kirganda aliment toʻlash majburiyati tugatiladi",
+      "Aliment toʻlash majburiyati hech qachon tugatilmaydi",
+      "Faqat aliment toʻlovchining xohishi bilan toʻxtatiladi",
+      "Sobiq xotin yangi nikohga kirsa ham oldingi eridan aliment olishda davom etadi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 4-bosqich",
+    "q": "XATO koʻrsatilgan maʼlumotni aniqlang (106-modda — Boshqa qarindoshlarning aliment majburiyatlari):",
+    "o": [
+      "Voyaga yetmagan muhtoj nevaralar oʻzlarining moddiy imkoniyatiga ega boʻlgan buva va buvisidan aliment olish huquqiga ega",
+      "Voyaga yetgan muhtoj aka-ukalar va opa-singillar oʻzlarining moddiy imkoniyatiga ega boʻlgan aka-uka va opa-singillaridan aliment olishi mumkin",
+      "Har qanday begona shaxs qarindosh sifatida aliment talab qilish huquqiga ega",
+      "Voyaga yetmagan aka-uka va opa-singillar ota-onasidan taʼminot olish imkoniyati boʻlmaganda mehnatga layoqatli aka-uka va opa-singillaridan taʼminot olishga haqli"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Oila huquqi: 4-bosqich",
+    "q": "107-moddaga muvofiq, buva, buvi va nevaralar oʻrtasidagi aliment majburiyatlari qanday shartda yuzaga keladi?",
+    "o": [
+      "Agar nevaralarning ota-onasi boʻlmasa yoki ulardan aliment ololmasa",
+      "Faqat buva va buvining xohishi bilan",
+      "Nevaralar 10 yoshga toʻlganda avtomatik ravishda",
+      "Har qanday sharoitda talab qilinishi mumkin"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 4-bosqich",
+    "q": "Nuqtalar oʻrniga mos javobni qoʻying (108-modda): «Tarbiya bergan shaxslarning voyaga yetmagan tarbiyalanuvchilardan aliment olish huquqi ...»",
+    "o": [
+      "Qonunda belgilangan shartlarda amalga oshiriladi (yetim bolalarni boqib olgan ota-onalarga nisbatan)",
+      "Mavjud emas",
+      "Faqat sud qarori bilan taqiqlanadi",
+      "Oʻzaro shartnoma asosidagina boʻladi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 4-bosqich",
+    "q": "109-moddaga koʻra, aliment miqdorini oʻzgartirish yoki uni toʻlashdan ozod qilish qaysi organ tomonidan hal etiladi?",
+    "o": [
+      "Sud tartibida",
+      "Vasiylik va homiylik organi tomonidan",
+      "Soliq inspeksiyasi tomonidan",
+      "Mahalla fuqarolar yigʻini tomonidan"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 4-bosqich",
+    "q": "110-modda — Alimentni toʻlash va undirish usullari boʻyicha toʻgʻri maʼlumotni aniqlang:",
+    "o": [
+      "Aliment foiz koʻrinishida yoki qatʼiy belgilangan pul summasida yoki mol-mulk berish yoʻli bilan toʻlanishi mumkin",
+      "Aliment faqat naqd xorijiy valyutada toʻlanishi shart",
+      "Aliment faqat koʻchmas mulk shaklida berilishi shart, pulga ruxsat berilmaydi",
+      "Aliment toʻlash usullari faqat ogʻzaki kelishiladi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 4-bosqich",
+    "q": "Quyidagi bayonotlardan qaysilari toʻgʻri? (111-modda): 1. Aliment toʻlash haqidagi sud buyrugʻi yoki ijro varaqasi tushgan paytdan boshlab undiriladi. 2. Oʻtgan davr uchun aliment oʻtmishdagi barcha davrlar uchun cheklovsiz undirilishi mumkin. 3. Oʻtgan davr uchun aliment, basharti aliment olish choralari avval koʻrilgan boʻlsa, uch yildan oshmagan muddat uchun undirilishi mumkin. 4. Aliment toʻlashdan boʻyin tovlagan shaxslardan oʻtgan davr uchun faqat 10 yillik muddatda undiriladi.",
+    "o": [
+      "1 va 3",
+      "2 va 4",
+      "1 va 2",
+      "3 va 4"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 4-bosqich",
+    "q": "112-moddaga muvofiq, aliment toʻlovchining ish joyi oʻzgarganda nima qilishi shart?",
+    "o": [
+      "Aliment toʻlayotgan shaxs uch kun ichida oʻzining yangi ish joyi yoki yashash joyi haqida sud ijrochisiga va aliment oluvchiga xabar berishi shart",
+      "Hech kimga xabar berishi shart emas",
+      "Faqat bir oydan keyin xabar beradi",
+      "Ish joyi oʻzgarganda aliment toʻlash avtomatik toʻxtatiladi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 4-bosqich",
+    "q": "XATO koʻrsatilgan maʼlumotni aniqlang (113-modda):",
+    "o": [
+      "Aliment toʻlash majburiyati aliment toʻlayotgan shaxsning vafot etishi bilan tugatiladi",
+      "Aliment oluvchi vafot etganda ham aliment majburiyati tugaydi",
+      "Aliment toʻlash majburiyati aliment toʻlovchi vafot etsa ham uning merosxoʻrlariga oʻtadi va toʻxtatilmaydi",
+      "Shaxsiy xarakterga ega boʻlgani uchun aliment majburiyati ayrim hollarda shaxsning vafoti bilan tugaydi"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Oila huquqi: 4-bosqich",
+    "q": "Nuqtalar oʻrniga mos javobni qoʻying (114-modda): «Alimentni oʻz vaqtida toʻlamaganlik uchun aybdor shaxs qonun hujjatlarida belgilangan tartibda ... javobgarlikka tortiladi.»",
+    "o": [
+      "jinoiy yoki maʼmuriy",
+      "intizomiy",
+      "moddiy javobgarlikka",
+      "soliqqa oid"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 4-bosqich",
+    "q": "115-moddaga muvofiq, alimentni oʻz vaqtida toʻlamaganlik uchun necha foiz miqdorida neustoyka (penya) undiriladi?",
+    "o": [
+      "Toʻlanmagan aliment summasining har bir kuni uchun 0,1 foizi miqdorida",
+      "Har bir kun uchun 1 foiz",
+      "Har bir oy uchun 10 foiz",
+      "Penya qonunda nazarda tutilmagan"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 4-bosqich",
+    "q": "116-moddaga koʻra, voyaga yetmagan bolalariga aliment toʻlashdan boʻyin tovlagan shaxslarga nisbatan qanday qoʻshimcha taqiqlar qoʻllanilishi mumkin?",
+    "o": [
+      "Oʻzbekistondan chiqishini vaqtincha cheklash, transport vositasini boshqarish huquqini vaqtincha toʻxtatib turish",
+      "Barcha mol-mulkini musodara qilish",
+      "Fuqaroligidan mahrum qilish",
+      "Oliy oʻquv yurtiga oʻqishga kirishini taqiqlash"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 4-bosqich",
+    "q": "XATO koʻrsatilgan maʼlumotni aniqlang (117-modda):",
+    "o": [
+      "Farzandlikka olish faqat voyaga yetmagan bolalarga nisbatan va ularning manfaatlarini koʻzlab amalga oshiriladi",
+      "Farzandlikka olishni tuman, shahar hokimining qarori bilan amalga oshiriladi",
+      "Farzandlikka olish faqat sud tartibida amalga oshiriladi (hokim qarori emas, sud hal qiladi)",
+      "Farzandlikka olish sir saqlanishi taʼminlanadi"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Oila huquqi: 4-bosqich",
+    "q": "118-moddaga muvofiq, kimlarni farzandlikka olishga yoʻl qoʻyilmaydi?",
+    "o": [
+      "Faqat chet el fuqarolarini",
+      "Voyaga yetgan shaxslarni farzandlikka olishga yoʻl qoʻyilmaydi",
+      "Oʻn yoshga toʻlmagan bolalarni",
+      "Qarindosh boʻlmagan bolalarni"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Oila huquqi: 4-bosqich",
+    "q": "Nuqtalar oʻrniga mos javobni qoʻying (119-modda): «Farzandlikka oluvchilar ... shaxslar boʻlishi mumkin, voyaga yetmaganlar, muomalaga layoqatsiz yoki muomala layoqati cheklangan deb topilganlar farzandlikka oluvchi boʻla olmaydi.»",
+    "o": [
+      "voyaga yetgan",
+      "faqat badavlat",
+      "chet elda yashovchi",
+      "yolgʻiz shaxslar"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 4-bosqich",
+    "q": "120-moddaga koʻra, farzandlikka olingan bola bilan farzandlikka oluvchilar oʻrtasidagi huquq va majburiyatlar qanday belgilanadi?",
+    "o": [
+      "Qonun boʻyicha tugʻishgan ota-ona va bolalar oʻrtasidagi huquq va majburiyatlarga tenglashtiriladi",
+      "Ularning huquqlari cheklangan boʻladi",
+      "Faqat mulkiy huquqlar saqlanadi, shaxsiy huquqlar yuzaga kelmaydi",
+      "Farzandlikka oluvchilar xohishiga koʻra belgilanadi"
+    ],
+    "a": 0
+  }
+]
