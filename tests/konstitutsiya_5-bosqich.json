@@ -1,1 +1,334 @@
 
+[
+  {
+    "topic": "Konstitutsiya: 5-bosqich",
+    "q": "Oʻzbekiston Respublikasi Konstitutsiyasining 121-moddasiga muvofiq mahalliy davlat hokimiyati organlarining tizimi nimalardan iborat?",
+    "o": [
+      "Xalq deputatlari Kengashlari va hokimlardan",
+      "Faqat viloyat va tuman prokurorlaridan",
+      "Mahalliy boshqaruv qoʻmitalari va vazirlik boʻlimlaridan",
+      "Fuqarolarning oʻzini oʻzi boshqarish organlaridan"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Konstitutsiya: 5-bosqich",
+    "q": "Konstitutsiyaning 122-moddasiga asosan viloyatlar, tumanlar va shaharlarda hokimlik faoliyatiga kim yakkaboshchilik asosida rahbarlik qiladi?",
+    "o": [
+      "Xalq deputatlari Kengashi raisi",
+      "Tegishli hokim",
+      "Bosh vazir tayinlagan maxsus qoʻmita raisi",
+      "Deputatlar orasidan saylangan shaxs"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Konstitutsiya: 5-bosqich",
+    "q": "Konstitutsiyaning 123-moddasiga binoan fuqarolarning oʻzini oʻzi boshqarish organlari qayerlarda faoliyat yuritadi?",
+    "o": [
+      "Faqat tuman hokimliklarida",
+      "Davlat hokimiyatining maxsus sudlov organlari sifatida",
+      "Shaharchalar, qishloqlar va ovullarda, shuningdek shaharlardagi mahallalarda",
+      "Siyosiy partiyalarning hududiy boʻlinmalari sifatida"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Konstitutsiya: 5-bosqich",
+    "q": "Konstitutsiyaning 124-moddasiga muvofiq mahalliy oʻzini oʻzi boshqarish organlarining vakolatlariga nimalar kiradi?",
+    "o": [
+      "Yangi qonunlarni ishlab chiqish va Oliy Majlisga kiritish",
+      "Respublika budjetini taqsimlash va soliq stavkalarini belgilash",
+      "Sudyalarni tayinlash va ularning faoliyatini nazorat qilish",
+      "Mahalliy ahamiyatga molik masalalarni mustaqil hal etish"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Konstitutsiya: 5-bosqich",
+    "q": "Konstitutsiyaning 125-moddasiga asosan mahalliy Kengashlarning qarorlari kimlar uchun majburiy hisoblanadi?",
+    "o": [
+      "Tegishli hududdagi korxonalar, muassasalar, tashkilotlar, mansabdor shaxslar va fuqarolar uchun",
+      "Faqat hokim rozilik bildirgan shaxslar uchun",
+      "Faqat davlat korxonalari uchun",
+      "Respublika hukumati tasdiqlaganidan keyingina barcha uchun"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Konstitutsiya: 5-bosqich",
+    "q": "Konstitutsiyaning 126-moddasiga muvofiq hokimlarning vakolatlari muddatidan ilgari qanday tugatilishi mumkin?",
+    "o": [
+      "Faqat Oliy Majlis Qonunchilik palatasining yashirin ovozi bilan",
+      "Qonunda belgilangan tartibda Prezident tomonidan yoki tegishli xalq deputatlari Kengashining qaroriga binoan",
+      "Bosh vazirning shaxsiy buyrugʻiga asosan",
+      "Jamoat birlashmalarining talabiga koʻra"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Konstitutsiya: 5-bosqich",
+    "q": "Konstitutsiyaning 127-moddasiga asosan mahalliy davlat hokimiyati organlari faoliyatining qonuniyligi qanday taʼminlanadi?",
+    "o": [
+      "Faqat xalqaro kuzatuvchilarning baholashi bilan",
+      "Mahalliy aholining umumiy yigʻilishidagi ovoz berish bilan",
+      "Qonun hujjatlariga rioya etish va qonunga zid qarorlarni bekor qilish orqali",
+      "Hokimning oʻz xohishiga koʻra qarorlarni oʻzgartirishi bilan"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Konstitutsiya: 5-bosqich",
+    "q": "Konstitutsiyaning 128-moddasiga asosan Oʻzbekiston Respublikasida saylovlar qanday asosda oʻtkaziladi?",
+    "o": [
+      "Faqat ochiq ovoz berish va tanlov asosida",
+      "Oliy Majlis deputatlari tomonidan tayinlash yoʻli bilan",
+      "Faqat imtiyozga ega qatlamlarning ovoz berishi bilan",
+      "Umumiy, teng va toʻgʻridan-toʻgʻri saylov huquqi asosida yashirin ovoz berish yoʻli bilan"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Konstitutsiya: 5-bosqich",
+    "q": "Konstitutsiyaning 129-moddasiga muvofiq kimlar saylash huquqiga ega?",
+    "o": [
+      "Oʻzbekiston Respublikasining oʻn sakkiz yoshga toʻlgan fuqarolari",
+      "Faqat yigirma bir yoshga toʻlgan fuqarolar",
+      "Faqat oliy maʼlumotli fuqarolar",
+      "Oʻzbekiston hududida yashovchi barcha chet el fuqarolari"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Konstitutsiya: 5-bosqich",
+    "q": "Konstitutsiyaning 130-moddasiga asosan Oʻzbekiston Respublikasida odil sudlov kim tomonidan amalga oshiriladi?",
+    "o": [
+      "Sud va prokuratura organlari tomonidan birgalikda",
+      "Faqat sud tomonidan",
+      "Ichki ishlar vazirligi va maxsus komissiyalar tomonidan",
+      "Mahalliy xalq deputatlari Kengashlari tomonidan"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Konstitutsiya: 5-bosqich",
+    "q": "Konstitutsiyaning 131-moddasiga koʻra Oʻzbekiston Respublikasining sud tizimiga qaysi organlar kiradi?",
+    "o": [
+      "Faqat Oliy sud va tuman sudlari",
+      "Hukumat huzuridagi maxsus arbitraj sudlari",
+      "Konstitutsiyaviy sud, Oliy sud, harbiy sudlar va qonunda belgilangan boshqa sudlar",
+      "Faqat viloyat darajasidagi apellyatsiya instansiyalari"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Konstitutsiya: 5-bosqich",
+    "q": "Konstitutsiyaning 132-moddasiga muvofiq sudyalarning daxlsizligi qanday kafolatlanadi?",
+    "o": [
+      "Sudya Prezident farmoni bilan istalgan vaqtda ishdan boʻshatilishi mumkin",
+      "Daxlsizlik faqat dastlabki uch yil davomida amal qiladi",
+      "Jinoiy javobgarlikka tortishda hech qanday maxsus tartib talab etilmaydi",
+      "Sudyalarning daxlsizligi qonun bilan muhofaza qilinadi, vakolatlarini qonunga xilof ravishda toʻxtatish yoki tugatishga yoʻl qoʻyilmaydi"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Konstitutsiya: 5-bosqich",
+    "q": "Konstitutsiyaning 133-moddasiga asosan sudyalarning mustaqilligi nimaga asoslanadi?",
+    "o": [
+      "Faqat qonunga boʻysunishiga va sud faoliyatiga aralashish taqiqlanganiga",
+      "Yuqori turuvchi sud raisining barcha koʻrsatmalariga",
+      "Mahalliy hokimiyat organlarining moliyaviy taʼminotiga",
+      "Siyosiy partiyalarning qoʻllab-quvvatlashiga"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Konstitutsiya: 5-bosqich",
+    "q": "Konstitutsiyaning 134-moddasiga koʻra sud majlislari qanday oʻtkaziladi?",
+    "o": [
+      "Doimo yopiq tarzda",
+      "Ochiq tarzda, qonunda nazarda tutilgan hollar bundan mustasno",
+      "Faqat prokurorning yozma ruxsati bilan ochiq",
+      "Faqat internet orqali jonli translyatsiya shaklida"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Konstitutsiya: 5-bosqich",
+    "q": "Konstitutsiyaning 135-moddasiga muvofiq Oʻzbekiston Respublikasida odil sudlov qaysi tilda amalga oshiriladi?",
+    "o": [
+      "Faqat davlat tilida, boshqa tillardan foydalanish taqiqlanadi",
+      "Faqat ingliz va rus tillarida",
+      "Oʻzbek tilida yoki muomaladagi boshqa tilda",
+      "Faqat ishda qatnashuvchi shaxslarning millatiga mos xorijiy tilda"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Konstitutsiya: 5-bosqich",
+    "q": "Konstitutsiyaning 136–140-moddalariga doir ushbu testda sud hokimiyatining asosiy vazifalaridan biri sifatida nima koʻrsatilgan?",
+    "o": [
+      "Yangi qonun loyihalarini birinchi boʻlib muhokama qilish",
+      "Davlat korxonalarining moliyaviy faoliyatini tekshirish",
+      "Soliq yigʻimlarini undirishni tashkil etish",
+      "Huquq va erkinliklar hamda qonuniy manfaatlarni sud orqali himoya qilish"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Konstitutsiya: 5-bosqich",
+    "q": "Konstitutsiyaning 141-moddasiga binoan malakali yuridik yordam olish uchun nima tashkil etiladi?",
+    "o": [
+      "Advokatura",
+      "Maxsus huquqiy tergov qoʻmitasi",
+      "Davlat notarial boshqarmasi",
+      "Fuqarolik huquqlarini himoya qilish jamgʻarmasi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Konstitutsiya: 5-bosqich",
+    "q": "Konstitutsiyaning 142-moddasiga muvofiq advokatura faoliyati qanday prinsiplarga asoslanadi?",
+    "o": [
+      "Vazirliklar va idoralarga toʻgʻridan-toʻgʻri boʻysunish prinsipiga",
+      "Mustaqillik va oʻzini oʻzi boshqarish prinsiplariga",
+      "Faqat davlat tomonidan moliyalashtirish shartiga",
+      "Qatʼiy maʼmuriy buyruqbozlikka"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Konstitutsiya: 5-bosqich",
+    "q": "Konstitutsiyaning 143-moddasiga koʻra Oʻzbekiston Respublikasi hududida qonunlarning aniq va bir xilda bajarilishini kim nazorat qiladi?",
+    "o": [
+      "Oliy sud raisi va tuman sudyalari",
+      "Ichki ishlar vazirligining tergov boʻlimi",
+      "Bosh prokuror va unga boʻysunuvchi prokurorlar",
+      "Xalq deputatlari Kengashining maxsus komissiyasi"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Konstitutsiya: 5-bosqich",
+    "q": "Konstitutsiyaning 144-moddasiga asosan Bosh prokuror kim tomonidan va qancha muddatga lavozimga tayinlanadi?",
+    "o": [
+      "Oliy sud raisi tomonidan oʻn yil muddatga",
+      "Xalq deputatlari tomonidan yashirin ovoz berish yoʻli bilan",
+      "Bosh vazirning yakka qarori bilan",
+      "Prezident taqdimiga binoan Senat tomonidan besh yil muddatga"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Konstitutsiya: 5-bosqich",
+    "q": "Konstitutsiyaning 145-moddasiga muvofiq prokuratura organlari oʻz vakolatlarini qanday amalga oshiradi?",
+    "o": [
+      "Har qanday davlat organlari, jamoat birlashmalari va mansabdor shaxslardan mustaqil ravishda",
+      "Faqat mahalliy hokimiyat organlari nazorati ostida",
+      "Vazirlar Mahkamasining koʻrsatmalari asosida",
+      "Xalqaro tashkilotlarning koʻrsatmalariga binoan"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Konstitutsiya: 5-bosqich",
+    "q": "Konstitutsiyaning 146-moddasiga koʻra prokurorning qonun talablarini bajarish boʻyicha chiqargan qarorlari kimlar uchun majburiy?",
+    "o": [
+      "Faqat jinoiy ish qoʻzgʻatilgan shaxslar uchun",
+      "Barcha tegishli organlar, korxonalar, muassasalar, tashkilotlar, mansabdor shaxslar va fuqarolar uchun",
+      "Faqat quyi turuvchi tergovchilar uchun",
+      "Faqat sud tasdiqlagandan keyin tavsiyanoma sifatida"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Konstitutsiya: 5-bosqich",
+    "q": "Konstitutsiyaning 147-moddasiga asosan respublikaning moliya va soliq tizimi nimaga tayanadi?",
+    "o": [
+      "Faqat chet el investitsiyalari va xalqaro kreditlarga",
+      "Mahalliy hokimiyatlar belgilaydigan oʻzboshimcha soliqlarga",
+      "Yagona moliya siyosatiga hamda soliqlar va yigʻimlar adolatliligi prinsiplariga",
+      "Tijorat banklarining ixtiyoriy foiz stavkalariga"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Konstitutsiya: 5-bosqich",
+    "q": "Konstitutsiyaning 148-moddasiga muvofiq Oʻzbekiston Respublikasining pul birligi nima?",
+    "o": [
+      "AQSH dollari",
+      "Tiyin va oltin tanga",
+      "Konstitutsiyada pul birligi koʻrsatilmagan",
+      "Soʻm"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Konstitutsiya: 5-bosqich",
+    "q": "Konstitutsiyaning 149-moddasiga binoan Markaziy bankning asosiy vazifasi nima?",
+    "o": [
+      "Milliy valyutaning barqarorligini taʼminlash",
+      "Tijorat banklarini xususiy mulk sifatida boshqarish",
+      "Faqat soliq yigʻish",
+      "Tashqi qarzlarni toʻlash uchun xalqaro fond tashkil etish"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Konstitutsiya: 5-bosqich",
+    "q": "Konstitutsiyaning 150–153-moddalariga doir ushbu testda Oʻzbekiston Respublikasi Qurolli Kuchlarining asosiy maqsadi nima sifatida koʻrsatilgan?",
+    "o": [
+      "Boshqa davlatlar hududlarini egallash",
+      "Oʻzbekiston Respublikasining suvereniteti va hududiy yaxlitligini himoya qilish",
+      "Faqat ichki tartibsizliklarni bostirish",
+      "Xalqaro harbiy paradlarda qatnashish"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Konstitutsiya: 5-bosqich",
+    "q": "Konstitutsiyaning 154-moddasiga binoan Konstitutsiyaga oʻzgartirish va qoʻshimchalar qanday tartibda kiritiladi?",
+    "o": [
+      "Faqat Prezident farmoni bilan",
+      "Vazirlar Mahkamasining yopiq yigʻilishidagi qaror bilan",
+      "Konstitutsiyada belgilangan tartibda Oliy Majlis qabul qiladigan qonun yoki referendum orqali",
+      "Viloyat hokimlarining umumiy kengashi tavsiyasiga koʻra"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Konstitutsiya: 5-bosqich",
+    "q": "Konstitutsiyaning 155-moddasiga asosan qaysi qoidalar oʻzgartirilishi mumkin emas?",
+    "o": [
+      "Faqat maʼmuriy-hududiy tuzilishga oid moddalar",
+      "Soliq va moliya tizimiga taalluqli moddalar",
+      "Sudyalar soni va ularning maoshlariga oid qoidalar",
+      "Konstitutsiyaning birinchi moddasida belgilangan qoidalar"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Konstitutsiya: 5-bosqich",
+    "q": "Oʻzbekiston Respublikasining yangi tahrirdagi Konstitutsiyasi nechta boʻlim, bob va moddadan iborat?",
+    "o": [
+      "6 boʻlim, 27 bob va 155 ta moddadan",
+      "5 boʻlim, 25 bob va 128 ta moddadan",
+      "7 boʻlim, 30 bob va 160 ta moddadan",
+      "4 boʻlim, 20 bob va 100 ta moddadan"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Konstitutsiya: 5-bosqich",
+    "q": "Konstitutsiya muqaddimasida Oʻzbekiston xalqi oʻz oldiga qanday oliy maqsadlarni qoʻygan?",
+    "o": [
+      "Faqat iqtisodiy jihatdan dunyoda birinchi oʻrinni egallash",
+      "Insonparvar demokratik huquqiy davlat barpo etish va fuqarolarning munosib hayot kechirishini taʼminlash",
+      "Boshqa davlatlar bilan chegaralarni butunlay yoʻq qilish",
+      "Faqat qishloq xoʻjaligini rivojlantirishga ustuvorlik berish"
+    ],
+    "a": 1
+  }
+]
+
