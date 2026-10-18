@@ -1,1 +1,332 @@
-
+[
+  {
+    "topic": "Oila huquqi: 6-bosqich",
+    "q": "151-moddaga muvofiq, fuqarolik holati dalolatnomalarini qayd etish organlari (ZAGS) qaysi harakatlarni amalga oshiradi?",
+    "o": [
+      "Nikoh tuzish, nikohdan ajratish, otalikni belgilash, farzandlikka olish, ismni, otaning ismini va familiyani oʻzgartirish, oʻlimni qayd etish",
+      "Faqat nikoh tuzish va oʻlimni qayd etishni",
+      "Faqat mulkiy nizolarni hal qilish va aliment undirishni",
+      "Faqat fuqarolarga pasport berish va uning muddatini uzaytirishni"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 6-bosqich",
+    "q": "152-moddaga koʻra, fuqarolik holati dalolatnomalarini yozish organlari qaysi idoralar tizimiga kiradi?",
+    "o": [
+      "Sud organlari tizimiga",
+      "Adliya organlari tizimiga",
+      "Ichki ishlar organlari tizimiga",
+      "Markaziy saylov komissiyasiga"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Oila huquqi: 6-bosqich",
+    "q": "XATO koʻrsatilgan maʼlumotni aniqlang (153-modda):",
+    "o": [
+      "Tugʻilishni qayd etish bolaning tugʻilgan joyidagi yoki ota-onasining yashash joyidagi ZAGS organi tomonidan amalga oshiriladi",
+      "Bola tugʻilgan kundan boshlab bir oy ichida ota-ona uning tugʻilganligini qayd etish uchun ZAGS organiga ariza berishi shart",
+      "Tugʻilishni qayd etish faqat bola 1 yoshga toʻlgandan keyingina amalga oshirilishi mumkin",
+      "Topib olingan (tashlab ketilgan) bolaning tugʻilishini qayd etish vasiylik va homiylik organining ariza berishi asosida bajariladi"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Oila huquqi: 6-bosqich",
+    "q": "Nuqtalar oʻrniga mos javobni qoʻying (154-modda): «Tugʻilganlik haqidagi yozuvga bolaning otasi va onasi toʻgʻrisidagi maʼlumotlar ota-onaning birgalikdagi arizasiga binoan yoxud otalikni belgilashni tasdiqlovchi hujjat asosida yoki onaning arizasiga binoan ...»",
+    "o": [
+      "yozib qoʻyiladi",
+      "faqat sud qarori bilan kiritiladi",
+      "kiritilmaydi",
+      "oʻzgartiriladi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 6-bosqich",
+    "q": "155-moddaga muvofiq, vafot etgan ota-onadan tugʻilgan bolaning tugʻilishini qayd etish qanday tartibda olib boriladi?",
+    "o": [
+      "Qonunda belgilangan umumiy tartibda, qarindoshlar yoki vasiylik organining arizasiga koʻra",
+      "Tugʻilishni qayd etish taqiqlanadi",
+      "Faqat Oliy sudning maxsus ruxsati bilan",
+      "Faqat 18 yoshga toʻlgandan keyin amalga oshiriladi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 6-bosqich",
+    "q": "Toʻgʻri maʼlumotni aniqlang (156-modda — Topib olingan bolaning tugʻilishini qayd etish):",
+    "o": [
+      "Topib olingan bolaning tugʻilgan joyi va vaqti nomaʼlum boʻlsa, vasiylik va homiylik organining taqdimnomasiga koʻra ZAGS organi tomonidan belgilanadi",
+      "Topib olingan bolalarni roʻyxatga olish taqiqlanadi",
+      "Tugʻilgan sana va joyini faqat bolaning oʻzi keyinchalik belgilaydi",
+      "Ichki ishlar organi mustaqil ravishda ZAGS yozuvini kiritadi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 6-bosqich",
+    "q": "Toʻgʻri moslashtirishni aniqlang (157-modda — Bolaga ism va familiya berish): a) Bolaning ismi; b) Bolaning familiyasi. 1. Ota-onaning kelishuviga koʻra beriladi. 2. Ota-onaning familiyasi bilan belgilanadi.",
+    "o": [
+      "a–1; b–2",
+      "a–2; b–1",
+      "a–1; b–1",
+      "a–2; b–2"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 6-bosqich",
+    "q": "Quyidagi bayonotlardan qaysi birlari toʻgʻri? (158-modda — Nikoh tuzishni qayd etish): 1. Nikoh tuzishni qayd etish nikohlanuvchilarning ariza berganidan keyin bir oy oʻtgach amalga oshiriladi. 2. Nikoh tuzishni qayd etish faqat ZAGS organlarida amalga oshiriladi. 3. Diniy rasm-rusumlar boʻyicha oʻtkazilgan nikoh ZAGSda qayd etilmasa ham yuridik kuchga ega. 4. Nikohlanuvchilarning shaxsan hozir boʻlishi nikoh tuzishni qayd etishda shart hisoblanadi.",
+    "o": [
+      "1, 2 va 4",
+      "2, 3 va 4",
+      "1 va 3",
+      "Barchasi toʻgʻri"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 6-bosqich",
+    "q": "159-moddaga muvofiq, otalikni belgilashni qayd etish qanday holatlarda amalga oshiriladi?",
+    "o": [
+      "Ota-onaning birgalikdagi arizasiga koʻra yoki otalik sud tomonidan belgilanganda",
+      "Faqat mahalla qoʻmitasining qarori bilan",
+      "Faqat onaning xohishiga koʻra istalgan vaqtda",
+      "Bolaning xohishiga koʻra"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 6-bosqich",
+    "q": "XATO koʻrsatilgan maʼlumotni aniqlang (160-modda):",
+    "o": [
+      "Ota-ona nikohda turmagan holda otalik ixtiyoriy belgilanganda ZAGS organiga birgalikda ariza beriladi",
+      "Otani sud tartibida belgilashda sudning qonuniy kuchga kirgan hal qiluv qarori asos boʻladi",
+      "Otalikni belgilashni qayd etish faqat bola 18 yoshga toʻlgandan keyin amalga oshiriladi",
+      "Otalik belgilangandan keyin bolaning familiyasi va otasining ismi oʻzgartirilishi mumkin"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Oila huquqi: 6-bosqich",
+    "q": "161-moddaga muvofiq, farzandlikka olishni qayd etish qayerda va qanday amalga oshiriladi?",
+    "o": [
+      "Farzandlikka olish toʻgʻrisidagi sud qarori asosida ZAGS organida qayd etiladi",
+      "Faqat tuman hokimligida",
+      "Vasiylik organining buyrugʻi bilan toʻgʻridan-toʻgʻri",
+      "Notarius idorasida tasdiqlanadi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 6-bosqich",
+    "q": "162-moddaga koʻra, farzandlikka olishni qayd etish uchun qanday hujjat talab qilinadi?",
+    "o": [
+      "Sudning qonuniy kuchga kirgan hal qiluv qarori",
+      "Ota-onaning ogʻzaki roziligi",
+      "Faqat tibbiy maʼlumotnoma",
+      "Mahalla raisining tavsiyanomasi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 6-bosqich",
+    "q": "Nuqtalar oʻrniga mos javobni qoʻying (163-modda): «Ismni, otaning ismini va familiyani oʻzgartirishni qayd etish ... tomonidan qonunda belgilangan yoshga toʻlgan shaxslarning arizasiga binoan amalga oshiriladi.»",
+    "o": [
+      "ZAGS organi",
+      "sud",
+      "ichki ishlar boʻlimi",
+      "hokimiyat"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 6-bosqich",
+    "q": "164-moddaga muvofiq, shaxs oʻz familiyasini, ismini oʻzgartirganda ilgari berilgan fuqarolik holati dalolatnomalari yozuvlariga oʻzgartirish kiritiladimi?",
+    "o": [
+      "Ha, tegishli dalolatnoma yozuvlariga oʻzgartirishlar kiritilib, yangi guvohnoma beriladi",
+      "Yoʻq, hech qanday oʻzgartirish kiritilmaydi",
+      "Faqat sud ruxsati bilan oʻzgartiriladi",
+      "Eski guvohnoma oʻz kuchida qoladi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 6-bosqich",
+    "q": "Toʻgʻri maʼlumotni aniqlang (165-modda — Oʻlimni qayd etish):",
+    "o": [
+      "Oʻlim yuz bergan joydagi yoki vafot etgan shaxs yashagan joydagi ZAGS organi tomonidan qayd etiladi",
+      "Oʻlimni faqat ichki ishlar idoralari roʻyxatga oladi",
+      "Oʻlimni qayd etish ixtiyoriy boʻlib, muddat belgilanmagan",
+      "Vafot etgandan keyin 1 yil ichida qayd etilmasa jarima solinadi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 6-bosqich",
+    "q": "XATO koʻrsatilgan maʼlumotni aniqlang (166-modda):",
+    "o": [
+      "Oʻlim haqida xabar berishga majbur boʻlgan shaxslar qatoriga qoʻshnilar, qarindoshlar yoki tibbiyot muassasasi maʼmuriyati kiradi",
+      "Oʻlim yuz berganligi haqida maʼlum boʻlgan kundan boshlab uch kun ichida ZAGSga xabar qilinishi shart",
+      "Oʻlimni qayd etish faqat 1 oy oʻtgach amalga oshirilishi mumkin",
+      "Vafot etgan shaxsning shaxsini tasdiqlovchi hujjat ZAGSga topshiriladi"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Oila huquqi: 6-bosqich",
+    "q": "167-moddaga muvofiq, fuqarolik holati dalolatnomalari yozuvlariga oʻzgartirishlar, tuzatishlar va qoʻshimchalar kiritish qanday hal etiladi?",
+    "o": [
+      "ZAGS organi tomonidan, nizolar mavjud boʻlganda esa sud tartibida hal qilinadi",
+      "Faqat Oliy sud qarori bilan",
+      "Har qanday fuqaroning oddiy arizasi bilan darhol",
+      "Faqat prokurorning koʻrsatmasi bilan"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 6-bosqich",
+    "q": "Nuqtalar oʻrniga mos javobni qoʻying (168-modda): «Fuqarolik holati dalolatnomalari yozuvlarini tiklash ... tomonidan tegishli arxiv hujjatlari asosida amalga oshiriladi.»",
+    "o": [
+      "ZAGS organi",
+      "sud",
+      "fuqarolarning oʻzini oʻzi boshqarish organi",
+      "soliq idorasi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 6-bosqich",
+    "q": "169-moddaga koʻra, dalolatnoma yozuvlari yoʻqolgan taqdirda ularni tiklash tartibi qanday?",
+    "o": [
+      "Sud tartibida yoki ZAGS organlari tomonidan arxiv maʼlumotlari asosida tiklanadi",
+      "Tiklanmaydi va haqiqiy emas deb topiladi",
+      "Faqat guvohlar koʻrsatuvi yetarli hisoblanadi",
+      "Xorijiy arxivlardan qidirib topiladi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 6-bosqich",
+    "q": "170-moddaga muvofiq, fuqarolik holati dalolatnomalari qayd etilganligini tasdiqlash uchun nima qilinadi?",
+    "o": [
+      "Fuqarolarga tegishli guvohnomalar beriladi",
+      "Guvohnoma berish pulli xizmat boʻlib, har yili yangilanadi",
+      "Guvohnomalar faqat sud tomonidan beriladi",
+      "ZAGS guvohnoma berish huquqiga ega emas"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 6-bosqich",
+    "q": "Quyidagi bayonotlardan qaysi birlari toʻgʻri? (171-modda): 1. Fuqarolik holati dalolatnomalari yozuv daftarlari arxivda saqlanishi shart. 2. Dalolatnoma yozuvlari daftarlari ikki nusxada tuziladi. 3. Yozuv daftarlarini boshqa shaxslarga berib yuborishga yoʻl qoʻyiladi. 4. Arxivdagi yozuvlar maxsus tartibda saqlanadi va muhofaza qilinadi.",
+    "o": [
+      "1, 2 va 4",
+      "2, 3 va 4",
+      "1 va 3",
+      "Barchasi toʻgʻri"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 6-bosqich",
+    "q": "172-moddaga muvofiq, Oila kodeksining amalga kiritilish tartibi qanday amalga oshirilgan?",
+    "o": [
+      "Oʻzbekiston Respublikasining Oila kodeksini amalga kiritish haqidagi qonun bilan belgilangan",
+      "Vazirlar Mahkamasining qarori bilan",
+      "Prezident farmoni bilan",
+      "Oliy sud Plenumining qarori bilan"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 6-bosqich",
+    "q": "XATO koʻrsatilgan maʼlumotni aniqlang (173-modda yoki oʻtish davri qoidalari):",
+    "o": [
+      "Oila kodeksi kuchga kirgunga qadar yuzaga kelgan huquqiy munosabatlarga ham kodeks qoidalari orqaga qaytish kuchi bilan qoʻllaniladi",
+      "Kodeks kuchga kirgandan keyin yuzaga kelgan huquq va majburiyatlarga nisbatan Oila kodeksi qoʻllaniladi",
+      "Oldingi qonunlar boʻyicha yuzaga kelgan huquqlar saqlanib qoladi",
+      "Oila kodeksi normalari kelgusidagi munosabatlarga tatbiq etiladi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 6-bosqich",
+    "q": "Nuqtalar oʻrniga mos javobni qoʻying (174-modda): «Oʻzbekiston Respublikasining Oila kodeksi kuchga kiritilishi munosabati bilan ilgari amal qilgan ... oʻz kuchini yoʻqotgan deb topiladi.»",
+    "o": [
+      "Oʻzbekiston SSR Nikoh va oila kodeksi (va boshqa qonun hujjatlari)",
+      "Fuqarolik kodeksi",
+      "Jinoyat kodeksi",
+      "Mehnat kodeksi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 6-bosqich",
+    "q": "175-moddaga muvofiq, Oila kodeksida belgilangan muddatlar qanday hisoblanadi?",
+    "o": [
+      "Kalendar kunlari, oylar yoki yillar bilan",
+      "Faqat ish kunlari bilan",
+      "Faqat bayram kunlaridan tashqari kunlar bilan",
+      "Sudning xohishiga koʻra"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 6-bosqich",
+    "q": "176-moddaga koʻra, Oila kodeksi normalari va qoidalari Oʻzbekiston Respublikasining hududida kimlarga nisbatan tatbiq etiladi?",
+    "o": [
+      "Barcha fuqarolar, chet el fuqarolari va fuqaroligi boʻlmagan shaxslarga (agar qonunda boshqacha tartib nazarda tutilmagan boʻlsa)",
+      "Faqat Oʻzbekiston fuqarolariga",
+      "Faqat chet elliklarga",
+      "Faqat Toshkent shahrida yashovchilarga"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 6-bosqich",
+    "q": "XATO koʻrsatilgan maʼlumotni aniqlang (177-modda):",
+    "o": [
+      "Oila qonunchiligi normalarini buzgan shaxslar qonunda belgilangan tartibda javobgarlikka tortiladilar",
+      "Oila aʼzolari oʻz huquqlarini suiisteʼmol qilganda javobgarlikka tortilmaydi",
+      "Huquqlarni suiisteʼmol qilish boshqalarning manfaatlariga zarar yetkaza olmaydi va zarar yetkazilsa javobgarlik kelib chiqadi",
+      "Oila kodeksi talablarini bajarish majburiydir"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Oila huquqi: 6-bosqich",
+    "q": "178-moddaga muvofiq, aliment majburiyatlari boʻyicha qarzni undirish tartibi nima bilan belgilanadi?",
+    "o": [
+      "Oila kodeksi va «Sud hujjatlari va boshqa organlar hujjatlarini ijro etish toʻgʻrisida»gi qonun bilan",
+      "Faqat Soliq kodeksi bilan",
+      "Mahalla qoʻmitasining yoʻriqnomasi bilan",
+      "Faqat bank qoidalari bilan"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 6-bosqich",
+    "q": "Nuqtalar oʻrniga mos javobni qoʻying (179-modda): «Oila kodeksining normalarini qoʻllash boʻyicha tushuntirishlar ... tomonidan berilishi mumkin.»",
+    "o": [
+      "Oʻzbekiston Respublikasi Oliy sudi Plenumi",
+      "Bosh prokuror",
+      "Ichki ishlar vaziri",
+      "Soliq qoʻmitasi raisi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 6-bosqich",
+    "q": "180-moddaga muvofiq, ushbu Oila kodeksining qoidalari qachondan eʼtiboran amalga kiritilgan?",
+    "o": [
+      "Rasmiy eʼlon qilingan kundan boshlab (yoki qonunda koʻrsatilgan aniq sanadan)",
+      "Faqat kelgusi yildan",
+      "Muhokama qilingan kundan boshlab",
+      "Hokimlar tasdiqlagan kundan boshlab"
+    ],
+    "a": 0
+  }
+]
