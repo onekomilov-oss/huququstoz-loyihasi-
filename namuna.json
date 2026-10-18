@@ -1,34 +1,28 @@
-[
-  {
-    "q": "O'zbekiston Respublikasi Jinoyat kodeksining vaqt bo'yicha amalda bo'lishi qoidasiga ko'ra, qilmishning jinoyatliiligi va jazolanishi qaysi vaqtdagi qonun bilan belgilanadi?",
-    "o": [
-      "Sodir etilgan vaqtdagi",
-      "Oqibat kelib chiqqan vaqtdagi",
-      "Sud tartibida ko'rilayotgan vaqtdagi",
-      "Hukm ijro etilayotgan vaqtdagi"
-    ],
-    "a": 0,
-    "why": "Qilmishning jinoyatliligi va jazolanishi shu qilmish sodir etilgan vaqtda amalda bo'lgan qonun bilan belgilanadi.",
-    "lex": {
-      "doc": "-111453",
-      "anchor": "-1138765",
-      "label": "JK 13-modda"
+function selectAnswer(selectedIndex, correctIndex, q) {
+  const buttons = document.querySelectorAll('.option-btn');
+  buttons.forEach((btn, idx) => {
+    btn.style.pointerEvents = 'none'; // Boshqa bosilmasin
+    if (idx === correctIndex) {
+      btn.style.background = 'rgba(40, 167, 69, 0.3)';
+      btn.style.borderColor = '#28a745';
+    } else if (idx === selectedIndex) {
+      btn.style.background = 'rgba(220, 53, 69, 0.3)';
+      btn.style.borderColor = '#dc3545';
     }
-  },
-  {
-    "q": "O'zbekiston Respublikasi Konstitutsiyasiga ko'ra, insonning huquq va erkinliklari nimaga ko'ra cheklanishi mumkin?",
-    "o": [
-      "Faqat qonunga muvofiq va faqat konstitutsiyaviy tuzumni, jamoat tartibini himoya qilish maqsadida",
-      "Hukumat qarori va vazirlik ko'rsatmasi bilan",
-      "Mahalliy hokimiyat organlari qarori bilan",
-      "Har qanday idoraviy normativ hujjat bilan"
-    ],
-    "a": 0,
-    "why": "Insonning huquq va erkinliklari faqat qonunga muvofiq va faqat konstitutsiyaviy tuzumni, fuqarolarning sog'lig'i hamda axloqini, boshqa shaxslarning huquq va erkinliklarini, jamoat xavfsizligini hamda jamoat tartibini ta'minlash maqsadida zarur bo'lgan doirada cheklanishi mumkin.",
-    "lex": {
-      "doc": "-6445145",
-      "anchor": "",
-      "label": "Konstitutsiya 21-modda"
-    }
+  });
+
+  if (selectedIndex === correctIndex) {
+    userScore++;
+    updateGlobalStats();
   }
-]
+
+  // Tahlil va Izoh panelini ko'rsatish (Lex tugmasi olib tashlandi)
+  const analysisPanel = document.getElementById('analysis-panel');
+  const analysisText = document.getElementById('analysis-text');
+  const lexBtn = document.getElementById('btn-lex-link');
+
+  if (lexBtn) lexBtn.style.display = 'none'; // Lex tugmasini yashirish
+
+  analysisText.textContent = q.why || "To'g'ri javob belgilandi.";
+  analysisPanel.classList.remove('hidden');
+}
