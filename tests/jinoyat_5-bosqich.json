@@ -1,1 +1,364 @@
 
+[
+  {
+    "topic": "Jinoyat huquqi: 5-bosqich",
+    "q": "Ayolni homilador bo‘lishga majbur qilish (121-modda) yoki uning homiladorligini sun’iy ravishda to‘xtatishga majburlash qanday qilmishlar uchun javobgarlikka sabab bo‘ladi?",
+    "o": [
+      "Ayolning irodasiga qarshi ravishda uni homilador bo‘lishga yoki homilani sun’iy ravishda tushirishga majburlash uchun.",
+      "Faqat tibbiy xodimning xohishiga ko‘ra.",
+      "Oilaviy shartnomalarga asosan ixtiyoriy ravishda.",
+      "O‘quv yurtlarida o‘qishni davom ettirish sharti sifatida."
+    ],
+    "a": 0,
+    "why": "121-modda ayolni homilador bo‘lishga yoki homilani sun’iy ravishda tushirishga majburlash uchun javobgarlikni nazarda tutadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 5-bosqich",
+    "q": "Aliment to‘lashdan bo‘yin tovlash (122-modda) jinoyatining qonuniy sharti nima?",
+    "o": [
+      "Voyaga yetmagan yoki mehnatga layoqatsiz bolalarni ta’minlash uchun sud qaroriga ko‘ra undirilishi lozim bo‘lgan mablag‘ni uch oydan ortiq muddat mobaynida to‘lashdan bo‘yin tovlash.",
+      "Bir kunlik kechikish.",
+      "Faqat ota-onalarning o‘zaro og‘zaki kelishuviga rioya qilmaslik.",
+      "Chet elda dam olish uchun ketib qolish."
+    ],
+    "a": 0,
+    "why": "122-modda bo‘yicha savolda ko‘rsatilgan shart — sud qarori asosida to‘lanishi lozim bo‘lgan alimentni uch oydan ortiq muddat to‘lashdan bo‘yin tovlash."
+  },
+  {
+    "topic": "Jinoyat huquqi: 5-bosqich",
+    "q": "Farzandlikka olish sirini oshkor qilish (124-modda) jinoyatining mohiyati nimada?",
+    "o": [
+      "Farzandlikka olish sirlarini homiylik organlari xodimlari yoki boshqa shaxslar tomonidan ota-onaning xohishiga qarshi ravishda g‘arazli yoki boshqa past niyatlarda oshkor qilish.",
+      "Har qanday maktab o‘quvchisi tomonidan.",
+      "Faqat sudya tomonidan ochiq sud majlisida e’lon qilinishi.",
+      "Davlat statistika idoralari hisobotlarida ko‘rsatilishi."
+    ],
+    "a": 0,
+    "why": "124-modda farzandlikka olish sirini qonunda nazarda tutilgan holatlarda oshkor qilish uchun javobgarlikni belgilaydi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 5-bosqich",
+    "q": "Bemorlarni davolashdan bosh tortish yoki o‘z vazifasini lozim darajada bajarmaslik natijasida og‘ir oqibatlarga olib kelish Jinoyat kodeksining nechanchi moddasida ko‘rsatilgan?",
+    "o": [
+      "116-modda",
+      "125-modda",
+      "130-modda",
+      "140-modda"
+    ],
+    "a": 0,
+    "why": "Javoblar kalitiga ko‘ra, bu qilmish kasb yuzasidan o‘z vazifalarini lozim darajada bajarmaslikka oid 116-modda bilan bog‘langan."
+  },
+  {
+    "topic": "Jinoyat huquqi: 5-bosqich",
+    "q": "Giyohvandlik vositalari yoki psixotrop moddalarni qonunga xilof ravishda muomalaga kiritish bilan bog‘liq jinoyatlar qaysi moddadan boshlanadi?",
+    "o": [
+      "270-moddadan boshlanadi.",
+      "150-moddadan boshlanadi.",
+      "91-moddadan boshlanadi.",
+      "300-moddadan boshlanadi."
+    ],
+    "a": 0,
+    "why": "Berilgan javoblar kalitida giyohvandlik vositalari bilan bog‘liq jinoyatlar 270-moddadan boshlanishi ko‘rsatilgan."
+  },
+  {
+    "topic": "Jinoyat huquqi: 5-bosqich",
+    "q": "Tuhmat (139-modda) matbuot yoki ommaviy axborot vositalari orqali sodir etilganda qanday jazo turlari qo‘llanilishi mumkin?",
+    "o": [
+      "BHMning yuz baravaridan uch yuz baravarigacha jarima yoki uch yilgacha axloq tuzatish ishlari yoxud ozodlikni cheklash.",
+      "Faqat ogohlantirish.",
+      "Umrbod ozodlikdan mahrum qilish.",
+      "Huquqlarni cheklamasdan ozod qilish."
+    ],
+    "a": 0,
+    "why": "Javoblar kalitida 139-moddaning og‘irlashtiruvchi holatlari uchun ushbu jazo turlari keltirilgan."
+  },
+  {
+    "topic": "Jinoyat huquqi: 5-bosqich",
+    "q": "Haqorat qilish (140-modda) jinoyatining tuhmatdan farq qiluvchi asosiy huquqiy belgisi nima?",
+    "o": [
+      "Haqorat qilishda yolg‘on ma’lumotlar tarqatilishi shart emas, balki shaxsning sha’ni va qadr-qimmatini qasddan tahqirlash amalga oshiriladi.",
+      "Haqorat qilish faqat yuridik shaxslarga nisbatan qo‘llaniladi.",
+      "Haqorat qilish jinoyat hisoblanmaydi, u ma’muriy huquqbuzarlikdir.",
+      "Haqorat qilish faqat chet tillarida sodir etiladi."
+    ],
+    "a": 0,
+    "why": "Haqorat qilish shaxsning sha’ni va qadr-qimmatini qasddan tahqirlash bilan bog‘liq; tuhmat esa yolg‘on ma’lumot tarqatishni anglatadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 5-bosqich",
+    "q": "Uy-joy daxlsizligini buzish bilan bog‘liq holatlarda qaysi harakatlar qonuniy istisno sifatida baholanishi mumkin?",
+    "o": [
+      "Jinoyatchilarni ta’qib qilish, favqulodda vaziyatlar yoki tabiiy ofatlar vaqtida yoxud vakolatli organ xodimlarining qonuniy xizmat vazifalarini bajarishi bilan bog‘liq holatlar.",
+      "Har qanday shaxsning xohlagan vaqtda birovning uyiga kirishi.",
+      "Do‘stlarning og‘zaki ruxsati bilan tungi vaqtda kirish.",
+      "Mehmonxonaga to‘lov qilmasdan joylashish."
+    ],
+    "a": 0,
+    "why": "Uy-joyga kirish faqat qonunda nazarda tutilgan asoslar va tartibga rioya qilingan hollarda qonuniy bo‘lishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 5-bosqich",
+    "q": "Maktublar, telefon orqali so‘zlashuvlar, telegraf xabarlari yoki boshqa xabarlar sirini buzish qaysi konstitutsiyaviy huquqqa qarshi qaratilgan?",
+    "o": [
+      "Yozishmalar, telefon orqali so‘zlashuvlar, telegraf va boshqa xabarlar sirini saqlash huquqiga qarshi.",
+      "Saylov huquqiga qarshi.",
+      "Mulk huquqiga qarshi.",
+      "Mehnat qilish huquqiga qarshi."
+    ],
+    "a": 0,
+    "why": "Mazkur qilmish yozishmalar va boshqa xabarlar sirini saqlash huquqiga tajovuz qiladi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 5-bosqich",
+    "q": "Fuqarolarning murojaat qilish huquqini buzish jinoyati bo‘yicha mansabdor shaxsga qanday choralar qo‘llanishi mumkin?",
+    "o": [
+      "BHMning muayyan miqdorida jarima yoki muayyan huquqdan mahrum qilish yoxud axloq tuzatish ishlari.",
+      "Faqat hayfsan e’lon qilish.",
+      "Ish haqini ikki baravar oshirish.",
+      "Chet elga safarga yuborish."
+    ],
+    "a": 0,
+    "why": "Javoblar kalitida murojaat qilish huquqini buzganlik uchun jarima, huquqdan mahrum qilish yoki axloq tuzatish ishlari ko‘rsatilgan."
+  },
+  {
+    "topic": "Jinoyat huquqi: 5-bosqich",
+    "q": "Jamoat birlashmalari yoki diniy tashkilotlar faoliyatiga to‘sqinlik qilish jinoyati qanday sodir etiladi?",
+    "o": [
+      "Qonuniy faoliyat yuritayotgan jamoat birlashmalari yoki diniy tashkilotlarning ishiga zo‘rlik ishlatib yoki qonunga xilof boshqa usullar bilan to‘sqinlik qilish.",
+      "Diniy adabiyotlarni o‘qishni tavsiya qilish.",
+      "Jamoat tashkilotini o‘z ixtiyori bilan yopish.",
+      "Yangi tashkilot ochish uchun ariza topshirish."
+    ],
+    "a": 0,
+    "why": "145-modda qonuniy faoliyat yuritayotgan jamoat birlashmalari yoki diniy tashkilotlar ishiga noqonuniy to‘sqinlik qilishga taalluqli."
+  },
+  {
+    "topic": "Jinoyat huquqi: 5-bosqich",
+    "q": "O‘zbekiston Respublikasining konstitutsiyaviy tuzumiga qarshi jinoyatlar qaysi moddadan boshlanadi?",
+    "o": [
+      "150-moddadan boshlanadi.",
+      "91-moddadan boshlanadi.",
+      "200-moddadan boshlanadi.",
+      "250-moddadan boshlanadi."
+    ],
+    "a": 0,
+    "why": "Javoblar kalitiga ko‘ra, konstitutsiyaviy tuzumga qarshi jinoyatlar 150-moddadan boshlanadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 5-bosqich",
+    "q": "Konstitutsiyaviy tuzumni to‘ntarish yoki hokimiyatni qo‘lga olish maqsadidagi harakatlar (159-modda) qanday baholanadi?",
+    "o": [
+      "O‘ta og‘ir jinoyatlar turkumiga kiradi va uzoq muddatli ozodlikdan mahrum qilish jazolari bilan jazolanadi.",
+      "Uncha og‘ir bo‘lmagan jinoyat hisoblanadi.",
+      "Faqat jarima bilan tugallanadi.",
+      "Ma’muriy huquqbuzarlik deb topiladi."
+    ],
+    "a": 0,
+    "why": "Javoblar kalitida 159-modda bo‘yicha qilmish o‘ta og‘ir jinoyat sifatida ko‘rsatilgan."
+  },
+  {
+    "topic": "Jinoyat huquqi: 5-bosqich",
+    "q": "Davlat xiyonati (157-modda) jinoyatining asosiy subyekti kim bo‘lishi mumkin?",
+    "o": [
+      "Faqat O‘zbekiston Respublikasining fuqarosi bo‘lgan shaxs.",
+      "Har qanday chet el fuqarosi.",
+      "Xalqaro tashkilot vakili.",
+      "Faqat davlat rahbari."
+    ],
+    "a": 0,
+    "why": "Davlat xiyonati O‘zbekiston Respublikasi fuqarosi tomonidan davlat manfaatlariga qarshi sodir etiladigan qilmish sifatida ta’riflanadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 5-bosqich",
+    "q": "Josuslik (160-modda) kimlar tomonidan sodir etiladi va uning mazmuni nima?",
+    "o": [
+      "Chet el fuqarosi yoki fuqaroligi bo‘lmagan shaxs tomonidan davlat sirlarini tashkil etuvchi ma’lumotlarni to‘plash, o‘g‘irlash yoki chet davlatga topshirish.",
+      "O‘zbekiston fuqarosining o‘z mamlakati qonunlarini buzishi.",
+      "Korxonada oddiy buxgalteriya hisobotlarini o‘rganish.",
+      "Turistik safarlar uyushtirish."
+    ],
+    "a": 0,
+    "why": "160-modda bo‘yicha josuslik davlat sirlarini tashkil etuvchi ma’lumotlarni chet davlatga yetkazish yoki shu maqsadda to‘plash bilan bog‘liq."
+  },
+  {
+    "topic": "Jinoyat huquqi: 5-bosqich",
+    "q": "Terrorizm (155-modda) jinoyatining ta’rifi va asosiy maqsadi nimadan iborat?",
+    "o": [
+      "Jamoat xavfsizligiga tahdid solish, aholini qo‘rqitish yoki davlat organlari qarorlariga ta’sir ko‘rsatish maqsadida portlatish, qo‘rqitish yoki boshqa harakatlarni sodir etish.",
+      "Oddiy tijorat raqobatida ustunlikka erishish.",
+      "Sport musobaqalarida g‘alaba qozonish.",
+      "Shaharlararo transport harakatini yaxshilash."
+    ],
+    "a": 0,
+    "why": "Terrorizm jamoat xavfsizligiga tahdid solish, aholini qo‘rqitish yoki davlat organlari qarorlariga ta’sir ko‘rsatish maqsadidagi qilmishlarni qamrab oladi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 5-bosqich",
+    "q": "Shaxsning siyosiy huquqlariga qarshi jinoyatlarga qaysi biri kiradi?",
+    "o": [
+      "Saylov huquqini yoki referendum o‘tkazish huquqini amalga oshirishga to‘sqinlik qilish.",
+      "O‘g‘rilik qilish.",
+      "Soliq to‘lashdan bo‘yin tovlash.",
+      "Transport vositasini olib qochish."
+    ],
+    "a": 0,
+    "why": "Saylov yoki referendum huquqini amalga oshirishga to‘sqinlik qilish siyosiy huquqlarga qarshi qaratilgan."
+  },
+  {
+    "topic": "Jinoyat huquqi: 5-bosqich",
+    "q": "Mehnat huquqlarini buzish (148-modda) qanday holatlarda yuzaga keladi?",
+    "o": [
+      "Fuqaroning mehnat qilish huquqini g‘arazli niyatlarda yoki shaxsiy manfaatlar yo‘lida noqonuniy ravishda ishdan bo‘shatish yoki ishga qabul qilmaslik orqali buzish.",
+      "Xodimga o‘z vaqtida mukofot pulini berish.",
+      "Dam olish kunlarini belgilash.",
+      "Ish vaqtini qisqartirish."
+    ],
+    "a": 0,
+    "why": "Savoldagi javob mehnat huquqlarini noqonuniy ravishda buzish holatini ifodalaydi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 5-bosqich",
+    "q": "Homilador ayollarni yoki uch yoshga to‘lmagan bolasi bor ayollarni ishga qabul qilishdan bosh tortish yoki ishdan bo‘shatish (148¹-modda) qanday qilmish?",
+    "o": [
+      "Ayolning homiladorligi yoki bolasi borligi sababli uning qonuniy mehnat huquqlarini buzib, asossiz ravishda ishga olmaslik yoki bo‘shatish.",
+      "Ayolning o‘z xohishi bilan ishdan ketishi.",
+      "Malaka yetishmaganligi sababli boshqa lavozimga o‘tkazish.",
+      "O‘quv ta’tilini berish."
+    ],
+    "a": 0,
+    "why": "Savolda homiladorlik yoki yosh bolasi borligi sababli ayolning mehnat huquqlarini asossiz cheklash nazarda tutilgan."
+  },
+  {
+    "topic": "Jinoyat huquqi: 5-bosqich",
+    "q": "Mualliflik yoki ixtirochilik huquqlarini buzish (149-modda) jinoyatining asosiy obyekti nima?",
+    "o": [
+      "Ilmiy, adabiy, badiiy asarlar, ixtirolar va boshqa intellektual mulk obyektlariga bo‘lgan huquqlarni noqonuniy o‘zlashtirish yoki ruxsatsiz foydalanish natijasida yetkazilgan zarar.",
+      "Oddiy shaxsiy buyumlar va kiyim-kechaklar.",
+      "Ko‘chmas mulk va yer uchastkalari.",
+      "Bank depozitlari."
+    ],
+    "a": 0,
+    "why": "149-modda mualliflik yoki ixtirochilik huquqlariga tajovuz qilish bilan bog‘liq."
+  },
+  {
+    "topic": "Jinoyat huquqi: 5-bosqich",
+    "q": "O‘zbekiston Respublikasi fuqaroligiga oid jinoyatlar yoki chet el fuqarolari va fuqaroligi bo‘lmagan shaxslarning huquqlarini buzish qaysi bobda ko‘rsatilgan?",
+    "o": [
+      "Shaxsning konstitutsiyaviy huquq va erkinliklariga qarshi jinoyatlar bobida.",
+      "Harbiy xizmatni o‘tash tartibiga qarshi jinoyatlar bobida.",
+      "Ekologik jinoyatlar bobida.",
+      "Transport harakati xavfsizligi jinoyatlarida."
+    ],
+    "a": 0,
+    "why": "Javoblar kalitida ushbu masalalar shaxsning konstitutsiyaviy huquq va erkinliklariga qarshi jinoyatlar bobiga kiritilgan."
+  },
+  {
+    "topic": "Jinoyat huquqi: 5-bosqich",
+    "q": "Jinoiy uyushma tashkil qilish yoki uning faoliyatida ishtirok etish qaysi turdagi jinoyatlarga taalluqli?",
+    "o": [
+      "Jamoat xavfsizligiga qarshi jinoyatlar.",
+      "Shaxsning sha’niga qarshi jinoyatlar.",
+      "Mulkiy jinoyatlar.",
+      "Oilaviy jinoyatlar."
+    ],
+    "a": 0,
+    "why": "Jinoiy uyushmalarni tashkil qilish va ularning faoliyatida qatnashish jamoat xavfsizligiga qarshi qilmishlar bilan bog‘liq."
+  },
+  {
+    "topic": "Jinoyat huquqi: 5-bosqich",
+    "q": "Diniy ekstremizm, separatizm va fundamentalizm g‘oyalarini tarqatish yoki targ‘ib qilish qanday xavf tug‘diradi?",
+    "o": [
+      "Jamiyat va davlat xavfsizligiga, millatlararo totuvlikka jiddiy tahdid soladi.",
+      "Iqtisodiy barqarorlikni oshiradi.",
+      "Ilmiy tadqiqotlarni rivojlantiradi.",
+      "Hech qanday ijtimoiy xavf tug‘dirmaydi."
+    ],
+    "a": 0,
+    "why": "Bunday g‘oyalarni qonunga xilof ravishda tarqatish jamiyat va davlat xavfsizligiga tahdid solishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 5-bosqich",
+    "q": "Ommaviy tartibsizliklar jinoyatining asosiy xususiyati nimadan iborat?",
+    "o": [
+      "Zo‘rlik ishlatish, vayronagarchiliklar qilish, o‘t qo‘yish yoki qurol ishlatish bilan bog‘liq ommaviy tartibsizliklarni tashkil etish yoki ularda qatnashish.",
+      "Tinch namoyishlar o‘tkazish.",
+      "Universitetda ilmiy anjuman tashkil etish.",
+      "Jamoat transportida chipta olmasdan yurish."
+    ],
+    "a": 0,
+    "why": "Ommaviy tartibsizliklar zo‘rlik, vayronagarchilik yoki boshqa xavfli harakatlar bilan tavsiflanadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 5-bosqich",
+    "q": "Tarixiy va madaniy yodgorliklarni nobud qilish yoki shikastlash qanday qilmishlarni o‘z ichiga oladi?",
+    "o": [
+      "Tarix, madaniyat, tabiat yoki arxeologiya yodgorliklarini qasddan buzish, shikastlash yoki yo‘q qilish.",
+      "Eskirgan binolarni qonuniy ravishda kapital ta’mirlash.",
+      "Yangi parklar va bog‘lar barpo etish.",
+      "Ko‘chalarni tozalash jarayoni."
+    ],
+    "a": 0,
+    "why": "Yodgorliklarni qasddan buzish, shikastlash yoki yo‘q qilish ularning saqlanishiga tajovuz qiladi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 5-bosqich",
+    "q": "Qurol, o‘q-dori yoki portlovchi moddalarni qonunga xilof ravishda saqlash yoki yasash (248-modda) qaysi xavfsizlikka tajovuz qiladi?",
+    "o": [
+      "Jamoat xavfsizligi va tartibiga.",
+      "Shaxsning mehnat huquqlariga.",
+      "Moliyaviy tizimga.",
+      "Atrof-muhitga."
+    ],
+    "a": 0,
+    "why": "Qurol, o‘q-dori va portlovchi moddalar bilan bog‘liq noqonuniy muomala jamoat xavfsizligiga xavf tug‘dirishi mumkin."
+  },
+  {
+    "topic": "Jinoyat huquqi: 5-bosqich",
+    "q": "Giyohvandlik vositalarini sotish maqsadini ko‘zlamasdan qonunga xilof ravishda tayyorlash yoki saqlash (276-modda) uchun qanday javobgarlik belgilanishi mumkin?",
+    "o": [
+      "Ozodlikni cheklash yoki ozodlikdan mahrum qilish yoxud axloq tuzatish ishlari.",
+      "Mukofotlash va maqtov yorlig‘i berish.",
+      "Faqat ota-onalarga jarima solish.",
+      "Hech qanday javobgarlik yo‘q."
+    ],
+    "a": 0,
+    "why": "Javoblar kalitida 276-modda bo‘yicha ozodlikni cheklash, ozodlikdan mahrum qilish yoki axloq tuzatish ishlari keltirilgan."
+  },
+  {
+    "topic": "Jinoyat huquqi: 5-bosqich",
+    "q": "Atmosferani ifloslantirish (196-modda) qanday oqibatlarda yuzaga keladi?",
+    "o": [
+      "Sanoat chiqindilari yoki boshqa moddalarni tozalash moslamalarisiz atmosferaga chiqarish natijasida insonlar salomatligiga yoki tabiatga zarar yetganda.",
+      "Hovlida gulxan yoqilganda.",
+      "Tabiiy shamol esganda.",
+      "Velosipeddan foydalanilganda."
+    ],
+    "a": 0,
+    "why": "Atmosferani ifloslantirish bilan bog‘liq javobgarlik savolda ko‘rsatilganidek, zararli moddalar chiqarilishi va tegishli oqibatlar bilan bog‘liq."
+  },
+  {
+    "topic": "Jinoyat huquqi: 5-bosqich",
+    "q": "Transport harakati va ekspluatatsiyasi xavfsizligi qoidalarini buzish (266-modda) oqibatida odam o‘lsa, qanday jazo belgilanadi?",
+    "o": [
+      "Muayyan muddatga ozodlikdan mahrum qilish jazosi tayinlanadi.",
+      "Ogohlantirish beriladi.",
+      "Faqat jarima undiriladi.",
+      "Haydovchilik guvohnomasi bir kunga olib qo‘yiladi."
+    ],
+    "a": 0,
+    "why": "Javoblar kalitida odam o‘limiga olib kelgan transport xavfsizligi qoidalarini buzish uchun ozodlikdan mahrum qilish ko‘rsatilgan."
+  },
+  {
+    "topic": "Jinoyat huquqi: 5-bosqich",
+    "q": "Jinoyat kodeksining umumiy va maxsus qism normalarining uyg‘unligi nimani ta’minlaydi?",
+    "o": [
+      "Jamiyatda qonun ustuvorligini, inson huquq va erkinliklarining ishonchli himoya qilinishini hamda adolat tantanasini.",
+      "Faqat sud xodimlarining ish hajmini oshirishni.",
+      "Davlat organlarining yopiq tizimini shakllantirishni.",
+      "Huquqbuzarliklar sonining ko‘payishini."
+    ],
+    "a": 0,
+    "why": "Jinoyat qonunchiligining umumiy va maxsus qismi birgalikda qonuniylikni hamda inson huquqlarini himoya qilishni ta’minlashga xizmat qiladi."
+  }
+]
+
