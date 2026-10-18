@@ -1,9 +1,14 @@
 // ==========================================
-// HUQUQUSTOZ AKADEMIYASI - ASOSIY MANTIQ (app.js)
+// HUQUQUSTOZ AKADEMIYASI - TO'LIQ MANTIQ (app.js)
 // ==========================================
 
 const tg = window.Telegram.WebApp;
 tg.expand();
+
+let allTests = [];          // Barcha yuklangan testlar
+let currentTopicTests = []; // Tanlangan mavzudagi testlar
+let currentTestIndex = 0;   // Hozirgi savol indeksi
+let userScore = 0;          // To'g'ri javoblar soni
 
 document.addEventListener('DOMContentLoaded', () => {
   // 1. Telegram ismini chiqarish
@@ -16,18 +21,27 @@ document.addEventListener('DOMContentLoaded', () => {
     if (certNameEl) certNameEl.textContent = fullName;
   }
 
-  // 2. Qonunlarni laws.json dan olish
+  // 2. Qonunlar va Testlarni yuklash
   fetchLaws();
+  loadTestsData();
 
-  // 3. Testlarni namuna.json dan olish
-  fetchTests();
-
-  // 4. Menyular va Streak
+  // 3. Menyular va Streak
   setupTabs();
   updateStreak();
+
+  // 4. Test interfeysi tugmalari
+  const btnBackTopics = document.getElementById('btn-back-topics');
+  if (btnBackTopics) {
+    btnBackTopics.addEventListener('click', showTopicsView);
+  }
+
+  const btnNext = document.getElementById('btn-next-question');
+  if (btnNext) {
+    btnNext.addEventListener('click', nextQuestion);
+  }
 });
 
-// laws.json ni o'qish funksiyasi
+// --- QONUNLARNI YUKLASH ---
 async function fetchLaws() {
   const container = document.getElementById('laws-list');
   if (!container) return;
@@ -63,117 +77,187 @@ async function fetchLaws() {
     });
   } catch (error) {
     console.error(error);
-    container.innerHTML = '<div style="padding: 10px; color: var(--text-sub);">Qonunlarni yuklab bo\'lmadi. laws.json faylini tekshiring.</div>';
+    container.innerHTML = '<div style="padding: 10px; color: var(--text-sub);">Qonunlarni yuklab bo\'lmadi.</div>';
   }
 }
 
-// ==========================================
-// TESTLAR TIZIMI MANTIQI
-// ==========================================
-
-let currentTests = [];
-let currentTestIndex = 0;
-let userScore = 0;
-
-async function fetchTests() {
-  const container = document.getElementById('tests-container');
-  if (!container) return;
-
+// --- TESTLARNI YUKLASH VA MAVZULARGA BO'LISH ---
+async function loadTestsData() {
   try {
     const response = await fetch('./namuna.json');
     if (!response.ok) throw new Error('Testlarni yuklab bo\'lmadi');
     
-    currentTests = await response.json();
-    renderQuestion();
+    allTests = await response.json();
+    renderTopicsList();
   } catch (error) {
     console.error(error);
-    container.innerHTML = '<div style="padding: 20px; text-align: center; color: var(--text-sub);">Testlar tez orada yuklanadi.</div>';
+    const topicsList = document.getElementById('topics-list');
+    if (topicsList) {
+      topicsList.innerHTML = '<div style="color: var(--text-sub); padding: 10px;">Testlar tez orada qo\'shiladi.</div>';
+    }
   }
 }
 
-function renderQuestion() {
-  const container = document.getElementById('tests-container');
-  if (!container) return;
+// Mavzular mundarijasini chizish
+function renderTopicsList() {
+  const topicsListContainer = document.getElementById('topics-list');
+  if (!topicsListContainer) return;
 
-  if (currentTests.length === 0 || currentTestIndex >= currentTests.length) {
-    container.innerHTML = `
-      <div style="text-align: center; padding: 30px; background: rgba(255,255,255,0.05); border-radius: 16px; border: 1px solid rgba(255,255,255,0.1);">
-        <h3 style="margin-bottom: 10px;">🎉 Tabriklaymiz!</h3>
-        <p style="color: var(--text-sub); margin-bottom: 15px;">Siz barcha testlarni muvaffaqiyatli yakunladingiz.</p>
-        <p style="font-size: 18px; margin-bottom: 20px;">To'plagan ballingiz: <strong>${userScore} / ${currentTests.length}</strong></p>
-        <button onclick="restartTests()" class="glass-card" style="padding: 12px 24px; background: var(--accent); color: white; border: none; border-radius: 10px; cursor: pointer; font-weight: 600;">Qaytadan boshlash 🔄</button>
+  // Mavzularni guruhlash
+  const topicsMap = {};
+  allTests.forEach(test => {
+    const topic = test.topic || "Umumiy huquqiy testlar";
+    if (!topicsMap[topic]) {
+      topicsMap[topic] = [];
+    }
+    topicsMap[topic].push(test);
+  });
+
+  topicsListContainer.innerHTML = '';
+
+  Object.keys(topicsMap).forEach(topicName => {
+    const testsInTopic = topicsMap[topicName];
+    const card = document.createElement('div');
+    card.className = 'glass-card';
+    card.style.cssText = 'padding: 16px; margin-bottom: 12px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; border-radius: 12px;';
+    
+    card.innerHTML = `
+      <div>
+        <strong style="font-size: 16px; color: var(--text-main);">${topicName}</strong>
+        <div style="font-size: 13px; color: var(--text-sub); margin-top: 4px;">Savollar soni: ${testsInTopic.length} ta</div>
       </div>
+      <span style="font-size: 18px; color: var(--accent);">▶</span>
     `;
+
+    card.addEventListener('click', () => {
+      startQuizForTopic(testsInTopic);
+    });
+
+    topicsListContainer.appendChild(card);
+  });
+}
+
+// Tanlangan mavzu testlarini boshlash
+function startQuizForTopic(tests) {
+  currentTopicTests = tests;
+  currentTestIndex = 0;
+  
+  // HTML ko'rinishlarini almashtirish
+  document.getElementById('topic-select-view').classList.add('hidden');
+  document.getElementById('quiz-view').classList.remove('hidden');
+  
+  renderQuestion();
+}
+
+// Mavzular ro'yxatiga qaytish
+function showTopicsView() {
+  document.getElementById('quiz-view').classList.add('hidden');
+  document.getElementById('topic-select-view').classList.remove('hidden');
+}
+
+// Savolni ekranga chiqarish
+function renderQuestion() {
+  if (currentTestIndex >= currentTopicTests.length) {
+    showQuizFinished();
     return;
   }
 
-  const q = currentTests[currentTestIndex];
-  let optionsHTML = '';
-  const optionsList = q.options || q.variants || [];
+  const q = currentTopicTests[currentTestIndex];
   
+  // Progress va raqam
+  document.getElementById('quiz-progress').textContent = `${currentTestIndex + 1} / ${currentTopicTests.length}`;
+  const percent = ((currentTestIndex + 1) / currentTopicTests.length) * 100;
+  document.getElementById('quiz-progress-bar').style.width = `${percent}%`;
+
+  // Savol matni
+  document.getElementById('question-text').textContent = q.question;
+
+  // Variantlar
+  const optionsContainer = document.getElementById('options-container');
+  optionsContainer.innerHTML = '';
+  
+  const optionsList = q.options || q.variants || [];
   optionsList.forEach((opt, idx) => {
-    optionsHTML += `
-      <button onclick="checkAnswer(${idx}, ${q.correct !== undefined ? q.correct : q.answer})" class="glass-card option-btn" style="width: 100%; text-align: left; padding: 14px 16px; margin-bottom: 10px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); background: rgba(255,255,255,0.05); color: var(--text-main); cursor: pointer; font-size: 15px; transition: 0.2s;">
-        ${opt}
-      </button>
-    `;
+    const btn = document.createElement('button');
+    btn.className = 'glass-card option-btn';
+    btn.style.cssText = 'width: 100%; text-align: left; padding: 14px; margin-bottom: 8px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.1); background: rgba(255,255,255,0.05); color: var(--text-main); cursor: pointer;';
+    btn.textContent = opt;
+    btn.addEventListener('click', () => selectAnswer(idx, q.correct !== undefined ? q.correct : q.answer, q));
+    optionsContainer.appendChild(btn);
   });
 
-  container.innerHTML = `
-    <div style="margin-bottom: 10px; font-size: 13px; color: var(--text-sub); display: flex; justify-content: space-between;">
-      <span>Mavzu: ${q.topic || 'Huquqiy test'}</span>
-      <span>${currentTestIndex + 1} / ${currentTests.length}</span>
-    </div>
-    <div style="font-size: 17px; font-weight: 600; margin-bottom: 16px; line-height: 1.4;">${q.question}</div>
-    <div class="options-list">${optionsHTML}</div>
-    <div id="explanation-box" style="margin-top: 15px; padding: 12px; border-radius: 10px; background: rgba(255,255,255,0.08); font-size: 14px; display: none;"></div>
-  `;
+  // Tahlil panelini yashirish
+  document.getElementById('analysis-panel').classList.add('hidden');
 }
 
-function checkAnswer(selectedIndex, correctIndex) {
-  const options = document.querySelectorAll('.option-btn');
-  options.forEach((btn, idx) => {
-    btn.disabled = true; 
+// Javobni tekshirish
+function selectAnswer(selectedIndex, correctIndex, q) {
+  const buttons = document.querySelectorAll('.option-btn');
+  buttons.forEach((btn, idx) => {
+    btn.style.pointerEvents = 'none'; // Boshqa bosilmasin
     if (idx === correctIndex) {
-      btn.style.background = 'rgba(40, 167, 69, 0.25)';
+      btn.style.background = 'rgba(40, 167, 69, 0.3)';
       btn.style.borderColor = '#28a745';
     } else if (idx === selectedIndex) {
-      btn.style.background = 'rgba(220, 53, 69, 0.25)';
+      btn.style.background = 'rgba(220, 53, 69, 0.3)';
       btn.style.borderColor = '#dc3545';
     }
   });
 
-  const q = currentTests[currentTestIndex];
-  const expBox = document.getElementById('explanation-box');
-  if (expBox && q.explanation) {
-    expBox.style.display = 'block';
-    expBox.innerHTML = `<strong>💡 Izoh:</strong> ${q.explanation}<br><br>
-      <button onclick="nextQuestion()" style="padding: 10px 20px; background: var(--accent); color: white; border: none; border-radius: 8px; cursor: pointer; font-weight: 600;">Keyingi savol ➡️</button>
-    `;
-  } else {
-    setTimeout(nextQuestion, 1200);
-  }
-
   if (selectedIndex === correctIndex) {
     userScore++;
+    updateGlobalStats();
   }
+
+  // Tahlil (Izoh) panelini ko'rsatish
+  const analysisPanel = document.getElementById('analysis-panel');
+  const analysisText = document.getElementById('analysis-text');
+  const lexBtn = document.getElementById('btn-lex-link');
+
+  if (q.explanation || q.analysis) {
+    analysisText.textContent = q.explanation || q.analysis;
+  } else {
+    analysisText.textContent = "To'g'ri javob belgilandi.";
+  }
+
+  if (q.lexLink || q.url) {
+    lexBtn.style.display = 'block';
+    lexBtn.onclick = () => window.open(q.lexLink || q.url, '_blank');
+  } else {
+    lexBtn.style.display = 'none';
+  }
+
+  analysisPanel.classList.remove('hidden');
 }
 
+// Keyingi savolga o'tish
 function nextQuestion() {
   currentTestIndex++;
   renderQuestion();
 }
 
-function restartTests() {
-  currentTestIndex = 0;
-  userScore = 0;
-  renderQuestion();
+// Testlar tugaganda
+function showQuizFinished() {
+  const quizView = document.getElementById('quiz-view');
+  quizView.innerHTML = `
+    <div style="text-align: center; padding: 30px;" class="glass-card">
+      <h3 style="margin-bottom: 10px; font-family: 'Cinzel', serif;">🎉 Mavzu yakunlandi!</h3>
+      <p style="color: var(--text-sub); margin-bottom: 15px;">Siz ushbu mavzodagi barcha testlarni muvaffaqiyatli tugatdingiz.</p>
+      <p style="font-size: 18px; margin-bottom: 20px;">To'plagan ballingiz: <strong>${userScore}</strong></p>
+      <button onclick="location.reload()" class="btn btn-primary btn-lg">Mavzularga qaytish 🔄</button>
+    </div>
+  `;
 }
 
-// ==========================================
-// MENYULAR VA STREAK MANTIQI
-// ==========================================
+// Ballarni yangilash
+function updateGlobalStats() {
+  const statCorrect = document.getElementById('stat-correct');
+  const certCorrect = document.getElementById('cert-correct');
+  if (statCorrect) statCorrect.textContent = userScore;
+  if (certCorrect) certCorrect.textContent = userScore;
+}
 
+// --- MENYULAR VA STREAK ---
 function setupTabs() {
   const navItems = document.querySelectorAll('.nav-item');
   const tabPages = document.querySelectorAll('.tab-page');
