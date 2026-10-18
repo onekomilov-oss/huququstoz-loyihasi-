@@ -1,0 +1,332 @@
+[
+  {
+    "topic": "Fuqarolik huquqi: 3-bosqich",
+    "q": "Kommandit shirkatga oid quyidagi bayonotlardan qaysi biri TO'G'RI?",
+    "o": [
+      "Kommandit shirkatda hissa qo'shuvchilar (kommanditchilar) shirkatning majburiyatlari bo'yicha butun mol-mulklari bilan javob beradilar",
+      "Hissa qo'shuvchilar (kommanditchilar) shirkat faoliyati bilan bog'liq zarar uchun o'zlari qo'shgan hissalar doirasida javobgar bo'ladilar hamda shirkat tomonidan tadbirkorlik faoliyatini amalga oshirishda qatnashmaydilar",
+      "Kommandit shirkatda faqat hissa qo'shuvchilar mavjud bo'ladi",
+      "To'liq sheriklar o'zlarining hissalari doirasida javobgar bo'ladilar"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Fuqarolik huquqi: 3-bosqich",
+    "q": "XATO ko'rsatilgan ma'lumotni aniqlang.",
+    "o": [
+      "Shaxs faqat bitta kommandit shirkatda to'liq sherik bo'lishi mumkin",
+      "To'liq shirkat ishtirokchisi kommandit shirkatda to'liq sherik bo'la olmaydi",
+      "Kommandit shirkatdagi to'liq sherik o'sha shirkatning o'zida hissa qo'shuvchi va boshqa to'liq shirkatda ishtirokchi bo'lishi mumkin emas",
+      "Kommandit shirkatning firma nomiga hissa qo'shuvchining nomi kiritilgan bo'lsa, bunday hissa qo'shuvchi to'liq sherikka aylanadi"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Fuqarolik huquqi: 3-bosqich",
+    "q": "Mas'uliyati cheklangan jamiyatga oid quyidagi bayonotlardan qaysi biri TO'G'RI?",
+    "o": [
+      "MChJ ishtirokchilari jamiyat majburiyatlari bo'yicha javobgar bo'ladilar",
+      "MChJ ishtirokchilari jamiyat faoliyati bilan bog'liq zarar uchun o'zlariga qarashli butun mol-mulklari doirasida javobgar bo'ladilar",
+      "MChJ ishtirokchilari jamiyat majburiyatlari bo'yicha javobgar bo'lmaydilar va jamiyat faoliyati bilan bog'liq zarar uchun o'zlari qo'shgan hissalar qiymati doirasida javobgar bo'ladilar",
+      "MChJ ishtirokchilari javobgarlikni hech qanday shaklda o'z zimmalariga olmaydilar"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Fuqarolik huquqi: 3-bosqich",
+    "q": "Quyidagi bayonotlardan qaysi biri TO'G'RI? 1. MChJning o'z hissasini to'la qo'shmagan ishtirokchilari jamiyat majburiyatlari bo'yicha har bir ishtirokchi hissasining to'lanmagan qismining qiymati doirasida solidar javobgar bo'ladilar. 2. MChJning firma nomi jamiyatning nomini hamda \"mas'uliyati cheklangan\" degan so'zlarni o'z ichiga olishi kerak. 3. AJ aksiyadorlari jamiyat majburiyatlari bo'yicha javob bermaydilar va jamiyat faoliyati bilan bog'liq zarar uchun o'zlariga qarashli aksiyalar qiymati doirasida javobgar bo'ladilar. 4. AJning firma nomida faqat jamiyat nomi ko'rsatilishi kifoya.",
+    "o": [
+      "1, 2 va 3",
+      "2 va 4",
+      "1 va 4",
+      "Faqat 4"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 3-bosqich",
+    "q": "XATO ko'rsatilgan ma'lumotni aniqlang.",
+    "o": [
+      "Ustav fondi muayyan aksiyalar soniga bo'lingan jamiyat aksiyadorlik jamiyati hisoblanadi",
+      "Aksiyalar haqini batamom to'lamagan aksiyadorlar AJ majburiyatlari bo'yicha aksiyalar qiymatining to'lanmagan qismi doirasida solidar javobgar bo'ladilar",
+      "AJning firma nomida jamiyat nomi hamda bu jamiyat aksiyadorlik jamiyati ekanligi ifoda topishi kerak",
+      "AJ aksiyadorlari jamiyat majburiyatlari bo'yicha o'zlariga qarashli butun mol-mulklari bilan javob beradilar"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Fuqarolik huquqi: 3-bosqich",
+    "q": "Shu'ba xo'jalik jamiyatiga oid quyidagi bayonotlardan qaysi biri TO'G'RI?",
+    "o": [
+      "Agar bir asosiy xo'jalik jamiyati yoki shirkati ikkinchi xo'jalik jamiyatining ustav fondida ustunlik mavqeyiga ega bo'lib, uning qarorlarini belgilash imkoniga ega bo'lsa, ikkinchi jamiyat shu'ba xo'jalik jamiyati hisoblanadi",
+      "Shu'ba xo'jalik jamiyati yuridik shaxs hisoblanmaydi",
+      "Shu'ba jamiyat o'z mulkida asosiy jamiyat ustav fondidagi ulushga ega bo'lishga haqlidir",
+      "Shu'ba jamiyat asosiy jamiyatning qarzlari bo'yicha har qanday holatda solidar javob beradi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 3-bosqich",
+    "q": "Quyidagi bayonotlardan qaysi biri TO'G'RI? 1. Shu'ba xo'jalik jamiyati o'zining asosiy jamiyati yoki shirkati qarzlari bo'yicha javob bermaydi. 2. Asosiy jamiyat aybi bilan shu'ba to'lovga qobiliyatsiz bo'lib qolsa, asosiy jamiyat uning qarzlari bo'yicha subsidiar javobgar bo'ladi. 3. Shu'ba jamiyat ishtirokchilari asosiy jamiyatdan uning aybi bilan yetkazilgan zararni to'lashni talab qilishga haqli. 4. Shu'ba jamiyat asosiy jamiyat ishtirokchilarining umumiy yig'ilishida to'liq ovoz berish huquqiga ega.",
+    "o": [
+      "1, 2 va 3",
+      "2 va 4",
+      "1 va 4",
+      "Faqat 4"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 3-bosqich",
+    "q": "Qaram xo'jalik jamiyat deb qaysi jamiyat hisoblanadi?",
+    "o": [
+      "Xo'jalik jamiyatida ishtirok etuvchi boshqa jamiyat ovoz beradigan aksiyalarning yoki ulushning yigirma foizidan ko'prog'iga ega bo'lgan jamiyat",
+      "Xo'jalik jamiyatida ishtirok etuvchi boshqa jamiyat ovoz beradigan aksiyalarning o'n foiziga ega bo'lgan jamiyat",
+      "Xo'jalik jamiyatida ishtirok etuvchi boshqa jamiyat ovoz beradigan aksiyalarning ellik foiziga ega bo'lgan jamiyat",
+      "Ustav fondi muayyan aksiyalar soniga bo'lingan jamiyat"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 3-bosqich",
+    "q": "Ishlab chiqarish kooperativi deganda nima tushuniladi?",
+    "o": [
+      "Fuqarolarning shaxsiy ishtirok etish hamda a'zolarning mulk bilan qo'shiladigan pay badallarini birlashtirish asosida birgalikda ishlab chiqarish yoki boshqa xo'jalik faoliyatini olib borish uchun a'zolik negizidagi ixtiyoriy birlashmasi",
+      "Foyda olishni asosiy maqsad qilib olgan tijoratchi tashkilot",
+      "Mulkdor tomonidan moliyaviy ta'minlanadigan tashkilot",
+      "A'zoligi bo'lmagan nodavlat notijorat tashkiloti"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 3-bosqich",
+    "q": "Quyidagi bayonotlardan qaysi biri NOTO'G'RI? 1. Ishlab chiqarish kooperativi a'zolari kooperativ majburiyatlari bo'yicha qonunda va ustavda nazarda tutilgan miqdor va tartibda subsidiar javobgar bo'ladilar. 2. Kooperativ firma nomida uning nomi hamda \"ishlab chiqarish kooperativi\" degan so'zlar bo'lishi lozim. 3. Qonun va ta'sis hujjatlarida kooperativ faoliyatida a'zolik asosida yuridik shaxslar ham ishtirok etishi nazarda tutilishi mumkin. 4. Ishlab chiqarish kooperativi a'zolari kooperativ majburiyatlari bo'yicha hech qanday javobgarlikni o'z zimmalariga olmaydilar.",
+    "o": [
+      "Faqat 4",
+      "Faqat 1",
+      "Faqat 2",
+      "Faqat 3"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 3-bosqich",
+    "q": "Matlubot kooperativi deganda nima tushuniladi?",
+    "o": [
+      "Ishtirokchilarning moddiy (mulkiy) ehtiyojlarini qondirish maqsadida fuqarolarning a'zolikka asoslangan ixtiyoriy birlashmasi",
+      "Ma'naviy ehtiyojlarni qanoatlantirish uchun birlashgan fuqarolarning ixtiyoriy birlashmasi",
+      "Xayriya maqsadlarini ko'zlaydigan a'zoligi bo'lmagan tashkilot",
+      "Tadbirkorlik faoliyatini muvofiqlashtirish uchun tuzilgan uyushma"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 3-bosqich",
+    "q": "XATO ko'rsatilgan ma'lumotni aniqlang.",
+    "o": [
+      "Matlubot kooperativi a'zolari ko'rilgan zararni yillik balans tasdiqlanganidan keyin uch oy mobaynida qo'shimcha badallar to'lash yo'li bilan qoplashlari shart",
+      "Bu burch bajarilmagan taqdirda kooperativ kreditorlar talablariga muvofiq sud tomonidan tugatilishi mumkin",
+      "Matlubot kooperativi a'zolari uning majburiyatlari bo'yicha har bir a'zo to'laydigan qo'shimcha badalning to'lanmagan qismi doirasida subsidiar javobgar bo'ladilar",
+      "Matlubot kooperativining tijorat faoliyatiga nisbatan tijoratchi bo'lmagan tashkilotlar to'g'risidagi qoidalar qo'llaniladi"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Fuqarolik huquqi: 3-bosqich",
+    "q": "Jamoat birlashmalariga oid quyidagi bayonotlardan qaysi biri TO'G'RI?",
+    "o": [
+      "Jamoat birlashmalari o'z ustavlarida nazarda tutilgan ishlab chiqarish yoki o'zga tadbirkorlik faoliyatini amalga oshirishga haqlidirlar",
+      "Jamoat birlashmalari ishtirokchilari birlashmaga mulk qilib bergan mol-mulkka bo'lgan huquqlarini saqlab qoladilar",
+      "A'zolar birlashma majburiyatlari bo'yicha subsidiar javobgar bo'ladilar",
+      "Birlashma o'z a'zolarining majburiyatlari bo'yicha javob beradi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 3-bosqich",
+    "q": "Quyidagi bayonotlardan qaysi juftliklar TO'G'RI? 1. Jamoat fondi fuqarolar va/yoki yuridik shaxslarning ixtiyoriy mulkiy badallari asosida tashkil etilgan, a'zoligi bo'lmagan nodavlat notijorat tashkilotidir. 2. Fondga muassislar yoki vasiyat qiluvchi tomonidan o'tkazilgan mol-mulk fondning mulkidir. 3. Jamoat fondi har yili o'z faoliyati to'g'risida hisobot e'lon qilib borishi shart. 4. Fond muassisi fond majburiyatlari bo'yicha solidar javob beradi.",
+    "o": [
+      "1, 2 va 3",
+      "2 va 4",
+      "1 va 4",
+      "Faqat 4"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 3-bosqich",
+    "q": "Muassasa deganda nima tushuniladi?",
+    "o": [
+      "Boshqaruv, ijtimoiy-madaniy vazifalarni yoki tijoratchilikdan iborat bo'lmagan boshqa vazifalarni amalga oshirish uchun mulkdor tomonidan tashkil etilgan va to'la yoki qisman moliyaviy ta'minlanadigan tashkilot",
+      "Foyda olishni asosiy maqsad qilib olgan tadbirkorlik subyekti",
+      "Fuqarolarning a'zolikka asoslangan ixtiyoriy birlashmasi",
+      "Tadbirkorlik faoliyatini muvofiqlashtirish uchun tuzilgan ittifoq"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 3-bosqich",
+    "q": "XATO ko'rsatilgan ma'lumotni aniqlang.",
+    "o": [
+      "Muassasa o'z majburiyatlari bo'yicha ixtiyoridagi pul mablag'lari bilan javob beradi",
+      "Pul mablag'lari yetarli bo'lmasa, tegishli mol-mulkning egasi uning majburiyatlari yuzasidan subsidiar javobgar bo'ladi",
+      "Muassasa o'z majburiyatlari bo'yicha o'ziga qarashli butun mol-mulk bilan javob beradi",
+      "Muassasaga biriktirilgan va o'zi sotib olgan mol-mulkka bo'lgan huquqlari qonunda belgilangan tartibda aniqlanadi"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Fuqarolik huquqi: 3-bosqich",
+    "q": "Quyidagi bayonotlardan qaysi biri TO'G'RI? 1. Tijorat tashkilotlari tadbirkorlik faoliyatini muvofiqlashtirish uchun notijorat tashkilotlar hisoblangan uyushmalar va ittifoqlarga birlashishlari mumkin. 2. Uyushma va ittifoqlar yuridik shaxs hisoblanadi. 3. Uyushma va ittifoqlar o'z a'zolarining majburiyatlari bo'yicha javob bermaydi. 4. Uyushma a'zolari o'z mustaqilliklarini va yuridik shaxs huquqlarini yo'qotadilar.",
+    "o": [
+      "1, 2 va 3",
+      "2 va 4",
+      "1 va 4",
+      "Faqat 4"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 3-bosqich",
+    "q": "Uyushma (ittifoq) va o'zga birlashmalarning nomi ularning asosiy faoliyatini ko'rsatishi, unga qaysi so'zlar kiritilgan bo'lishi kerak?",
+    "o": [
+      "\"Korxona\" so'zi",
+      "\"Uyushmasi\", \"ittifoqi\" so'zlari yoki birlashma turini ko'rsatadigan boshqa so'z",
+      "\"Muassasa\" so'zi",
+      "\"Fond\" so'zi"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Fuqarolik huquqi: 3-bosqich",
+    "q": "Fuqarolarning o'zini o'zi boshqarish organlariga oid quyidagi bayonotlardan qaysi biri TO'G'RI?",
+    "o": [
+      "Fuqarolarning o'zini o'zi boshqarish organlari yuridik shaxs sifatida fuqarolik-huquqiy munosabatlarning qatnashchilaridir",
+      "Ular yaratgan mol-mulk davlat mulkidir",
+      "Ular yuridik shaxs hisoblanmaydi",
+      "Ularning huquqiy mavqei faqat mahalliy odatlar bilan belgilanadi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 3-bosqich",
+    "q": "To'g'ri moslashtiring: (a) davlat fuqarolik-huquqiy munosabatlarda; (b) davlat nomidan munosabatlarda; (c) davlat o'z majburiyatlari bo'yicha; (d) davlat tomonidan tuzilgan yuridik shaxs.",
+    "o": [
+      "(a)–1; (b)–2; (c)–3; (d)–4: boshqa ishtirokchilar bilan baravar asoslarda ishtirok etadi; davlat hokimiyati va boshqaruvi organlari ishtirok etadi; o'z mulki bo'lgan mablag'lar bilan javob beradi; davlat majburiyatlari bo'yicha javob bermaydi",
+      "(a)–2; (b)–1; (c)–4; (d)–3",
+      "(a)–3; (b)–4; (c)–1; (d)–2",
+      "(a)–4; (b)–3; (c)–2; (d)–1"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 3-bosqich",
+    "q": "Fuqarolik huquqlarining obyektlariga nimalar kiradi?",
+    "o": [
+      "Faqat ashyolar va pul mablag'lari",
+      "Ashyolar, pul va qimmatli qog'ozlar, boshqa buyumlar, mol-mulk, ishlar va xizmatlar, intellektual faoliyat natijalari, shaxsiy nomulkiy huquqlar va boshqa moddiy hamda nomoddiy boyliklar",
+      "Faqat ko'chmas mulk va yer uchastkalari",
+      "Faqat shartnomalar bo'yicha huquq va burchlar"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Fuqarolik huquqi: 3-bosqich",
+    "q": "XATO ko'rsatilgan ma'lumotni aniqlang.",
+    "o": [
+      "Fuqarolik huquqlari obyektlari erkin ravishda boshqa shaxslarga berilishi yoki universal huquqiy vorislik tartibida o'tishi mumkin",
+      "Muomaladan chiqarilgan obyektlarning turlari qonunda to'g'ridan-to'g'ri ko'rsatilgan bo'lishi kerak",
+      "Muomalada bo'lishi cheklangan obyektlarning turlari qonunda ko'rsatilgan tartibda belgilanadi",
+      "Muomaladan chiqarilgan obyektlar bilan taraflar kelishuvi asosida erkin muomala qilishlari mumkin"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Fuqarolik huquqi: 3-bosqich",
+    "q": "Quyidagi bayonotlardan qaysi biri TO'G'RI? 1. Mol-mulk fuqarolik huquqi obyekti sifatida ko'chmas va ko'char mulkka bo'linadi. 2. Ko'chmas mulkka yer uchastkalari, yer osti boyliklari, binolar, inshootlar, ko'p yillik dov-daraxtlar va yer bilan uzviy bog'langan boshqa mol-mulk kiradi. 3. Ko'chmas mol-mulkka bo'lgan huquqlarni ro'yxatdan o'tkazish hech qachon talab etilmaydi. 4. Ko'chmas mulk jumlasiga kirmaydigan mol-mulk ko'char mulk hisoblanadi.",
+    "o": [
+      "1, 2 va 4",
+      "2 va 3",
+      "1 va 3",
+      "Faqat 3"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 3-bosqich",
+    "q": "Ko'chmas mol-mulkka egalik huquqi va boshqa ashyoviy huquqlarning vujudga kelishi, boshqa shaxslarga o'tishi, cheklanishi va bekor bo'lishi qanday amalga oshiriladi?",
+    "o": [
+      "Notarial tasdiqlanishi kerak",
+      "Davlat ro'yxatidan o'tkazilishi kerak",
+      "Fuqarolar yig'ilishida tasdiqlanishi kerak",
+      "Hech qanday rasmiylashtirish talab etilmaydi"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Fuqarolik huquqi: 3-bosqich",
+    "q": "Quyidagi bayonotlardan qaysi biri NOTO'G'RI? 1. Ko'chmas mol-mulk huquqlarini ro'yxatdan o'tkazuvchi organ ro'yxatdan o'tkazilgan huquqlar haqidagi axborotni har qanday shaxsga berishi shart. 2. Davlat ro'yxatidan o'tkazishni rad etish ustidan sudga shikoyat qilinishi mumkin. 3. Butun korxona mulkiy kompleks sifatida ko'chmas mulk hisoblanadi. 4. Butun korxona hech qanday holatda bitimlar obyekti bo'lishi mumkin emas.",
+    "o": [
+      "Faqat 4",
+      "Faqat 1",
+      "Faqat 2",
+      "Faqat 3"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 3-bosqich",
+    "q": "Ashyolar fuqarolik huquqlari obyektlari sifatida qanday turlarga bo'linadi?",
+    "o": [
+      "Faqat bo'linadigan va bo'linmaydigan ashyolarga",
+      "Xususiy va turga xos alomatlari bilan belgilangan; bo'linadigan va bo'linmaydigan; iste'mol qilinadigan va iste'mol qilinmaydigan; asosiy va mansub; murakkab ashyolarga",
+      "Faqat ko'chmas va ko'char ashyolarga",
+      "Faqat iste'mol qilinadigan va murakkab ashyolarga"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Fuqarolik huquqi: 3-bosqich",
+    "q": "XATO ko'rsatilgan ma'lumotni aniqlang.",
+    "o": [
+      "Xususiy alomatlari bilan belgilangan ashyolar boshqasi bilan almashtirib bo'lmaydigan ashyolardir",
+      "Turga xos alomatlari bilan belgilanadigan ashyolar boshqasi bilan almashtirsa bo'ladigan ashyolardir",
+      "Xususiy alomatlari bilan belgilangan ashyolar jumlasiga noyob, o'zi bir dona bo'lgan ashyolar kiradi",
+      "Turga xos alomatlari bilan belgilanadigan ashyolar soni, og'irligi va o'lchovi bilan belgilanmaydi"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Fuqarolik huquqi: 3-bosqich",
+    "q": "Quyidagi bayonotlardan qaysi juftliklar TO'G'RI? 1. Bo'lish natijasida har qaysi qismi butunning xossasini saqlab qoladigan ashyo bo'linadigan ashyo hisoblanadi. 2. Bo'lish natijasida qismlari dastlabki ashyoning xossalarini yo'qotadigan ashyo bo'linmaydigan ashyo hisoblanadi. 3. Bir karra foydalanish natijasida yo'qolib ketadigan ashyolar iste'mol qilinadigan ashyolar hisoblanadi. 4. Binolar, uskunalar va transport vositalari iste'mol qilinadigan ashyolar hisoblanadi.",
+    "o": [
+      "1, 2 va 3",
+      "2 va 4",
+      "1 va 4",
+      "Faqat 4"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 3-bosqich",
+    "q": "Asosiy va mansub ashyolarga oid quyidagi bayonotlardan qaysi biri TO'G'RI?",
+    "o": [
+      "Foydalanish tufayli vujudga keladigan munosabatlarning mohiyati bilan boshqa ashyoga bog'liq mustaqil ashyo asosiy ashyo hisoblanadi",
+      "Asosiy ashyo mansub ashyoning taqdiriga bog'liq bo'ladi",
+      "Mansub ashyo o'zining xo'jalik ahamiyatini yo'qotganda asosiy ashyoga aylanadi",
+      "Asosiy ashyo hech qachon mustaqil bo'la olmaydi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Fuqarolik huquqi: 3-bosqich",
+    "q": "Quyidagi bayonotlardan qaysi biri TO'G'RI? 1. Asosiy ashyoga xizmat qilishi kerak bo'lgan va u bilan umumiy xo'jalik vazifasi orqali bog'liq ashyo mansub ashyo hisoblanadi. 2. Mansub ashyo, qonun hujjatlari yoki shartnomada boshqacha tartib belgilanmagan bo'lsa, asosiy ashyoning taqdiriga bog'liq bo'ladi. 3. Turli xil ashyolar yaxlit bir butunni tashkil etsa, ular bitta ashyo (murakkab ashyo) hisoblanadi. 4. Murakkab ashyo xususida tuzilgan bitim, shartnomada boshqacha tartib belgilanmagan bo'lsa, faqat uning asosiy tarkibiy qismlariga taalluqli bo'ladi.",
+    "o": [
+      "1, 2 va 3",
+      "2 va 4",
+      "1 va 4",
+      "Faqat 4"
+    ],
+    "a": 0
+  }
+]
