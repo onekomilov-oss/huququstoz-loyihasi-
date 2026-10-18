@@ -1,6 +1,6 @@
 // ==========================================
 // HUQUQUSTOZ AKADEMIYASI - ASOSIY MANTIQ (app.js)
-// To'liq va Yangilangan Versiya (15 ta Bosqich)
+// 2 Bosqichli Menyu va 15 ta Bosqich Versiyasi
 // ==========================================
 
 const tg = window.Telegram.WebApp;
@@ -11,6 +11,7 @@ let currentTopicTests = [];  // Tanlangan mavzudagi testlar
 let currentTestIndex = 0;    // Hozirgi savol indeksi
 let userScore = 0;           // Joriy mavzudagi to'g'ri javoblar soni
 let isAnswered = false;      // Joriy savolga javob berilganini belgilash
+let currentCategory = null;  // Hozir tanlangan asosiy fan (masalan: "Jinoyat huquqi")
 
 document.addEventListener('DOMContentLoaded', () => {
   // 1. Telegram ismini chiqarish
@@ -87,7 +88,6 @@ async function fetchLaws() {
         </span>
       `;
 
-      // Havolani Telegram brauzerida to'g'ri ochish uchun
       link.addEventListener('click', (e) => {
         e.preventDefault();
         if (tg.openLink) {
@@ -110,7 +110,6 @@ async function loadTestsData() {
   try {
     allTests = [];
     
-    // Jinoyat (1-10) va Konstitutsiya (1-5) bosqichlari fayllari ro'yxati
     const fileNames = [
       'tests/jinoyat_1-bosqich.json',
       'tests/jinoyat_2-bosqich.json',
@@ -143,7 +142,6 @@ async function loadTestsData() {
       }
     }
 
-    // Agar hech qaysi fayldan topilmasa, namuna.json dan o'qish (zaxira)
     if (allTests.length === 0) {
       const response = await fetch('./namuna.json');
       if (response.ok) {
@@ -161,38 +159,107 @@ async function loadTestsData() {
   }
 }
 
-// Mavzular mundarijasini chizish
+// --- 2 BOSQICHLI MENYU: KATEGORIYA VA BOSQICHLAR ---
 function renderTopicsList() {
   const topicsListContainer = document.getElementById('topics-list');
   if (!topicsListContainer) return;
 
-  const topicsMap = {};
-  allTests.forEach(test => {
-    const topic = test.topic || "Umumiy huquqiy testlar";
-    if (!topicsMap[topic]) {
-      topicsMap[topic] = [];
-    }
-    topicsMap[topic].push(test);
-  });
-
   topicsListContainer.innerHTML = '';
 
-  Object.keys(topicsMap).forEach(topicName => {
-    const testsInTopic = topicsMap[topicName];
+  // Agar biron fanga kirilgan bo'lsa, o'sha fanning bosqichlarini chiqaramiz
+  if (currentCategory) {
+    renderSubTopicsList(currentCategory);
+    return;
+  }
+
+  // Aks holda, asosiy fanlar ro'yxatini guruhlab chiqaramiz
+  const categoriesMap = {};
+  allTests.forEach(test => {
+    let rawTopic = test.topic || "Umumiy huquqiy testlar";
+    let categoryName = rawTopic.split(':')[0].trim(); // Masalan: "Jinoyat huquqi" yoki "Konstitutsiya"
+    
+    if (!categoriesMap[categoryName]) {
+      categoriesMap[categoryName] = [];
+    }
+    categoriesMap[categoryName].push(test);
+  });
+
+  // Asosiy fanlar kartochkalarini chizish
+  Object.keys(categoriesMap).forEach(catName => {
+    const testsInCat = categoriesMap[catName];
+    
+    const subTopicsSet = new Set();
+    testsInCat.forEach(t => subTopicsSet.add(t.topic));
+
     const card = document.createElement('div');
     card.className = 'glass-card';
-    card.style.cssText = 'padding: 16px; margin-bottom: 12px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; border-radius: 12px;';
-
+    card.style.cssText = 'padding: 18px; margin-bottom: 12px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; border-radius: 14px;';
+    
     card.innerHTML = `
       <div>
-        <strong style="font-size: 16px; color: var(--text-main);">${topicName}</strong>
-        <div style="font-size: 13px; color: var(--text-sub); margin-top: 4px;">Savollar soni: ${testsInTopic.length} ta</div>
+        <strong style="font-size: 17px; color: var(--text-main); display: block;">⚖️ ${catName}</strong>
+        <div style="font-size: 13px; color: var(--text-sub); margin-top: 4px;">Bosqichlar: ${subTopicsSet.size} ta | Jami savollar: ${testsInCat.length} ta</div>
       </div>
       <span style="font-size: 18px; color: var(--accent);">▶</span>
     `;
 
     card.addEventListener('click', () => {
-      startQuizForTopic(testsInTopic);
+      currentCategory = catName;
+      renderTopicsList();
+    });
+
+    topicsListContainer.appendChild(card);
+  });
+}
+
+// Tanlangan fanning ichidagi bosqichlarni chiqarish
+function renderSubTopicsList(catName) {
+  const topicsListContainer = document.getElementById('topics-list');
+  if (!topicsListContainer) return;
+
+  topicsListContainer.innerHTML = '';
+
+  // Orqaga qaytish tugmasi
+  const backCatBtn = document.createElement('button');
+  backCatBtn.className = 'btn btn-secondary';
+  backCatBtn.style.cssText = 'margin-bottom: 14px; width: 100%; text-align: left; padding: 12px 16px; border-radius: 10px; cursor: pointer; background: rgba(255,255,255,0.08); color: var(--text-main); border: 1px solid rgba(255,255,255,0.1);';
+  backCatBtn.textContent = '← Fanlar ro\'yxatiga qaytish';
+  backCatBtn.addEventListener('click', () => {
+    currentCategory = null;
+    renderTopicsList();
+  });
+  topicsListContainer.appendChild(backCatBtn);
+
+  const subTopicsMap = {};
+  allTests.forEach(test => {
+    let rawTopic = test.topic || "Umumiy huquqiy testlar";
+    let categoryName = rawTopic.split(':')[0].trim();
+    
+    if (categoryName === catName) {
+      if (!subTopicsMap[rawTopic]) {
+        subTopicsMap[rawTopic] = [];
+      }
+      subTopicsMap[rawTopic].push(test);
+    }
+  });
+
+  Object.keys(subTopicsMap).forEach(subTopicName => {
+    const testsInSub = subTopicsMap[subTopicName];
+    
+    const card = document.createElement('div');
+    card.className = 'glass-card';
+    card.style.cssText = 'padding: 16px; margin-bottom: 10px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; border-radius: 12px;';
+    
+    card.innerHTML = `
+      <div>
+        <strong style="font-size: 15px; color: var(--text-main); display: block;">📌 ${subTopicName}</strong>
+        <div style="font-size: 13px; color: var(--text-sub); margin-top: 4px;">Savollar soni: ${testsInSub.length} ta</div>
+      </div>
+      <span style="font-size: 18px; color: var(--accent);">▶</span>
+    `;
+
+    card.addEventListener('click', () => {
+      startQuizForTopic(testsInSub);
     });
 
     topicsListContainer.appendChild(card);
@@ -217,10 +284,15 @@ function startQuizForTopic(tests) {
 }
 
 function showTopicsView() {
+  currentTestIndex = 0;
+  userScore = 0;
+  isAnswered = false;
+
   document.getElementById('quiz-view').classList.add('hidden');
   document.getElementById('topic-select-view').classList.remove('hidden');
 
   if (tg.BackButton) tg.BackButton.hide();
+  renderTopicsList();
 }
 
 // Savolni ekranga chiqarish
@@ -388,6 +460,7 @@ function backToMenu() {
 
   if (tg.BackButton) tg.BackButton.hide();
 
+  currentCategory = null; // Asosiy fanlar menyusiga qaytish
   renderTopicsList();
 }
 
