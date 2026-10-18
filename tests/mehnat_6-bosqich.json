@@ -1,1 +1,332 @@
-
+[
+  {
+    "topic": "Mehnat huquqi: 6-bosqich",
+    "q": "XATO ko'rsatilgan ma'lumotni aniqlang:",
+    "o": [
+      "Mehnat shartnomasini bekor qilish to'g'risidagi buyruq chiqqan kundan boshlab xodim ishga chiqishi taqiqlanadi.",
+      "Xodimning aybdor harakatlari tufayli mehnat shartnomasi bekor qilinganda qonunda belgilangan tartibga rioya qilinishi shart.",
+      "Jamoat birlashmalari yoki kasaba uyushmalari xodimlarning mehnat huquqlarini himoya qilishda qatnashishi mumkin.",
+      "Mehnat nizolarini hal etishda xodimning huquqlarini cheklovchi har qanday shartlar yuridik kuchga ega emas."
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 6-bosqich",
+    "q": "To'g'ri ma'lumotni aniqlang:",
+    "o": [
+      "Xodim mehnat vazifalarini bajarmaganda unga nisbatan faqat qonunda nazarda tutilgan intizomiy choralar qo'llanilishi mumkin.",
+      "Ish beruvchi xodimga nisbatan qonunda ko'rsatilmagan istalgan jismoniy yoki moliyaviy jazolarni qo'llashga haqli.",
+      "Intizomiy jazo qo'llashda xodimdan tushuntirish xati talab qilish mutlaqo majburiy emas.",
+      "Intizomiy jazo muddati tugamasdan turib uni olib tashlash tartibi qonunda taqiqlangan."
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 6-bosqich",
+    "q": "Nuqtalar o'rniga mos keladigan so'zni qo'ying: \"Intizomiy jazo qo'llanilganligi haqidagi buyruq xodimga imzo qo'ydirib ... ichida e'lon qilinishi kerak.\"",
+    "o": [
+      "bir kun",
+      "uch kun",
+      "o'n kun",
+      "bir oy"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Mehnat huquqi: 6-bosqich",
+    "q": "To'g'ri moslashtiruvchi javobni aniqlang: a) Ogohlantirish — 1) Intizomiy jazo turlaridan biri. b) Hayfsan — 2) Yana bir intizomiy ta'sir chorasi. c) Mehnat shartnomasini bekor qilish — 3) Eng og'ir intizomiy jazo.",
+    "o": [
+      "(a)–3; (b)–2; (c)–1",
+      "(a)–1; (b)–2; (c)–3",
+      "(a)–2; (b)–1; (c)–3",
+      "(a)–1; (b)–3; (c)–2"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Mehnat huquqi: 6-bosqich",
+    "q": "Qaysi javobda xodimni moddiy javobgarlikka tortish shartlari to'g'ri ko'rsatilgan? 1. Xodimning aybi bo'lishi. 2. Ish beruvchiga haqiqiy zarar yetkazilgan bo'lishi. 3. Zarar va xodimning harakati o'rtasida sababiy bog'liqlik bo'lishi. 4. Faqat ish beruvchining xohishi va og'zaki buyrug'i yetarli bo'lishi.",
+    "o": [
+      "1, 2 va 3",
+      "2, 3 va 4",
+      "1 va 4",
+      "Barchasi to'g'ri"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 6-bosqich",
+    "q": "Quyidagi bayonotlardan qaysi biri XATO?",
+    "o": [
+      "Xodimning aybi bilan yetkazilgan zarar miqdori ish haqi miqdoridan qat'i nazar to'liq undirilishi mumkin (to'liq moddiy javobgarlik hollarida).",
+      "Xodimning o'rtacha oylik ish haqidan ortiq bo'lmagan zarar qismi cheklangan moddiy javobgarlik doirasida undiriladi.",
+      "Xodim o'ziga berilgan ish qurollarini yo'qotib qo'ysa, hech qanday zarar to'lamaydi va ish beruvchi buni kechirishi shart.",
+      "Moddiy javobgarlikni qo'llashda xodimdan yozma tushuntirish talab qilinadi."
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Mehnat huquqi: 6-bosqich",
+    "q": "XATO ko'rsatilgan ma'lumotni aniqlang:",
+    "o": [
+      "Ish vaqti turlariga normal, qisqartirilgan va to'liqsiz ish vaqti kiradi.",
+      "Tungi vaqtda ishlagani uchun xodimga qo'shimcha haq to'lanadi.",
+      "O'n sakkiz yoshga to'lmagan shaxslarni tuni bilan ishlashga jalb qilishga istisno tariqasida yo'l qo'yiladi.",
+      "Dam olish va bayram kunlarida ishlash qonunchilikda belgilangan qoidalarga muvofiq amalga oshiriladi."
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Mehnat huquqi: 6-bosqich",
+    "q": "To'g'ri ma'lumotni aniqlang:",
+    "o": [
+      "Xodimga har yili beriladigan yillik ta'til davrida uning ish joyi va o'rtacha ish haqi saqlanadi.",
+      "Yillik ta'tilni har yili berish shart emas, uni 5 yil davomida yig'ib birato'la ishlatish mumkin.",
+      "Ta'til puli xodim ta'tildan qaytib kelgandan keyin bir oy ichida to'lanadi.",
+      "Xodim ta'til vaqtida ish beruvchining chaqirig'i bilan o'z xohishiga qarshi majburiy ishga qaytishi shart."
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 6-bosqich",
+    "q": "Nuqtalar o'rniga mos keladigan so'zni qo'ying: \"Yillik ta'tillar xodimlarga har yili ish beruvchi bilan tuzilgan ... muvofiq yoki jadval asosida beriladi.\"",
+    "o": [
+      "og'zaki kelishuvga",
+      "ta'tillar jadvaliga",
+      "buyruqqa",
+      "arizaga"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Mehnat huquqi: 6-bosqich",
+    "q": "To'g'ri moslashtiruvchi javobni aniqlang: a) Asosiy ta'til — 1) Har bir xodimga beriladigan. b) Qo'shimcha ta'til — 2) Og'ir sharoitlar uchun belgilanadigan. c) Ijtimoiy ta'til — 3) Homiladorlik va bolali bo'lganda beriladigan.",
+    "o": [
+      "(a)–3; (b)–2; (c)–1",
+      "(a)–1; (b)–2; (c)–3",
+      "(a)–2; (b)–1; (c)–3",
+      "(a)–1; (b)–3; (c)–2"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Mehnat huquqi: 6-bosqich",
+    "q": "Qaysi bayonotlar TO'G'RI? 1. Mehnat ta'tilidan foydalanish huquqi xodimda ishlagan birinchi yili uchun olti oy o'tgach paydo bo'ladi. 2. Ishlangan ikkinchi va keyingi yillar uchun ta'til taqvim yilining istalgan vaqtida berilishi mumkin. 3. Homilador ayollarga ta'til olti oy o'tmasdan turib ham berilishi mumkin. 4. Xodim xohlagan vaqtda ishga kelmasdan ta'tilni o'zi boshlab yuborishga haqli.",
+    "o": [
+      "1, 2 va 3",
+      "2 va 4",
+      "1 va 4",
+      "Barchasi to'g'ri"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 6-bosqich",
+    "q": "XATO ko'rsatilgan ma'lumotni aniqlang:",
+    "o": [
+      "Mehnat haqini to'lash shartlari jamoa shartnomasida yoki mehnat shartnomasida belgilanadi.",
+      "Ish haqi milliy valyutada pul shaklida to'lanishi shart.",
+      "Ish haqidan ushlab qolishlar faqat qonunda nazarda tutilgan hollarda amalga oshiriladi.",
+      "Ish beruvchi xodimning roziligisiz uning butun oylik maoshini jarima sifatida to'liq ushlab qolishga haqli."
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Mehnat huquqi: 6-bosqich",
+    "q": "To'g'ri ma'lumotni aniqlang:",
+    "o": [
+      "Xodimning o'rtacha ish haqi qonunchilikda belgilangan hollarda saqlanib qolinadi.",
+      "O'rtacha ish haqi faqat dam olish kunlarida hisoblanadi.",
+      "Xodim ishlamagan barcha kunlar uchun ish beruvchi unga ikki baravar haq to'lashi shart.",
+      "O'rtacha ish haqini hisoblash tartibi korxona rahbari tomonidan har kuni o'zgartiriladi."
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 6-bosqich",
+    "q": "Nuqtalar o'rniga mos keladigan so'zni qo'ying: \"Xodimga davlat yoki jamoat majburiyatlarini bajarish vaqtida uning asosiy ish joyidagi lavozimi va ... saqlanib qolinadi.\"",
+    "o": [
+      "o'rtacha ish haqi",
+      "mukofot puli",
+      "yillik bonusi",
+      "qo'shimcha nafaqasi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 6-bosqich",
+    "q": "To'g'ri moslashtiruvchi javobni aniqlang: a) Kafolatli to'lovlar — 1) Qonunda belgilangan hollarda to'lanadigan. b) Kompensatsiya to'lovlari — 2) Xarajatlarni qoplash uchun beriladigan. c) Rag'batlantiruvchi to'lovlar — 3) Mukofotlar va ustamalar.",
+    "o": [
+      "(a)–2; (b)–1; (c)–3",
+      "(a)–1; (b)–2; (c)–3",
+      "(a)–3; (b)–2; (c)–1",
+      "(a)–1; (b)–3; (c)–2"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Mehnat huquqi: 6-bosqich",
+    "q": "Qaysi bayonotlar TO'G'RI? 1. Xodim o'z huquqlarini himoya qilish uchun sudga murojaat qilishda davlat boji to'lashdan ozod qilingan (mehnat nizolari bo'yicha). 2. Mehnat nizolari bo'yicha sud qarori ish beruvchi tomonidan bajarilmasa, majburiy ijro etiladi. 3. Xodimni noqonuniy ishdan bo'shatgan taqdirda, sud uni avvalgi ishiga tiklashi shart. 4. Ishdan noqonuniy bo'shatilgan davr uchun xodimga majburiy progul vaqti uchun haq to'lanmaydi.",
+    "o": [
+      "1, 2 va 3",
+      "2 va 4",
+      "1 va 4",
+      "Barchasi to'g'ri"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 6-bosqich",
+    "q": "XATO ko'rsatilgan ma'lumotni aniqlang:",
+    "o": [
+      "Xodimni ishga tiklash haqidagi sud hal qiluv qarori darhol ijro etilishi kerak.",
+      "Noqonuniy bo'shatilgan xodimga majburiy progul vaqti uchun o'rtacha ish haqi to'lanadi.",
+      "Ish beruvchi sud qarorini bajarishni ataylab kechiktirsa, unga nisbatan qonuniy choralar ko'riladi.",
+      "Ishga tiklash haqidagi qaror faqat bir yildan keyin bajarilishi mumkin."
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Mehnat huquqi: 6-bosqich",
+    "q": "To'g'ri ma'lumotni aniqlang:",
+    "o": [
+      "Mehnat shartnomasi bekor qilinganda ish beruvchi xodimga barcha hisob-kitobni o'sha kuni qilishga majbur.",
+      "Hisob-kitobni bir hafta o'tgach qilishga ruxsat etiladi.",
+      "Mehnat daftarchasini berishni kechiktirganlik uchun ish beruvchi javobgar emas.",
+      "Chiqish nafaqasi faqat xodimning xohishiga ko'ra beriladi yoki berilmaydi."
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 6-bosqich",
+    "q": "Nuqtalar o'rniga mos keladigan so'zni qo'ying: \"Mehnat shartnomasi bekor qilinganda xodimga barcha hisob-kitob ... ish kunida amalga oshiriladi.\"",
+    "o": [
+      "birinchi",
+      "oxirgi",
+      "keyingi",
+      "o'ninchi"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Mehnat huquqi: 6-bosqich",
+    "q": "To'g'ri moslashtiruvchi javobni aniqlang: a) Oxirgi ish kuni — 1) Hisob-kitob qilinadigan kun. b) Mehnat daftarchasi — 2) Berilishi shart bo'lgan hujjat. c) Chiqish nafaqasi — 3) Qonunda belgilangan to'lov.",
+    "o": [
+      "(a)–3; (b)–2; (c)–1",
+      "(a)–1; (b)–2; (c)–3",
+      "(a)–2; (b)–1; (c)–3",
+      "(a)–1; (b)–3; (c)–2"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Mehnat huquqi: 6-bosqich",
+    "q": "Qaysi bayonotlar XATO? 1. Jamoa shartnomasi tashkilotdagi barcha xodimlarga nisbatan tatbiq etiladi. 2. Jamoa shartnomasi tuzish majburiy emas, u faqat taraflarning xohishi bilan bo'ladi. 3. Jamoa shartnomasi qonunchilikda belgilangan imtiyozlarni kamaytirishi mumkin. 4. Jamoa kelishuvlari tarmoq yoki hudud miqyosida tuziladi.",
+    "o": [
+      "3",
+      "1 va 2",
+      "2 va 4",
+      "Yolg'on bayonot yo'q"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 6-bosqich",
+    "q": "To'g'ri ma'lumotni aniqlang:",
+    "o": [
+      "O'zbekiston Respublikasining Mehnat kodeksi fuqarolarning mehnat huquqlarini himoya qilishning asosiy manbasi hisoblanadi.",
+      "Kodeks qoidalari faqat rahbarlar uchun amal qiladi, oddiy xodimlarga taalluqli emas.",
+      "Mehnat shartnomasi har doim qonunga zid ravishda tuzilishi mumkin.",
+      "Xodimning huquqlarini buzish ish beruvchi uchun hech qanday huquqiy oqibat keltirib chiqarmaydi."
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 6-bosqich",
+    "q": "Nuqtalar o'rniga mos keladigan so'zni qo'ying: \"Ushbu Kodeks fuqarolarning mehnat qilish huquqini, mehnat erkinligini va boshqa mehnatga oid huquqlarini ... ta'minlashga qaratilgan.\"",
+    "o": [
+      "cheklashga",
+      "kafolatlashga",
+      "taqiqlashga",
+      "bekor qilishga"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Mehnat huquqi: 6-bosqich",
+    "q": "To'g'ri moslashtiruvchi javobni aniqlang: a) Mehnat kodeksi — 1) Asosiy qonun hujjati. b) Jamoa shartnomasi — 2) Lokal darajadagi hujjat. c) Mehnat shartnomasi — 3) Individual shartnoma.",
+    "o": [
+      "(a)–3; (b)–2; (c)–1",
+      "(a)–1; (b)–2; (c)–3",
+      "(a)–2; (b)–1; (c)–3",
+      "(a)–1; (b)–3; (c)–2"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Mehnat huquqi: 6-bosqich",
+    "q": "Qaysi bayonotlar TO'G'RI? 1. Mehnat qonunchiligiga rioya etilishini ta'minlash davlat organlari va tashkilotlar zimmasidadir. 2. Xodimlar o'z huquqlarini himoya qilish uchun kasaba uyushmalariga murojaat qilishlari mumkin. 3. Har bir xodim mehnatni muhofaza qilish qoidalari bilan tanishtirilishi shart. 4. Xodim xavfsizlik qoidalariga rioya qilmasa ham ish beruvchi javobgar bo'lmaydi degan qoida mavjud emas (ikkala taraf ham javobgar bo'lishi mumkin).",
+    "o": [
+      "1, 2, 3 va 4",
+      "2 va 4",
+      "1 va 3",
+      "Barchasi to'g'ri"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 6-bosqich",
+    "q": "XATO ko'rsatilgan ma'lumotni aniqlang:",
+    "o": [
+      "Xodimning o'z tashabbusi bilan ishdan ketishida ikki haftalik ogohlantirish muddati belgilangan.",
+      "Ish beruvchi tashabbusi bilan shartnomani bekor qilishda qonuniy asoslar talab etiladi.",
+      "Sinov muddati davomida xodim o'zini ko'rsata olmasa, ish beruvchi uni bir oy oldin ogohlantirishi shart.",
+      "Taraflarning kelishuviga ko'ra mehnat shartnomasi istalgan vaqtda bekor qilinishi mumkin."
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Mehnat huquqi: 6-bosqich",
+    "q": "To'g'ri ma'lumotni aniqlang:",
+    "o": [
+      "Xodim ishga qabul qilinganda unga darhol ichki mehnat tartibi qoidalari tanishtirilishi kerak.",
+      "Ichki tartib qoidalari xodimlarga oshkor qilinmasa ham ularni jazolash mumkin.",
+      "Xodim ichki tartibni buzsa, rahbarga ogohlantirish bermasdan jarima solish huquqi berilgan.",
+      "Ichki tartib qoidalari faqat yillik ta'til vaqtini belgilaydi."
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 6-bosqich",
+    "q": "Nuqtalar o'rniga mos keladigan so'zni qo'ying: \"Tashkilotda ichki mehnat tartibi xodimlarni ushbu tashkilotning ... qoidalari bilan tartibga solinadi.\"",
+    "o": [
+      "soliq",
+      "ichki tartib",
+      "bank",
+      "tijorat"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Mehnat huquqi: 6-bosqich",
+    "q": "Qaysi bayonotlar XATO? 1. Mehnat daftarchasini yuritish tartibi qonunchilikka muvofiq belgilanadi. 2. Xodimning mehnat daftarchasi uning asosiy ish joyida saqlanadi va yuritiladi. 3. O'rindoshlik asosida ishlaydiganlarga asosiy ish joyida mehnat daftarchasi yuritiladi. 4. Xodim xohlasa o'z mehnat daftarchasini uyiga olib ketib o'zi to'ldirib kelishi mumkin.",
+    "o": [
+      "4",
+      "1 va 2",
+      "2 va 3",
+      "Yolg'on bayonot yo'q"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 6-bosqich",
+    "q": "To'g'ri moslashtiruvchi javobni aniqlang: a) Asosiy ish joyi — 1) Mehnat daftarchasi yuritiladigan joy. b) O'rindoshlik — 2) Asosiy ishdan tashqari ish. c) Mehnat daftarchasi — 3) Mehnat stajini tasdiqlovchi asosiy hujjat.",
+    "o": [
+      "(a)–2; (b)–1; (c)–3",
+      "(a)–3; (b)–2; (c)–1",
+      "(a)–1; (b)–2; (c)–3",
+      "(a)–1; (b)–3; (c)–2"
+    ],
+    "a": 2
+  }
+]
