@@ -1,1 +1,332 @@
-
+[
+  {
+    "topic": "Oila huquqi: 3-bosqich",
+    "q": "61-moddaga muvofiq, otalikni ixtiyoriy ravishda belgilash qanday tartibda amalga oshiriladi?",
+    "o": [
+      "Bolaning otasi va onasi fuqarolik holati dalolatnomalarini qayd etish organiga birgalikda ariza berishlari orqali",
+      "Faqat sud orqali da’vo arizasi kiritish yo‘li bilan",
+      "Bolaning ota-onasi o‘rtasidagi notarial tasdiqlangan shartnoma bilan",
+      "Mahalla fuqarolar yig‘inining tavsiyanomasi va qarori asosida"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 3-bosqich",
+    "q": "62-moddaga ko‘ra, ota-ona nikohda turmagan holda bola tug‘ilganda va ota-onaning birgalikdagi arizasi bo‘lmaganda, otalik qanday belgilanadi?",
+    "o": [
+      "Faqat sud tartibida, otalikni belgilash haqidagi da’vo bilan",
+      "Onaning xohishiga ko‘ra istalgan shaxs otasi deb yozilaveradi",
+      "ZAGS organi tomonidan guvohlar ko‘rsatuvi asosida",
+      "Vasiylik va homiylik organining qarori bilan"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 3-bosqich",
+    "q": "XATO ko‘rsatilgan ma’lumotni aniqlang (63-modda):",
+    "o": [
+      "Sud otalikni belgilashda bolaning onasi bilan bir vaqtda yashaganligini va umumiy xo‘jalik yuritganligini inobatga oladi",
+      "Bola tug‘ilgunga qadar otasi bilan onasi birgalikda yashaganligi va umumiy xo‘jalik yuritganligi otalikni belgilash uchun asos bo‘lishi mumkin",
+      "Otalikni belgilashda bolaning otasi tomonidan bola ta’minotida qatnashganligi ham dalil bo‘ladi",
+      "Faqat otaning og‘zaki rad etishi otalikni sud tartibida belgilashni butunlay to‘xtatadi va boshqa dalillar talab etilmaydi"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Oila huquqi: 3-bosqich",
+    "q": "Nuqtalar o‘rniga mos javobni qo‘ying (64-modda): «Ota-onaning o‘z farzandlariga nisbatan huquq va majburiyatlari ularning nikohda bo‘lishligiga yoki nikohdan ajralganliklariga yoxud nikohning haqiqiy emas deb topilganligiga qarab ...»",
+    "o": [
+      "O‘zgaradi",
+      "Farq qiladi",
+      "Bog‘liq bo‘lmaydi, ya’ni bir xil huquq va majburiyatlarga egadirlar",
+      "Cheklanadi"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Oila huquqi: 3-bosqich",
+    "q": "65-moddaga muvofiq, voyaga yetmagan ota-onalarning huquqlari qanday belgilanadi?",
+    "o": [
+      "Voyaga yetmagan ota-onalar o‘z bolasining tug‘ilishini qayd etish huquqiga ega emas",
+      "Voyaga yetmagan ota-onalar o‘z bolasining tarbiyasi uchun mustaqil ravishda to‘liq javobgar bo‘ladilar va boshqa huquqlarga ham voyaga yetgan ota-onalar kabi ega bo‘ladilar",
+      "Ularning huquqlari faqat ota-onasining yoki vasiylarining roziligi bilan amalga oshiriladi",
+      "Voyaga yetmagan ota-onalar 18 yoshga to‘lguncha farzandini ko‘rish huquqidan mahrum etiladi"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Oila huquqi: 3-bosqich",
+    "q": "66-modda bo‘yicha ota-onaning o‘z bolalarini tarbiyalash huquqiga oid to‘g‘ri ma’lumotni aniqlang.",
+    "o": [
+      "Ota-ona o‘z bolalarini tarbiyalash huquqiga ega va boshqa barcha shaxslarga nisbatan o‘z bolalarini tarbiyalashda ustun huquqdan foydalanadilar",
+      "Bolalarni tarbiyalash huquqi faqat davlat ta’lim muassasalariga tegishli",
+      "Ota-ona bolani xohlagancha tarbiyalashda mutlaq erkin va ularning faoliyati hech qanday qonun bilan cheklanmaydi",
+      "Qarindoshlar ota-onaga qaraganda bolani tarbiyalashda ustun huquqqa ega"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 3-bosqich",
+    "q": "67-modda bo‘yicha bolaning huquqlarini to‘g‘ri moslashtiring: a) Oilada yashash va tarbiyalanish huquqi; b) O‘z fikrini bayon qilish huquqi. 1. Oilada o‘z manfaatlarini himoya qilish, ota-onasining g‘amxo‘rligidan foydalanish. 2. Har qanday masalani hal qilishda o‘z fikrini bildirish, oiladagi har qanday muhokamada ishtirok etish.",
+    "o": [
+      "a–1; b–2",
+      "a–2; b–1",
+      "a–1; b–1",
+      "a–2; b–2"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 3-bosqich",
+    "q": "68-modda bo‘yicha quyidagi bayonotlardan qaysilari to‘g‘ri? 1. Bolaga ismi uning ota-onasining kelishuviga ko‘ra beriladi. 2. Bolaning familiyasi ota-onaning familiyasi bilan belgilanadi. 3. Ota-ona o‘rtasida familiya bo‘yicha kelishmovchilik yuzaga kelsa, masala vasiylik va homiylik organi tomonidan hal etiladi. 4. Bolaning ismi va familiyasini o‘zgartirishga faqat o‘n to‘rt yoshga to‘lgandan keyin yo‘l qo‘yiladi.",
+    "o": [
+      "1 va 2",
+      "2 va 4",
+      "1 va 3",
+      "3 va 4"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Oila huquqi: 3-bosqich",
+    "q": "69-moddaga muvofiq, ota-ona o‘rtasida bolaning tarbiyasi yuzasidan kelishmovchiliklar tug‘ilganda nima qilinadi?",
+    "o": [
+      "Kelishmovchiliklar ota-ona tomonidan o‘zaro hal qilinadi, kelishuvga erishilmagan taqdirda esa vasiylik va homiylik organi yoki sudga murojaat qilinadi",
+      "Faqat otaning fikri ustun hisoblanadi",
+      "Faqat onaning talabi bajariladi",
+      "Bolaning o‘zi xohlagan tarafni tanlaydi va bu muhokama qilinmaydi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 3-bosqich",
+    "q": "XATO ko‘rsatilgan ma’lumotni aniqlang (70-modda):",
+    "o": [
+      "Ota-ona o‘z huquqlarini amalga oshirishda bolaning jismoniy va ruhiy sog‘lig‘iga, axloqiy kamolotiga zarar yetkazishga haqli emas",
+      "Bolani tarbiyalash usullari bolani kamsituvchi, uning sha’ni va qadr-qimmatini poymol etuvchi bo‘lmasligi kerak",
+      "Ota-ona bolani tarbiyalashda jismoniy jazo berish yoki boshqa shafqatsiz usullardan foydalanish huquqiga ega",
+      "Bolaning huquq va manfaatlarini ta’minlamagan ota-ona qonunda belgilangan javobgarlikka tortiladi"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Oila huquqi: 3-bosqich",
+    "q": "71-moddaga muvofiq, ota-ona qaramog‘idan mahrum bo‘lgan bolalarni himoya qilish majburiyati kimga yuklatiladi?",
+    "o": [
+      "Faqat bolaning qarindoshlariga",
+      "Vasiylik va homiylik organlariga",
+      "Faqat maktab ma’muriyatiga",
+      "Mahalliy hokimlikning ixtiyoriga"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Oila huquqi: 3-bosqich",
+    "q": "72-moddaga ko‘ra, ota-ona o‘z huquqlarini bolaning manfaatlariga zid ravishda amalga oshirganda vasiylik va homiylik organi qanday chora ko‘rishga haqli?",
+    "o": [
+      "Bolaning hayotiga yoki sog‘lig‘iga xavf tug‘ilganda bolani ota-onadan yoki ulardan biridan darhol olib qo‘yishga haqli",
+      "Ota-onani to‘g‘ridan-to‘g‘ri besh yilga ozodlikdan mahrum qilishi mumkin",
+      "Faqat og‘zaki tanbeh berish bilan cheklanadi",
+      "Bolani boshqa davlatga yuborishga majbur qiladi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 3-bosqich",
+    "q": "73-modda bo‘yicha nuqtalar o‘rniga mos javobni qo‘ying: «Ota-ona o‘z huquqlarini bolaning manfaatlariga zid ravishda amalga oshirgan taqdirda, bolalar ota-onasidan o‘z huquqlari va manfaatlarini himoya qilishni talab qilishga, shuningdek ... yoshga to‘lganda vasiylik va homiylik organiga, o‘n to‘rt yoshga to‘lganda esa mustaqil ravishda sudga murojaat etishga haqli.»",
+    "o": [
+      "O‘n",
+      "O‘n to‘rt",
+      "O‘n to‘qqiz",
+      "O‘n to‘rt, ikkinchi qismida esa o‘n to‘rt yosh ko‘rsatilgan"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Oila huquqi: 3-bosqich",
+    "q": "74-moddaga muvofiq, ota-onalik huquqidan mahrum qilish qanday amalga oshiriladi?",
+    "o": [
+      "Faqat sud tartibida",
+      "ZAGS organi qarori bilan",
+      "Vasiylik va homiylik organining buyrug‘i bilan",
+      "Prokurorning qarori bilan"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 3-bosqich",
+    "q": "75-modda bo‘yicha ota-onalik huquqidan mahrum qilish asoslariga oid to‘g‘ri ma’lumotni aniqlang.",
+    "o": [
+      "Ota-ona o‘z ota-onalik majburiyatlarini bajarishdan bosh tortsa, shu jumladan aliment to‘lashdan bo‘yin tovlasa, ota-onalik huquqidan mahrum qilinishi mumkin",
+      "Ota-ona ish haqini o‘z vaqtida olmasa, avtomatik ravishda mahrum qilinadi",
+      "Bola yaxshi o‘qimasa, ota-ona darhol ota-onalik huquqidan mahrum etiladi",
+      "Ota-onalar chet elga safarga ketsa, bu ota-onalik huquqidan mahrum qilish uchun asos bo‘ladi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 3-bosqich",
+    "q": "XATO ko‘rsatilgan ma’lumotni aniqlang (76-modda):",
+    "o": [
+      "Ota-onalik huquqidan mahrum qilingan ota-ona bolaga nisbatan qonun hujjatlariga asoslangan barcha huquqlarini, shu jumladan aliment olish huquqini ham yo‘qotadi",
+      "Ota-onalik huquqidan mahrum qilingan shaxs bolani tarbiyalash huquqidan mahrum bo‘ladi",
+      "Ota-onalik huquqidan mahrum qilish ota-onaning o‘z bolalariga ta’minot berish majburiyatidan ozod qiladi",
+      "Ota-onalik huquqidan mahrum qilingan ota-ona bolaga ta’minot berish, ya’ni aliment to‘lash majburiyatidan ozod etilmaydi"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Oila huquqi: 3-bosqich",
+    "q": "77-moddaga ko‘ra, ota-onalik huquqini tiklash qanday hal etiladi?",
+    "o": [
+      "Ota-onalik huquqidan mahrum qilingan ota-onaning xulq-atvori, turmush tarzi va bolaga munosabati o‘zgargan bo‘lsa, huquq sud tartibida tiklanishi mumkin",
+      "Bu huquq hech qachon qayta tiklanmaydi",
+      "Faqat ZAGS organining ariza asosidagi qarori bilan tiklanadi",
+      "Bola 18 yoshga to‘lguncha bu masala umuman ko‘rib chiqilmaydi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 3-bosqich",
+    "q": "78-modda bo‘yicha nuqtalar o‘rniga mos javobni qo‘ying: «Ota-onalik huquqini tiklash bolaning manfaatlariga zid kelganda, jumladan bola boshqa shaxs tomonidan farzandlikka olingan va farzandlikka olish bekor qilinmagan bo‘lsa, sud ota-onaning ota-onalik huquqini tiklash haqidagi talabini ...»",
+    "o": [
+      "Qanoatlantiradi",
+      "Qanoatlantirishni rad etadi",
+      "Ko‘rib chiqishni to‘xtatib turadi",
+      "Boshqa sudga yuboradi"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Oila huquqi: 3-bosqich",
+    "q": "79-moddaga muvofiq, bolaning hayotiga yoki sog‘lig‘iga bevosita xavf tug‘ilganda bolani ota-onadan yoki boshqa shaxslardan olib qo‘yish kim tomonidan amalga oshiriladi?",
+    "o": [
+      "Tuman yoki shahar hokimining qaroriga asosan vasiylik va homiylik organi tomonidan darhol olib qo‘yilishi mumkin",
+      "Faqat sud qarori chiqqandan keyin bir oy o‘tgach",
+      "Har qanday qo‘shni shaxs tomonidan",
+      "Faqat prokurorning maxsus buyrug‘i bilan"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 3-bosqich",
+    "q": "80-moddaga ko‘ra, bolani tarbiyalash va u bilan muloqot qilish huquqini amalga oshirishda ota-onadan alohida yashaydigan ota yoki ona qanday huquqlarga ega?",
+    "o": [
+      "Bola bilan muloqot qilish, uning tarbiyasida qatnashish va ta’lim olish masalalarini hal qilishda qatnashish huquqiga ega",
+      "Bolaning turar joyini o‘z xohishiga ko‘ra o‘zgartirish huquqiga ega",
+      "Bolani o‘zi bilan boshqa davlatga ruxsatsiz olib ketish huquqiga ega",
+      "Boshqa ota-onaning roziligisiz istalgan vaqtda bolaning maktabini o‘zgartirish huquqiga ega"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 3-bosqich",
+    "q": "81-modda bo‘yicha quyidagi bayonotlardan qaysilari to‘g‘ri? 1. Alohida yashaydigan ota yoki ona bolaning sog‘lig‘i va o‘qishi haqida ma’lumot olish huquqiga ega. 2. Birgalikda yashamayotgan ota-ona bolaning ta’minotida qatnashish majburiyatidan ozod qilinadi. 3. Ota-onalar bolaning muloqot qilish tartibi bo‘yicha kelishib olmagan taqdirda, nizolar vasiylik va homiylik organi yoki sud tomonidan hal etiladi. 4. Birga yashamayotgan ota yoki ona bolaning tarbiyasiga to‘sqinlik qilish huquqiga ega.",
+    "o": [
+      "1 va 3",
+      "2 va 4",
+      "1 va 4",
+      "2 va 3"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 3-bosqich",
+    "q": "82-moddaga muvofiq, bolaning qarindoshlari, jumladan buva, buvi, aka-uka va opa-singillari bilan muloqot qilish huquqi bormi?",
+    "o": [
+      "Ha, bolaning buva, buvi, aka-uka, opa-singillar va boshqa qarindoshlar bilan muloqot qilish huquqi bor",
+      "Yo‘q, faqat ota-ona bilan muloqot qilishi shart",
+      "Faqat ota-ona ruxsat bersagina muloqot qilishi mumkin",
+      "Qarindoshlarning bunday huquqi qonun bilan belgilanmagan"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 3-bosqich",
+    "q": "XATO ko‘rsatilgan ma’lumotni aniqlang (83-modda):",
+    "o": [
+      "Ota-ona yoki ulardan biri qarindoshlarning bola bilan muloqot qilishiga to‘sqinlik qilsa, vasiylik va homiylik organi ularga to‘sqinlik qilmaslikni majbur qilishi mumkin",
+      "Vasiylik va homiylik organining qarori bajarilmasa, qarindoshlar bola bilan muloqot qilishni ta’minlash to‘g‘risida sudga murojaat etishga haqli",
+      "Sud qaroriga rioya qilmagan ota-onaga nisbatan qonunda belgilangan choralar qo‘llaniladi",
+      "Qarindoshlar bola bilan muloqot qilish uchun har doim ota-onaga pul to‘lashi shart"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Oila huquqi: 3-bosqich",
+    "q": "84-modda bo‘yicha nuqtalar o‘rniga mos javobni qo‘ying: «Ota-ona o‘z voyaga yetmagan bolalariga ta’minot berishi ...»",
+    "o": [
+      "Ixtiyoriy hisoblanadi",
+      "Shart emas",
+      "Shart",
+      "Majburiy hisoblanadi"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Oila huquqi: 3-bosqich",
+    "q": "85-moddaga muvofiq, voyaga yetmagan bolalarga ta’minot berish (aliment) qanday tartibda undiriladi?",
+    "o": [
+      "Agar ota-ona o‘z bolalariga ta’minot bermasa, ulardan aliment sud tartibida undiriladi",
+      "Faqat mahalla oqsoqollari yig‘ini tomonidan belgilanadi",
+      "Faqat ixtiyoriy ravishda ota xohlasagina beriladi",
+      "Davlat byudjetidan to‘liq qoplanadi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 3-bosqich",
+    "q": "86-moddaga ko‘ra, voyaga yetmagan bolalarga ota-onalardan aliment undirish miqdori qanday belgilanadi?",
+    "o": [
+      "Bir bola uchun ota-onaning ish haqi va boshqa daromadining to‘rtdan bir qismi; ikki bola uchun uchdan bir qismi; uch va undan ortiq bola uchun yarmisi miqdorida",
+      "Har doim qat’iy belgilangan bazaviy hisoblash miqdorining 10 baravari miqdorida",
+      "Faqat ota xohlagan pul miqdorida",
+      "Bolaning yoshidan kelib chiqqan holda o‘zgaruvchan foizda"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 3-bosqich",
+    "q": "XATO ko‘rsatilgan ma’lumotni aniqlang (87-modda):",
+    "o": [
+      "Aliment miqdori sud tomonidan turg‘un pul summasida yoki ulush ko‘rinishida belgilanishi mumkin",
+      "Ota-onaning ish haqi va boshqa daromadlari doimiy bo‘lmasa, sud aliment miqdorini turg‘un pul summasida belgilashga haqli",
+      "Sud har doim faqat daromadning 50 foizini undirishi shart, boshqa usulga yo‘l qo‘yilmaydi",
+      "Aliment to‘lashi shart bo‘lgan ota-ona boshqa turdagi daromadga ega bo‘lsa ham sud buni inobatga oladi"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Oila huquqi: 3-bosqich",
+    "q": "88-moddaga muvofiq, sobiq er-xotin o‘rtasida aliment majburiyatlari qanday tartibda kelishiladi?",
+    "o": [
+      "Aliment to‘lash haqida kelishuv tuzishlari mumkin",
+      "Kelishuvga yo‘l qo‘yilmaydi, faqat sud hal qiladi",
+      "Faqat prokuror tasdiqlashi shart",
+      "Hech qanday majburiyat mavjud emas"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Oila huquqi: 3-bosqich",
+    "q": "89-modda bo‘yicha nuqtalar o‘rniga mos javobni qo‘ying: «Voyaga yetmagan bolalarga ta’minot berish uchun ota-onalardan undiriladigan aliment miqdorini kamaytirish yoki ko‘paytirish ... tomonidan amalga oshiriladi.»",
+    "o": [
+      "Vasiylik va homiylik organi",
+      "Sud",
+      "Soliq idorasi",
+      "Ota-onaning o‘zi"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Oila huquqi: 3-bosqich",
+    "q": "90-moddaga ko‘ra, aliment to‘lash bo‘yicha kelishuv qanday shaklda tuzilishi lozim?",
+    "o": [
+      "Yozma shaklda tuzilib, notarial tartibda tasdiqlanishi shart",
+      "Og‘zaki shaklda yetarli",
+      "Faqat sud zalida tuziladi",
+      "Guvohlar ishtirokidagi oddiy tilxat kifoya"
+    ],
+    "a": 0
+  }
+]
