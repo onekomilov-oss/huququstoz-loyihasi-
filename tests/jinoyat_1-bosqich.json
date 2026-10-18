@@ -1,14 +1,363 @@
+
 [
   {
-    "topic": "Jinoyat huquqi: 1-bosqich (Tushuncha va prinsiplar)",
-    "q": "Jinoyat sodir etgan shaxsni jinoiy javobgarlikka tortish muddati o'tib ketganligi munosabati bilan javobgarlikdan ozod qilish kim tomonidan hal qilinadi?",
+    "topic": "Jinoyat huquqi: 1–30-moddalar",
+    "q": "Jinoyat kodeksining umumiy qoidalariga oid qaysi fikr XATO?",
     "o": [
-      "Faqat sud tomonidan",
-      "Prokuror tomonidan",
-      "Tergovchi tomonidan",
-      "Jabrlanuvchi arizasiga ko'ra"
+      "Jinoyat qonunchiligi Konstitutsiya va xalqaro huquqning umume'tirof etilgan normalariga asoslanadi.",
+      "Jinoyat sodir etgan shaxslar qonun oldida tengdirlar.",
+      "Shaxs faqat aybi aniqlangan jinoyatlari uchungina javobgarlikka tortiladi va obyektiv ayblashga yo‘l qo‘yiladi.",
+      "Jinoiy javobgarlik va jazo adolatli bo‘lishi kerak."
+    ],
+    "a": 2,
+    "why": "4-modda: shaxs faqat o‘z aybi isbotlangan qilmishi uchun javobgar bo‘ladi. Obyektiv ayblashga yo‘l qo‘yilmaydi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 1–30-moddalar",
+    "q": "Jinoyat qonunining vaqt bo‘yicha amal qilishiga oid qaysi bayonot TO‘G‘RI?",
+    "o": [
+      "Jazoni kuchaytiradigan qonun orqaga qaytish kuchiga ega.",
+      "Javobgarlikni yengillashtiradigan qonun orqaga qaytish kuchiga ega emas.",
+      "Qilmishni jinoyat deb hisoblamaydigan yoki shaxsning ahvolini yaxshilaydigan qonun orqaga qaytish kuchiga ega.",
+      "Qonunning orqaga qaytish kuchi faqat sud ruxsati bilan qo‘llaniladi."
+    ],
+    "a": 2,
+    "why": "9-modda: qilmishning jinoiyligini bekor qiladigan, jazoni yengillashtiradigan yoki shaxsning ahvolini boshqacha tarzda yaxshilaydigan qonun orqaga qaytish kuchiga ega."
+  },
+  {
+    "topic": "Jinoyat huquqi: 1–30-moddalar",
+    "q": "Jinoyat kodeksining 14-moddasiga ko‘ra, ushbu Kodeks bilan taqiqlangan, aybli, ijtimoiy xavfli qilmish nima deb topiladi?",
+    "o": [
+      "Huquqbuzarlik",
+      "Jinoyat",
+      "Ma'muriy xato",
+      "Ijtimoiy xavfli harakat"
+    ],
+    "a": 1,
+    "why": "14-modda jinoyat tushunchasini belgilaydi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 1–30-moddalar",
+    "q": "Jinoyatlarni og‘irlik darajasiga ko‘ra tasniflashni to‘g‘ri moslashtiring. (a) Ijtimoiy xavfi katta bo‘lmagan; (b) uncha og‘ir bo‘lmagan; (c) og‘ir; (d) o‘ta og‘ir jinoyatlar. 1) 5 yildan 10 yilgacha ozodlikdan mahrum qilish nazarda tutilgan qasddan jinoyat; 2) 3 yildan ko‘p bo‘lmagan muddatga ozodlikdan mahrum qilish nazarda tutilgan qasddan jinoyat; 3) 10 yildan 15 yilgacha yoki umrbod ozodlikdan mahrum qilish nazarda tutilgan qasddan jinoyat; 4) 3 yildan ortiq, lekin 5 yildan ko‘p bo‘lmagan muddatga ozodlikdan mahrum qilish nazarda tutilgan qasddan jinoyat.",
+    "o": [
+      "(a)–2; (b)–4; (c)–1; (d)–3",
+      "(a)–1; (b)–2; (c)–3; (d)–4",
+      "(a)–4; (b)–3; (c)–2; (d)–1",
+      "(a)–2; (b)–1; (c)–4; (d)–3"
     ],
     "a": 0,
-    "why": "Jinoyat sodir etgan shaxsni javobgarlikdan ozod qilish masalasi faqat sud tomonidan hal qilinadi."
+    "why": "15-modda jinoyatlarni ijtimoiy xavfi katta bo‘lmagan, uncha og‘ir bo‘lmagan, og‘ir va o‘ta og‘ir turlarga ajratadi. Muddatlar amaldagi modda matni bilan tekshirilishi lozim."
+  },
+  {
+    "topic": "Jinoyat huquqi: 1–30-moddalar",
+    "q": "Jinoiy javobgarlik yoshiga oid to‘g‘ri tasdiqlarni toping: 1) 14 yoshga to‘lgan shaxslar qonunda ko‘rsatilgan ayrim jinoyatlar uchun javobgar bo‘lishi mumkin. 2) Boshqa jinoyatlar uchun umumiy javobgarlik yoshi 16 yosh. 3) 14 yoshga to‘lmagan shaxs jinoyat uchun jinoiy javobgarlikka tortilmaydi. 4) Yosh sud muhokamasi vaqtida aniqlanadi.",
+    "o": [
+      "1 va 2",
+      "1, 2 va 3",
+      "2 va 4",
+      "3 va 4"
+    ],
+    "a": 0,
+    "why": "17-modda: jinoiy javobgarlik yoshi jinoyat sodir etilgan vaqtga qarab aniqlanadi. Ayrim jinoyatlar uchun javobgarlik 14 yoshdan boshlanadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 1–30-moddalar",
+    "q": "Aqli rasolik va aqli norasolikka oid to‘g‘ri mulohazalarni toping: 1) Ruhiy kasallik tufayli o‘z harakatining ahamiyatini anglay olmagan shaxs aqli noraso deb topilishi mumkin. 2) Aqli noraso shaxsga jinoiy jazo tayinlanmaydi, qonunda belgilangan asoslarda tibbiy yo‘sindagi majburiy choralar qo‘llanishi mumkin. 3) Jinoyatdan keyin ruhiy kasallikka chalingan shaxsga hech qanday tibbiy chora qo‘llanilmaydi. 4) Aqli rasolik shaxsning o‘z harakatlarini anglay olish va boshqara olish qobiliyatini anglatadi.",
+    "o": [
+      "1, 2 va 4",
+      "1 va 3",
+      "2, 3 va 4",
+      "Barcha bayonotlar to‘g‘ri"
+    ],
+    "a": 0,
+    "why": "18–19-moddalar aqli rasolik, aqli norasolik va ruhiy holat bilan bog‘liq masalalarni tartibga soladi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 1–30-moddalar",
+    "q": "Jinoyat kodeksi prinsiplari bo‘yicha qaysi ta'rif XATO?",
+    "o": [
+      "Qonuniylik: faqat Kodeksda jinoyat deb belgilangan qilmish uchun jinoiy jazo qo‘llanadi.",
+      "Insonparvarlik: jazo inson qadr-qimmatini kamsitmasligi kerak.",
+      "Javobgarlikning muqarrarligi: jinoyat sodir etgan shaxs qonun asosida javobgarlikka tortilishi lozim.",
+      "Demokratizm: har bir fuqaro o‘z xohishiga ko‘ra qonunlarni o‘zgartirish huquqiga ega."
+    ],
+    "a": 3,
+    "why": "Demokratizm prinsipi fuqarolarning qonunlarni istalganicha o‘zgartirish huquqini anglatmaydi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 1–30-moddalar",
+    "q": "O‘zbekiston hududidan tashqarida sodir etilib, jinoiy oqibati O‘zbekiston hududida yuz bergan qilmish qayerda sodir etilgan deb topiladi?",
+    "o": [
+      "Chet davlat hududida",
+      "O‘zbekiston hududida",
+      "Xalqaro suvlarda",
+      "Betaraf hududda"
+    ],
+    "a": 1,
+    "why": "10-modda hududiy amal qilish va jinoyat sodir etilgan joyga oid qoidalarni belgilaydi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 1–30-moddalar",
+    "q": "Chet el fuqarolari va fuqaroligi bo‘lmagan shaxslar O‘zbekiston hududida jinoyat sodir etsa, qaysi qoida amal qiladi?",
+    "o": [
+      "Faqat fuqaroligi bo‘lgan davlat qonunlari qo‘llanadi.",
+      "Diplomatik immunitetdan qat'i nazar, hamma bir xil tartibda javobgarlikka tortiladi.",
+      "Ular, qonunda va xalqaro huquqda nazarda tutilgan istisnolarni hisobga olgan holda, O‘zbekiston Jinoyat kodeksi bo‘yicha javobgarlikka tortiladi.",
+      "O‘zbekiston Jinoyat kodeksi ularga umuman tatbiq etilmaydi."
+    ],
+    "a": 2,
+    "why": "10-modda bo‘yicha O‘zbekiston hududida jinoyat sodir etgan chet el fuqarolari va fuqaroligi bo‘lmagan shaxslarga Kodeks tatbiq etiladi. Immunitetga oid istisnolar mavjud."
+  },
+  {
+    "topic": "Jinoyat huquqi: 1–30-moddalar",
+    "q": "Jinoyat ishtirokchilarini ta'riflari bilan to‘g‘ri moslashtiring: (a) jinoyat ishtirokchilari turlari; (b) tashkilotchi; (c) dalolatchi; (d) yordamchi. 1) Jinoyat sodir etishga qiziqtiruvchi shaxs; 2) Maslahat, ko‘rsatma yoki vosita berib ko‘maklashuvchi shaxs; 3) Jinoyatga tayyorgarlik ko‘rish yoki uni sodir etishga rahbarlik qiluvchi shaxs; 4) Ijrochi, tashkilotchi, dalolatchi va yordamchi.",
+    "o": [
+      "(a)–4; (b)–3; (c)–1; (d)–2",
+      "(a)–1; (b)–2; (c)–3; (d)–4",
+      "(a)–3; (b)–1; (c)–4; (d)–2",
+      "(a)–2; (b)–4; (c)–3; (d)–1"
+    ],
+    "a": 0,
+    "why": "Jinoyat ishtirokchilari ijrochi, tashkilotchi, dalolatchi va yordamchidan iborat. Ularning huquqiy tavsiflari ishtirokchilik haqidagi normalarda belgilanadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 1–30-moddalar",
+    "q": "Jinoyat sodir etish shakllariga oid to‘g‘ri tasdiqlarni toping: 1) Jinoyat yakka tartibda sodir etilishi mumkin. 2) Oldindan til biriktirib guruh bo‘lib jinoyat sodir etish qonunda nazarda tutilgan hollarda huquqiy ahamiyatga ega. 3) Uyushgan guruh yoki jinoiy uyushma ishtirokchilik shakllari hisoblanadi. 4) Ehtiyotsizlik orqasidagi jinoyatlar ham har doim uyushgan guruh tarkibida sodir etilishi mumkin.",
+    "o": [
+      "1, 2 va 3",
+      "1 va 4",
+      "2, 3 va 4",
+      "Barcha bayonotlar to‘g‘ri"
+    ],
+    "a": 0,
+    "why": "Jinoyat kodeksida jinoyatni yakka tartibda yoki ishtirokchilikda sodir etish holatlari farqlanadi. To‘rtinchi bayonot mutlaq shaklda noto‘g‘ri."
+  },
+  {
+    "topic": "Jinoyat huquqi: 1–30-moddalar",
+    "q": "Jinoyatni takroran sodir etishga oid qaysi fikr XATO?",
+    "o": [
+      "Takroran jinoyat sodir etish tushunchasi Kodeksda belgilangan shartlar asosida aniqlanadi.",
+      "Oldingi jinoyat uchun sudlanganlik tugallangan yoki olib tashlangan bo‘lsa, bu holatning huquqiy bahosi tegishli qonun normalariga muvofiq belgilanadi.",
+      "Jinoyatni takror sodir etish faqat ehtiyotsizlik orqasida sodir etilgan jinoyatlarda yuzaga keladi.",
+      "Bir turdagi jinoyatlarni bir necha bor sodir etish qonunda nazarda tutilgan hollarda takroriy deb topilishi mumkin."
+    ],
+    "a": 2,
+    "why": "Takroran jinoyat sodir etish faqat ehtiyotsizlik bilan sodir etilgan jinoyatlarga xos emas. Uning shartlari Kodeksga muvofiq aniqlanadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 1–30-moddalar",
+    "q": "Qasddan sodir etilgan yangi jinoyat vaqtida ilgari sodir etilgan qasddan jinoyat uchun sudlanganlik qonunda belgilangan tartibda saqlanib turgan bo‘lsa, bu holat nima deb ataladi?",
+    "o": [
+      "Retsidiv",
+      "O‘ta xavfli retsidiv",
+      "Tasodifiy huquqbuzarlik",
+      "Bir vaqtda sodir etilgan jinoyat"
+    ],
+    "a": 0,
+    "why": "Retsidiv tushunchasi ilgari qasddan jinoyat sodir etgan va sudlanganligi qonunda belgilangan tartibda saqlanib turgan shaxsning yana qasddan jinoyat sodir etishi bilan bog‘liq."
+  },
+  {
+    "topic": "Jinoyat huquqi: 1–30-moddalar",
+    "q": "Zaruriy mudofaa holatiga oid qaysi qoida TO‘G‘RI?",
+    "o": [
+      "Tajovuzkorga har qanday zarar yetkazish doimo jinoiy javobgarlikka sabab bo‘ladi.",
+      "Zaruriy mudofaa chegarasidan chiqilmagan bo‘lsa, tajovuzning xususiyati va xavflilik darajasiga muvofiq yetkazilgan zarar jinoyat hisoblanmaydi.",
+      "Zaruriy mudofaa vaqtida tajovuzkorning hayotiga zarar yetkazish har qanday holatda taqiqlanadi.",
+      "Zaruriy mudofaa faqat huquqni muhofaza qiluvchi organ xodimlariga ruxsat etiladi."
+    ],
+    "a": 1,
+    "why": "37-modda zaruriy mudofaa holatini tartibga soladi. Bu savol 1–30-moddalar doirasidan tashqaridagi normaga taalluqli."
+  },
+  {
+    "topic": "Jinoyat huquqi: 1–30-moddalar",
+    "q": "Jinoyatdan ixtiyoriy qaytishga oid qaysi bayonot XATO?",
+    "o": [
+      "Shaxs jinoyatni oxiriga yetkazish imkoniyati borligini anglagan holda o‘z xohishi bilan qaytsa, qonundagi shartlar asosida javobgarlikdan ozod qilinishi mumkin.",
+      "Qilmishda boshqa jinoyat tarkibi mavjud bo‘lsa, shaxs o‘sha jinoyat uchun javobgar bo‘lishi mumkin.",
+      "Jinoyatdan ixtiyoriy qaytish faqat huquqni muhofaza qiluvchi organlar jinoyatni fosh etganidan keyin ham amalga oshiriladi.",
+      "Ixtiyoriy qaytish jinoyatni oxiriga yetkazishdan ixtiyoriy va uzil-kesil voz kechishni anglatadi."
+    ],
+    "a": 2,
+    "why": "Jinoyatdan ixtiyoriy qaytish jinoyat fosh etilganidan keyingi har qanday voz kechish bilan tenglashtirilmaydi. Qonundagi ixtiyoriylik shartlari tekshiriladi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 1–30-moddalar",
+    "q": "O‘zbekiston fuqarosining chet davlat hududida sodir etgan jinoyati uchun javobgarligiga oid qaysi fikr XATO?",
+    "o": [
+      "Qonunda belgilangan shartlar mavjud bo‘lsa, chet elda sodir etilgan qilmish uchun O‘zbekistonda javobgarlik masalasi ko‘rilishi mumkin.",
+      "Chet davlatda sudlanib, jazo o‘tagan O‘zbekiston fuqarosi hech qanday istisnosiz va barcha holatlarda ayni qilmish uchun O‘zbekistonda qayta javobgarlikka tortilishi mumkin.",
+      "Chet elda sodir etilgan jinoyat uchun javobgarlik masalasi Kodeks va tegishli xalqaro shartnomalarga muvofiq hal qilinadi.",
+      "Ekstraditsiya masalasi tegishli qonunchilik va xalqaro shartnomalar asosida hal etiladi."
+    ],
+    "a": 1,
+    "why": "Chet davlatda sudlanganlik va jazo o‘talganining huquqiy oqibatlari Kodeks hamda tegishli xalqaro qoidalarga muvofiq baholanadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 1–30-moddalar",
+    "q": "Jinoyat qonunining orqaga qaytish kuchiga ko‘ra, shaxsning ahvolini yaxshilaydigan qonun qanday kuchga ega?",
+    "o": [
+      "Orqaga qaytish",
+      "Faqat kelajakka qaratilgan",
+      "Faqat tomonlar kelishuvi bilan qo‘llanadigan",
+      "Har doim cheklangan"
+    ],
+    "a": 0,
+    "why": "9-modda: shaxsning ahvolini yaxshilaydigan jinoyat qonuni orqaga qaytish kuchiga ega."
+  },
+  {
+    "topic": "Jinoyat huquqi: 1–30-moddalar",
+    "q": "Tushunchalarni ta'riflari bilan to‘g‘ri moslashtiring: (a) qasddan sodir etilgan jinoyat; (b) ehtiyotsizlik orqasida sodir etilgan jinoyat; (c) jinoyat harakati; (d) jinoyat harakatsizligi. 1) Qonun bilan taqiqlangan harakatni sodir etmaslik; 2) Ijtimoiy xavfli oqibatni anglab, uning yuz berishiga ongli ravishda yo‘l qo‘yish; 3) Qonun bilan taqiqlangan faol harakatni amalga oshirish; 4) Oqibatni oldindan ko‘rishi lozim va mumkin bo‘lsa-da, uni ko‘rmaslik.",
+    "o": [
+      "(a)–2; (b)–4; (c)–3; (d)–1",
+      "(a)–1; (b)–3; (c)–2; (d)–4",
+      "(a)–3; (b)–2; (c)–1; (d)–4",
+      "(a)–4; (b)–1; (c)–3; (d)–2"
+    ],
+    "a": 0,
+    "why": "Qasd va ehtiyotsizlik aybning shakllari, harakat va harakatsizlik esa qilmishning sodir etilish usullaridir."
+  },
+  {
+    "topic": "Jinoyat huquqi: 1–30-moddalar",
+    "q": "Jinoiy javobgarlikdan ozod qilish asoslariga oid qaysi bayonot TO‘G‘RI?",
+    "o": [
+      "Shaxs faqat jazoni to‘liq o‘tab bo‘lgandagina jinoiy javobgarlikdan ozod qilinadi.",
+      "Qonunda nazarda tutilgan hollarda chin ko‘ngildan pushaymon bo‘lish, yarashish yoki javobgarlikka tortish muddatining o‘tishi kabi asoslar qo‘llanishi mumkin.",
+      "Har qanday shaxs pora berish orqali javobgarlikdan qutulishi mumkin.",
+      "Jinoiy javobgarlikdan ozod qilish faqat Prezident farmoni bilan amalga oshiriladi."
+    ],
+    "a": 1,
+    "why": "Jinoiy javobgarlikdan ozod qilish asoslari Kodeksda belgilangan. Ular muayyan shartlar mavjud bo‘lgandagina qo‘llanadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 1–30-moddalar",
+    "q": "Jinoiy javobgarlikni istisno etuvchi holatlarga oid to‘g‘ri fikrlarni toping: 1) Zaruriy mudofaa holatidagi qonuniy harakat jinoyat hisoblanmaydi. 2) Oxirgi zaruratda yetkazilgan zarar bartaraf etilgan zarardan kattaroq bo‘lishi shart. 3) Qonuniy shartlarga muvofiq asosli tavakkal qilish natijasida zarar yetkazilishi jinoyat hisoblanmasligi mumkin. 4) Jinoiy buyruqni bajarish har qanday sharoitda javobgarlikdan ozod qiladi.",
+    "o": [
+      "1 va 3",
+      "1, 2 va 4",
+      "2 va 3",
+      "3 va 4"
+    ],
+    "a": 0,
+    "why": "Zaruriy mudofaa va asosli tavakkal qilish qonunda belgilangan shartlarda jinoiy javobgarlikni istisno etishi mumkin. Oxirgi zarurat va buyruqni bajarish uchun ham alohida shartlar mavjud."
+  },
+  {
+    "topic": "Jinoyat huquqi: 1–30-moddalar",
+    "q": "Jazo turlari va maqsadlariga oid qaysi fikr XATO?",
+    "o": [
+      "Jazo adolatli bo‘lishi va jinoyatning og‘irligiga mos kelishi kerak.",
+      "Jazoning maqsadlaridan biri yangi jinoyatlarning oldini olishdir.",
+      "O‘lim jazosi O‘zbekiston Jinoyat kodeksida amaldagi asosiy jazo turi sifatida saqlanib qolgan.",
+      "Jazo inson qadr-qimmatini kamsituvchi xususiyatga ega bo‘lmasligi kerak."
+    ],
+    "a": 2,
+    "why": "O‘lim jazosi O‘zbekistonda bekor qilingan."
+  },
+  {
+    "topic": "Jinoyat huquqi: 1–30-moddalar",
+    "q": "Shaxs o‘ziga yoki boshqalarga tahdid solayotgan xavfni bartaraf etish uchun boshqa huquqiy manfaatlarga zarar yetkazishga majbur bo‘lgan holat nima deb ataladi?",
+    "o": [
+      "Zaruriy mudofaa",
+      "Oxirgi zarurat",
+      "Jinoiy tavakkalchilik",
+      "Buyruqni bajarish"
+    ],
+    "a": 1,
+    "why": "Oxirgi zarurat xavfni boshqa vositalar bilan bartaraf etish imkoni bo‘lmaganda, qonundagi shartlar asosida zarar yetkazish bilan bog‘liq."
+  },
+  {
+    "topic": "Jinoyat huquqi: 1–30-moddalar",
+    "q": "Shaxs jinoyat sodir etgan vaqtda jinoiy javobgarlik yoshiga yetmagan bo‘lsa, qanday baholanadi?",
+    "o": [
+      "U qonunda belgilangan yoshga yetmaganligi sababli ushbu jinoyat uchun jinoiy javobgarlikka tortilmaydi.",
+      "Yoshga keyinchalik yetganda, avvalgi qilmish uchun avtomatik ravishda sudlanadi.",
+      "Uning ota-onasi avtomatik ravishda jinoiy javobgarlikka tortiladi.",
+      "Bu faqat jazoni yengillashtiruvchi holat hisoblanadi."
+    ],
+    "a": 0,
+    "why": "Jinoiy javobgarlik yoshi jinoyat sodir etilgan vaqtdagi yosh bilan aniqlanadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 1–30-moddalar",
+    "q": "Jinoyat kodeksining vazifalari va aybsizlik prezumpsiyasiga oid to‘g‘ri bayonotlarni toping: 1) Shaxsning huquq va erkinliklarini, mulkni va jamoat tartibini jinoiy tajovuzlardan qo‘riqlash Kodeks vazifalaridandir. 2) Kodeks tinchlik va xavfsizlikni ta'minlashga ham xizmat qiladi. 3) Ayblanuvchi o‘z aybsizligini o‘zi isbotlashi shart. 4) Shaxsning aybi qonuniy tartibda isbotlanmaguncha u aybsiz hisoblanadi.",
+    "o": [
+      "1, 2 va 4",
+      "1 va 3",
+      "2, 3 va 4",
+      "Barcha bayonotlar to‘g‘ri"
+    ],
+    "a": 0,
+    "why": "2-modda Kodeksning vazifalarini belgilaydi. Aybsizlik prezumpsiyasiga ko‘ra, ayblanuvchi o‘z aybsizligini isbotlashga majbur emas."
+  },
+  {
+    "topic": "Jinoyat huquqi: 1–30-moddalar",
+    "q": "Jinoyat sodir etilgan vaqtga oid qaysi qoida XATO?",
+    "o": [
+      "Qilmish sodir etilgan vaqt deb ijtimoiy xavfli harakat yoki harakatsizlik bajarilgan vaqt tushuniladi.",
+      "Jinoyat sodir etilgan vaqt har doim faqat jinoiy oqibat yuz bergan vaqt bilan belgilanadi.",
+      "Harakat yoki harakatsizlik bajarilgan vaqt jinoyat sodir etilgan vaqtni aniqlashda ahamiyatga ega.",
+      "Jinoyat sodir etilgan vaqtda amal qilgan qonun tegishli qoidalarga muvofiq qo‘llanadi."
+    ],
+    "a": 1,
+    "why": "13-modda: qilmish sodir etilgan vaqt deb ijtimoiy xavfli harakat yoki harakatsizlik bajarilgan vaqt hisoblanadi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 1–30-moddalar",
+    "q": "Tushunchalarni ta'riflari bilan to‘g‘ri moslashtiring: (a) ayb; (b) qasd; (c) ehtiyotsizlik; (d) tasodif. 1) Oqibatni oldindan ko‘rish mumkin bo‘lmagan holat; 2) Shaxsning o‘z qilmishiga nisbatan ruhiy munosabati; 3) Qilmishning ijtimoiy xavfli xususiyatini anglagan holda sodir etilishi; 4) Oqibatni oldindan ko‘rishi mumkin bo‘lsa-da, yetarli asoslarsiz uning oldini olishga umid qilish.",
+    "o": [
+      "(a)–2; (b)–3; (c)–4; (d)–1",
+      "(a)–1; (b)–2; (c)–3; (d)–4",
+      "(a)–3; (b)–4; (c)–1; (d)–2",
+      "(a)–4; (b)–1; (c)–2; (d)–3"
+    ],
+    "a": 0,
+    "why": "Ayb shaxsning qilmishga bo‘lgan ruhiy munosabatidir. Qasd va ehtiyotsizlik aybning shakllari bo‘lib, tasodif ulardan farq qiladi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 1–30-moddalar",
+    "q": "Jinoyat kodeksining qaysi prinsipiga ko‘ra, shaxslar ijtimoiy kelib chiqishi, dini yoki e'tiqodidan qat'i nazar qonun oldida teng hisoblanadi?",
+    "o": [
+      "Insonparvarlik",
+      "Fuqarolarning qonun oldida tengligi",
+      "Adolatlilik",
+      "Qonuniylik"
+    ],
+    "a": 1,
+    "why": "3-modda fuqarolarning qonun oldida tengligi prinsipini belgilaydi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 1–30-moddalar",
+    "q": "Jinoyat qonunining hududiy amal qilishiga oid to‘g‘ri bayonotlarni toping: 1) O‘zbekiston hududida sodir etilgan jinoyatlarga, qonundagi istisnolarni hisobga olgan holda, O‘zbekiston Jinoyat kodeksi tatbiq etiladi. 2) O‘zbekiston bayrog‘i ostidagi ayrim havo va suv kemalarida sodir etilgan jinoyatlarga ham tegishli qoidalar tatbiq etilishi mumkin. 3) Chet davlat diplomatik vakolatxonalarida sodir etilgan jinoyatlar uchun O‘zbekiston sudlari har doim yurisdiksiyaga ega. 4) Harbiy kemalar va havo kemalariga oid holatlarda xalqaro huquq normalari ham hisobga olinadi.",
+    "o": [
+      "1, 2 va 4",
+      "1 va 3",
+      "2, 3 va 4",
+      "Barcha bayonotlar to‘g‘ri"
+    ],
+    "a": 0,
+    "why": "10-modda jinoyat qonunining hududiy amal qilishini tartibga soladi. Diplomatik immunitet va kemalarning huquqiy maqomi bo‘yicha maxsus qoidalar mavjud."
+  },
+  {
+    "topic": "Jinoyat huquqi: 1–30-moddalar",
+    "q": "Jinoiy javobgarlikni istisno etuvchi holatlarga oid qaysi fikr XATO?",
+    "o": [
+      "Jismoniy yoki ruhiy majburlash ta'sirida shaxs o‘z harakatlarini boshqara olmagan bo‘lsa, qilmishga qonundagi qoidalarga muvofiq baho beriladi.",
+      "Asosli tavakkal qilish shartlariga rioya qilingan taqdirda ham yetkazilgan zarar uchun shaxs har doim javobgarlikka tortiladi.",
+      "Buyruqni bajarish masalasi buyruqning qonuniyligi va boshqa qonuniy shartlarga qarab baholanadi.",
+      "Zaruriy mudofaa chegarasidan chetga chiqish qonunda belgilangan shartlarda javobgarlikka sabab bo‘lishi mumkin."
+    ],
+    "a": 1,
+    "why": "Asosli tavakkal qilishning qonuniy shartlari bajarilgan bo‘lsa, yetkazilgan zarar o‘z-o‘zidan jinoiy javobgarlikni keltirib chiqarmaydi."
+  },
+  {
+    "topic": "Jinoyat huquqi: 1–30-moddalar",
+    "q": "Jinoyat kodeksining amal qilish doirasiga oid qaysi bayonot TO‘G‘RI?",
+    "o": [
+      "Kodeks faqat Toshkent shahrida sodir etilgan jinoyatlarga tatbiq etiladi.",
+      "O‘zbekiston Jinoyat kodeksi mamlakatning butun hududida amal qiladi.",
+      "Har bir viloyat alohida jinoyat kodeksini qabul qilishi mumkin.",
+      "Kodeks qoidalari faqat sud hukmi chiqarilgandan keyin kuchga kiradi."
+    ],
+    "a": 1,
+    "why": "O‘zbekiston Respublikasining Jinoyat kodeksi mamlakat miqyosida amal qiluvchi yagona jinoyat qonunchiligi hujjatidir."
   }
 ]
