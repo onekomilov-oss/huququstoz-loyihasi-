@@ -1,0 +1,333 @@
+
+[
+  {
+    "topic": "Mehnat huquqi: 5-bosqich",
+    "q": "XATO ko'rsatilgan ma'lumotni aniqlang:",
+    "o": [
+      "Yakka tartibdagi mehnat nizolari bo'yicha murojaat qilish muddatlari qonunda qat'iy belgilangan.",
+      "Xodim ish beruvchi bilan bo'lgan nizoni hal qilish uchun bevosita sudga murojaat qilishga haqli.",
+      "Mehnat nizolari komissiyasi tashkilotda tuzilishi majburiy bo'lib, har qanday nizo faqat shu komissiyada ko'rilishi shart, sudga borish taqiqlanadi.",
+      "Nizolarni ko'rib chiqishda xodimlarning huquqlari kafolatlanadi."
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Mehnat huquqi: 5-bosqich",
+    "q": "To'g'ri ma'lumotni aniqlang:",
+    "o": [
+      "Xodim ishdan bo'shatilganligi haqidagi buyruq nusxasini olgan kundan e'tiboran sudga murojaat qilish uchun bir oylik muddatga ega.",
+      "Moddiy zarar yetkazilganda ish beruvchi sudga murojaat qilish uchun cheksiz ko'p yillarga ega.",
+      "Mehnat nizolari komissiyasi qarori ustidan sudga shikoyat qilib bo'lmaydi.",
+      "Xodim ish haqi bo'lgan nizolar yuzasidan faqat bir haftalik muddat ichida murojaat qilishi shart."
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 5-bosqich",
+    "q": "Xodim ishdan bo'shatish nizolari bo'yicha ish beruvchining buyrug'i nusxasi berilgan kundan e'tiboran ... oy ichida sudga murojaat qilishga haqli.",
+    "o": [
+      "bir",
+      "uch",
+      "olti",
+      "o'n ikki"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 5-bosqich",
+    "q": "To'g'ri moslashtiruvchi javobni aniqlang: a) Ishdan bo'shatish nizosi; b) Moddiy zarar yetkazish nizosi; c) Boshqa mehnat nizolari. 1) 1 oylik murojaat muddati; 2) 1 yillik murojaat muddati; 3) 3 oylik murojaat muddati.",
+    "o": [
+      "(a)–2; (b)–1; (c)–3",
+      "(a)–3; (b)–2; (c)–1",
+      "(a)–1; (b)–2; (c)–3",
+      "(a)–1; (b)–3; (c)–2"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Mehnat huquqi: 5-bosqich",
+    "q": "Jamoaviy mehnat nizolarini hal etish bosqichlari to'g'ri ko'rsatilgan javobni aniqlang.",
+    "o": [
+      "1, 2 va 3",
+      "2, 3 va 4",
+      "1 va 4",
+      "Barchasi to'g'ri"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 5-bosqich",
+    "q": "Quyidagi bayonotlardan qaysi biri XATO?",
+    "o": [
+      "Jamoaviy mehnat nizosi yuzasidan xodimlar ish tashlash huquqiga ega.",
+      "Ish tashlash xodimlarning o'z talablarini bajarishga erishish uchun ixtiyoriy vositasidir.",
+      "Qonunga ko'ra har qanday holatda ham, hayotni ta'minlash xizmatlarida ish tashlashga yo'l qo'yiladi.",
+      "Ish tashlashni o'tkazish tartibi qonun bilan tartibga solinadi."
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Mehnat huquqi: 5-bosqich",
+    "q": "XATO ko'rsatilgan ma'lumotni aniqlang:",
+    "o": [
+      "Mehnatni muhofaza qilish qoidalari barcha ish beruvchilar uchun majburiydir.",
+      "Ish beruvchi xavfsiz mehnat sharoitlarini yaratib berishga mas'uldir.",
+      "Xodim mehnatni muhofaza qilish talablariga rioya qilmasa ham, unga hech qanday chora ko'rilmaydi.",
+      "Xavfli sharoitlarda ishlashni rad etish xodimning huquqidir."
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Mehnat huquqi: 5-bosqich",
+    "q": "To'g'ri ma'lumotni aniqlang:",
+    "o": [
+      "Ish beruvchi xodimlarni maxsus kiyim-kechak va himoya vositalari bilan bepul ta'minlashi shart.",
+      "Himoya vositalari uchun pulni xodim o'z oyligidan sotib olishi kerak.",
+      "Ish beruvchi xavfsizlik texnikasi bo'yicha o'qitishni o'tkazmasa ham bo'ladi.",
+      "Tibbiy ko'rikdan o'tish faqat xodimning o'z xohishiga bog'liq."
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 5-bosqich",
+    "q": "Ish beruvchi xodimlarni mehnatni muhofaza qilish qoidalari bo'yicha ... o'tkazishi shart.",
+    "o": [
+      "jarimaga tortishni",
+      "yo'riqnomadan (o'qitishdan)",
+      "sinovdan",
+      "imtihondan o'tkazmasdan"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Mehnat huquqi: 5-bosqich",
+    "q": "To'g'ri moslashtiruvchi javobni aniqlang: a) Dastlabki tibbiy ko'rik; b) Davriy tibbiy ko'rik; c) Maxsus kiyim-kechak. 1) Ishga kirishishdan oldin o'tkaziladigan; 2) Ish davomida muntazam o'tkaziladigan; 3) Bepul berilishi shart bo'lgan vosita.",
+    "o": [
+      "(a)–3; (b)–2; (c)–1",
+      "(a)–1; (b)–2; (c)–3",
+      "(a)–2; (b)–1; (c)–3",
+      "(a)–1; (b)–3; (c)–2"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Mehnat huquqi: 5-bosqich",
+    "q": "Qaysi bayonotlar TO'G'RI? 1. Ish joyida baxtsiz hodisa ro'y berganda ish beruvchi tegishli organlarga xabar berishi shart. 2. Ishlab chiqarishdagi baxtsiz hodisalar qonunda belgilangan tartibda tekshiriladi. 3. Jabrlangan xodimga yoki uning oila a'zolariga qonunchilikka muvofiq tovon puli to'lanadi. 4. Ish beruvchi xodimni o'zicha aybdor deb topib, hech qanday to'lov qilmaslikka haqli.",
+    "o": [
+      "1, 2 va 3",
+      "2 va 4",
+      "1 va 4",
+      "Barchasi to'g'ri"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 5-bosqich",
+    "q": "XATO ko'rsatilgan ma'lumotni aniqlang:",
+    "o": [
+      "Ayollar mehnatini tartibga solishda ularning o'ziga xos fiziologik xususiyatlari hisobga olinadi.",
+      "Homilador ayollarni tungi ishlarga jalb qilishga qat'iyan yo'l qo'yilmaydi.",
+      "Ayollarni og'ir va zararli sharoitlardagi ishlarga jalb qilish taqiqlanadi.",
+      "Ish beruvchi xohlasa homilador ayolni qo'shimcha ish vaqtiga majburan jalb qilishi mumkin."
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Mehnat huquqi: 5-bosqich",
+    "q": "To'g'ri ma'lumotni aniqlang:",
+    "o": [
+      "Ayollarga homiladorlik va tug'ish ta'tillari qonunchilikka muvofiq beriladi.",
+      "Bola parvarish qilish ta'tili davrida ayolga ish beruvchi o'z hisobidan oylik maoshini 100% to'lab turishi shart.",
+      "Ayollar erkaklar bilan bir xil mehnat huquqlariga ega emas.",
+      "Farzand nafaqasi to'g'risidagi imtiyozlar faqat erkaklarga beriladi."
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 5-bosqich",
+    "q": "Homilador ayollarni va uch yoshga to'lmagan bolalari bor ayollarni tuni bilan bajariladigan ishlarga, qo'shimcha ishlarga, dam olish kunlaridagi ishlarga jalb qilishga ... yo'l qo'yilmaydi.",
+    "o": [
+      "istisno tariqasida",
+      "qat'iyan",
+      "shartli ravishda",
+      "yozma ruxsat bilan"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Mehnat huquqi: 5-bosqich",
+    "q": "To'g'ri moslashtiruvchi javobni aniqlang: a) Ayollar mehnati kafolatlari; b) Homiladorlik ta'tili; c) Bola parvarish qilish ta'tili. 1) Og'ir ishlardan ozod etish; 2) Davlat tomonidan nafaqa to'lanishi; 3) Uch yoshgacha saqlanishi.",
+    "o": [
+      "(a)–2; (b)–1; (c)–3",
+      "(a)–3; (b)–2; (c)–1",
+      "(a)–1; (b)–2; (c)–3",
+      "(a)–1; (b)–3; (c)–2"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Mehnat huquqi: 5-bosqich",
+    "q": "Qaysi bayonotlar TO'G'RI? 1. O'n sakkiz yoshga to'lmagan shaxslarning mehnatida ularning sog'lig'i muhofaza qilinadi. 2. Voyaga yetmaganlarni og'ir yuklarni ko'tarish va tashish ishlariga jalb qilish me'yorlari belgilanadi. 3. O'n sakkiz yoshga to'lmaganlarni tungi ishlarga va qo'shimcha ishlarga jalb qilish taqiqlanadi. 4. Voyaga yetmaganlar kattalar kabi tungi vaqtda ishlashi majburiy.",
+    "o": [
+      "1, 2 va 3",
+      "2 va 4",
+      "1 va 4",
+      "Barchasi to'g'ri"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 5-bosqich",
+    "q": "XATO ko'rsatilgan ma'lumotni aniqlang:",
+    "o": [
+      "O'n sakkiz yoshga to'lmagan shaxslar ishga qabul qilinganda dastlabki tibbiy ko'rikdan o'tkazilishi shart.",
+      "Voyaga yetmaganlarga har yili uzaytirilgan yillik ta'til beriladi.",
+      "Voyaga yetmagan xodim bilan tuzilgan mehnat shartnomasini ish beruvchining tashabbusi bilan bekor qilishda kasaba uyushmasining roziligini olish shart emas.",
+      "Voyaga yetmaganlar uchun qisqartirilgan ish vaqti belgilanadi."
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Mehnat huquqi: 5-bosqich",
+    "q": "To'g'ri ma'lumotni aniqlang:",
+    "o": [
+      "Nogironligi bo'lgan xodimlarga qonunchilikda qo'shimcha imtiyozlar va kafolatlar belgilanadi.",
+      "Nogironligi bo'lgan shaxslarga ish beruvchi istalgan og'ir ishni yuklashga haqli.",
+      "Nogironligi bo'lgan xodimlar uchun qo'shimcha ta'til berish taqiqlanadi.",
+      "Nogironlar bilan mehnat shartnomasi tuzishda ulardan tibbiy ma'lumot talab qilish taqiqlanadi."
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 5-bosqich",
+    "q": "Nogironligi bo'lgan xodimlarga qonunchilikka muvofiq qisqartirilgan ish vaqti va ... yillik ta'til berilishi mumkin.",
+    "o": [
+      "qisqartirilgan",
+      "uzaytirilgan",
+      "to'lanmaydigan",
+      "cheklangan"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Mehnat huquqi: 5-bosqich",
+    "q": "To'g'ri moslashtiruvchi javobni aniqlang: a) Nogironligi bo'lgan shaxslar; b) Voyaga yetmaganlar; c) Ayollar. 1) Qonuniy kafolatlar bilan ta'minlanadi; 2) Tungi ishlarga jalb qilinmaydi; 3) Homiladorlik davrida imtiyozlarga ega.",
+    "o": [
+      "(a)–1; (b)–2; (c)–3",
+      "(a)–2; (b)–1; (c)–3",
+      "(a)–3; (b)–2; (c)–1",
+      "(a)–1; (b)–3; (c)–2"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 5-bosqich",
+    "q": "Qaysi bayonotlar XATO? 1. O'rindoshlik asosida ishlovchilarga asosiy xodimlar kabi barcha kafolatlar beriladi. 2. O'rindoshlarga yillik ta'til asosiy ish joyidagi ta'til bilan bir vaqtda berilishi kerak. 3. O'rindoshlik asosida ishlash uchun asosiy ish beruvchining roziligi har doim majburiy. 4. O'rindoshlar uchun mehnat daftarchasi asosiy ish joyida yuritiladi.",
+    "o": [
+      "3",
+      "1 va 2",
+      "2 va 4",
+      "Yolg'on bayonot yo'q"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 5-bosqich",
+    "q": "To'g'ri ma'lumotni aniqlang:",
+    "o": [
+      "Mavsumiy ishlar xususiyatiga ko'ra ma'lum bir davrda (mavsumda) bajariladigan ishlardir.",
+      "Mavsumiy ishlar davomiyligi 5 yildan ortiq bo'lishi shart.",
+      "Mavsumiy ishchilar bilan mehnat shartnomasi faqat og'zaki tuziladi.",
+      "Mavsumiy ishchilarga ta'til berish qonun bilan taqiqlangan."
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 5-bosqich",
+    "q": "O'n oydan ortiq bo'lmagan davr mobaynida bajariladigan ishlar ... ishlari deb hisoblanadi.",
+    "o": [
+      "mavsumiy",
+      "doimiy",
+      "vaqtinchalik",
+      "masofaviy"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 5-bosqich",
+    "q": "To'g'ri moslashtiruvchi javobni aniqlang: a) Mavsumiy ishlar; b) Vaqtinchalik ishlar; c) Masofaviy ishlar. 1) Ma'lum bir mavsumda bajariladigan; 2) Qisqa muddatli tusga ega bo'lgan; 3) Masofadan turib bajariladigan.",
+    "o": [
+      "(a)–3; (b)–2; (c)–1",
+      "(a)–2; (b)–1; (c)–3",
+      "(a)–1; (b)–2; (c)–3",
+      "(a)–1; (b)–3; (c)–2"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Mehnat huquqi: 5-bosqich",
+    "q": "Qaysi bayonotlar TO'G'RI? 1. Masofaviy ishlar xodim tomonidan o'z yashash joyida yoki boshqa joyda axborot-kommunikatsiya texnologiyalaridan foydalanib bajariladi. 2. Masofaviy ishchilar bilan mehnat shartnomasi yozma shaklda tuziladi. 3. Masofaviy xodimlarga mehnat qonunchiligi qoidalari tatbiq etiladi. 4. Masofaviy ishchilarga ichki tartib qoidalari umuman taalluqli emas va ular xohlagan vaqtda ishlamasligi mumkin.",
+    "o": [
+      "1, 2 va 3",
+      "2 va 4",
+      "1 va 4",
+      "Barchasi to'g'ri"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 5-bosqich",
+    "q": "XATO ko'rsatilgan ma'lumotni aniqlang:",
+    "o": [
+      "Mehnat qonunchiligini buzgan shaxslar qonunda belgilangan tartibda javobgarlikka tortiladi.",
+      "Davlat mehnat inspeksiyasi mehnat qonunchiligiga rioya etilishini nazorat qiladi.",
+      "Xodim o'z huquqlarini himoya qilish uchun kasaba uyushmalariga murojaat qilishga haqli.",
+      "Ish beruvchi mehnat qonunlarini buzgani uchun hech qanday javobgarlikka tortilmaydi."
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Mehnat huquqi: 5-bosqich",
+    "q": "To'g'ri ma'lumotni aniqlang:",
+    "o": [
+      "O'zbekiston Respublikasining Mehnat kodeksi fuqarolarning mehnat huquqlarini ta'minlashga xizmat qiladi.",
+      "Mehnat kodeksi faqat chet el fuqarolari uchun amal qiladi.",
+      "Kodeks qoidalari korxona rahbarlari uchun ixtiyoriy tavsiya xususiyatiga ega.",
+      "Mehnat shartnomasi har doim Mehnat kodeksiga zid kelishi mumkin."
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 5-bosqich",
+    "q": "Mehnat to'g'risidagi qonunchilikka rioya etilishini davlat tomonidan nazorat qilish va ... vakolatli davlat organlari tomonidan amalga oshiriladi.",
+    "o": [
+      "tekshirish",
+      "kuzatish",
+      "moliyalashtirish",
+      "boshqarish"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 5-bosqich",
+    "q": "Qaysi bayonotlar XATO? 1. Davlat mehnat inspektorlari tashkilotlarga to'siqlarsiz kirish huquqiga ega. 2. Inspektorlar aniqlangan qoidabuzarliklarni bartaraf etish bo'yicha bajarilishi majburiy ko'rsatmalar berishi mumkin. 3. Ish beruvchi mehnat inspektorining qonuniy talablarini bajarishdan bosh tortishga haqli. 4. Mehnat inspeksiyasi xodimlarning huquqlarini himoya qilishda ishtirok etadi.",
+    "o": [
+      "3",
+      "1 va 2",
+      "2 va 4",
+      "Yolg'on bayonot yo'q"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Mehnat huquqi: 5-bosqich",
+    "q": "To'g'ri moslashtiruvchi javobni aniqlang: a) Davlat mehnat nazorati; b) Jamoatchilik nazorati; c) Xodimning o'z huquqini himoyasi. 1) Vakolatli organlar tomonidan amalga oshirilishi; 2) Kasaba uyushmalari tomonidan olib borilishi; 3) Sudga murojaat qilish huquqi.",
+    "o": [
+      "(a)–2; (b)–1; (c)–3",
+      "(a)–3; (b)–2; (c)–1",
+      "(a)–1; (b)–2; (c)–3",
+      "(a)–1; (b)–3; (c)–2"
+    ],
+    "a": 2
+  }
+]
