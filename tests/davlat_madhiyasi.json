@@ -1,0 +1,158 @@
+import json
+
+questions = [
+    {
+        "topic": "Davlat madhiyasi: 1-bosqich",
+        "q": "O‘zbekiston Respublikasi Davlat madhiyasining matni va musiqaviy tahriri haqidagi qaysi ma’lumot 1-moddaga mos? (1-modda)",
+        "o": [
+            "Ularning matni Prezident farmoni bilan tasdiqlanadi",
+            "Madhiyaning matni va musiqaviy tahriri tasdiqlanadi",
+            "Faqat musiqaviy tahriri Oliy Majlis Senati tomonidan tasdiqlanadi",
+            "Matn va musiqaviy tahrir mahalliy kengashlar tomonidan tasdiqlanadi"
+        ],
+        "a": 1
+    },
+    {
+        "topic": "Davlat madhiyasi: 1-bosqich",
+        "q": "TO‘G‘RI MA’LUMOTNI ANIQLANG. Davlat madhiyasiga oid 2-modda mazmuniga mos jumla qaysi? (2-modda)",
+        "o": [
+            "Madhiya davlat suverenitetining ramzi, unga ehtirom esa har bir fuqaroning vatanparvarlik burchidir",
+            "Madhiya faqat davlat organlarining ramzi, unga hurmat faqat mansabdorlar burchidir",
+            "Madhiya davlat mustaqilligining ramzi emas, faqat bayram qo‘shig‘idir",
+            "Madhiya suverenitet ramzi, lekin unga hurmat ko‘rsatish fuqarolar uchun ixtiyoriydir"
+        ],
+        "a": 0
+    },
+    {
+        "topic": "Davlat madhiyasi: 1-bosqich",
+        "q": "Davlat madhiyasi Prezident lavozimiga kirishish marosimida qaysi paytda ijro etiladi? (3-modda)",
+        "o": [
+            "Prezident saylangani e’lon qilinishidan oldin",
+            "Qasamyod qabul qilishdan oldin",
+            "Qasamyod qabul qilganidan so‘ng",
+            "Lavozimga kirishganidan bir kun o‘tib"
+        ],
+        "a": 2
+    },
+    {
+        "topic": "Davlat madhiyasi: 1-bosqich",
+        "q": "XATO MA’LUMOTNI ANIQLANG. 4-modda bo‘yicha Davlat madhiyasining ijro etilishi haqida qaysi jumla noto‘g‘ri? (4-modda)",
+        "o": [
+            "Umummilliy bayramlar vaqtida ijro etilishi mumkin",
+            "Tantanali tadbirlar vaqtida ijro etilishi mumkin",
+            "Ijro vaqtida madhiyaga lozim darajadagi hurmat ta’minlanishi kerak",
+            "Har qanday oddiy yig‘ilishda, hurmat ta’minlanishidan qat’i nazar, ijro etilishi shart"
+        ],
+        "a": 3
+    },
+    {
+        "topic": "Davlat madhiyasi: 1-bosqich",
+        "q": "Madhiya faqat cholg‘u asboblarida ijro etilganda qisman ijro etishga qanday shart bilan yo‘l qo‘yiladi? (5-modda)",
+        "o": [
+            "Faqat naqorat ikki marta aytiladi",
+            "Ashulaning boshlanishi va naqorat bir martadan aytiladi",
+            "Faqat ashulaning boshlanishi bir marta aytiladi",
+            "Madhiya faqat birinchi band bilan cheklanadi"
+        ],
+        "a": 1
+    },
+    {
+        "topic": "Davlat madhiyasi: 1-bosqich",
+        "q": "Davlat madhiyasi qanday matn va musiqaga muvofiq ijro etilishi lozim? (6-modda)",
+        "o": [
+            "Tashkilot rahbari tanlagan matn va musiqaga muvofiq",
+            "Matni saqlangan holda musiqasi erkin o‘zgartirilishi mumkin",
+            "Qonun bilan tasdiqlangan matn va musiqaviy tahrirga aynan muvofiq",
+            "Faqat musiqaviy tahrirga taxminan muvofiq"
+        ],
+        "a": 2
+    },
+    {
+        "topic": "Davlat madhiyasi: 1-bosqich",
+        "q": "Madhiya ko‘pchilik huzurida ijro etilganda, qonunchilikda boshqacha qoida bo‘lmasa, odatda hozir bo‘lgan kishilar qanday tinglaydi? (7-modda)",
+        "o": [
+            "Tik turib, o‘ng qo‘l kaftini ko‘krakning chap tomoniga qo‘yib",
+            "O‘tirgan holda, o‘ng qo‘lini ko‘tarib",
+            "Tik turib, chap qo‘l kaftini ko‘krakning o‘ng tomoniga qo‘yib",
+            "Saf tortib, ikki qo‘lini yoniga tushirib"
+        ],
+        "a": 0
+    },
+    {
+        "topic": "Davlat madhiyasi: 1-bosqich",
+        "q": "MOSLASHTIRING. 8-modda bo‘yicha madhiya ijro etish qoidalarini belgilash manbalarini moslang.\n1) Harbiy qismlar va harbiy kemalar\n2) Ichki ishlar organlari\n3) Ta’lim tashkilotlari\n\na) Tegishli vazirliklar manfaatdor tashkilotlar bilan kelishib belgilaydigan qoidalar\nb) Harbiy ustavlar\nc) Ichki ishlar vazirining buyruqlari bilan belgilanadigan qoidalar (8-modda)",
+        "o": [
+            "1-a, 2-b, 3-c",
+            "1-c, 2-a, 3-b",
+            "1-b, 2-a, 3-c",
+            "1-b, 2-c, 3-a"
+        ],
+        "a": 3
+    },
+    {
+        "topic": "Davlat madhiyasi: 1-bosqich",
+        "q": "Respublika hududida sport musobaqalarida Davlat madhiyasini ijro etish qoidalarini kim belgilaydi? (9-modda)",
+        "o": [
+            "O‘zbekiston Respublikasi Tashqi ishlar vazirligi",
+            "O‘zbekiston Respublikasi Sport vazirligi manfaatdor tashkilotlar bilan kelishib",
+            "O‘zbekiston Respublikasi Ichki ishlar vazirligi yakka tartibda",
+            "Har bir sport tashkiloti mustaqil ravishda"
+        ],
+        "a": 1
+    },
+    {
+        "topic": "Davlat madhiyasi: 1-bosqich",
+        "q": "Xorijiy davlat hududida O‘zbekiston muassasalari va tashkilotlari o‘tkazadigan tadbirlarda madhiya ijrosi qaysi asosda amalga oshiriladi? (10-modda)",
+        "o": [
+            "Faqat O‘zbekiston Sport vazirligi belgilaydigan qoidalar asosida",
+            "O‘sha mamlakat tajribasi hisobga olinmaydi va faqat mahalliy tashkilot qarori qo‘llanadi",
+            "O‘sha mamlakat tajribasi va mahalliy urf-odatlarni hisobga olgan holda Tashqi ishlar vazirligi belgilaydigan qoidalar asosida",
+            "Har bir tadbir tashkilotchisi qoidalarni qonundan qat’i nazar o‘zi belgilaydi"
+        ],
+        "a": 2
+    },
+    {
+        "topic": "Davlat madhiyasi: 1-bosqich",
+        "q": "TO‘G‘RI MA’LUMOTNI ANIQLANG. 11-modda nimani belgilaydi? (11-modda)",
+        "o": [
+            "Faqat ta’lim tashkilotlaridagi ijro qoidalari ushbu Qonunga asoslanadi",
+            "Sport musobaqalaridagi qoidalar xalqaro tashkilotlar tomonidan har doim belgilanadi",
+            "Xorijdagi tadbirlarda ijro qoidalari mahalliy urf-odatlardan qat’i nazar belgilanadi",
+            "Ichki ishlar organlari, ta’lim muassasalari, sport musobaqalari va xorijdagi tegishli tadbirlarda ijro qoidalari ushbu Qonun talablariga asoslanib belgilanadi"
+        ],
+        "a": 3
+    },
+    {
+        "topic": "Davlat madhiyasi: 1-bosqich",
+        "q": "XATO MA’LUMOTNI ANIQLANG. 12-modda bo‘yicha qaysi jumla noto‘g‘ri? (12-modda)",
+        "o": [
+            "Qonun ijrosini ta’minlash tegishli davlat organlari va boshqa tashkilotlar rahbarlari zimmasiga yuklatiladi",
+            "Qonun ijrosi ustidan nazoratni Tashqi ishlar vazirligi amalga oshiradi",
+            "Qonun ijrosi ustidan nazorat ichki ishlar organlari tomonidan amalga oshiriladi",
+            "Ijroni ta’minlash mas’uliyati tegishli davlat organlari va boshqa tashkilotlar rahbarlariga yuklatilgan"
+        ],
+        "a": 1
+    },
+    {
+        "topic": "Davlat madhiyasi: 1-bosqich",
+        "q": "Kimlar Davlat madhiyasini hurmat qilishi shart va qonunchilikni buzganlar qanday bo‘ladi? (13-modda)",
+        "o": [
+            "Faqat O‘zbekiston fuqarolari hurmat qiladi, buzganlar javobgarlikdan ozod",
+            "Faqat davlat xizmatchilari hurmat qiladi, buzganlarga og‘zaki eslatma beriladi",
+            "O‘zbekiston fuqarolari hamda O‘zbekistonda turgan boshqa shaxslar hurmat qilishi shart; aybdorlar belgilangan tartibda javobgar bo‘ladi",
+            "O‘zbekistonda turgan boshqa shaxslar hurmat qilishi ixtiyoriy, javobgarlik faqat fuqarolarga tegishli"
+        ],
+        "a": 2
+    }
+]
+
+path = "/mnt/data/davlat_madhiyasi.json"
+with open(path, "w", encoding="utf-8") as f:
+    json.dump(questions, f, ensure_ascii=False, indent=2)
+
+# Basic validation
+assert len(questions) == 13
+assert all(len(q["o"]) == 4 and 0 <= q["a"] < 4 for q in questions)
+
+print(f"JSON fayl tayyor: {path}")
+print(f"Savollar: {len(questions)} | Variantlar: 4 tadan | Javob indekslari: {[q['a'] for q in questions]}")
