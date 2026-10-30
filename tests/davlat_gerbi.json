@@ -1,110 +1,110 @@
-import json
-
-questions = [
-    {
-        "topic": "Davlat gerbi: 1-bosqich",
-        "q": "Qonunning dastlabki moddasiga ko‘ra, Davlat gerbining qaysi tasvirlari tasdiqlangan? (1-modda)",
-        "o": [
-            "Faqat rangli tasviri",
-            "Rangli va oq-qora tasvirlari",
-            "Faqat oq-qora tasviri",
-            "Rangli va bir rangli ko‘k tasvirlari"
-        ],
-        "a": 1
-    },
-    {
-        "topic": "Davlat gerbi: 1-bosqich",
-        "q": "Qonunda O‘zbekiston Respublikasi Davlat gerbiga qanday maqom berilgan? (2-modda)",
-        "o": [
-            "Davlat boshqaruvi organlarining rasmiy belgisi",
-            "O‘zbekiston Respublikasi davlat mustaqilligining ramzi",
-            "Faqat davlat mukofotlarining belgisi",
-            "Davlat chegaralarini belgilovchi ramz"
-        ],
-        "a": 1
-    },
-    {
-        "topic": "Davlat gerbi: 1-bosqich",
-        "q": "Davlat gerbining markazida tasvirlangan Humo qushi qonunda nimaning ramzi deb ko‘rsatilgan? (3-modda)",
-        "o": [
-            "Tinchlik va farovonlik",
-            "Mustaqillik va birlik",
-            "Baxt va erksevarlik",
-            "Mehnat va hosildorlik"
-        ],
-        "a": 2
-    },
-    {
-        "topic": "Davlat gerbi: 1-bosqich",
-        "q": "Qonunning 4-moddasiga ko‘ra, Davlat gerbi tasviri qaysi joyda doimiy ravishda joylashtirilishi belgilangan? (4-modda)",
-        "o": [
-            "Nikoh tantanali ro‘yxatga olinadigan majlislar zalida",
-            "Barcha xususiy korxonalarning kirish qismida",
-            "Har bir ta’lim oluvchining kundaligida",
-            "Faqat muzey va kutubxonalarda"
-        ],
-        "a": 0
-    },
-    {
-        "topic": "Davlat gerbi: 1-bosqich",
-        "q": "Davlat gerbining takrorlanayotgan tasviri, uning katta-kichikligidan qat’i nazar, nimaga aniq mos bo‘lishi kerak? (5-modda)",
-        "o": [
-            "Faqat rangli tasviriga",
-            "Uni ishlatayotgan tashkilot belgilagan namunaga",
-            "Qonunga ilova qilingan rangli va oq-qora tasviriga",
-            "Faqat oq-qora tasviriga"
-        ],
-        "a": 2
-    },
-    {
-        "topic": "Davlat gerbi: 1-bosqich",
-        "q": "Qonunning 5¹-moddasiga ko‘ra, quyidagilardan qaysi biriga yo‘l qo‘yilmaydi? (5¹-modda)",
-        "o": [
-            "Davlat organlarining gerbning bo‘rtma tasviridan foydalanishiga",
-            "Gerb tasviridan o‘quv-tarbiya jarayonida foydalanishga",
-            "Gerb elementlarini nodavlat tashkilotlari hujjatlari rekvizitlari yoki reklama materiallariga kiritishga",
-            "Gerbni davlat mukofotining elementi sifatida ishlatishga"
-        ],
-        "a": 2
-    },
-    {
-        "topic": "Davlat gerbi: 1-bosqich",
-        "q": "Qonun ijrosini ta’minlash kimlarning zimmasiga yuklatiladi? (6-modda)",
-        "o": [
-            "Faqat ichki ishlar organlari xodimlari zimmasiga",
-            "Tegishli davlat organlari va boshqa tashkilotlar rahbarlari zimmasiga",
-            "Faqat mahalliy davlat hokimiyati organlari rahbarlari zimmasiga",
-            "Barcha fuqarolar zimmasiga birdek"
-        ],
-        "a": 1
-    },
-    {
-        "topic": "Davlat gerbi: 1-bosqich",
-        "q": "Diplomatik vakolatxonalar va konsullik muassasalari tomonidan qonun ijrosi ustidan nazoratni qaysi organ amalga oshiradi? (7-modda)",
-        "o": [
-            "Ichki ishlar organlari",
-            "Adliya vazirligi",
-            "Oliy Majlis palatalari",
-            "Tashqi ishlar vazirligi"
-        ],
-        "a": 3
-    },
-    {
-        "topic": "Davlat gerbi: 1-bosqich",
-        "q": "Davlat gerbini hurmat qilish majburiyati kimlarga yuklatilgan? (8-modda)",
-        "o": [
-            "Faqat O‘zbekiston Respublikasi fuqarolariga",
-            "Faqat davlat organlari xodimlariga",
-            "O‘zbekiston fuqarolari hamda O‘zbekistonda turgan boshqa shaxslarga",
-            "Faqat O‘zbekistonda doimiy yashovchi chet el fuqarolariga"
-        ],
-        "a": 2
-    }
+[
+  {
+    "topic": "Davlat gerbi: 1-bosqich",
+    "q": "Qonunning 1-moddasiga ko‘ra, Davlat gerbining qaysi tasvirlari tasdiqlangan? (1-modda)",
+    "o": [
+      "Rangli va sxematik tasvirlari",
+      "Faqat rangli, to‘liq ranglardagi tasviri",
+      "Oq-qora va sxematik tasvirlari",
+      "Rangli va oq-qora tasvirlari"
+    ],
+    "a": 3,
+    "izoh": "1-modda: gerbning rangli va oq-qora tasviri tasdiqlanadi (ilova). Bayroq qonunida esa sxematik va rangli tasvir tasdiqlanadi."
+  },
+  {
+    "topic": "Davlat gerbi: 1-bosqich",
+    "q": "Qonunda O‘zbekiston Respublikasi Davlat gerbiga qanday maqom berilgan? (2-modda)",
+    "o": [
+      "O‘zbekiston Respublikasi davlat suverenitetining ramzi",
+      "O‘zbekiston Respublikasi davlat mustaqilligining ramzi",
+      "O‘zbekiston xalqi birligining ramzi",
+      "O‘zbekiston Respublikasi davlat hokimiyatining ramzi"
+    ],
+    "a": 1,
+    "izoh": "2-modda: gerb davlat mustaqilligining ramzi. Bayroq va madhiya esa davlat suverenitetining ramzi."
+  },
+  {
+    "topic": "Davlat gerbi: 1-bosqich",
+    "q": "Davlat gerbining markazida tasvirlangan Humo qushi qonunda nimaning ramzi deb ko‘rsatilgan? (3-modda)",
+    "o": [
+      "Baxt va erksevarlik",
+      "Tinchlik va farovonlik",
+      "Mustaqillik va birlik",
+      "Mehnat va hosildorlik"
+    ],
+    "a": 0,
+    "izoh": "3-modda: Humo qushi baxt va erksevarlik ramzi. Gerb yuqori qismidagi sakkizburchak esa Respublika hurligining ramzi."
+  },
+  {
+    "topic": "Davlat gerbi: 1-bosqich",
+    "q": "Qonunning 4-moddasiga ko‘ra, Davlat gerbi tasviri qaysi joyga doimiy ravishda joylashtiriladi? (4-modda)",
+    "o": [
+      "Barcha xususiy korxonalar va tadbirkorlarning kirish qismiga",
+      "Muzeylar, kutubxonalar va teatrlarning majlislar zallariga",
+      "Nikoh tantanali ro‘yxatga olinadigan majlislar zallariga",
+      "Maktab, kollej va litseylarning barcha o‘quv xonalariga"
+    ],
+    "a": 2,
+    "izoh": "4-modda 1-qism 2-bandi: gerb fuqarolik holati dalolatnomalarini yozish organlarining nikoh tantanali ro‘yxatga olinadigan majlislar zallariga doimiy ravishda joylashtiriladi."
+  },
+  {
+    "topic": "Davlat gerbi: 1-bosqich",
+    "q": "Davlat gerbining takrorlanayotgan tasviri, uning katta-kichikligidan qat’i nazar, nimaga aniq mos bo‘lishi kerak? (5-modda)",
+    "o": [
+      "Uni qo‘llayotgan tashkilot tasdiqlagan namunaga",
+      "Qonunga ilova qilingan rangli va oq-qora tasviriga",
+      "Faqat qonunga ilova qilingan rangli tasviriga",
+      "Faqat qonunga ilova qilingan oq-qora tasviriga"
+    ],
+    "a": 1,
+    "izoh": "5-modda: takrorlanayotgan tasvir, katta-kichikligidan qat’i nazar, qonunga ilova qilingan rangli va oq-qora tasvirga aniq mos bo‘lishi kerak."
+  },
+  {
+    "topic": "Davlat gerbi: 1-bosqich",
+    "q": "Davlat gerbi to‘g‘risidagi qonunga ko‘ra, quyidagilardan qaysi biriga yo‘l qo‘yilmaydi? (5¹-modda)",
+    "o": [
+      "Davlat organlari va tashkilotlarning gerb bo‘rtma tasvirini qo‘llashiga",
+      "Gerb tasvirini o‘quv-tarbiya jarayonida va predmetlarda qo‘llashga",
+      "Gerb tasvirini davlat mukofotlarining elementi sifatida qo‘llashga",
+      "Gerb elementlarini nodavlat tashkilot hujjatlari yoki reklamasiga kiritishga"
+    ],
+    "a": 3,
+    "izoh": "5¹-modda: gerb elementlarini nodavlat tashkilotlar hujjat rekvizitlari yoki reklama materiallariga kiritish mumkin emas. Bo‘rtma tasvir, o‘quv-tarbiya jarayoni va davlat mukofoti elementi sifatida foydalanish esa 4-moddada ruxsat etilgan."
+  },
+  {
+    "topic": "Davlat gerbi: 1-bosqich",
+    "q": "Qonun ijrosini ta’minlash kimlarning zimmasiga yuklatiladi? (6-modda)",
+    "o": [
+      "Tegishli davlat organlari va boshqa tashkilotlar rahbarlari zimmasiga",
+      "Faqat ichki ishlar organlari rahbarlari va xodimlari zimmasiga",
+      "Faqat mahalliy davlat hokimiyati organlari rahbarlari zimmasiga",
+      "Faqat Adliya vazirligi va uning hududiy boshqarmalari zimmasiga"
+    ],
+    "a": 0,
+    "izoh": "6-modda: qonun ijrosini ta’minlash tegishli davlat organlari va boshqa tashkilotlar rahbarlari zimmasiga yuklatiladi."
+  },
+  {
+    "topic": "Davlat gerbi: 1-bosqich",
+    "q": "Diplomatik vakolatxonalar va konsullik muassasalari tomonidan qonun ijrosi ustidan nazoratni qaysi organ amalga oshiradi? (7-modda)",
+    "o": [
+      "Ichki ishlar organlari",
+      "Adliya vazirligi",
+      "Tashqi ishlar vazirligi",
+      "Oliy Majlis palatalari"
+    ],
+    "a": 2,
+    "izoh": "7-modda: diplomatik vakolatxonalar va konsullik muassasalari ustidan nazoratni Tashqi ishlar vazirligi, boshqa organlar va tashkilotlar ustidan esa ichki ishlar organlari amalga oshiradi."
+  },
+  {
+    "topic": "Davlat gerbi: 1-bosqich",
+    "q": "Davlat gerbini hurmat qilish majburiyati kimlarga yuklatilgan? (8-modda)",
+    "o": [
+      "Faqat O‘zbekiston fuqarolari va ularning oila a’zolariga",
+      "Fuqarolar hamda O‘zbekistonda turgan boshqa shaxslarga",
+      "Faqat davlat organlari xodimlari va harbiy xizmatchilarga",
+      "Faqat O‘zbekistonda doimiy yashovchi chet el fuqarolariga"
+    ],
+    "a": 1,
+    "izoh": "8-modda: gerbni hurmat qilish fuqarolar hamda O‘zbekistonda turgan boshqa shaxslar uchun majburiy; qonunchilikni buzganlar belgilangan tartibda javobgar bo‘ladi."
+  }
 ]
-
-path = "/mnt/data/davlat_gerbi.json"
-with open(path, "w", encoding="utf-8") as f:
-    json.dump(questions, f, ensure_ascii=False, indent=2)
-
-print(f"JSON fayl tayyor: {path}")
-print(f"Savollar soni: {len(questions)}")
