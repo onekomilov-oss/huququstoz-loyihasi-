@@ -1,6 +1,6 @@
 // ==========================================
 // HUQUQUSTOZ AKADEMIYASI - ASOSIY MANTIQ (app.js)
-// 2 Bosqichli Menyu va To'liq Testlar To'plami
+// 2 Bosqichli Menyu va Aralash Imtihon Rejimi
 // ==========================================
 
 const tg = window.Telegram.WebApp;
@@ -12,6 +12,8 @@ let currentTestIndex = 0;    // Hozirgi savol indeksi
 let userScore = 0;           // Joriy mavzudagi to'g'ri javoblar soni
 let isAnswered = false;      // Joriy savolga javob berilganini belgilash
 let currentCategory = null;  // Hozir tanlangan asosiy fan
+let mixedTimer = null;       // Aralash test taymeri
+let timeLeft = 0;            // Qolgan vaqt (sekundda)
 
 document.addEventListener('DOMContentLoaded', () => {
   // 1. Telegram ismini chiqarish
@@ -111,21 +113,14 @@ async function loadTestsData() {
     allTests = [];
     
     const fileNames = [
-      // Davlat ramzlari (Bayroq, Gerb, Madhiya)
       'tests/davlat_bayrogisi.json',
       'tests/davlat_gerbi.json',
       'tests/davlat_madhiyasi.json',
-
-      // Siyosiy partiyalar
       'tests/siyosiy_partiyalar.json',
-      
-      // Fuqarolik huquqi (1-4)
       'tests/fuqarolik_1-bosqich.json',
       'tests/fuqarolik_2-bosqich.json',
       'tests/fuqarolik_3-bosqich.json',
       'tests/fuqarolik_4-bosqich.json',
-      
-      // Jinoyat huquqi (1-10)
       'tests/jinoyat_1-bosqich.json',
       'tests/jinoyat_2-bosqich.json',
       'tests/jinoyat_3-bosqich.json',
@@ -136,15 +131,11 @@ async function loadTestsData() {
       'tests/jinoyat_8-bosqich.json',
       'tests/jinoyat_9-bosqich.json',
       'tests/jinoyat_10-bosqich.json',
-      
-      // Konstitutsiya (1-5)
       'tests/konstitutsiya_1-bosqich.json',
       'tests/konstitutsiya_2-bosqich.json',
       'tests/konstitutsiya_3-bosqich.json',
       'tests/konstitutsiya_4-bosqich.json',
       'tests/konstitutsiya_5-bosqich.json',
-
-      // Mehnat huquqi (1-10)
       'tests/mehnat_1-bosqich.json',
       'tests/mehnat_2-bosqich.json',
       'tests/mehnat_3-bosqich.json',
@@ -155,8 +146,6 @@ async function loadTestsData() {
       'tests/mehnat_8-bosqich.json',
       'tests/mehnat_9-bosqich.json',
       'tests/mehnat_10-bosqich.json',
-
-      // Oila huquqi (1-8)
       'tests/oila_1-bosqich.json',
       'tests/oila_2-bosqich.json',
       'tests/oila_3-bosqich.json',
@@ -198,7 +187,7 @@ async function loadTestsData() {
   }
 }
 
-// --- 2 BOSQICHLI MENYU ---
+// --- 2 BOSQICHLI MENYU VA ARALASH TEST TUGMASI ---
 function renderTopicsList() {
   const topicsListContainer = document.getElementById('topics-list');
   if (!topicsListContainer) return;
@@ -210,6 +199,23 @@ function renderTopicsList() {
     return;
   }
 
+  // 1. Aralash Test tugmasini yuqoriga qo'shamiz
+  const mixedCard = document.createElement('div');
+  mixedCard.className = 'glass-card';
+  mixedCard.style.cssText = 'padding: 18px; margin-bottom: 16px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; border-radius: 14px; background: linear-gradient(135deg, rgba(212, 175, 55, 0.25), rgba(255,255,255,0.05)); border: 1px solid var(--accent);';
+  mixedCard.innerHTML = `
+    <div>
+      <strong style="font-size: 17px; color: var(--accent); display: block;">⚡ Aralash Test (Imtihon rejimi)</strong>
+      <div style="font-size: 13px; color: var(--text-sub); margin-top: 4px;">Barcha bazadan savollar | Miqdor va vaqtni o'zingiz belgilang</div>
+    </div>
+    <span style="font-size: 18px; color: var(--accent);">▶</span>
+  `;
+  mixedCard.addEventListener('click', () => {
+    showMixedQuizSetup();
+  });
+  topicsListContainer.appendChild(mixedCard);
+
+  // 2. Oddiy fanlar ro'yxati
   const categoriesMap = {};
   allTests.forEach(test => {
     let rawTopic = test.topic || "Umumiy huquqiy testlar";
@@ -223,7 +229,6 @@ function renderTopicsList() {
 
   Object.keys(categoriesMap).forEach(catName => {
     const testsInCat = categoriesMap[catName];
-    
     const subTopicsSet = new Set();
     testsInCat.forEach(t => subTopicsSet.add(t.topic));
 
@@ -246,6 +251,102 @@ function renderTopicsList() {
 
     topicsListContainer.appendChild(card);
   });
+}
+
+// --- ARALASH TEST SOZLAMALARI OYNASI ---
+function showMixedQuizSetup() {
+  const topicsListContainer = document.getElementById('topics-list');
+  if (!topicsListContainer) return;
+
+  topicsListContainer.innerHTML = `
+    <div class="glass-card" style="padding: 20px; border-radius: 14px;">
+      <h3 style="margin-bottom: 15px; color: var(--text-main); text-align: center;">⚡ Aralash Imtihon Rejimi</h3>
+      <p style="color: var(--text-sub); font-size: 13px; margin-bottom: 20px; text-align: center;">Barcha bazadagi fanlardan tasodifiy savollar tanlanadi.</p>
+      
+      <label style="display: block; font-size: 14px; color: var(--text-main); margin-bottom: 6px;">Savollar sonini tanlang:</label>
+      <select id="mixed-count" class="glass-card" style="width: 100%; padding: 12px; margin-bottom: 16px; border-radius: 10px; background: rgba(255,255,255,0.08); color: var(--text-main); border: 1px solid rgba(255,255,255,0.1);">
+        <option value="15">15 ta savol</option>
+        <option value="30" selected>30 ta savol</option>
+        <option value="45">45 ta savol</option>
+        <option value="60">60 ta savol</option>
+        <option value="80">80 ta savol</option>
+        <option value="100">100 ta savol</option>
+      </select>
+
+      <label style="display: block; font-size: 14px; color: var(--text-main); margin-bottom: 6px;">Vaqtni belgilang (minutda):</label>
+      <input type="number" id="mixed-minutes" value="30" min="1" max="180" class="glass-card" style="width: 100%; padding: 12px; margin-bottom: 20px; border-radius: 10px; background: rgba(255,255,255,0.08); color: var(--text-main); border: 1px solid rgba(255,255,255,0.1);">
+
+      <button id="btn-start-mixed" class="btn btn-primary btn-lg" style="width: 100%; padding: 14px; margin-bottom: 10px; cursor: pointer;">Testni boshlash 🚀</button>
+      <button id="btn-back-from-mixed" class="btn btn-secondary" style="width: 100%; padding: 12px; cursor: pointer; background: rgba(255,255,255,0.08); color: var(--text-main); border: 1px solid rgba(255,255,255,0.1); border-radius: 10px;">← Orqaga qaytish</button>
+    </div>
+  `;
+
+  document.getElementById('btn-start-mixed').addEventListener('click', () => {
+    const count = parseInt(document.getElementById('mixed-count').value);
+    const minutes = parseInt(document.getElementById('mixed-minutes').value) || 30;
+    startMixedQuizProcess(count, minutes);
+  });
+
+  document.getElementById('btn-back-from-mixed').addEventListener('click', () => {
+    renderTopicsList();
+  });
+}
+
+// Aralash testni boshlash va taymerni yoqish
+function startMixedQuizProcess(count, minutes) {
+  if (!allTests || allTests.length === 0) {
+    alert("Hozircha testlar yuklanmagan!");
+    return;
+  }
+
+  // Tasodifiy tartibda aralashtirish va kerakli miqdorda olish
+  let shuffled = [...allTests].sort(() => 0.5 - Math.random());
+  currentTopicTests = shuffled.slice(0, Math.min(count, shuffled.length));
+
+  currentTestIndex = 0;
+  userScore = 0;
+  isAnswered = false;
+  timeLeft = minutes * 60; // sekundga o'tkazamiz
+
+  ensureQuizViewStructure();
+
+  document.getElementById('topic-select-view').classList.add('hidden');
+  document.getElementById('quiz-view').classList.remove('hidden');
+
+  if (tg.BackButton) tg.BackButton.show();
+
+  startTimer();
+  updateGlobalStats();
+  renderQuestion();
+}
+
+// Taymerni boshqarish
+function startTimer() {
+  if (mixedTimer) clearInterval(mixedTimer);
+
+  const progressTopNav = document.querySelector('.quiz-top-nav');
+  let timerBadge = document.getElementById('quiz-timer-badge');
+  
+  if (!timerBadge) {
+    timerBadge = document.createElement('div');
+    timerBadge.id = 'quiz-timer-badge';
+    timerBadge.className = 'quiz-badge';
+    timerBadge.style.cssText = 'background: rgba(220, 53, 69, 0.2); color: #ff6b6b; border: 1px solid #ff6b6b; padding: 4px 10px; border-radius: 8px; font-weight: bold;';
+    progressTopNav.appendChild(timerBadge);
+  }
+
+  mixedTimer = setInterval(() => {
+    if (timeLeft <= 0) {
+      clearInterval(mixedTimer);
+      showQuizFinished(true); // Vaqt tugadi
+      return;
+    }
+
+    timeLeft--;
+    let min = Math.floor(timeLeft / 60);
+    let sec = timeLeft % 60;
+    timerBadge.textContent = `⏳ ${min}:${sec < 10 ? '0' : ''}${sec}`;
+  }, 1000);
 }
 
 function renderSubTopicsList(catName) {
@@ -301,6 +402,10 @@ function renderSubTopicsList(catName) {
 }
 
 function startQuizForTopic(tests) {
+  if (mixedTimer) clearInterval(mixedTimer);
+  const timerBadge = document.getElementById('quiz-timer-badge');
+  if (timerBadge) timerBadge.remove();
+
   currentTopicTests = tests;
   currentTestIndex = 0;
   userScore = 0; 
@@ -318,6 +423,10 @@ function startQuizForTopic(tests) {
 }
 
 function showTopicsView() {
+  if (mixedTimer) clearInterval(mixedTimer);
+  const timerBadge = document.getElementById('quiz-timer-badge');
+  if (timerBadge) timerBadge.remove();
+
   currentTestIndex = 0;
   userScore = 0;
   isAnswered = false;
@@ -333,7 +442,7 @@ function renderQuestion() {
   const quizView = document.getElementById('quiz-view');
 
   if (currentTestIndex >= currentTopicTests.length) {
-    showQuizFinished();
+    showQuizFinished(false);
     return;
   }
 
@@ -422,24 +531,24 @@ function ensureQuizViewStructure() {
   quizView.innerHTML = `
     <div id="quiz-finished" class="hidden"></div>
     <div id="quiz-body">
-      <div class="quiz-top-nav">
+      <div class="quiz-top-nav" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
         <button id="btn-back-topics" class="btn-back">← Ortga</button>
         <div id="quiz-progress" class="quiz-badge">1 / 30</div>
       </div>
-      <div class="progress-track">
+      <div class="progress-track" style="margin-bottom: 14px;">
         <div id="quiz-progress-bar" class="progress-fill"></div>
       </div>
       <div id="question-card" class="glass-card quiz-card">
         <div id="question-text" class="question-text">Savol yuklanmoqda...</div>
         <div id="options-container" class="options-grid"></div>
       </div>
-      <div id="analysis-panel" class="glass-card analysis-card hidden">
+      <div id="analysis-panel" class="glass-card analysis-card hidden" style="margin-top: 14px;">
         <div class="analysis-header">
           <span>📖</span>
           <h3>Huquqiy Tahlil</h3>
         </div>
         <p id="analysis-text" class="analysis-body"></p>
-        <button id="btn-next-question" class="btn btn-primary btn-lg" style="margin-top:12px;">Keyingi Savol →</button>
+        <button id="btn-next-question" class="btn btn-primary btn-lg" style="margin-top:12px; width: 100%;">Keyingi Savol →</button>
       </div>
     </div>
   `;
@@ -451,7 +560,8 @@ function ensureQuizViewStructure() {
   if (btnNext) btnNext.addEventListener('click', nextQuestion);
 }
 
-function showQuizFinished() {
+function showQuizFinished(isTimeOut = false) {
+  if (mixedTimer) clearInterval(mixedTimer);
   ensureQuizViewStructure();
 
   const quizBody = document.getElementById('quiz-body');
@@ -462,47 +572,48 @@ function showQuizFinished() {
   quizBody.classList.add('hidden');
   finishedPanel.classList.remove('hidden');
 
-  // Natijani Telegram orqali ustozga yuborish imkoniyati bilan
+  let titleText = isTimeOut ? "⏰ Vaqt tugadi!" : "🎉 Test yakunlandi!";
+  let subText = isTimeOut ? "Belgilangan vaqt tugagani uchun test avtomatik to'xtatildi." : "Siz ushbu testdagi barcha savolarga javob berdingiz.";
+
   const tgUser = tg.initDataUnsafe?.user;
   const userName = tgUser ? (tgUser.first_name + (tgUser.last_name ? ' ' + tgUser.last_name : '')) : 'O\'quvchi';
-  let activeTopicName = currentTopicTests.length > 0 && currentTopicTests[0].topic ? currentTopicTests[0].topic : "Test mavzusi";
-  const adminUsername = "huququstoz"; // O'z Telegram username'ingiz
+  const adminUsername = "huququstoz"; 
 
-  const reportText = `📊 Yangi Test Natijasi!\n\n👤 Ism: ${userName}\n📚 Mavzu: ${activeTopicName}\n✅ Natija: ${userScore} / ${currentTopicTests.length}`;
+  const reportText = `📊 Imtihon Natijasi!\n\n👤 Ism: ${userName}\n✅ To'g'ri javoblar: ${userScore} / ${currentTopicTests.length}`;
   const encodedText = encodeURIComponent(reportText);
   const telegramShareURL = `https://t.me/${adminUsername}?text=${encodedText}`;
 
   finishedPanel.innerHTML = `
     <div style="text-align: center; padding: 30px;" class="glass-card">
-      <h3 style="margin-bottom: 10px; font-family: 'Cinzel', serif;">🎉 Mavzu yakunlandi!</h3>
-      <p style="color: var(--text-sub); margin-bottom: 15px;">Siz ushbu mavzodagi barcha testlarni muvaffaqiyatli tugatdingiz.</p>
+      <h3 style="margin-bottom: 10px; font-family: 'Cinzel', serif;">${titleText}</h3>
+      <p style="color: var(--text-sub); margin-bottom: 15px;">${subText}</p>
       <p style="font-size: 18px; margin-bottom: 20px;">To'plagan ballingiz: <strong>${userScore} / ${currentTopicTests.length}</strong></p>
       
-      <a href="${telegramShareURL}" target="_blank" id="btn-send-result" class="btn btn-primary btn-lg" style="display: block; margin-bottom: 12px; text-decoration: none; text-align: center; line-height: normal; padding: 14px;">
+      <a href="${telegramShareURL}" target="_blank" id="btn-send-result" class="btn btn-primary btn-lg" style="display: block; margin-bottom: 12px; text-decoration: none; text-align: center; padding: 14px;">
         Natijani ustozga yuborish 📤
       </a>
 
-      <button id="btn-back-menu" class="btn btn-secondary btn-lg" style="width: 100%; padding: 14px;">Mavzularga qaytish 🔄</button>
+      <button id="btn-back-menu" class="btn btn-secondary btn-lg" style="width: 100%; padding: 14px; background: rgba(255,255,255,0.08); color: var(--text-main); border: 1px solid rgba(255,255,255,0.1); border-radius: 10px; cursor: pointer;">Mavzularga qaytish 🔄</button>
     </div>
   `;
 
-  const btnSendResult = document.getElementById('btn-send-result');
-  if (btnSendResult) {
-    btnSendResult.addEventListener('click', (e) => {
-      e.preventDefault();
-      if (tg.openTelegramLink) {
-        tg.openTelegramLink(telegramShareURL);
-      } else {
-        window.open(telegramShareURL, '_blank');
-      }
-    });
-  }
+  document.getElementById('btn-send-result').addEventListener('click', (e) => {
+    e.preventDefault();
+    if (tg.openTelegramLink) {
+      tg.openTelegramLink(telegramShareURL);
+    } else {
+      window.open(telegramShareURL, '_blank');
+    }
+  });
 
-  const btnBackMenu = document.getElementById('btn-back-menu');
-  if (btnBackMenu) btnBackMenu.addEventListener('click', backToMenu);
+  document.getElementById('btn-back-menu').addEventListener('click', backToMenu);
 }
 
 function backToMenu() {
+  if (mixedTimer) clearInterval(mixedTimer);
+  const timerBadge = document.getElementById('quiz-timer-badge');
+  if (timerBadge) timerBadge.remove();
+
   currentTestIndex = 0;
   userScore = 0;
   isAnswered = false;
