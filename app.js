@@ -1,6 +1,6 @@
 // ==========================================
 // HUQUQUSTOZ AKADEMIYASI - ASOSIY MANTIQ (app.js)
-// Barcha yo'nalishlar va Davlat ramzlari bilan
+// 2 Bosqichli Menyu va To'liq Testlar To'plami
 // ==========================================
 
 const tg = window.Telegram.WebApp;
@@ -111,7 +111,7 @@ async function loadTestsData() {
     allTests = [];
     
     const fileNames = [
-      // Davlat ramzlari
+      // Davlat ramzlari (Bayroq, Gerb, Madhiya)
       'tests/davlat_bayrogisi.json',
       'tests/davlat_gerbi.json',
       'tests/davlat_madhiyasi.json',
@@ -461,14 +461,42 @@ function showQuizFinished() {
 
   quizBody.classList.add('hidden');
   finishedPanel.classList.remove('hidden');
+
+  // Natijani Telegram orqali ustozga yuborish imkoniyati bilan
+  const tgUser = tg.initDataUnsafe?.user;
+  const userName = tgUser ? (tgUser.first_name + (tgUser.last_name ? ' ' + tgUser.last_name : '')) : 'O\'quvchi';
+  let activeTopicName = currentTopicTests.length > 0 && currentTopicTests[0].topic ? currentTopicTests[0].topic : "Test mavzusi";
+  const adminUsername = "huququstoz"; // O'z Telegram username'ingiz
+
+  const reportText = `📊 Yangi Test Natijasi!\n\n👤 Ism: ${userName}\n📚 Mavzu: ${activeTopicName}\n✅ Natija: ${userScore} / ${currentTopicTests.length}`;
+  const encodedText = encodeURIComponent(reportText);
+  const telegramShareURL = `https://t.me/${adminUsername}?text=${encodedText}`;
+
   finishedPanel.innerHTML = `
     <div style="text-align: center; padding: 30px;" class="glass-card">
       <h3 style="margin-bottom: 10px; font-family: 'Cinzel', serif;">🎉 Mavzu yakunlandi!</h3>
       <p style="color: var(--text-sub); margin-bottom: 15px;">Siz ushbu mavzodagi barcha testlarni muvaffaqiyatli tugatdingiz.</p>
       <p style="font-size: 18px; margin-bottom: 20px;">To'plagan ballingiz: <strong>${userScore} / ${currentTopicTests.length}</strong></p>
-      <button id="btn-back-menu" class="btn btn-primary btn-lg">Mavzularga qaytish 🔄</button>
+      
+      <a href="${telegramShareURL}" target="_blank" id="btn-send-result" class="btn btn-primary btn-lg" style="display: block; margin-bottom: 12px; text-decoration: none; text-align: center; line-height: normal; padding: 14px;">
+        Natijani ustozga yuborish 📤
+      </a>
+
+      <button id="btn-back-menu" class="btn btn-secondary btn-lg" style="width: 100%; padding: 14px;">Mavzularga qaytish 🔄</button>
     </div>
   `;
+
+  const btnSendResult = document.getElementById('btn-send-result');
+  if (btnSendResult) {
+    btnSendResult.addEventListener('click', (e) => {
+      e.preventDefault();
+      if (tg.openTelegramLink) {
+        tg.openTelegramLink(telegramShareURL);
+      } else {
+        window.open(telegramShareURL, '_blank');
+      }
+    });
+  }
 
   const btnBackMenu = document.getElementById('btn-back-menu');
   if (btnBackMenu) btnBackMenu.addEventListener('click', backToMenu);
