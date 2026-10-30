@@ -1,6 +1,6 @@
 // ==========================================
 // HUQUQUSTOZ AKADEMIYASI - ASOSIY MANTIQ (app.js)
-// Barcha huquq yo'nalishlari va 2 bosqichli Menyu
+// Barcha yo'nalishlar va Davlat ramzlari bilan
 // ==========================================
 
 const tg = window.Telegram.WebApp;
@@ -105,13 +105,20 @@ async function fetchLaws() {
   }
 }
 
-// --- BARCHA YO'NALISH DAGI TEST FAYLLARINI AVTOMATIK YUKLASH ---
+// --- BARCHA TEST FAYLLARINI AVTOMATIK YUKLASH ---
 async function loadTestsData() {
   try {
     allTests = [];
     
-    // Yaratgan barcha fayllaringiz ro'yxati
     const fileNames = [
+      // Davlat ramzlari
+      'tests/davlat_bayrogisi.json',
+      'tests/davlat_gerbi.json',
+      'tests/davlat_madhiyasi.json',
+
+      // Siyosiy partiyalar
+      'tests/siyosiy_partiyalar.json',
+      
       // Fuqarolik huquqi (1-4)
       'tests/fuqarolik_1-bosqich.json',
       'tests/fuqarolik_2-bosqich.json',
@@ -191,7 +198,7 @@ async function loadTestsData() {
   }
 }
 
-// --- 2 BOSQICHLI MENYU: KATEGORIYA VA BOSQICHLAR ---
+// --- 2 BOSQICHLI MENYU ---
 function renderTopicsList() {
   const topicsListContainer = document.getElementById('topics-list');
   if (!topicsListContainer) return;
@@ -206,7 +213,7 @@ function renderTopicsList() {
   const categoriesMap = {};
   allTests.forEach(test => {
     let rawTopic = test.topic || "Umumiy huquqiy testlar";
-    let categoryName = rawTopic.split(':')[0].trim(); // Fan nomi
+    let categoryName = rawTopic.split(':')[0].trim();
     
     if (!categoriesMap[categoryName]) {
       categoriesMap[categoryName] = [];
@@ -227,7 +234,7 @@ function renderTopicsList() {
     card.innerHTML = `
       <div>
         <strong style="font-size: 17px; color: var(--text-main); display: block;">⚖️ ${catName}</strong>
-        <div style="font-size: 13px; color: var(--text-sub); margin-top: 4px;">Bosqichlar: ${subTopicsSet.size} ta | Jami savollar: ${testsInCat.length} ta</div>
+        <div style="font-size: 13px; color: var(--text-sub); margin-top: 4px;">Bo'limlar: ${subTopicsSet.size} ta | Jami savollar: ${testsInCat.length} ta</div>
       </div>
       <span style="font-size: 18px; color: var(--accent);">▶</span>
     `;
