@@ -1,177 +1,182 @@
-import json
-
-questions = [
-    {
-        "topic": "Davlat bayrog‘i: 1-bosqich",
-        "q": "Qonunning 1-moddasiga ko‘ra, aynan nima tasdiqlanadi? (1-modda)",
-        "o": [
-            "Davlat bayrog‘ining sxematik va rangli tasviri",
-            "Davlat bayrog‘idan foydalanish tartibi",
-            "Davlat bayrog‘ini ko‘tarish va tushirish vaqti",
-            "Davlat bayrog‘iga hurmatni ta’minlash choralari"
-        ],
-        "a": 0
-    },
-    {
-        "topic": "Davlat bayrog‘i: 1-bosqich",
-        "q": "Davlat bayrog‘i nimaning ramzi hisoblanadi? (2-modda)",
-        "o": [
-            "O‘zbekiston xalqining madaniy merosining",
-            "O‘zbekiston Respublikasi davlat suverenitetining",
-            "O‘zbekiston Respublikasining xalqaro tashkilotlarga a’zoligining",
-            "O‘zbekiston Respublikasi davlat hokimiyati organlarining"
-        ],
-        "a": 1
-    },
-    {
-        "topic": "Davlat bayrog‘i: 1-bosqich",
-        "q": "Davlat bayrog‘i xalqaro munosabatlarda qanday vazifani bajaradi? (3-modda)",
-        "o": [
-            "Davlat organlarining qarorlarini tasdiqlaydi",
-            "Faqat diplomatik vakolatxonalarni bildiradi",
-            "O‘zbekiston Respublikasining timsoli bo‘ladi",
-            "Xalqaro tashkilotlarning timsoli bo‘ladi"
-        ],
-        "a": 2
-    },
-    {
-        "topic": "Davlat bayrog‘i: 1-bosqich",
-        "q": "Davlat bayrog‘idagi oq rangli enning ikki chetiga tushirilgan qizil hoshiyalarning kengligi qancha? (4-modda)",
-        "o": [
-            "1,5 santimetr",
-            "2 santimetr",
-            "3 santimetr",
-            "2,5 santimetr"
-        ],
-        "a": 3
-    },
-    {
-        "topic": "Davlat bayrog‘i: 1-bosqich",
-        "q": "Bayroq xorijiy davlatlar diplomatik vakolatxonalari yoki konsullik muassasalari binolari, hududlari va transport vositalarida qaysi talablarga muvofiq ko‘tariladi? (5-modda)",
-        "o": [
-            "Xalqaro huquq normalari, diplomatik protokol qoidalari hamda joylashgan davlat qonunchiligiga muvofiq",
-            "Faqat O‘zbekiston qonunchiligi va diplomatik protokol qoidalariga muvofiq",
-            "Xalqaro huquq normalari yoki joylashgan davlat qonunchiligiga muvofiq",
-            "Faqat vakolatxona rahbarining qaroriga muvofiq"
-        ],
-        "a": 0
-    },
-    {
-        "topic": "Davlat bayrog‘i: 1-bosqich",
-        "q": "Davlat bayrog‘i tasviri tushirilgan belgilar qaysi havo kemalariga tushirilishi nazarda tutilgan? (5¹-modda)",
-        "o": [
-            "Faqat xorijiy davlat reyestridagi havo kemalariga",
-            "O‘zbekiston Fuqaro havo kemalari yoki Davlat havo kemalari reyestriga kiritilgan, shuningdek Aviatsiya ma’muriyati hisobidagi eksperimental havo kemalariga",
-            "Faqat O‘zbekiston Davlat havo kemalari reyestriga kiritilgan havo kemalariga",
-            "Barcha havo kemalariga, reyestridan qat’i nazar"
-        ],
-        "a": 1
-    },
-    {
-        "topic": "Davlat bayrog‘i: 1-bosqich",
-        "q": "Davlat bayrog‘i tasviri tushirilgan belgilarni tijorat maqsadida tovarlarni o‘tkazish uchun ishlatishga oid qaysi qoida to‘g‘ri? (5²-modda)",
-        "o": [
-            "Bunday foydalanish har qanday holatda mumkin",
-            "Faqat xizmatlarni o‘tkazishda taqiqlanadi",
-            "Umuman mumkin emas, biroq hurmatni ta’minlagan holda ustki kiyimni bezash yoki O‘zbekistonga tegishlilikni belgilash bundan mustasno",
-            "Faqat nodavlat tashkilotlari uchun taqiqlanadi"
-        ],
-        "a": 2
-    },
-    {
-        "topic": "Davlat bayrog‘i: 1-bosqich",
-        "q": "5-moddaning 4-bandida nazarda tutilgan bayram kunlarida bayroq qaysi vaqtda ko‘tarilib, qachon tushiriladi? (6-modda)",
-        "o": [
-            "Soat 7 da ko‘tarilib, 21 da tushiriladi",
-            "Soat 6 da ko‘tarilib, 23 da tushiriladi",
-            "Kun davomida istalgan vaqtda ko‘tarilib, yarim tunda tushiriladi",
-            "Soat 6 da ko‘tarilib, soat 22 da tushiriladi"
-        ],
-        "a": 3
-    },
-    {
-        "topic": "Davlat bayrog‘i: 1-bosqich",
-        "q": "O‘zbekiston va Qoraqalpog‘iston Respublikalarining davlat bayroqlari bir vaqtda ko‘tarilsa, O‘zbekiston bayrog‘i binoning old tomoniga qarab turganda qaysi tomonda bo‘lishi kerak? (7-modda)",
-        "o": [
-            "Chap tomonda",
-            "O‘ng tomonda",
-            "Markazda",
-            "Qoraqalpog‘iston bayrog‘ining ortida"
-        ],
-        "a": 0
-    },
-    {
-        "topic": "Davlat bayrog‘i: 1-bosqich",
-        "q": "Ko‘tarib qo‘yilgan Davlat bayrog‘ining matosi yer sathidan kamida qancha balandlikda bo‘lishi kerak? (8-modda)",
-        "o": [
-            "2 metr",
-            "2,5 metr",
-            "3 metr",
-            "1,5 metr"
-        ],
-        "a": 1
-    },
-    {
-        "topic": "Davlat bayrog‘i: 1-bosqich",
-        "q": "Motam vaqtida bayroq flagshtokda ko‘tarilsa, u flagshtok uzunligining qancha qismicha tushiriladi? (9-modda)",
-        "o": [
-            "1/2 qismicha",
-            "1/4 qismicha",
-            "1/3 qismicha",
-            "1/5 qismicha"
-        ],
-        "a": 2
-    },
-    {
-        "topic": "Davlat bayrog‘i: 1-bosqich",
-        "q": "Davlat bayrog‘ini tayyorlash, saqlash va yo‘q qilish tartibini qaysi organ belgilaydi? (10-modda)",
-        "o": [
-            "Oliy Majlis",
-            "Tashqi ishlar vazirligi",
-            "Ichki ishlar organlari",
-            "Vazirlar Mahkamasi"
-        ],
-        "a": 3
-    },
-    {
-        "topic": "Davlat bayrog‘i: 1-bosqich",
-        "q": "Davlat bayrog‘i va uning tasviri tushirilgan belgilardan butun, toza va rangi o‘chmagan holda foydalanish uchun mas’uliyat kimlarning zimmasiga yuklatiladi? (11-modda)",
-        "o": [
-            "Ulardan foydalanuvchi jismoniy va yuridik shaxslar, shu jumladan davlat organlari",
-            "Faqat davlat organlari rahbarlari",
-            "Faqat bayroqni ishlab chiqaruvchilar",
-            "Faqat mahalliy davlat hokimiyati organlari"
-        ],
-        "a": 0
-    },
-    {
-        "topic": "Davlat bayrog‘i: 1-bosqich",
-        "q": "Qonunning diplomatik vakolatxonalar, konsullik muassasalari va xalqaro tashkilotlar huzuridagi vakolatxonalar tomonidan ijro etilishi ustidan nazoratni kim amalga oshiradi? (12-modda)",
-        "o": [
-            "Ichki ishlar organlari",
-            "Tashqi ishlar vazirligi",
-            "Vazirlar Mahkamasi",
-            "Bosh prokuratura"
-        ],
-        "a": 1
-    },
-    {
-        "topic": "Davlat bayrog‘i: 1-bosqich",
-        "q": "Davlat bayrog‘i to‘g‘risidagi qonunchilikni buzganlikda aybdor shaxslar qanday javobgar bo‘ladi? (13-modda)",
-        "o": [
-            "Faqat ma’muriy tartibda",
-            "Faqat jinoiy tartibda",
-            "Belgilangan tartibda",
-            "Faqat intizomiy tartibda"
-        ],
-        "a": 2
-    }
+[
+  {
+    "topic": "Davlat bayrog‘i: 1-bosqich",
+    "q": "Qonunning 1-moddasiga ko‘ra, aynan nima tasdiqlanadi? (1-modda)",
+    "o": [
+      "Davlat bayrog‘idan foydalanish tartibi va muddatlari",
+      "Davlat bayrog‘ini ko‘tarish va tushirish vaqtlari",
+      "Davlat bayrog‘ining sxematik va rangli tasviri",
+      "Davlat bayrog‘ini tayyorlash va saqlash qoidalari"
+    ],
+    "a": 2,
+    "izoh": "1-modda: Davlat bayrog‘ining sxematik va rangli tasviri tasdiqlanadi (qonunga ilova qilinadi). Ko‘tarish vaqti 6-moddada, tayyorlash tartibi 10-moddada berilgan."
+  },
+  {
+    "topic": "Davlat bayrog‘i: 1-bosqich",
+    "q": "Davlat bayrog‘i nimaning ramzi hisoblanadi? (2-modda)",
+    "o": [
+      "O‘zbekiston Respublikasi davlat suverenitetining ramzi",
+      "O‘zbekiston Respublikasi davlat mustaqilligining ramzi",
+      "O‘zbekiston xalqining milliy-madaniy merosining ramzi",
+      "O‘zbekiston Respublikasi hududiy yaxlitligining ramzi"
+    ],
+    "a": 0,
+    "izoh": "2-modda: bayroq davlat suverenitetining ramzi. Gerb esa davlat mustaqilligining ramzi (Gerb to‘g‘risidagi qonun, 2-modda)."
+  },
+  {
+    "topic": "Davlat bayrog‘i: 1-bosqich",
+    "q": "Davlat bayrog‘i xalqaro munosabatlarda nima bo‘ladi? (3-modda)",
+    "o": [
+      "Davlat organlari qarorlarining tasdig‘i bo‘ladi",
+      "Faqat diplomatik vakolatxonalarning belgisi bo‘ladi",
+      "Xalqaro tashkilotlardagi a’zolik belgisi bo‘ladi",
+      "O‘zbekiston Respublikasining timsoli bo‘ladi"
+    ],
+    "a": 3,
+    "izoh": "3-modda: Davlat bayrog‘i xalqaro munosabatlarda O‘zbekiston Respublikasining timsoli bo‘ladi."
+  },
+  {
+    "topic": "Davlat bayrog‘i: 1-bosqich",
+    "q": "Davlat bayrog‘ining o‘rtasidagi oq rangli enning chetlariga o‘tkazilgan qizil hoshiyalar kengligi qancha? (4-modda)",
+    "o": [
+      "2 santimetr",
+      "2,5 santimetr",
+      "3 santimetr",
+      "1,5 santimetr"
+    ],
+    "a": 1,
+    "izoh": "4-modda: bayroq uzunligi 250 sm, kengligi 125 sm; moviy, oq va yashil enlarning har biri 40 sm; oq en chetlaridagi qizil hoshiyalar 2,5 sm."
+  },
+  {
+    "topic": "Davlat bayrog‘i: 1-bosqich",
+    "q": "O‘zbekiston Respublikasining diplomatik vakolatxonalari va konsullik muassasalari binolarida, hududlarida hamda transport vositalarida Davlat bayrog‘i qaysi talablarga muvofiq ko‘tariladi? (5-modda)",
+    "o": [
+      "Faqat O‘zbekiston qonunchiligi va vakolatxona rahbari qaroriga",
+      "Xalqaro huquq normalari va vazirlik ichki yo‘riqnomalariga",
+      "Diplomatik protokol qoidalari va O‘zbekiston ichki qonunchiligiga",
+      "Xalqaro huquq, diplomatik protokol va joylashgan davlat qonunchiligiga"
+    ],
+    "a": 3,
+    "izoh": "5-modda 1-qism 6-bandi: bayroq xalqaro huquq normalari, diplomatik protokol qoidalari hamda vakolatxona joylashgan davlat qonunchiligiga muvofiq ko‘tariladi."
+  },
+  {
+    "topic": "Davlat bayrog‘i: 1-bosqich",
+    "q": "Davlat bayrog‘i tasviri tushirilgan belgilar qaysi havo kemalariga tushiriladi? (5¹-modda)",
+    "o": [
+      "Fuqaro va Davlat havo kemalari reyestridagi hamda eksperimental havo kemalariga",
+      "Faqat xorijiy davlatlar reyestriga kiritilgan fuqaro va yuk havo kemalariga",
+      "Faqat Davlat havo kemalari reyestriga kiritilgan harbiy va maxsus havo kemalariga",
+      "O‘zbekiston hududida parvoz qiladigan barcha turdagi fuqaro va harbiy havo kemalariga"
+    ],
+    "a": 0,
+    "izoh": "5¹-modda: belgilar Fuqaro havo kemalari davlat reyestri yoki Davlat havo kemalari reyestriga kiritilgan hamda Aviatsiya ma’muriyati hisobidagi eksperimental havo kemalariga tushiriladi."
+  },
+  {
+    "topic": "Davlat bayrog‘i: 1-bosqich",
+    "q": "Davlat bayrog‘i tasviri tushirilgan belgilardan tijorat maqsadida tovarlarni o‘tkazish uchun foydalanishga oid qaysi qoida to‘g‘ri? (5²-modda)",
+    "o": [
+      "Qonunda belgilangan har qanday tovarni o‘tkazish uchun foydalanish mumkin",
+      "Faqat xizmatlarni o‘tkazish uchun taqiqlanadi, tovarlar uchun esa mumkin",
+      "Mumkin emas; ustki kiyimni bezash va tegishlilikni belgilash mustasno",
+      "Faqat nodavlat tashkilotlar uchun taqiqlanadi, davlat organlari uchun mumkin"
+    ],
+    "a": 2,
+    "izoh": "5²-modda: tovarlarni (ish va xizmatlarni) o‘tkazish uchun tijorat maqsadida foydalanish mumkin emas; hurmat ta’minlangan holda ustki kiyimni bezash yoki O‘zbekistonga tegishlilikni belgilash bundan mustasno."
+  },
+  {
+    "topic": "Davlat bayrog‘i: 1-bosqich",
+    "q": "5-moddaning 4-bandida nazarda tutilgan bayram kunlarida Davlat bayrog‘i qaysi vaqtda ko‘tarilib, qachon tushiriladi? (6-modda)",
+    "o": [
+      "Soat 7 da ko‘tarilib, soat 21 da tushiriladi",
+      "Soat 6 da ko‘tarilib, soat 22 da tushiriladi",
+      "Soat 6 da ko‘tarilib, soat 23 da tushiriladi",
+      "Soat 8 da ko‘tarilib, soat 22 da tushiriladi"
+    ],
+    "a": 1,
+    "izoh": "6-modda: bayram kunlarida bayroq soat 6 da ko‘tarilib, soat 22 da tushiriladi. Saylov va referendum kunlari ovoz berish davrida, xorijiy rahbarlar tashrifida esa 24 soat oldin ko‘tarilib, ketganidan keyin 24 soat ichida tushiriladi."
+  },
+  {
+    "topic": "Davlat bayrog‘i: 1-bosqich",
+    "q": "O‘zbekiston va Qoraqalpog‘iston Respublikalarining Davlat bayroqlari bir vaqtda ko‘tarilsa, O‘zbekiston bayrog‘i binoning old tomoniga qarab turganda qanday joylashadi? (7-modda)",
+    "o": [
+      "Chap tomondan ko‘tariladi",
+      "O‘ng tomondan ko‘tariladi",
+      "Markaziy ustunda, ikkala bayroq orasida",
+      "Qoraqalpog‘iston bayrog‘idan pastroq balandlikda"
+    ],
+    "a": 0,
+    "izoh": "7-modda: O‘zbekiston bayrog‘i (binoning old tomoniga qarab turganda) chap tomondan ko‘tariladi; uning balandligi Qoraqalpog‘iston bayrog‘idan past bo‘lmasligi, o‘lchami esa undan kichik bo‘lmasligi kerak."
+  },
+  {
+    "topic": "Davlat bayrog‘i: 1-bosqich",
+    "q": "Ko‘tarib qo‘yilgan Davlat bayrog‘ining matosi yer sathidan kamida qancha balandlikda bo‘lishi kerak? (8-modda)",
+    "o": [
+      "1,5 metr",
+      "2 metr",
+      "3 metr",
+      "2,5 metr"
+    ],
+    "a": 3,
+    "izoh": "8-modda: ko‘tarilgan bayroq matosi yer sathidan kamida 2,5 metr balandlikda bo‘lishi kerak."
+  },
+  {
+    "topic": "Davlat bayrog‘i: 1-bosqich",
+    "q": "Motam munosabati bilan bayroq flagshtokda ko‘tarilsa, u flagshtok uzunligining qancha qismicha tushiriladi? (9-modda)",
+    "o": [
+      "1/2 qismicha",
+      "1/3 qismicha",
+      "1/4 qismicha",
+      "1/5 qismicha"
+    ],
+    "a": 1,
+    "izoh": "9-modda: flagshtokdagi bayroq flagshtok uzunligining 1/3 qismicha tushiriladi. Dasta yoki flagshtok uchiga bayroq enining 1/20 qismiga teng qora tasma bog‘lanadi."
+  },
+  {
+    "topic": "Davlat bayrog‘i: 1-bosqich",
+    "q": "Davlat bayrog‘ini tayyorlash, saqlash va yo‘q qilish tartibini kim belgilaydi? (10-modda)",
+    "o": [
+      "Oliy Majlis Qonunchilik palatasi",
+      "Tashqi ishlar vazirligi",
+      "Vazirlar Mahkamasi",
+      "Ichki ishlar vazirligi"
+    ],
+    "a": 2,
+    "izoh": "10-modda: bayroqni tayyorlash, saqlash va yo‘q qilish tartibini Vazirlar Mahkamasi belgilaydi."
+  },
+  {
+    "topic": "Davlat bayrog‘i: 1-bosqich",
+    "q": "Davlat bayrog‘idan va uning tasviri tushirilgan belgilardan butun, toza, rangi o‘chmagan holda foydalanish uchun mas’uliyat kimlarning zimmasiga yuklanadi? (11-modda)",
+    "o": [
+      "Foydalanuvchi jismoniy va yuridik shaxslar, shu jumladan davlat organlari",
+      "Faqat davlat organlarining rahbarlari hamda ularning mansabdor shaxslari",
+      "Faqat bayroqni tayyorlovchi va sotuvchi korxonalar hamda ularning xodimlari",
+      "Faqat mahalliy davlat hokimiyati organlari va ularning mansabdor shaxslari"
+    ],
+    "a": 0,
+    "izoh": "11-modda: mas’uliyat bayroq va uning tasviri tushirilgan belgilardan foydalanuvchi jismoniy va yuridik shaxslar, shu jumladan davlat organlariga yuklanadi. Qonun ijrosini ta’minlash esa tegishli davlat organlari va tashkilotlar rahbarlarining vazifasi."
+  },
+  {
+    "topic": "Davlat bayrog‘i: 1-bosqich",
+    "q": "Qonunning diplomatik vakolatxonalar, konsullik muassasalari va xalqaro tashkilotlar huzuridagi vakolatxonalar tomonidan ijro etilishi ustidan nazoratni kim amalga oshiradi? (12-modda)",
+    "o": [
+      "Ichki ishlar organlari",
+      "Bosh prokuratura",
+      "Tashqi ishlar vazirligi",
+      "Vazirlar Mahkamasi"
+    ],
+    "a": 2,
+    "izoh": "12-modda: diplomatik vakolatxonalar va konsullik muassasalari ustidan nazoratni Tashqi ishlar vazirligi, boshqa organlar va tashkilotlar ustidan esa ichki ishlar organlari amalga oshiradi."
+  },
+  {
+    "topic": "Davlat bayrog‘i: 1-bosqich",
+    "q": "Davlat bayrog‘i to‘g‘risidagi qonunchilikni buzganlikda aybdor shaxslar qanday javobgar bo‘ladi? (13-modda)",
+    "o": [
+      "Faqat ma’muriy tartibda javobgar bo‘ladi",
+      "Qonunda belgilangan tartibda javobgar bo‘ladi",
+      "Faqat jinoiy tartibda javobgar bo‘ladi",
+      "Faqat og‘zaki ogohlantirish bilan cheklanadi"
+    ],
+    "a": 1,
+    "izoh": "13-modda: aybdorlar belgilangan tartibda javobgar bo‘ladi (qarang: Jinoyat kodeksining 215-moddasi, Ma’muriy javobgarlik to‘g‘risidagi kodeksning 203¹-moddasi)."
+  }
 ]
-
-path = "/mnt/data/davlat_bayrogisi.json"
-with open(path, "w", encoding="utf-8") as f:
-    json.dump(questions, f, ensure_ascii=False, indent=2)
-
-print(f"JSON fayl tayyor: {path}")
-print(f"Testlar soni: {len(questions)}")
-print(f"Har bir savolda 4 ta variant bor; javob kaliti indekslari: {[q['a'] for q in questions]}")
