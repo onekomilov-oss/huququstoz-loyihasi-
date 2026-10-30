@@ -1,6 +1,6 @@
 // ==========================================
 // HUQUQUSTOZ AKADEMIYASI - ASOSIY MANTIQ (app.js)
-// 2 Bosqichli Menyu va Aralash Imtihon Rejimi
+// 2 Bosqichli Menyu va Aralash Imtihon Rejimi Versiyasi
 // ==========================================
 
 const tg = window.Telegram.WebApp;
@@ -24,6 +24,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const certNameEl = document.getElementById('cert-user-name');
     if (userNameEl) userNameEl.textContent = fullName;
     if (certNameEl) certNameEl.textContent = fullName;
+  }
+
+  // Guvohnoma sanasini chiqarish
+  const certDateEl = document.getElementById('cert-date');
+  if (certDateEl) {
+    const today = new Date();
+    certDateEl.textContent = today.toLocaleDateString();
   }
 
   // 2. Qonunlar va Barcha Test fayllarini yuklash
@@ -113,14 +120,19 @@ async function loadTestsData() {
     allTests = [];
     
     const fileNames = [
+      // Davlat ramzlari va siyosiy partiyalar
       'tests/davlat_bayrogisi.json',
       'tests/davlat_gerbi.json',
       'tests/davlat_madhiyasi.json',
       'tests/siyosiy_partiyalar.json',
+
+      // Fuqarolik huquqi (1-4)
       'tests/fuqarolik_1-bosqich.json',
       'tests/fuqarolik_2-bosqich.json',
       'tests/fuqarolik_3-bosqich.json',
       'tests/fuqarolik_4-bosqich.json',
+      
+      // Jinoyat huquqi (1-10)
       'tests/jinoyat_1-bosqich.json',
       'tests/jinoyat_2-bosqich.json',
       'tests/jinoyat_3-bosqich.json',
@@ -131,11 +143,15 @@ async function loadTestsData() {
       'tests/jinoyat_8-bosqich.json',
       'tests/jinoyat_9-bosqich.json',
       'tests/jinoyat_10-bosqich.json',
+      
+      // Konstitutsiya (1-5)
       'tests/konstitutsiya_1-bosqich.json',
       'tests/konstitutsiya_2-bosqich.json',
       'tests/konstitutsiya_3-bosqich.json',
       'tests/konstitutsiya_4-bosqich.json',
       'tests/konstitutsiya_5-bosqich.json',
+
+      // Mehnat huquqi (1-10)
       'tests/mehnat_1-bosqich.json',
       'tests/mehnat_2-bosqich.json',
       'tests/mehnat_3-bosqich.json',
@@ -146,6 +162,8 @@ async function loadTestsData() {
       'tests/mehnat_8-bosqich.json',
       'tests/mehnat_9-bosqich.json',
       'tests/mehnat_10-bosqich.json',
+
+      // Oila huquqi (1-8)
       'tests/oila_1-bosqich.json',
       'tests/oila_2-bosqich.json',
       'tests/oila_3-bosqich.json',
@@ -187,7 +205,7 @@ async function loadTestsData() {
   }
 }
 
-// --- 2 BOSQICHLI MENYU VA ARALASH TEST TUGMASI ---
+// --- 2 BOSQICHLI MENYU VA ARALASH TEST ---
 function renderTopicsList() {
   const topicsListContainer = document.getElementById('topics-list');
   if (!topicsListContainer) return;
@@ -199,7 +217,7 @@ function renderTopicsList() {
     return;
   }
 
-  // 1. Aralash Test tugmasini yuqoriga qo'shamiz
+  // 1. Aralash Test tugmasi
   const mixedCard = document.createElement('div');
   mixedCard.className = 'glass-card';
   mixedCard.style.cssText = 'padding: 18px; margin-bottom: 16px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; border-radius: 14px; background: linear-gradient(135deg, rgba(212, 175, 55, 0.25), rgba(255,255,255,0.05)); border: 1px solid var(--accent);';
@@ -215,7 +233,7 @@ function renderTopicsList() {
   });
   topicsListContainer.appendChild(mixedCard);
 
-  // 2. Oddiy fanlar ro'yxati
+  // 2. Asosiy fanlar guruhlari
   const categoriesMap = {};
   allTests.forEach(test => {
     let rawTopic = test.topic || "Umumiy huquqiy testlar";
@@ -253,7 +271,7 @@ function renderTopicsList() {
   });
 }
 
-// --- ARALASH TEST SOZLAMALARI OYNASI ---
+// --- ARALASH TEST SOZLAMALARI ---
 function showMixedQuizSetup() {
   const topicsListContainer = document.getElementById('topics-list');
   if (!topicsListContainer) return;
@@ -292,21 +310,19 @@ function showMixedQuizSetup() {
   });
 }
 
-// Aralash testni boshlash va taymerni yoqish
 function startMixedQuizProcess(count, minutes) {
   if (!allTests || allTests.length === 0) {
     alert("Hozircha testlar yuklanmagan!");
     return;
   }
 
-  // Tasodifiy tartibda aralashtirish va kerakli miqdorda olish
   let shuffled = [...allTests].sort(() => 0.5 - Math.random());
   currentTopicTests = shuffled.slice(0, Math.min(count, shuffled.length));
 
   currentTestIndex = 0;
   userScore = 0;
   isAnswered = false;
-  timeLeft = minutes * 60; // sekundga o'tkazamiz
+  timeLeft = minutes * 60;
 
   ensureQuizViewStructure();
 
@@ -320,7 +336,6 @@ function startMixedQuizProcess(count, minutes) {
   renderQuestion();
 }
 
-// Taymerni boshqarish
 function startTimer() {
   if (mixedTimer) clearInterval(mixedTimer);
 
@@ -338,7 +353,7 @@ function startTimer() {
   mixedTimer = setInterval(() => {
     if (timeLeft <= 0) {
       clearInterval(mixedTimer);
-      showQuizFinished(true); // Vaqt tugadi
+      showQuizFinished(true);
       return;
     }
 
@@ -512,7 +527,14 @@ function selectAnswer(selectedIndex, correctIndex, q) {
   const analysisText = document.getElementById('analysis-text');
   const lexBtn = document.getElementById('btn-lex-link');
 
-  if (lexBtn) lexBtn.style.display = 'none';
+  if (lexBtn) {
+    lexBtn.style.display = 'block';
+    lexBtn.onclick = () => {
+      const lawUrl = "https://lex.uz";
+      if (tg.openLink) tg.openLink(lawUrl);
+      else window.open(lawUrl, '_blank');
+    };
+  }
 
   analysisText.textContent = q.why || "To'g'ri javob belgilandi.";
   analysisPanel.classList.remove('hidden');
@@ -548,7 +570,8 @@ function ensureQuizViewStructure() {
           <h3>Huquqiy Tahlil</h3>
         </div>
         <p id="analysis-text" class="analysis-body"></p>
-        <button id="btn-next-question" class="btn btn-primary btn-lg" style="margin-top:12px; width: 100%;">Keyingi Savol →</button>
+        <button id="btn-lex-link" class="btn btn-secondary btn-lg" style="margin-bottom: 8px; width: 100%;">📖 Lex.uz da Ochish</button>
+        <button id="btn-next-question" class="btn btn-primary btn-lg" style="width: 100%;">Keyingi Savol →</button>
       </div>
     </div>
   `;
@@ -579,7 +602,7 @@ function showQuizFinished(isTimeOut = false) {
   const userName = tgUser ? (tgUser.first_name + (tgUser.last_name ? ' ' + tgUser.last_name : '')) : 'O\'quvchi';
   const adminUsername = "huququstoz"; 
 
-  const reportText = `📊 Imtihon Natijasi!\n\n👤 Ism: ${userName}\n✅ To'g'ri javoblar: ${userScore} / ${currentTopicTests.length}`;
+  const reportText = `📊 Test Natijasi!\n\n👤 Ism: ${userName}\n✅ To'g'ri javoblar: ${userScore} / ${currentTopicTests.length}`;
   const encodedText = encodeURIComponent(reportText);
   const telegramShareURL = `https://t.me/${adminUsername}?text=${encodedText}`;
 
