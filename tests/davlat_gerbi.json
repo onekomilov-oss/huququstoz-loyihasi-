@@ -1,0 +1,110 @@
+import json
+
+questions = [
+    {
+        "topic": "Davlat gerbi: 1-bosqich",
+        "q": "Qonunning dastlabki moddasiga ko‘ra, Davlat gerbining qaysi tasvirlari tasdiqlangan? (1-modda)",
+        "o": [
+            "Faqat rangli tasviri",
+            "Rangli va oq-qora tasvirlari",
+            "Faqat oq-qora tasviri",
+            "Rangli va bir rangli ko‘k tasvirlari"
+        ],
+        "a": 1
+    },
+    {
+        "topic": "Davlat gerbi: 1-bosqich",
+        "q": "Qonunda O‘zbekiston Respublikasi Davlat gerbiga qanday maqom berilgan? (2-modda)",
+        "o": [
+            "Davlat boshqaruvi organlarining rasmiy belgisi",
+            "O‘zbekiston Respublikasi davlat mustaqilligining ramzi",
+            "Faqat davlat mukofotlarining belgisi",
+            "Davlat chegaralarini belgilovchi ramz"
+        ],
+        "a": 1
+    },
+    {
+        "topic": "Davlat gerbi: 1-bosqich",
+        "q": "Davlat gerbining markazida tasvirlangan Humo qushi qonunda nimaning ramzi deb ko‘rsatilgan? (3-modda)",
+        "o": [
+            "Tinchlik va farovonlik",
+            "Mustaqillik va birlik",
+            "Baxt va erksevarlik",
+            "Mehnat va hosildorlik"
+        ],
+        "a": 2
+    },
+    {
+        "topic": "Davlat gerbi: 1-bosqich",
+        "q": "Qonunning 4-moddasiga ko‘ra, Davlat gerbi tasviri qaysi joyda doimiy ravishda joylashtirilishi belgilangan? (4-modda)",
+        "o": [
+            "Nikoh tantanali ro‘yxatga olinadigan majlislar zalida",
+            "Barcha xususiy korxonalarning kirish qismida",
+            "Har bir ta’lim oluvchining kundaligida",
+            "Faqat muzey va kutubxonalarda"
+        ],
+        "a": 0
+    },
+    {
+        "topic": "Davlat gerbi: 1-bosqich",
+        "q": "Davlat gerbining takrorlanayotgan tasviri, uning katta-kichikligidan qat’i nazar, nimaga aniq mos bo‘lishi kerak? (5-modda)",
+        "o": [
+            "Faqat rangli tasviriga",
+            "Uni ishlatayotgan tashkilot belgilagan namunaga",
+            "Qonunga ilova qilingan rangli va oq-qora tasviriga",
+            "Faqat oq-qora tasviriga"
+        ],
+        "a": 2
+    },
+    {
+        "topic": "Davlat gerbi: 1-bosqich",
+        "q": "Qonunning 5¹-moddasiga ko‘ra, quyidagilardan qaysi biriga yo‘l qo‘yilmaydi? (5¹-modda)",
+        "o": [
+            "Davlat organlarining gerbning bo‘rtma tasviridan foydalanishiga",
+            "Gerb tasviridan o‘quv-tarbiya jarayonida foydalanishga",
+            "Gerb elementlarini nodavlat tashkilotlari hujjatlari rekvizitlari yoki reklama materiallariga kiritishga",
+            "Gerbni davlat mukofotining elementi sifatida ishlatishga"
+        ],
+        "a": 2
+    },
+    {
+        "topic": "Davlat gerbi: 1-bosqich",
+        "q": "Qonun ijrosini ta’minlash kimlarning zimmasiga yuklatiladi? (6-modda)",
+        "o": [
+            "Faqat ichki ishlar organlari xodimlari zimmasiga",
+            "Tegishli davlat organlari va boshqa tashkilotlar rahbarlari zimmasiga",
+            "Faqat mahalliy davlat hokimiyati organlari rahbarlari zimmasiga",
+            "Barcha fuqarolar zimmasiga birdek"
+        ],
+        "a": 1
+    },
+    {
+        "topic": "Davlat gerbi: 1-bosqich",
+        "q": "Diplomatik vakolatxonalar va konsullik muassasalari tomonidan qonun ijrosi ustidan nazoratni qaysi organ amalga oshiradi? (7-modda)",
+        "o": [
+            "Ichki ishlar organlari",
+            "Adliya vazirligi",
+            "Oliy Majlis palatalari",
+            "Tashqi ishlar vazirligi"
+        ],
+        "a": 3
+    },
+    {
+        "topic": "Davlat gerbi: 1-bosqich",
+        "q": "Davlat gerbini hurmat qilish majburiyati kimlarga yuklatilgan? (8-modda)",
+        "o": [
+            "Faqat O‘zbekiston Respublikasi fuqarolariga",
+            "Faqat davlat organlari xodimlariga",
+            "O‘zbekiston fuqarolari hamda O‘zbekistonda turgan boshqa shaxslarga",
+            "Faqat O‘zbekistonda doimiy yashovchi chet el fuqarolariga"
+        ],
+        "a": 2
+    }
+]
+
+path = "/mnt/data/davlat_gerbi.json"
+with open(path, "w", encoding="utf-8") as f:
+    json.dump(questions, f, ensure_ascii=False, indent=2)
+
+print(f"JSON fayl tayyor: {path}")
+print(f"Savollar soni: {len(questions)}")
