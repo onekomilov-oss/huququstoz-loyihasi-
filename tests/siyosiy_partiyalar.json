@@ -1,0 +1,552 @@
+[
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "“Siyosiy partiyalar to‘g‘risida”gi Qonun qachon qabul qilingan?",
+    "o": [
+      "1996-yil 26-dekabr",
+      "1992-yil 8-dekabr",
+      "2004-yil 30-aprel",
+      "2023-yil 30-aprel"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiya tuzish tashabbuskorlari soni kamida necha kishi bo‘lishi kerak?",
+    "o": [
+      "10 nafar",
+      "30 nafar",
+      "50 nafar",
+      "100 nafar"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiyani tuzish uchun kamida nechta hududiy subyektda fuqarolarning imzosi bo‘lishi talab etiladi?",
+    "o": [
+      "Kamida 5 ta",
+      "Kamida 8 ta",
+      "Kamida 12 ta",
+      "Barcha viloyatlarda"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiyani tuzish uchun jami kamida nechta fuqaroning imzosi bo‘lishi talab etiladi?",
+    "o": [
+      "10 ming",
+      "20 ming",
+      "30 ming",
+      "50 ming"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiya tuzish bo‘yicha tashkiliy qo‘mita tuzilganidan keyin necha kun ichida Adliya vazirligini xabardor qilishi kerak?",
+    "o": [
+      "3 kun",
+      "5 kun",
+      "7 kun",
+      "10 kun"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiya tuzish bo‘yicha tashkiliy qo‘mita ko‘pi bilan qancha muddat faoliyat ko‘rsatishi mumkin?",
+    "o": [
+      "1 oy",
+      "3 oy",
+      "6 oy",
+      "1 yil"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiya qaysi organda davlat ro‘yxatidan o‘tkaziladi?",
+    "o": [
+      "Markaziy saylov komissiyasi",
+      "Adliya vazirligi",
+      "Oliy Majlis",
+      "Vazirlar Mahkamasi"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiyani davlat ro‘yxatidan o‘tkazish to‘g‘risidagi ariza qancha muddatda ko‘rib chiqiladi?",
+    "o": [
+      "15 kun",
+      "1 oy",
+      "2 oy",
+      "3 oy"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiyalar o‘z faoliyatlarini qaysi prinsiplar asosida amalga oshiradilar?",
+    "o": [
+      "Ixtiyoriylik, teng huquqlilik, o‘zini o‘zi boshqarish, qonuniylik va oshkoralik",
+      "Majburiylik, markazlashganlik, maxfiylik",
+      "Hokimiyatga bo‘ysunish va davlat nazorati",
+      "Faqat saylovda ishtirok etish"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "O‘zbekiston Respublikasi fuqarosi bir vaqtning o‘zida nechta siyosiy partiyaga a’zo bo‘lishi mumkin?",
+    "o": [
+      "Istalgancha",
+      "Faqat 2 ta",
+      "Faqat 1 ta",
+      "Partiyaga a’zo bo‘lish taqiqlanadi"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Quyidagilardan qaysi biri siyosiy partiyaga a’zo bo‘lish huquqiga ega emas?",
+    "o": [
+      "Xorijiy davlatlarning fuqarolari",
+      "Tadbirkorlar",
+      "NNT vakillari",
+      "Talabalar"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Quyidagi kasb egalaridan kimlar siyosiy partiyaga a’zo bo‘la olmaydi?",
+    "o": [
+      "O‘qituvchilar va shifokorlar",
+      "Sudyalar va prokurorlar",
+      "Jurnalistlar",
+      "Fermerlar"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Kimlar harbiy xizmat yoki lavozimda bo‘lgan davrida siyosiy partiyaga a’zolikni to‘xtatib turishi shart?",
+    "o": [
+      "Davlat xavfsizlik xizmati xodimlari va harbiy xizmatchilar",
+      "Barcha davlat xizmatchilari",
+      "Bank xodimlari",
+      "Oliy ta’lim professorlari"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiyaga a’zolik qanday tartibda qayd etiladi?",
+    "o": [
+      "Jamoaviy tartibda",
+      "Faqat yakka tartibda",
+      "Korxona qarori bilan",
+      "Saylov komissiyasi tomonidan"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiyalarni tuzish va ularning faoliyati davomida qanday maqsadlarni ko‘zlash taqiqlanadi?",
+    "o": [
+      "Konstitutsiyaviy tuzumni zo‘rlik bilan o‘zgartirish, suverenitet va hududiy yaxlitlikni buzish",
+      "Iqtisodiy islohotlarni qo‘llab-quvvatlash",
+      "Fuqarolarning huquqlarini himoya qilish",
+      "Saylovda qatnashish"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiya qachondan boshlab yuridik shaxs hisoblanadi?",
+    "o": [
+      "Ta’sis syezdi o‘tgan kundan",
+      "Davlat ro‘yxatidan o‘tgan kundan",
+      "Dasturiy hujjatlari e’lon qilingan kundan",
+      "Imzolar yig‘ib bo‘lingan kundan"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiyaning ustavi va dasturi qayerda qabul qilinadi?",
+    "o": [
+      "Adliya vazirligida",
+      "Tashkiliy qo‘mita majlisida",
+      "Ta’sis syezdi yoki konferensiyasida",
+      "Oliy Majlisda"
+    ],
+    "a": 2
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiyaga ro‘yxatdan o‘tkazish rad etilgan taqdirda u kimga murojaat qilish huquqiga ega?",
+    "o": [
+      "Oliy sudga",
+      "Markaziy saylov komissiyasiga",
+      "Oliy Majlisga",
+      "Vazirlar Mahkamasiga"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiyaning faoliyati kim tomonidan va qancha muddatga to‘xtatib turilishi mumkin?",
+    "o": [
+      "Oliy sud tomonidan 6 oygacha",
+      "Adliya vazirligi tomonidan 1 yilga",
+      "Markaziy saylov komissiyasi tomonidan 3 oygacha",
+      "Prokuratura tomonidan muddatsiz"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiyani tugatish qanday usullar bilan amalga oshiriladi?",
+    "o": [
+      "Faqat syezd qarori bilan",
+      "Syezd qarori yoki Oliy sud qarori bilan",
+      "Adliya vazirligi buyrug‘i bilan",
+      "Prezident farmoni bilan"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiyaning moliyaviy mablag‘lari qaysi manbalardan shakllanadi?",
+    "o": [
+      "Kirish va a’zolik badallari, qonunda belgilangan davlat mablag‘lari, xayriyalar",
+      "Faqat xorijiy investitsiyalar",
+      "Yashirin tadbirkorlik faoliyati",
+      "Majburiy yig‘imlar"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiyalarga chet el davlatlari va xalqaro tashkilotlardan xayriya yordami olishga ruxsat beriladimi?",
+    "o": [
+      "Ha, cheklanmagan miqdorda",
+      "Yo‘q, qonun bo‘yicha taqiqlanadi",
+      "Faqat Adliya vazirligi ruxsati bilan",
+      "Faqat saylov yili ruxsat beriladi"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiyalar saylab qo‘yiladigan davlat organlaridagi o‘z vakillari orqali qanday faoliyat yuritadi?",
+    "o": [
+      "Deputatlik guruhlari va fraksiyalari tuzadi",
+      "Maxfiy qo‘mitalar tashkil qiladi",
+      "Davlat organlarini to‘liq boshqaradi",
+      "Sud ishlariga aralashadi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiyani tuzish rad etilishi uchun nima asos bo‘lishi mumkin?",
+    "o": [
+      "Ustav yoki dasturining qonun hujjatlariga zidligi",
+      "Imzolar soni 100 mingta bo‘lsa",
+      "Tashabbuskorlar soni ko‘p bo‘lsa",
+      "Partiya nomi o‘zbekcha bo‘lsa"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiyaning ramzlari sifatida nimalardan foydalanish taqiqlanadi?",
+    "o": [
+      "O‘zbekiston yoki boshqa davlatlarning davlat ramzlari elementlaridan",
+      "Faqat geometrik shakllardan",
+      "O‘z logotipidan",
+      "Gullar rasmidan"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiya faoliyatini to‘xtatib turish to‘g‘risidagi arizani sudga kim kiritadi?",
+    "o": [
+      "Markaziy bank",
+      "O‘zbekiston Respublikasi Adliya vaziri yoki Bosh prokurori",
+      "Markaziy saylov komissiyasi raisi",
+      "Har qanday fuqaro"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiyaning ustavida majburiy ko‘rsatilishi shart bo‘lgan ma’lumot nima?",
+    "o": [
+      "Partiyaning nomi, maqsadlari va tuzilishi",
+      "Barcha a’zolarning uy manzillari",
+      "Partiya rahbarining shaxsiy biografiyasi",
+      "Chet eldagi hamkorlar ro‘yxati"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiyalar o‘z faoliyati to‘g‘risida kimga moliyaviy hisobot beradilar?",
+    "o": [
+      "Soliq va moliya organlariga belgilangan tartibda",
+      "Faqat o‘z a’zolariga",
+      "Xalqaro tashkilotlarga",
+      "Hisobot berish majburiyati yo‘q"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Davlat organlari va mansabdor shaxslarning siyosiy partiyalar faoliyatiga aralashishiga yo‘l qo‘yiladimi?",
+    "o": [
+      "Ha, har doim nazorat qilinishi kerak",
+      "Yo‘q, qonunga xilof aralashishga yo‘l qo‘yilmaydi",
+      "Faqat saylov kunlari aralashish mumkin",
+      "Faqat partiya rahbari so‘rasa"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiyalar matbuot nashrlariga ega bo‘lishi mumkinmi?",
+    "o": [
+      "Yo‘q, taqiqlanadi",
+      "Ha, qonunchilikda belgilangan tartibda noshirlik faoliyatini amalga oshirishi mumkin",
+      "Faqat davlat gazetasidan foydalanishi kerak",
+      "Faqat internet saytlar ochishi mumkin"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiyaning O‘zbekiston hududidan tashqarida tuzilmalarini tashkil etishga ruxsat beriladimi?",
+    "o": [
+      "Ha, elchixonalarda tuzish mumkin",
+      "Yo‘q, O‘zbekistondan tashqarida partiya tuzilmalarini tashkil etishga yo‘l qo‘yilmaydi",
+      "Faqat MDH davlatlarida mumkin",
+      "Faqat talabalar uchun mumkin"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiyaning a’zolari partiya tadbirlaridan tashqari vaqtlarda o‘z xizmat vazifalarini bajarishda nimaga tayanadilar?",
+    "o": [
+      "Partiya dasturiga",
+      "Faqat qonun hujjatlariga",
+      "Partiya rahbarining ko‘rsatmalariga",
+      "Shaxsiy fikrlariga"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "O‘zbekistonda siyosiy partiyalarni davlat tomonidan moliyalashtirish qaysi qonun bilan ham tartibga solinadi?",
+    "o": [
+      "“Siyosiy partiyalarni moliyalashtirish to‘g‘risida”gi Qonun",
+      "Soliq kodeksi",
+      "Mehnat kodeksi",
+      "Fuqarolik kodeksi"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiya faoliyati to‘g‘risidagi hisobotlarni qayerda e’lon qilishi kerak?",
+    "o": [
+      "O‘zining rasmiy nashrlarida yoki OAVda",
+      "Faqat Adliya vazirligi binosida",
+      "Maxfiy arxivda",
+      "E’lon qilish shart emas"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiyani qayta tashkil etish qanday amalga oshiriladi?",
+    "o": [
+      "Syezd (konferensiya) qaroriga muvofiq qo‘shib yuborish, birlashtirish yoki bo‘lish shaklida",
+      "Faqat Adliya vazirligi buyrug‘i bilan",
+      "Saylov komissiyasi ko‘rsatmasi bilan",
+      "Faqat tugatish orqali"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Partiyaning ustaviga kiritilgan o‘zgarishlar qancha muddatda Adliya vazirligiga ma’lum qilinishi kerak?",
+    "o": [
+      "1 oy ichida",
+      "10 kun ichida",
+      "3 oy ichida",
+      "Saylov tugagach"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Diniy asosda siyosiy partiyalar tuzishga yo‘l qo‘yiladimi?",
+    "o": [
+      "Ha, ruxsat beriladi",
+      "Yo‘q, diniy asosda partiya tuzishga yo‘l qo‘yilmaydi",
+      "Faqat maxsus ruxsatnoma bilan",
+      "Faqat nodavlat tashkilot sifatida"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Milliy yoki irqiy adovatni targ‘ib qiluvchi partiyalar faoliyatiga qonun qanday munosabatda bo‘ladi?",
+    "o": [
+      "Cheklangan holda ruxsat beradi",
+      "Bunday partiyalarni tuzish va ularning faoliyati qat’iyan taqiqlanadi",
+      "Faqat ogohlantirish beradi",
+      "Rag‘batlantiradi"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiyalar saylov kampaniyasi davrida qayerdan mablag‘ oladilar?",
+    "o": [
+      "Markaziy saylov komissiyasi ajratadigan davlat mablag‘lari va o‘z fondlaridan",
+      "Chet el fondlaridan",
+      "Yashirin homiylardan",
+      "Banklardan foizsiz kreditlar hisobiga"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiya mulki nimadan iborat bo‘lishi mumkin?",
+    "o": [
+      "Bino, inshootlar, transport, uskunalar va ustav maqsadlari uchun zarur bo‘lgan boshqa mulklar",
+      "Faqat naqd pullar",
+      "Davlat tomonidan berilgan sovg‘alar",
+      "Faqat kitoblar va qog‘ozlar"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiyaning tugatilishi munosabati bilan uning mulki qayerga yo‘naltiriladi?",
+    "o": [
+      "Partiya rahbarining shaxsiy hisobiga",
+      "Uning ustavida ko‘rsatilgan maqsadlarga yoki qonun hujjatlariga muvofiq",
+      "Chet el banklariga",
+      "Barcha partiya a’zolariga teng taqsimlanadi"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Qonunga ko‘ra, kimlar siyosiy partiya a’zolarining huquqlarini kamsitishga haqli emas?",
+    "o": [
+      "Hech kim, fuqarolarning partiyaga a’zoligi ularning huquqlarini cheklashga asos bo‘lmaydi",
+      "Faqat ish beruvchilar",
+      "Faqat davlat organlari",
+      "Sudlar"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiyaning tashkiliy qo‘mitasi a’zolari kamida necha kishidan iborat bo‘lishi kerak?",
+    "o": [
+      "5 kishi",
+      "9 kishi",
+      "15 kishi",
+      "Aniq son belgilanmagan, lekin tashabbuskorlar 50 nafardan kam bo‘lmasligi kerak"
+    ],
+    "a": 3
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiya davlat ro‘yxatidan o‘tkazilganligi uchun nima undiriladi?",
+    "o": [
+      "Hech narsa undirilmaydi",
+      "Qonun hujjatlarida belgilangan miqdorda davlat boji",
+      "Partiya a’zolaridan soliq",
+      "Markaziy bank foizi"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiyalarning qonunga rioya etishini kim nazorat qiladi?",
+    "o": [
+      "Adliya organlari va prokuratura",
+      "Faqat o‘z partiya faollari",
+      "Xalqaro kuzatuvchilar",
+      "Mahalliy hokimliklar"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "O‘zbekistonda siyosiy partiyalar saylovda ishtirok etish huquqini qo‘lga kiritish uchun qayerdan ro‘yxatdan o‘tishi kerak?",
+    "o": [
+      "Markaziy saylov komissiyasidan",
+      "Tashqi ishlar vazirligidan",
+      "Davlat soliq qo‘mitasidan",
+      "Hokimlikdan"
+    ],
+    "a": 0
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiyaga kirish badallari miqdori kim tomonidan belgilanadi?",
+    "o": [
+      "Adliya vazirligi tomonidan",
+      "Partiyaning ustaviga muvofiq uning oliy organi tomonidan",
+      "Vazirlar Mahkamasi tomonidan",
+      "Soliq inspeksiyasi tomonidan"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiya tarkibida xotin-qizlar yoki yoshlar qanotlari tuzilishi mumkinmi?",
+    "o": [
+      "Yo‘q, bu partiyani parchalaydi",
+      "Ha, partiya ustavida nazarda tutilgan bo‘lsa, ichki tuzilmalar tashkil etilishi mumkin",
+      "Faqat alohida NNT sifatida ruxsat beriladi",
+      "Qonunda bu haqda cheklov yo‘q, lekin taqiqlangan"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "“Siyosiy partiyalar to‘g‘risida”gi Qonun necha moddadan iborat?",
+    "o": [
+      "10 ta modda",
+      "18 ta modda",
+      "25 ta modda",
+      "35 ta modda"
+    ],
+    "a": 1
+  },
+  {
+    "topic": "Siyosiy partiyalar to‘g‘risida",
+    "q": "Siyosiy partiyalar to‘g‘risidagi qonun hujjatlarini buzganlik uchun kimlar javobgar bo‘ladi?",
+    "o": [
+      "Faqat partiya raisi",
+      "Qonun buzilishida aybdor bo‘lgan mansabdor shaxslar, partiya a’zolari va fuqarolar",
+      "Faqat Adliya vazirligi xodimlari",
+      "Hech kim javobgar bo‘lmaydi"
+    ],
+    "a": 1
+  }
+]
