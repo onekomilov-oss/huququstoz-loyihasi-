@@ -15,7 +15,7 @@ let currentCategory = null;
 let mixedTimer = null;       
 let timeLeft = 0;            
 
-const ADMIN_PASSWORD = "777"; 
+const ADMIN_PASSWORD = "z123z1"; 
 
 document.addEventListener('DOMContentLoaded', () => {
   const tgUser = tg.initDataUnsafe?.user;
