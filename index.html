@@ -19,7 +19,6 @@
   <div class="glow-sphere sphere-2"></div>
   <div class="glow-sphere sphere-3"></div>
 
-  <!-- "KIRISH CHEKLANGAN" bloki olib tashlandi va quyidagi app-container'dan "hidden" klassi o'chirildi -->
   <div id="app" class="app-container">
     <header class="top-bar">
       <div class="user-profile">
@@ -55,8 +54,23 @@
           </div>
         </div>
 
-        <button id="btn-start-quick" class="btn btn-primary btn-xl">
+        <button id="btn-start-quick" class="btn btn-primary btn-xl" style="width: 100%; margin-bottom: 12px;">
           <span>🚀 Testlarni Boshlash</span>
+        </button>
+
+        <!-- Shaxsiy statistika va Umumiy reyting tugmalari -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 12px;">
+          <button id="btn-my-stats" class="btn btn-secondary btn-xl" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: var(--text-main); font-size: 14px; padding: 14px;">
+            <span>📊 Shaxsiy Statistikam</span>
+          </button>
+          <button id="btn-global-rating" class="btn btn-secondary btn-xl" style="background: rgba(212,175,55,0.15); border: 1px solid var(--accent); color: var(--accent); font-size: 14px; padding: 14px;">
+            <span>🏆 Umumiy Reyting</span>
+          </button>
+        </div>
+
+        <!-- Admin panel tugmasi -->
+        <button id="btn-admin-panel" class="btn btn-secondary btn-xl" style="width: 100%; background: rgba(220, 53, 69, 0.15); border: 1px solid #dc3545; color: #ff6b6b; font-size: 14px; padding: 14px;">
+          <span>🛡️ Admin Panel & Statistika</span>
         </button>
       </section>
 
@@ -68,10 +82,8 @@
         </div>
 
         <div id="quiz-view" class="hidden">
-          <!-- Yakunlash ekrani (JS tomonidan to'ldiriladi) -->
           <div id="quiz-finished" class="hidden"></div>
 
-          <!-- Asosiy quiz tuzilishi — hech qachon butunlay o'chirilmaydi -->
           <div id="quiz-body">
             <div class="quiz-top-nav">
               <button id="btn-back-topics" class="btn-back">← Ortga</button>
@@ -134,7 +146,7 @@
       </section>
     </main>
 
-    <!-- Pastki Navigatsiya Bar (4 ta Bo'lim) -->
+    <!-- Pastki Navigatsiya Bar -->
     <nav class="bottom-nav">
       <button class="nav-item active" data-tab="tab-home">
         <span class="nav-icon">🏠</span>
