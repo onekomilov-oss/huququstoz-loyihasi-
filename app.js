@@ -1,6 +1,6 @@
 // ==========================================
 // HUQUQUSTOZ AKADEMIYASI - ASOSIY MANTIQ (app.js)
-// Zamonaviy Dizayn va Ulashish funksiyasi bilan
+// Backend statistika va ulashish funksiyasi bilan
 // ==========================================
 
 const tg = window.Telegram.WebApp;
@@ -15,7 +15,13 @@ let currentCategory = null;  // Hozir tanlangan asosiy fan
 let mixedTimer = null;       // Aralash test taymeri
 let timeLeft = 0;            // Qolgan vaqt (sekundda)
 
+// BACKEND SERVER URL (Botingiz ishlayotgan manzil, masalan: https://your-bot.onrender.com)
+const BACKEND_URL = "https://SIZNING_BACKEND_SERVER_URL.uz"; 
+
 document.addEventListener('DOMContentLoaded', () => {
+  // 0. Botga kirish haqida statistika serveriga signal yuborish
+  sendVisitNotification();
+
   // 1. Telegram ismini chiqarish
   const tgUser = tg.initDataUnsafe?.user;
   if (tgUser) {
@@ -64,6 +70,23 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
+
+// --- STATISTIKA UCHUN BACKENDGA SIGNAL YUBORISH ---
+function sendVisitNotification() {
+  const tgUser = tg.initDataUnsafe?.user;
+  if (!tgUser) return;
+
+  const data = {
+    user_id: tgUser.id,
+    user_name: tgUser.first_name + (tgUser.last_name ? ' ' + tgUser.last_name : '')
+  };
+
+  fetch(`${BACKEND_URL}/api/user-visited`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(data)
+  }).catch(err => console.log("Statistika xatoligi:", err));
+}
 
 // --- QONUNLARNI YUKLASH ---
 async function fetchLaws() {
@@ -299,7 +322,6 @@ function showMixedQuizSetup() {
     </div>
   `;
 
-  // Savollar sonini tanlash tugmalari mantiqi
   const countBtns = document.querySelectorAll('.count-btn');
   countBtns.forEach(btn => {
     btn.addEventListener('click', () => {
@@ -609,8 +631,6 @@ function showQuizFinished(isTimeOut = false) {
 
   const reportText = `📊 Huququstoz - Test Natijasi!\n\n👤 Ism: ${userName}\n📚 Mavzu/Rejim: ${activeTopicName}\n✅ Natija: ${userScore} / ${currentTopicTests.length}\n\n🎯 Siz ham bilimlaringizni sinab ko'ring!`;
   const encodedText = encodeURIComponent(reportText);
-  
-  // Telegram ulashish (Share) ssilkasi
   const telegramShareURL = `https://t.me/share/url?url=https://t.me/huququstoz&text=${encodedText}`;
 
   finishedPanel.innerHTML = `
@@ -629,8 +649,8 @@ function showQuizFinished(isTimeOut = false) {
 
   document.getElementById('btn-share-result').addEventListener('click', (e) => {
     e.preventDefault();
-    if (tg.openTelegramLink) {
-      tg.openTelegramLink(telegramShareURL);
+    if (tg.openLink) {
+      tg.openLink(telegramShareURL);
     } else {
       window.open(telegramShareURL, '_blank');
     }
