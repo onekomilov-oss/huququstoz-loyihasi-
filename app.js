@@ -1,10 +1,10 @@
 // ==========================================
 // HUQUQUSTOZ AKADEMIYASI - ASOSIY MANTIQ (app.js)
-// Supabase bazasi bilan to'liq ulangan
+// Supabase bazasi bilan to'liq ulangan & Debugging
 // ==========================================
 
 const tg = window.Telegram.WebApp;
-tg.expand();
+try { tg.expand(); } catch (e) {}
 
 let allTests = [];           
 let currentTopicTests = [];  
@@ -15,7 +15,18 @@ let currentCategory = null;
 let mixedTimer = null;       
 let timeLeft = 0;            
 
-const ADMIN_PASSWORD = "z123z1"; 
+const ADMIN_PASSWORD = "777"; 
+
+// Supabase obyektini xavfsiz olish funksiyasi
+function getSupabaseClient() {
+  if (typeof supabase !== 'undefined' && supabase) {
+    return supabase;
+  }
+  if (window.supabase && typeof window.supabase.createClient === 'function' && window.SUPABASE_URL && window.SUPABASE_KEY) {
+    return window.supabase.createClient(window.SUPABASE_URL, window.SUPABASE_KEY);
+  }
+  return null;
+}
 
 document.addEventListener('DOMContentLoaded', () => {
   const tgUser = tg.initDataUnsafe?.user;
@@ -26,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (userNameEl) userNameEl.textContent = fullName;
     if (certNameEl) certNameEl.textContent = fullName;
 
-    // Foydalanuvchini bazaga ro'yxatdan o'tkazish
+    // Foydalanuvchini bazaga sinxronlash
     syncUserToSupabase(tgUser);
   }
 
@@ -46,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const btnMyStats = document.getElementById('btn-my-stats');
   if (btnMyStats) btnMyStats.addEventListener('click', showMyStatsModal);
 
-  // 2. Umumiy reyting (Supabase'dan olinadi)
+  // 2. Umumiy reyting
   const btnGlobalRating = document.getElementById('btn-global-rating');
   if (btnGlobalRating) btnGlobalRating.addEventListener('click', showGlobalRatingModal);
 
@@ -66,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 4. Admin Panel (Supabase statistikasi bilan)
+  // 4. Admin Panel
   const btnAdminStats = document.getElementById('btn-admin-stats');
   if (btnAdminStats) {
     btnAdminStats.addEventListener('click', () => {
@@ -99,19 +110,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // --- SUPABASE BILAN SINXRONLASH ---
 async function syncUserToSupabase(tgUser) {
-  if (!tgUser || typeof supabase === 'undefined') return;
+  const client = getSupabaseClient();
+  if (!tgUser || !client) {
+    console.warn("Supabase ulanishi topilmadi yoki Telegram user mavjud emas");
+    return;
+  }
+  
   let stats = getUserStats();
 
   try {
-    await supabase.from('users').upsert({
+    const payload = {
       telegram_id: tgUser.id,
       full_name: tgUser.first_name + (tgUser.last_name ? ' ' + tgUser.last_name : ''),
       username: tgUser.username || '',
       total_correct: stats.totalCorrect,
       total_answered: stats.totalAnswered,
       completed_quizzes: stats.completedQuizzes,
-      updated_at: new Date()
-    });
+      updated_at: new Date().toISOString()
+    };
+
+    const { error } = await client.from('users').upsert(payload);
+    if (error) {
+      console.error("Supabase upsert xatosi:", error);
+    }
   } catch (err) {
     console.error("Supabase error:", err);
   }
@@ -133,7 +154,9 @@ function recordAnswerStats(isCorrect) {
   updateUserStatsUI();
 
   const tgUser = tg.initDataUnsafe?.user;
-  if (tgUser) syncUserToSupabase(tgUser);
+  if (tgUser) {
+    syncUserToSupabase(tgUser);
+  }
 }
 
 function updateUserStatsUI() {
@@ -179,7 +202,7 @@ function showMyStatsModal() {
   }
 }
 
-// 2. UMUMIY REYTING MODALI (Supabase'dan real-time yuklanadi)
+// 2. UMUMIY REYTING MODALI
 async function showGlobalRatingModal() {
   const topicsListContainer = document.getElementById('topics-list');
   const tabTestsBtn = document.querySelector('.nav-item[data-tab="tab-tests"]');
@@ -189,37 +212,47 @@ async function showGlobalRatingModal() {
 
   topicsListContainer.innerHTML = '<div style="text-align:center; padding: 20px; color: var(--text-sub);">Reyting yuklanmoqda... ⏳</div>';
 
+  const client = getSupabaseClient();
   let htmlList = '';
-  try {
-    const { data: users, error } = await supabase
-      .from('users')
-      .select('*')
-      .order('total_correct', { ascending: false })
-      .limit(30);
 
-    if (error || !users || users.length === 0) {
-      htmlList = '<p style="text-align: center; color: var(--text-sub); padding: 20px;">Hozircha reytingda o\'quvchilar yo\'q.</p>';
-    } else {
-      users.forEach((u, index) => {
-        let medal = index === 0 ? '🥇' : index === 1 ? '🥈' : index === 2 ? '🥉' : `#${index + 1}`;
-        htmlList += `
-          <div class="glass-card" style="padding: 12px 16px; margin-bottom: 8px; display: flex; justify-content: space-between; align-items: center; border-radius: 12px; background: rgba(255,255,255,0.05);">
-            <div style="display: flex; align-items: center; gap: 12px;">
-              <span style="font-size: 18px; font-weight: 800; width: 24px; text-align: center;">${medal}</span>
-              <div>
-                <strong style="font-size: 14px; color: var(--text-main); display: block;">${u.full_name || 'O\'quvchi'}</strong>
-                <small style="color: var(--text-sub); font-size: 11px;">${u.username ? '@' + u.username : 'ID: ' + u.telegram_id}</small>
+  if (!client) {
+    htmlList = '<p style="text-align: center; color: #ff6b6b; padding: 20px;">Supabase ulanishida xatolik! `config.js` tekshiring.</p>';
+  } else {
+    try {
+      const { data: users, error } = await client
+        .from('users')
+        .select('*')
+        .order('total_correct', { ascending: false })
+        .limit(30);
+
+      if (error) {
+        console.error("Reyting olishda xatolik:", error);
+        htmlList = `<p style="text-align: center; color: #ff6b6b; padding: 20px;">Xatolik: ${error.message || 'Ma\'lumot olinmadi'}</p>`;
+      } else if (!users || users.length === 0) {
+        htmlList = '<p style="text-align: center; color: var(--text-sub); padding: 20px;">Hozircha reytingda o\'quvchilar yo\'q.</p>';
+      } else {
+        users.forEach((u, index) => {
+          let medal = index === 0 ? '🥇' : index === 1 ? '🥈' : index === 2 ? '🥉' : `#${index + 1}`;
+          htmlList += `
+            <div class="glass-card" style="padding: 12px 16px; margin-bottom: 8px; display: flex; justify-content: space-between; align-items: center; border-radius: 12px; background: rgba(255,255,255,0.05);">
+              <div style="display: flex; align-items: center; gap: 12px;">
+                <span style="font-size: 18px; font-weight: 800; width: 24px; text-align: center;">${medal}</span>
+                <div>
+                  <strong style="font-size: 14px; color: var(--text-main); display: block;">${u.full_name || 'O\'quvchi'}</strong>
+                  <small style="color: var(--text-sub); font-size: 11px;">${u.username ? '@' + u.username : 'ID: ' + u.telegram_id}</small>
+                </div>
+              </div>
+              <div style="text-align: right;">
+                <strong style="color: var(--accent); font-size: 15px;">${u.total_correct || 0} ball</strong>
               </div>
             </div>
-            <div style="text-align: right;">
-              <strong style="color: var(--accent); font-size: 15px;">${u.total_correct} ball</strong>
-            </div>
-          </div>
-        `;
-      });
+          `;
+        });
+      }
+    } catch (err) {
+      console.error("Catch error:", err);
+      htmlList = `<p style="text-align: center; color: #ff6b6b; padding: 20px;">Tizim xatosi: ${err.message}</p>`;
     }
-  } catch (err) {
-    htmlList = '<p style="text-align: center; color: var(--text-sub); padding: 20px;">Reytingni yuklashda xatolik yuz berdi.</p>';
   }
 
   topicsListContainer.innerHTML = `
@@ -238,7 +271,7 @@ async function showGlobalRatingModal() {
   document.getElementById('btn-back-to-topics').addEventListener('click', renderTopicsList);
 }
 
-// 3. ADMIN PANEL MODALI (Supabase'dan haqiqiy statistika olinadi)
+// 3. ADMIN PANEL MODALI
 async function showAdminPanelModal() {
   const topicsListContainer = document.getElementById('topics-list');
   const tabTestsBtn = document.querySelector('.nav-item[data-tab="tab-tests"]');
@@ -251,13 +284,16 @@ async function showAdminPanelModal() {
   let totalUsers = 0;
   let totalCorrectAnswers = 0;
 
-  try {
-    const { data: users, count, error } = await supabase.from('users').select('*', { count: 'exact' });
-    if (users) {
-      totalUsers = count || users.length;
-      totalCorrectAnswers = users.reduce((acc, u) => acc + (u.total_correct || 0), 0);
-    }
-  } catch (err) {}
+  const client = getSupabaseClient();
+  if (client) {
+    try {
+      const { data: users, count, error } = await client.from('users').select('*', { count: 'exact' });
+      if (users) {
+        totalUsers = count || users.length;
+        totalCorrectAnswers = users.reduce((acc, u) => acc + (u.total_correct || 0), 0);
+      }
+    } catch (err) {}
+  }
 
   topicsListContainer.innerHTML = `
     <div class="glass-card" style="padding: 24px; border-radius: 20px; background: rgba(220, 53, 69, 0.05); border: 1px solid rgba(220, 53, 69, 0.3);">
