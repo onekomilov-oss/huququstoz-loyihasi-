@@ -8,7 +8,10 @@ window.HUQUQUSTOZ_CONFIG = {
 };
 
 // Supabase Baza Sozlamalari
-const SUPABASE_URL = "https://upqwfzcecilwwqjdhkki.supabase.co"; 
-const SUPABASE_KEY = "sb_publishable_VwXMlxwStOTTqRauO5kKIg_6FzbVjXJ";
+window.SUPABASE_URL = "https://upqwfzcecilwwqjdhkki.supabase.co"; 
+window.SUPABASE_KEY = "sb_publishable_VwXMlxwStOTTqRauO5kKIg_6FzbVjXJ";
 
-const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+// Supabase mijozini yaratish
+if (window.supabase && typeof window.supabase.createClient === 'function') {
+  window.supabaseClient = window.supabase.createClient(window.SUPABASE_URL, window.SUPABASE_KEY);
+}
